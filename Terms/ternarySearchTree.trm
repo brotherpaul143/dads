@@ -1,7 +1,10 @@
 # *created  "Wed Mar 17 12:22:48 1999" *by "Paul E. Black"
-# *modified "Mon Feb 11 17:11:36 2019" *by "Paul E. Black"
+# *modified "Mon Feb 25 11:34:21 2019" *by "Paul E. Black"
 
 # $Log: ternarySearchTree.trm,v $
+# Mon Feb 25 11:35:12 2019  Paul E. Black
+# Fix de Halleuxs IMPL URL to use https.
+# 
 # Mon Feb 11 17:11:40 2019  Paul E. Black
 # use https to access Wikipedia
 # 
@@ -104,7 +107,7 @@ example, and links to other implementations (C++, Java)</a> and his
 implementations called
 <a
 href="gopher://sdf-eu.org/1/users/dasnar/res">ctst-dist-0.30.tar.* (C)</a>.
-<a href="http://www.codeproject.com/Articles/5819/Ternary-Search-Tree-Dictionary-in-C-Faster-String">Ternary Search
+<a href="https://www.codeproject.com/Articles/5819/Ternary-Search-Tree-Dictionary-in-C-Faster-String">Ternary Search
 Tree Dictionary in (C#): Faster String Dictionary!</a> by Jonathan de
 Halleux.
 # author's initials
