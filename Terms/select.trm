@@ -79,4 +79,4 @@ $n$ numbers is $n+min(i,n-i)+{o(n)#little-o notation}$ or ${\Theta}(n)$.
 @IMPL=
 # author's initials
 @AUTHOR=PEB
-# end $Source: /home/black/DADS/Terms/RCS/select.trm,v $
+# end $Source: /home/black/Workspace/dads/Terms/RCS/select.trm,v $

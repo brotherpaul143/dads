@@ -36,4 +36,4 @@ and boolean operations, such as {and}, {or}, {not}, {implies}, etc.
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=PEB
-# end $Source: /home/black/DADS/Terms/RCS/booleanexpr.trm,v $
+# end $Source: /home/black/Workspace/dads/Terms/RCS/booleanexpr.trm,v $

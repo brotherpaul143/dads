@@ -36,4 +36,4 @@ for sets $A$ and $B$, it is $(A - B) \cup (B - A)$.
 @IMPL=
 # author's initials
 @AUTHOR=PEB
-# end $Source: /home/black/DADS/Terms/RCS/symmetricSetDiff.trm,v $
+# end $Source: /home/black/Workspace/dads/Terms/RCS/symmetricSetDiff.trm,v $

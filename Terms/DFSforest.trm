@@ -1,7 +1,7 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
 # *modified "Fri Dec 17 12:03:27 2004" *by "Paul E. Black"
 
-# $Log: dFSforest.trm,v $
+# $Log: DFSforest.trm,v $
 # Revision 1.2  2004/12/17 17:03:27  black
 # Refine XREFS into IMA, etc.  Add RCS keywords.
 #
@@ -39,4 +39,4 @@ Technology, Copyright &copy; 2000 CRC Press LLC.
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=CRC-A
-# end $Source: /home/black/DADS/Terms/RCS/dFSforest.trm,v $
+# end $Source: /home/black/Workspace/dads/Terms/RCS/DFSforest.trm,v $

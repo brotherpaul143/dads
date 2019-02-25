@@ -1,7 +1,16 @@
 # *created  "Wed Dec 23 08:51:37 1998" *by "Paul E. Black"
-# *modified "Mon Feb 28 09:12:45 2011" *by "Paul E. Black"
+# *modified "Tue Feb 12 09:42:54 2019" *by "Paul E. Black"
 
 # $Log: perfecthash.trm,v $
+# Tue Feb 12 09:42:58 2019  Paul E. Black
+# update access to rbaeza handbook
+# 
+# Revision "Mon Sep 30 16:05:40 2013" *by "Vreda Pieterse"
+# Add missing .html to IMPL Links to Gonnet and Baeza-Yates's implementations
+#
+# Revision "Mon Sep 30 10:17:59 2013" *by "Vreda Pieterse"
+# Use {minimal perfect hashing} in IMPL instead of hard-coded link to DADS.
+# 
 # Revision 1.9  2011/02/28 14:12:46  black
 # change DADS URL root.  Again
 #
@@ -72,14 +81,12 @@ SIAM J. Comput., 23(4):738-761, August 1994.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
-@IMPL=See the implementations at <a
-href="http://www.nist.gov/dads/HTML/minimalPerfectHash.html">minimal
-perfect hashing (C++, C)</a>,
+@IMPL=See the implementations at {minimal perfect hashing} and Gonnet and Baeza-Yates's
 <a
-href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/3316.ins.c">insert
+href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/3/3316.ins.c.html">insert
 (C)</a>, <a
-href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/3316.srch.c">search
-(C)</a>.
+href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/3/3316.srch.c.html">search
+(C)</a> implementations.
 # author's initials
 @AUTHOR=PEB
-# end $Source: /home/black/DADS/Terms/RCS/perfecthash.trm,v $
+# end $Source: /home/black/Workspace/dads/Terms/RCS/perfecthash.trm,v $

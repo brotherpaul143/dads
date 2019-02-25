@@ -40,4 +40,4 @@ progressively closer to the {root}.  For an array of $n$ nodes, this takes
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=PEB
-# end $Source: /home/black/DADS/Terms/RCS/buildHeap.trm,v $
+# end $Source: /home/black/Workspace/dads/Terms/RCS/buildHeap.trm,v $

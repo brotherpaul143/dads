@@ -1,7 +1,13 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:28:15 2004" *by "Paul E. Black"
+# *modified "Tue Sep  2 08:42:29 2014" *by "Paul E. Black"
 
 # $Log: isomorphic.trm,v $
+# Tue Sep  2 08:42:35 2014  Paul E. Black
+# Change stonybrook.edu URL in IMPL
+# 
+# Mon Jul 28 16:21:53 2014  Paul E. Black
+# update URL for Skienas Stony Brook Algorithm Respository IMPLs
+# 
 # Revision 1.4  2004/12/17 17:28:15  black
 # Make more XHTML compliant.
 #
@@ -43,8 +49,8 @@ the two corresponding vertices in the other graph.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=<a
-href="http://www.cs.sunysb.edu/~algorith/files/graph-isomorphism.shtml">(C
+href="http://www3.cs.stonybrook.edu/~algorith/files/graph-isomorphism.shtml">(C
 and Mathematica)</a>
 # author's initials
 @AUTHOR=SKS
-# end $Source: /home/black/DADS/Terms/RCS/isomorphic.trm,v $
+# end $Source: /home/black/Workspace/dads/Terms/RCS/isomorphic.trm,v $

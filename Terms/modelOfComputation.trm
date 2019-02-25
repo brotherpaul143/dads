@@ -1,7 +1,7 @@
 # *created  "Thu Jun 17 11:32:15 1999" *by "Paul E. Black"
 # *modified "Fri Feb 27 15:17:39 2004" *by "Paul E. Black"
 
-# $Log: modelofcompu.trm,v $
+# $Log: modelOfComputation.trm,v $
 # Revision 1.2  2004/02/27 20:19:10  black
 # Refine XREFS into IMA, etc.  Add reference to shared memory.
 #
@@ -49,4 +49,4 @@ parallel models: {multiprocessor model},
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=PEB
-# end $Source: /export/home/black/DADS/Terms/RCS/modelofcompu.trm,v $
+# end $Source: /home/black/Workspace/dads/Terms/RCS/modelOfComputation.trm,v $

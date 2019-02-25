@@ -1,7 +1,25 @@
 # *created  "Wed Sep 16 08:54:15 1998" *by "Paul E. Black"
-# *modified "Thu Aug 22 15:41:59 2013" *by "Paul E. Black"
+# *modified "Tue Feb 12 10:05:38 2019" *by "Paul E. Black"
 
 # $Log: mergesort.trm,v $
+# Tue Feb 12 10:05:53 2019  Paul E. Black
+# Update Flower Brackets IMPL URL
+# 
+# Fri Apr  6 11:17:09 2018  Paul E. Black
+# Add Flower Brackets IMPL
+# 
+# Tue Nov  8 14:05:14 2016  Paul E. Black
+# LINK to sort illustrated through dance.
+# 
+# Mon Mar  2 15:59:29 2015  Paul E. Black
+# Remove John David Stones (Grinnell) IMPL - Stones account is entirely gone.
+# 
+# Tue Sep  2 08:44:18 2014  Paul E. Black
+# Change stonybrook.edu URL in IMPL
+# 
+# Mon Jul 28 16:23:22 2014  Paul E. Black
+# update URL for Skienas Stony Brook Algorithm Respository IMPLs
+# 
 # Revision 1.15  2013/08/22 19:42:00  black
 # update URL for Alex Lopez-Ortiz at U waterloo
 #
@@ -84,27 +102,22 @@ Run time is {$\Theta$}(n log n).
 @NOTES=There seem to be some references to linear-time
 {in-place#in-place sort} merging; look for papers by Geffert,
 Katajainen &amp; Pasanen.
-# further explanation (pure HTML)
-@LINKS=
-<a href="http://www.cosc.canterbury.ac.nz/mukundan/dsal/MSort.html">animation (Java)</a>.
-<a href="http://www.azillionmonkeys.com/qed/sort.html">Comparison of
-quicksort, heapsort, and merge sort</a> on modern processors.
 
 # implementation(s) (pure HTML)
 @IMPL=
 <a
-href="http://www.cs.sunysb.edu/~algorith/implement/handbook/distrib/handbook/algs/4/421.sort.c">(C)</a>
+href="http://www3.cs.stonybrook.edu/~algorith/implement/handbook/distrib/handbook/algs/4/421.sort.c">(C)</a>
 that needs <a
-href="http://www.cs.sunysb.edu/~algorith/implement/handbook/distrib/handbook/algs/4/431.merge.c">list
+href="http://www3.cs.stonybrook.edu/~algorith/implement/handbook/distrib/handbook/algs/4/431.merge.c">list
 merge (C)</a> or <a
-href="http://www.cs.sunysb.edu/~algorith/implement/handbook/distrib/handbook/algs/4/432.merge.c">array
+href="http://www3.cs.stonybrook.edu/~algorith/implement/handbook/distrib/handbook/algs/4/432.merge.c">array
 merge (C)</a>,
 <a
-href="http://www.cs.sunysb.edu/~algorith/implement/handbook/distrib/handbook/algs/4/421.sort.p">(Pascal)</a> 
+href="http://www3.cs.stonybrook.edu/~algorith/implement/handbook/distrib/handbook/algs/4/421.sort.p">(Pascal)</a> 
 that needs <a
-href="http://www.cs.sunysb.edu/~algorith/implement/handbook/distrib/handbook/algs/4/431.merge.p">list
+href="http://www3.cs.stonybrook.edu/~algorith/implement/handbook/distrib/handbook/algs/4/431.merge.p">list
 merge (Pascal)</a> or <a
-href="http://www.cs.sunysb.edu/~algorith/implement/handbook/distrib/handbook/algs/4/432.merge.p">array
+href="http://www3.cs.stonybrook.edu/~algorith/implement/handbook/distrib/handbook/algs/4/432.merge.p">array
 merge (Pascal)</a>;
 <a
 href="http://people.cs.ubc.ca/~harrison/Java/ExtraStorageMergeSortAlgorithm.java">(Java)</a>;
@@ -114,20 +127,37 @@ and double merge sort (Java)</a>;
 Worst-case behavior <a
 href="https://www.auto.tuwien.ac.at/~blieb/woop/merge.html">annotated
 for real time (WOOP/ADA)</a>, including bibliography.
-John David Stone's
-<a href="http://www.cs.grinnell.edu/~stone/events/scheme-workshop/mergesort.html">(Scheme)</a>.
 Siegfried Sielaff's description and code of an <a
 href="http://www.siegfried.sielaff.at/">in-place, stable variant he
 calls Swap Sort (C)</a> (click the British flag for an English
 translation).
 Other implementations may be available through the <a
-href="http://www.cs.sunysb.edu/~algorith/files/sorting.shtml">Stony
+href="http://www3.cs.stonybrook.edu/~algorith/files/sorting.shtml">Stony
 Brook Algorithm Repository, Sorting</a>.
 Alexander Georgiev's
 <a
 href="https://code.google.com/p/singly-linked-list/source/browse/trunk/src/main/java/datastructure/SinglyLinkedList.java">
 merge sort (Java)</a> implemented as part of a linked-list package.
 Includes a parallel merge sort, too.
+Flower Brackets
+<a href="https://www.flowerbrackets.com/merge-sort-java/">(Java)</a>. 
+
+# further explanation (pure HTML)
+@LINKS=
+<a href="http://www.cosc.canterbury.ac.nz/mukundan/dsal/MSort.html">animation (Java)</a>.
+<a href="http://www.azillionmonkeys.com/qed/sort.html">Comparison of
+quicksort, heapsort, and merge sort</a> on modern processors.
+
+<br />
+
+<br />
+Merge sort illustrated through a
+<a
+href="https://www.youtube.com/watch?v=XaqR3G_NVoo">Transylvanian-saxon
+(German) folk dance</a>. Created at Sapientia University.
+<br />
+<iframe src="https://www.youtube.com/embed/XaqR3G_NVoo" frameborder="0" allowfullscreen></iframe>
+
 # author's initials
 @AUTHOR=PEB
-# end $Source: /home/black/DADS/Terms/RCS/mergesort.trm,v $
+# end $Source: /home/black/Workspace/dads/Terms/RCS/mergesort.trm,v $

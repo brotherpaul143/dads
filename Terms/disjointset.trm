@@ -37,4 +37,4 @@ disjoint since [1,5] overlaps [4,7].
 @IMPL=
 # author's initials
 @AUTHOR=PEB
-# end $Source: /home/black/DADS/Terms/RCS/disjointset.trm,v $
+# end $Source: /home/black/Workspace/dads/Terms/RCS/disjointset.trm,v $

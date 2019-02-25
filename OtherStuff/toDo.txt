@@ -1,0 +1,99 @@
+ *created  "Thu Oct 17 16:41:56 2013" *by "Vreda Pieterse"
+ *modified "Wed Mar  7 16:44:01 2018" *by "Paul E. Black"
+
+$Log$
+Fri Apr  6 11:20:20 2018  Paul E. Black
+Update URL
+
+Wed Feb 22 15:20:51 2017  Paul E. Black,,,
+Fix Google search by hardcoding it.
+
+Fri Dec 20 10:36:30 2013  Paul E. Black
+Note that Google search does not work on the NIST site and how it
+might be fixed.  Add a bug about no way to NOT have a space after a
+LaTeX-like command.  Reformat previous Log lines.
+
+Fri Nov  8 15:19:02 2013  Paul E. Black
+Adding a Tools (bin) directory is done; remove it.  Add a $Log$ line.
+
+Fri Oct 18 11:00:32 2013  Paul E. Black
+add a few more items and refine some items
+
+Fri Oct 18 10:04:33 2013  Vreda Pieterse
+Initial list of todos
+
+-------------------------------------------------------------------
+                          CONTENT AND STYLE
+-------------------------------------------------------------------
+* Add more terms
+* make the Google search box parameterized.  Currently it is hardcoded
+  (in bitsSearch.m4) to use http://samate.nist.gov/other/dads.  We could
+  define a new "search root" macro, instead of ROOTDIR, so it can be
+  different for NIST and Fastar.  We COULD add another radio button
+  and hard-code them all.  It could look like this 
+	        (o) Web  (o) DADS/NIST  (o) DADS/Fastar
+* Style sheet refinements
+  - tag for formulas
+  - tag for code
+  - streamline formatting parameters from hard-coded HTML-tags 
+     @ Remove any use of the <font> tag 
+     @ Remove remaining modifiers as far as possible. 
+     @ Redefine modifiers through using 'clever' style definitions. 
+
+-------------------------------------------------------------------
+                             TOOLS
+-------------------------------------------------------------------
+* move chkhtml out of the Makefile to a stand-alone perl script and
+    run it on Other and Target dirs, in addition to Target/HTML dir.
+* update .emacs to search for "by <a href=" and change at that point,
+      instead of searching for just "href="
+* Start using an issue tracker
+* cron script to gather and save visiting statistics
+* Auto configure script
+  - create the appropriate bits* files
+  - add a new make configure* to make
+  - make changes to linkchecker 
+* bug: mkcommon.pl should make sure the HTML file name assigned to AKA
+    and WEB entries is unique. Now it just makes sure they are
+    different from term file roots, but it creates the same file names
+    for multiset and multi-set (in bag.trm). mkterms detects some
+    collisions when it writes the unified index, but would not report
+    if, say, alice and bob had AKA eve and *eve (which alphabetize as
+    EVE and STAREVE, but both use eve.html).
+* bug: there is no way to have a pseudo-LaTeX command followed
+    immediately by a letter.  For example, in btree (B-tree), we have
+        $\lceil m/2\rceil$
+    which leaves a blank between the lceil and the m.  LaTeX handles
+    this by throwing away spaces following any command, and if one
+    *wants* a space, one uses \ , e.g., \cup\ \in.  There are 136
+    terms with a space after a command, and a quick review shows that
+    most (if not all) of them want a space.  So it would be a big job
+    to fix all those places to use \ .
+
+-------------------------------------------------------------------
+                          DOCUMENTATION
+-------------------------------------------------------------------
+* How to guides (including notes on basic use)
+  - setup GIT to collaborate 
+      Step 1 $ git clone https://github.com/vpieterse/dads
+        this step creates a dads directory
+  - the files needed and changes needed to create a new configuration
+  - setup linkchecking and fixing broken links
+  - setup emacs, e.g., to update files upon save
+
+* Conferenece/Journal publications
+  - rework of TN that did not succeed 
+  - some ideas arising from analysis of visiting stats
+  - some ideas arising from update stats
+
+-------------------------------------------------------------------
+                             DESIGN
+-------------------------------------------------------------------
+* Change HTML folder name to Terms
+
+-------------------------------------------------------------------
+                            COMMUNITY
+-------------------------------------------------------------------
+* Recruit collaborators
+
+	   --------------- end of toDo.txt ---------------

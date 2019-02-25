@@ -1,7 +1,7 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
 # *modified "Mon Apr 23 09:21:37 2007" *by "Paul E. Black"
 
-# $Log: treetravrsl.trm,v $
+# $Log: treeTraversal.trm,v $
 # Revision 1.4  2007/04/23 13:21:39  black
 # Update URL for Mukundan's Java demos and code
 #
@@ -47,4 +47,4 @@ of preorder, in-order, and postorder traversal on a binary tree.
 @IMPL=
 # author's initials
 @AUTHOR=PEB
-# end $Source: /home/black/DADS/Terms/RCS/treetravrsl.trm,v $
+# end $Source: /home/black/Workspace/dads/Terms/RCS/treeTraversal.trm,v $

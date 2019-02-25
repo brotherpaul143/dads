@@ -1,0 +1,243 @@
+#!/usr/bin/perl -w
+$versionRCS='$Header: /home/black/DADS/dads/RCS/editTerms,v 1.14 2013/10/01 13:36:05 black Exp $';
+#	      *created  "Wed Oct 15 10:37:48 2003" *by "Paul E. Black"
+$versionMod=' *modified "Tue Feb 12 10:38:47 2019" *by "Paul E. Black"';
+
+#-----------------------------------------------------------------------------
+#
+# Check out, change, and check in terms
+#
+$useMsg = "use: editTerms [--help] [--version] [--force] *.trm";
+$minOperands = 1;
+$typUse = "for f in `grep -l vertices Terms/*.trm`; do editTerms \$f; gcommit \$f; done";
+#
+# This software was developed at the National Institute of Standards 
+# and Technology by employees of the Federal Government in the course 
+# of their official duties.  Pursuant to title 17 Section 105 of the 
+# United States Code this software is not subject to copyright 
+# protection and is in the public domain. 
+# 
+# We would appreciate acknowledgment if the software is used.
+#
+# Paul E. Black  paul.black@nist.gov or p.black@acm.org
+#	http://hissa.nist.gov/~black/
+#
+#-----------------------------------------------------------------------------
+
+# $Log$
+# Tue Feb 12 10:39:35 2019  Paul E. Black
+# The latest Perl requires an open curly bracket to be escaped.
+# 
+# Wed Feb 22 15:31:09 2017  Paul E. Black
+# Latest updates. I did this commit to test gcommits handling of name
+# of person executing.
+# 
+# Tue Sep  2 08:58:17 2014  Paul E. Black
+# Fix typical use message, include "do".  Also improve message to show
+# how to invoke gcommit.
+# 
+# Mon Jul 28 16:43:32 2014  Paul E. Black
+# Improve the "typical use" message, since editTerms, which uses
+# gcommit, does not work well with multiple input files.  Update help
+# message for using git instead of rcs.
+# Make "differs from version control" message more prominent - I wasted
+# 30 minutes wondering why changes were not happening only to realize it
+# was aborting because I already had a change.
+# Dont exit after the close: that is an unconditional exit!
+# 
+# Mon Jul 28 15:31:47 2014  Paul E. Black
+# Change code since we now use git for version control.  Add a $Log$ line.
+# Exit if a file cannot be opened, written, or closed.  It may signify
+# serious problems.
+
+#------------------------------------------------------------------------------
+#	Command line handling
+#------------------------------------------------------------------------------
+
+$reason = "update Mark Crocker IMPL URL";
+#           search for SPECIFIC EDIT and change hard-coded date
+$editor = "Paul E. Black"; # for *modified line
+# check that hard-coded date is current to reduce chance of 
+# using old reason and old edits
+$checkDate = 1;
+
+while ($#ARGV >= 0) {
+    if ($ARGV[0] =~ /^--?h(e(lp?)?)?/) {
+	print "$useMsg\n";
+	print "    where\n";
+	print "\t--version Print version and exit\n";
+	print "\t--help    Print this message and exit\n";
+	print "\t--force   Check out, etc. even though date differs\n";
+	print "\t--        End of options (e.g., term begins with -)\n";
+	print "    Check out and edit each file.  git diff, so you can review changes, and\n";
+	print "    ask if you want to commit them.  Your options are:\n";
+	print "\ty - Yes; check in changes, with this \"reason\":\n";
+	print "\t\t$reason\n";
+	print "\tl - Leave changes, but don't check in\n";
+	print "\tn - No; unlock the file and revert to the previous version\n";
+	print "\tq - Quit; unlock the file and revert, then quit\n";
+	print "    The default is 'n'.\n";
+	print "typical use:\n";
+	print "    $typUse\n";
+	exit 0;
+    } elsif ($ARGV[0] =~ /^--?v(e(r(s(i(on?)?)?)?)?)?$/) {
+	print "$versionRCS\n";
+	print "$versionMod\n";
+	exit 0;
+    } elsif ($ARGV[0] =~ /^--?f(o(r(ce?)?)?)?$/) {
+	$checkDate = 0;
+	print "Check in reason is '$reason'\n";
+	shift;
+    } elsif ($ARGV[0] eq "--") {
+	shift;
+	last;
+    } elsif ($ARGV[0] =~ /^-/) {
+	print "unknown option: $ARGV[0]\n";
+	print "$useMsg\n";
+	exit 1;
+    } else {
+	# end of options
+	last;
+    }
+}
+
+$numberOfOperands = 1 + $#ARGV;
+if ($numberOfOperands < $minOperands) {
+    print "Wrong number of operands\n";
+    print "$useMsg\n";
+    die;
+}
+
+#------------------------------------------------------------------------------
+#	program proper
+#------------------------------------------------------------------------------
+
+# make sure the program is not accidentally rerun without being updated
+if ($checkDate && localtime() !~ /Tue Feb 12/) {
+    print "The (hard coded) check-in reason is:\n";
+    print "\t$reason\n";
+    print "REMEMBER TO CHANGE THE CHECK-IN REASON!\n";
+    print "\tIt is now " . localtime();
+    print "\nThe local time does not match\n";
+    die;
+}
+
+foreach $term_file_name (@ARGV) {
+    #print "==} $term_file_name\n";
+
+    # make sure the file is the same as the latest index(?)
+    # -b ignores changes in whitespace
+    # --unified=0 gives no context lines
+    my $differences = `git diff -b --unified=0 $term_file_name`;
+    if ($?) {
+	print "$term_file_name is not in git (or some other error); skipping!\n";
+	next;
+    }
+    if ($differences ne "") {
+	print "$term_file_name DIFFERS FROM GIT VERSION. Here are the differences:\n";
+	print "$differences";
+	print "skipping $term_file_name!\n";
+	next;
+    }
+
+    # edit the term file in place
+    if (open TERM, "< $term_file_name") {
+	# read whole file
+	@term_contents = <TERM>;
+
+	close TERM || print "Cannot close TERM!?!\n";
+
+	#print `ls -l $term_file_name`;
+
+	# write back an edited version
+	$runtime = localtime();
+	if (open TERM, "> $term_file_name") {
+	    foreach $line (@term_contents) {
+		# change *modified
+		$line =~ s/[*]modified "[^"]*" [*]by "[^"]*"/*modified "$runtime" *by "$editor"/;
+
+		#----------------------------------------------------
+		#	Standard "clean-up" edits
+		#----------------------------------------------------
+
+		# fix comment: AKA {cross refs} break autogenerated entries
+		$line =~ s/pure names or \{cross refs}/pure names/;
+
+		# other clean-up edits
+		$line =~ s/HREF=/href=/g;
+		$line =~ s|<A|<a|g;
+		$line =~ s|</A>|</a>|g;
+		$line =~ s|<BR>|<br />|gi;
+		$line =~ s|<IMG|<img|g;
+		$line =~ s|<LI>|<li>|g;
+		$line =~ s|P>|p>|g;
+		$line =~ s|PRE>|pre>|g;
+		$line =~ s|SUP>|sup>|g;
+		$line =~ s|TD>|td>|g;
+		$line =~ s|<TD|<td|g;
+		$line =~ s|TH>|th>|g;
+		$line =~ s|<TR|<tr|g;
+
+		#----------------------------------------------------
+		#
+		#	HERE IS THE SPECIFIC EDIT(S) WE WANT
+		#
+		# Remember to change the check-in reason
+		#
+		#----------------------------------------------------
+
+		$line =~ s|http://www.markcrocker.com/|https://markcrocker.com/|g;
+
+		print TERM $line;
+	    }
+
+	    close TERM || print "Cannot close TERM after writing!?!\n";
+	} else {
+	    print "Cannot open $term_file_name to write!?!\n";
+	    exit;
+	}
+    } else {
+	print "Cannot open $term_file_name!?!\n";
+	exit;
+    }
+
+    # review any changes
+    # -b ignores changes in whitespace
+    # --unified=0 gives no context lines
+    system "git diff -b --unified=0 $term_file_name";
+
+    ###########################################################################
+    #
+    print               "REMEMBER TO gcommit $term_file_name\n";
+    next;
+    #
+    ###########################################################################
+
+    while (1) {
+	print "Commit (check in)? [ynhlq](n): ";
+	$ans = <STDIN>;
+	if ($ans =~ /[ynlq]/i || $ans =~ /^$/) {
+	    last;
+	} else {
+	    print "Yes: check in; Leave edits but don't check in; Help: show this message\n";
+	    print "No: unlock and revert; Quit: unlock and revert then exit\n";
+	}
+    } 
+    if ($ans =~ /[y]/i) {
+	system("echo \"$reason\" | ci -u $term_file_name");
+    } elsif ($ans =~ /[l]/i) {
+	print "leaving edits as is and locked.  Remember to check in $term_file_name\n";
+    } else {
+	# (try to) UNLOCK it
+	system "echo n | rcs -u $term_file_name";
+
+	# revert
+	system "co -f $term_file_name";
+    }
+
+    if ($ans =~ /[q]/i) {
+	exit;
+    }
+}
+
+# end of $Source: /home/black/DADS/dads/RCS/editTerms,v $

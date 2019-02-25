@@ -1,7 +1,16 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Dec 17 11:48:28 2004" *by "Paul E. Black"
+# *modified "Tue Feb 19 10:07:52 2019" *by "Paul E. Black"
 
 # $Log: binpacking.trm,v $
+# Tue Feb 19 10:48:25 2019  Paul E. Black
+# Update URL for Arizona Icon IMPL (add comment of page name to find it again)
+# 
+# Tue Sep  2 08:37:10 2014  Paul E. Black
+# Change stonybrook.edu URL in IMPL
+# 
+# Mon Jul 28 16:18:48 2014  Paul E. Black
+# update URL for Skienas Stony Brook Algorithm Respository IMPLs
+# 
 # Revision 1.3  2004/12/17 16:48:29  black
 # Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
 #
@@ -45,7 +54,7 @@ bins (containers of fixed volume) needed to hold a set of objects.
 This problem often appears in manufacturing.  For instance, suppose we
 need a number of pipes of different, specific lengths to plumb a
 house and we can buy pipe stock in 5 meter lengths.  How can we cut
-the 5 meter pipes to waste as little as possible (minimize the cost of
+the 5-meter pipes to waste as little as possible (minimize the cost of
 pipe)?
 </p>
 
@@ -57,11 +66,12 @@ Thanks to Frank A. Adrian &lt;fadrian@symantec.com&gt;, 28 January 2000.
 and references</a>.
 Suggestions on
 <a
-href="http://www.cs.sunysb.edu/~algorith/files/bin-packing.shtml">books
+href="http://www3.cs.stonybrook.edu/~algorith/files/bin-packing.shtml">books
 and related topics</a>.
 # implementation(s) (pure HTML)
 @IMPL=
-<a href="http://www.cs.arizona.edu/icon/oddsends/bpack/bpack.htm">(Icon)</a>.
+# "The Icon Programming Language" -> "Odds and Ends"
+<a href="http://www2.cs.arizona.edu/icon/oddsends/bpack/bpack.htm">(Icon)</a>.
 # author's initials
 @AUTHOR=PEB
-# end $Source: /home/black/DADS/Terms/RCS/binpacking.trm,v $
+# end $Source: /home/black/Workspace/dads/Terms/RCS/binpacking.trm,v $

@@ -1,0 +1,62 @@
+# *created  "Wed Sep  9 10:59:28 1998" *by "Paul E. Black"
+# *modified "Mon Sep 18 10:17:29 2017" *by "Paul E. Black"
+#
+#    Tables of contributors and definition authors and their
+#	initials, and optionally e-mail addresses and URLs
+#    Format is
+#	Initials<tab>Name<tab>(comma separated
+#	e-mails [with @] or URLs)
+#    Names may include HTML for non-English letters
+#
+# $Log$
+# Mon Sep 18 10:39:31 2017  Paul E. Black
+# Update my (Paul Black) URL to have https
+# 
+# Fri Mar 25 10:30:25 2016  Paul E. Black
+# Add Jarkko Hietaniemi
+# 
+# Fri Mar 25 08:54:57 2016  Paul E. Black
+# Add David C. Rankin.
+# 
+# Wed Feb 24 11:12:20 2016  Paul E. Black
+# Add Vreda Pieterse
+# 
+# Mon Jan 26 10:57:59 2015  Paul E. Black
+# Update Conrado Martinez URL. Add Log line and remove out-of-date Id info.
+# 
+#
+AL	Alen Lovrencic	alovrenc@foi.hr
+SB	Sterling Bates	SterlingB@bdt.net
+PEB	Paul E. Black	paul.black@nist.gov, https://hissa.nist.gov/~black/
+BB	Bob Bockholt	bbockholt@yahoo.com
+AB	Andrew Boniface	bonifaceaw@yahoo.com
+SE	Stefan Edelkamp	stefan.edelkamp@cs.uni-dortmund.de
+ME	Mustafa Ege	ege@eti.cc.hun.edu.tr
+JLG	Joseph L. Ganley	http://joeganley.com/
+LH	Leslie Hastings
+JH	Jarkko Hietaniemi	jhi@iki.fi, jhietaniemi@gmail.com
+BJ	Bob Jenkins	bob_jenkins@burtleburtle.net, http://burtleburtle.net/bob/
+ASK	Art S. Kagel	kagel@bloomberg.net
+CLK	Chris L. Kuszmaul	fyodor@nas.nasa.gov
+KSL	Kim Skak Larsen	kslarsen@imada.sdu.dk, http://www.imada.sdu.dk/~kslarsen/
+CM	Conrado Martinez	Conrado.Martinez@lsi.upc.es, http://www.cs.upc.edu/~conrado/
+JM	Jason McCabe	Jason.McCabe@wcom.com
+DM	David Monniaux	David.Monniaux@ens.fr.cuckoo-to-be-removed
+VO	Vadim Okun	vokun.okun@nist.gov
+JP	John Phillips	johnp@grammatech.com
+DCR	David C. Rankin	drankinatty@suddenlinkmail.com
+PR	Patrick Rodgers	rodgerpk@jmu.edu
+IR	Ingo Rohloff	rohloff@in.tum.de
+SKS	Sandeep Kumar Shukla
+GS	Gopinath Srinivasan	s.gopinath@in.ibm.com
+PMS	Paul M. Sant	sant@dcs.kcl.ac.uk
+RS	Rajiv Bakulesh Shah	brainix@gmail.com
+PS	Paul Steffas	Paul_Steffas@amat.com
+PHS	Per H&aring;kan Sundell	phs@cs.chalmers.se
+PJT	Paul J. Tanenbaum	pjt@ARL.MIL
+LJW	Lawrence J. Wobker	ljwobker@pobox.com
+VP	Vreda Pieterse	vreda.pieterse@up.ac.za
+VZ	Vladimir Zabrodsky	zabrodskyvlada@yahoo.com
+YZ	Yuming Zou	zou@fas.harvard.edu
+CRC-A	Algorithms and Theory of Computation Handbook, CRC Press LLC, 1999
+# end of $Source: /home/black/DADS/dads/RCS/authors.data,v $

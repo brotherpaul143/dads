@@ -1,7 +1,13 @@
 # *created  "Thu Dec 16 09:26:33 1999" *by "Paul E. Black"
-# *modified "Mon Dec 12 10:05:44 2011" *by "Paul E. Black"
+# *modified "Mon Feb 11 17:09:14 2019" *by "Paul E. Black"
 
 # $Log: graycode.trm,v $
+# Mon Feb 11 17:09:21 2019  Paul E. Black
+# use https to access Wikipedia
+# 
+# Sat Jun  7 11:54:35 2014  Paul E. Black
+# Remove "See links" NOTE since there are no more LINKs to conversion algorithms.
+# 
 # Revision 1.20  2011/12/12 15:06:07  black
 # Remove IMPL from Numerical Recipes in C - files are gone.
 #
@@ -125,12 +131,12 @@ patented a method using the codes in 1953.
 
 <p>
 See the Wikipedia entry for
-<a href="http://en.wikipedia.org/wiki/Gray_code">Gray code</a> for
+<a href="https://en.wikipedia.org/wiki/Gray_code">Gray code</a> for
 more information.
 </p>
 
 <p>
-See the links for {polynomial}-time algorithms to convert between
+There are {polynomial}-time algorithms to convert between
 binary numbers and certain Gray codes.
 
 # further explanation (pure HTML)
@@ -143,4 +149,4 @@ code rotary railroad control</a>.
 
 # author's initials (see authors.data)
 @AUTHOR=PEB
-# end $Source: /home/black/DADS/Terms/RCS/graycode.trm,v $
+# end $Source: /home/black/Workspace/dads/Terms/RCS/graycode.trm,v $

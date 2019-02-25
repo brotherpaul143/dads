@@ -37,4 +37,4 @@ structure delete.  If it uses {open addressing}, mark the item
 @IMPL=
 # author's initials
 @AUTHOR=PEB
-# end $Source: /home/black/DADS/Terms/RCS/hashtabdelet.trm,v $
+# end $Source: /home/black/Workspace/dads/Terms/RCS/hashtabdelet.trm,v $

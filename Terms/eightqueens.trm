@@ -48,4 +48,4 @@ queen can attack another.  Efficiently find all possible placements.
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=PEB
-# end $Source: /home/black/DADS/Terms/RCS/eightqueens.trm,v $
+# end $Source: /home/black/Workspace/dads/Terms/RCS/eightqueens.trm,v $

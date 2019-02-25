@@ -1,7 +1,10 @@
 # *created  "Tue Sep  7 12:05:29 2004" *by "Paul E. Black"
 # *modified "Mon Jan 25 10:40:57 2010" *by "Paul E. Black"
 
-# $Log: ubtree.trm,v $
+# $Log: universalBTree.trm,v $
+# Revision 1.1  2013/09/24 16:09:29  black
+# Initial revision
+#
 # Revision 1.1  2006/09/11 14:00:01  black
 # Initial revision
 #
@@ -53,4 +56,4 @@ href="http://wwwbayer.in.tum.de/cgi-webcon/webcon/lehrstuhldb/details/Veroeffent
 @LINKS=
 # author's initials (see authors.data)
 @AUTHOR=
-# end $Source: /home/black/DADS/Terms/RCS/ubtree.trm,v $
+# end $Source: /home/black/Workspace/dads/Terms/RCS/universalBTree.trm,v $

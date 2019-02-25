@@ -1,7 +1,22 @@
 # *created  "Thu Oct 15 08:41:50 1998" *by "Paul E. Black"
-# *modified "Mon Feb 28 09:12:35 2011" *by "Paul E. Black"
-
+# *modified "Tue Feb 12 09:40:45 2019" *by "Paul E. Black"
+#
 # $Log: hash.trm,v $
+# Tue Feb 12 09:40:50 2019  Paul E. Black
+# update access to rbaeza handbook
+# 
+# Fri Dec 15 17:47:45 2017  Paul E. Black
+# hash ISIN Merkle tree, a new term.  Change hash to be AKA, not just WEB.
+# 
+# Mon Jul 20 14:30:04 2015  Paul E. Black
+# Remove LINK to Thomas Wangs review and comparison - whole subtree is gone.
+# 
+# Revision "Mon Sep 30 16:35:16 2013" *by "Vreda Pieterse"
+# Add missing .html to IMPL Link to Gonnet and Baeza-Yates's implementation
+#
+# Revision "Mon Sep 30 10:01:37 2013" *by "Vreda Pieterse"
+# Use {minimal perfect hashing} and {Pearson's hash} in IMPL instead of hard-coded link to DADS. 
+#
 # Revision 1.32  2011/02/28 14:12:41  black
 # change DADS URL root.  Again
 #
@@ -112,9 +127,9 @@ get an even distribution on a smaller set of values.
 # formal definition or {cross reference} to an entry
 @FORML=
 # comma-sep list of pure names that this is Also Known As.
-@AKA=
+@AKA=hash
 # other cross-listings solely for the web, such as word or spelling variants
-@WEB=hash
+@WEB=
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
@@ -125,7 +140,7 @@ get an even distribution on a smaller set of values.
 specific functions: {Pearson's hash}, {multiplication method}
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN={hash table}, {uniform hashing}, {universal hashing}, 
-{Bloom filter}, {locality-sensitive hashing}
+{Bloom filter}, {Merkle tree}, {locality-sensitive hashing}
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
@@ -142,26 +157,20 @@ Functions</a>.
 
 # implementation(s) (pure HTML)
 @IMPL=
-See the implementations at <a
-href="http://www.nist.gov/dads/HTML/minimalPerfectHash.html">minimal
-perfect hashing (C++ and C)</a> and <a
-href="http://www.nist.gov/dads/HTML/pearsonshash.html">Pearson's hash
-(C)</a>.
+See the implementations at {minimal perfect hashing} and {Pearson's hash}.
 Bob Jenkins' fast, parameterizable, broadly applicable
 <a href="http://burtleburtle.net/bob/hash/doobs.html">hash function
 (C)</a> including code for and evaluations of many other hash
 functions.
-A review and comparison of many
-<a href="http://www.concentric.net/~Ttwang/tech/inthash.htm">integer hash functions (C)</a>.
 <a href="http://www.isthe.com/chongo/tech/comp/fnv/">Fowler/Noll/Vo or
 FNV hash function (C)</a>.
 Arash Partow's implementations of various
 <a href="http://www.partow.net/programming/hashfunctions/#Download">General
 Hash Functions (C, C++, Pascal, Object Pascal, Java, Ruby, Python)</a>
 and Bloom filter for strings.
-Hash functions for strings
 # This implementation is okay - PEB 6 April 1999
-<a href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/331.hash.c">(C)</a>.
+Gonnet and Baeza-Yates's 
+<a href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/3/331.hash.c.html">hash functions for strings.(C)</a>.
 Austin Appleby's fast
 <a href="http://sites.google.com/site/murmurhash/">MurmurHash (C)</a>,
 including avalanche diagrams for Hsieh SuperFastHash, Jenkin's
@@ -169,4 +178,4 @@ lookup3, Murmur, Bernstein, FNV, and modified FNV.
 
 # author's initials
 @AUTHOR=PEB
-# end $Source: /home/black/DADS/Terms/RCS/hash.trm,v $
+# end $Source: /home/black/Workspace/dads/Terms/RCS/hash.trm,v $

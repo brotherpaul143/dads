@@ -47,4 +47,4 @@ $e(v,u)$, if $dist(v) + weight(e) &lt; dist(u)$, set $dist(u)=dist(v)
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=PEB
-# end $Source: /export/home/black/DADS/Terms/RCS/dagShortPath.trm,v $
+# end $Source: /home/black/Workspace/dads/Terms/RCS/dagShortPath.trm,v $

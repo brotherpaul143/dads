@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Aug 14 12:15:15 2008" *by "Paul E. Black"
+# *modified "Thu Aug 24 09:07:57 2017" *by "Paul E. Black"
 
 # $Log: postorderTraversal.trm,v $
+# Fri Feb 10 13:35:22 2017  Paul E. Black,,,
+# XREF Cupif-Giannini tree traversal, too.
+# 
 # Revision 1.6  2008/08/14 16:15:16  black
 # Update HTML line break (br) tags to be XML/XHMTL compatible
 #
@@ -46,11 +49,11 @@ processing all subtrees, then finally processing the {root}.
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={in-order traversal}, {preorder traversal}, 
-{level-order traversal}
+{level-order traversal}, {Cupif-Giannini tree traversal}
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=For instance, if the "processing" is just printing, a tree is
-printed as "(first subtree) (second subtree) ... (last subtree) root."
+printed as "(first subtree) (second subtree) ... (last subtree) root".
 Here is pseudocode for a {binary tree}:
 <pre>
 postorder(tree)<br />
@@ -68,4 +71,4 @@ href="http://www.cosc.canterbury.ac.nz/mukundan/dsal/BTree.html">animation (Java
 @IMPL=
 # author's initials
 @AUTHOR=PEB
-# end $Source: /home/black/DADS/Terms/RCS/postorderTraversal.trm,v $
+# end $Source: /home/black/Workspace/dads/Terms/RCS/postorderTraversal.trm,v $

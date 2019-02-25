@@ -1,7 +1,16 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon Feb 28 09:12:47 2011" *by "Paul E. Black"
+# *modified "Tue Sep  2 08:47:38 2014" *by "Paul E. Black"
 
 # $Log: stringMatchwError.trm,v $
+# Tue Sep  2 08:47:44 2014  Paul E. Black
+# Change stonybrook.edu URL in IMPL
+# 
+# Mon Jul 28 16:25:15 2014  Paul E. Black
+# update URL for Skienas Stony Brook Algorithm Respository IMPLs
+# 
+# Revision "Mon Sep 30 10:27:53 2013" *by "Vreda Pieterse"
+# Use {string matching} in IMPL instead of hard-coded link to DADS. 
+
 # Revision 1.11  2011/02/28 14:12:49  black
 # change DADS URL root.  Again
 #
@@ -87,11 +96,9 @@ a {suffix tree}.
 <em>Faster Algorithm of
 String Comparison</em></a> 2001.
 # implementation(s) (pure HTML)
-@IMPL=See implementations at <a
-href="http://www.nist.gov/dads/HTML/stringMatching.html">string
-matching</a>.  <a
-href="http://www.cs.sunysb.edu/~algorith/files/approximate-pattern-matching.shtml">(C
+@IMPL=See implementations at {string matching}. <a
+href="http://www3.cs.stonybrook.edu/~algorith/files/approximate-pattern-matching.shtml">(C
 and Pascal)</a>
 # author's initials (see authors.data)
 @AUTHOR=CRC-A
-# end $Source: /home/black/DADS/Terms/RCS/stringMatchwError.trm,v $
+# end $Source: /home/black/Workspace/dads/Terms/RCS/stringMatchwError.trm,v $

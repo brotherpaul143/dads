@@ -1,0 +1,155 @@
+# $Id: latex2html.data,v 1.22 2012/05/31 12:56:01 black Exp $
+# *created  "Mon Jun  7 10:29:20 1999" *by "Paul E. Black"
+# *modified "Tue Feb 12 11:03:57 2019" *by "Paul E. Black"
+
+#
+#		Rewrites from LaTeX math mode into HTML
+#
+
+# $Log: latex2html.data,v $
+# Tue Feb 19 10:45:32 2019  Paul E. Black
+# fix HTML for real numbers (double-struck capital R) symbol
+# 
+# Revision 1.22  2012/05/31 12:56:01  black
+# Use tilde instead of sim.gif for \sim
+#
+# Revision 1.21  2005/01/31 18:18:07  black
+# Add natural logarithm, \ln
+#
+# Revision 1.20  2004/10/28 14:48:49  black
+# Add upper-case Lambda.
+#
+# Revision 1.19  2004/01/23 14:09:58  black
+# Change emptyset to &oslash; and add \prime and \Prime.
+#
+# Revision 1.18  2004/01/20 18:49:47  black
+# Use (new) HTML ampersand-symbols, like &alpha;, instead of gifs.
+#
+
+# The left hand side of substitutions (patterns) start at the
+# beginning of the line and end at the first whitespace.
+# A substitution may be two parameters
+#(1)	left{hand$side}and{more$left}	right $ hand $ side
+# see \frac below.
+# A substitution may be a single parameter
+#(2a)	left{hand$side}	right $ hand side
+# for instance, {\bf $} <strong>$</strong> turns {\bf hi} into
+# <strong>hi</strong> and \mbox{$} $ turns \mbox{and} into and.
+# The single parameter may be unused
+#(2b)	left{hand$side}	right hand side
+# for instance, \begin{array}{$} <table><tr> turns \begin{array}{c} into
+# <table><tr>.
+# A substituition may be a simple replacement
+#(3)	leftHandSide	right hand side
+# which replaces the left hand side with the right hand side.  If the
+# right hand side is empty, the left hand side is just dropped.
+
+\frac{$}{$}	$/$
+
+# special HTML forms
+<sup>2</sup>	&sup2;
+<sup>3</sup>	&sup3;
+
+#    Table 3.3: Greek Letters
+\alpha	&alpha;
+\Gamma	&Gamma;
+\delta	&delta;
+\Delta	&Delta;
+\epsilon &epsilon;
+\Theta	&Theta;
+\lambda	&lambda;
+\Lambda	&Lambda;
+\mu	&mu;
+\pi	&pi;
+\Pi	&Pi;
+\rho	&rho;
+\Sigma	&Sigma;
+\phi	&phi;
+\Phi	&Phi;
+\omega	&omega;
+\Omega	&Omega;
+#    Table 3.4: Binary Operation Symbols
+\pm	&plusmn;
+\times	&times;
+\div	&divide;
+\cdot	&middot;
+\cap	&cap;
+\cup	&cup;
+\wedge	&and;
+\bigtriangleup &Delta;
+\oplus	&oplus;
+\otimes	&otimes;
+#    Table 3.5: Relation Symbols
+#\not	not		must follow \notin to not mess it up
+\leq	&le;
+# <	use &lt; for less than
+\ll	&lt;&lt;
+\sim	&sim;
+\subseteq	&sube;
+\subset		&sub;
+\geq	&ge;
+# >	use &gt; for greater than
+\gg	&gt;&gt;
+\approx	&asymp;
+\neq	&ne;
+\notin	&notin;
+\not	&not;
+#\in	in		must go at end to not mess up \int and \infty
+\mid	|
+#    Table 3.6 Arrow Symbols
+\rightarrow	&rarr;
+\mapsto		|&rarr;
+#    Table 3.7: Miscellaneous Symbols
+\Re		&real;
+\prime		&prime;
+\Prime		&Prime;
+\emptyset	&oslash;
+\forall		&forall;
+\infty	&infin;
+#    Table 3.8: Variable-sized Symbols
+\sum	&sum;
+\int	&int;
+\bigcup	<strong>U</strong>
+#    Table 3.9: Log-like Functions
+\cos	cos
+#\lg	use \log<sub>2</sub>
+\ln	ln
+\log	log
+\max	max
+\min	min
+\bmod	mod
+#    Table 3.10: Delimiters
+\lceil	&lceil;
+\rceil	&rceil;
+\lfloor	&lfloor;
+\rfloor	&rfloor;
+# \left and \right are modifiers, Sect. 3.3.4, page 48
+\left
+\right.
+\right
+#    Other
+\ldots	&hellip;
+# these have hard-wired conversions since they occur outside math expressions
+#``	"
+#''	"
+# we use series of hyphens for ASCII graphics more often than --- for Latex long dash
+#---	-
+\sqrt{$}	&radic;($)
+\sqrt		&radic;
+\overline{$}	$
+\mbox{$}	$
+\bar{$}		$
+{\bf $}		<strong>$</strong>
+{\cal $}	<strong><em>$</em></strong>
+\}	}
+# a crude handling of math arrays.  You could even look in the
+# alignment parameter and use <td align=center> for {c}, etc.
+#\begin{array}{$} <table><tr><td>
+#\\		</td></tr><tr><td>
+#\end{array}	</td></tr></table>
+\begin{array}{$} 
+\\		OVER&nbsp;
+\end{array}	
+# this must go after \int and \infty to not mess them up
+\in	&isin;
+# end $Source: /home/black/DADS/dads/RCS/latex2html.data,v $

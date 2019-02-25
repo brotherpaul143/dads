@@ -39,4 +39,4 @@ The time complexity is {$\Theta (V<sup>3</sup>)$#\Theta}.
 @IMPL=
 # author's initials
 @AUTHOR=SKS
-# end $Source: /home/black/DADS/Terms/RCS/floydWarshall.trm,v $
+# end $Source: /home/black/Workspace/dads/Terms/RCS/floydWarshall.trm,v $

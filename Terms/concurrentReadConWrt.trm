@@ -46,4 +46,4 @@ can write simultaneously to a single memory location.
 @IMPL=
 # author's initials
 @AUTHOR=PMS
-# end $Source: /home/black/DADS/Terms/RCS/concurrentReadConWrt.trm,v $
+# end $Source: /home/black/Workspace/dads/Terms/RCS/concurrentReadConWrt.trm,v $

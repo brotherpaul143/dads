@@ -1,7 +1,26 @@
 # *created  "Wed Sep 16 08:54:42 1998" *by "Paul E. Black"
-# *modified "Thu Aug 22 15:42:01 2013" *by "Paul E. Black"
+# *modified "Tue Feb 12 10:07:55 2019" *by "Paul E. Black"
 
 # $Log: quicksort.trm,v $
+# Tue Feb 12 10:08:21 2019  Paul E. Black
+# Update Flower Brackets and Mark Crocker IMPL URL
+# OUpdateDIFF:  @@ -2 +2 @@
+# 
+# Mon Feb 11 17:11:22 2019  Paul E. Black
+# use https to access Wikipedia
+# 
+# Fri Apr  6 11:16:40 2018  Paul E. Black
+# Add Flower Brackets IMPL
+# 
+# Tue Nov  8 14:05:27 2016  Paul E. Black
+# LINK to sort illustrated through dance.
+# 
+# Fri Mar 25 08:54:18 2016  Paul E. Black
+# IMIN q sort
+# 
+# Mon Mar  2 15:59:48 2015  Paul E. Black
+# Remove John David Stones (Grinnell) IMPL - Stones account is entirely gone.
+# 
 # Revision 1.17  2013/08/22 19:42:02  black
 # update URL for Alex Lopez-Ortiz at U waterloo
 #
@@ -60,7 +79,8 @@
 remaining elements into those greater than and less
 than this pivot, and {recursively#recursion} sort the partitions.
 There are many variants of the basic scheme above: to select the pivot,
-to partition the array, to stop the recursion on small partitions, etc.
+to partition the array, to stop the recursion or switch to another
+algorithm for small partitions, etc.
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=quick sort
 
@@ -71,12 +91,12 @@ to partition the array, to stop the recursion on small partitions, etc.
 @VARIANT={balanced quicksort}, {multikey Quicksort}, 
 {introspective sort}
 # Aggregate parent: "I am a part of or used in ..."
-@IMIN=
+@IMIN={q sort}
 # Aggregate child: "... is a part of or used in me."
 @INME={partition}, {divide and conquer}, {recursion}, {Select},
 {sublinear time algorithm}
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={external quicksort}
+@XREFS={external quicksort}, {dual-pivot quicksort}
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=Quicksort has running time 
@@ -90,6 +110,11 @@ $O(n \log n)$ in the worst case.
 <p>
 {Select} can be used to always pick good pivots, thus giving a
 variant with {$O(n \log n)$#big-O notation} worst-case running time.
+</p>
+
+<p>
+Newer variants, such as {dual-pivot quicksort}, are faster because
+they access less memory.
 
 # M. Douglas McIlroy
 # A Killer Adversary for Quicksort
@@ -110,7 +135,7 @@ partitioning <a
 href="http://www.cs.princeton.edu/~rs/talks/QuicksortIsOptimal.pdf">Quicksort
 Is Optimal (C)</a> (pdf format) for random files possibly with
 duplicate keys; includes discussion and proof.
-<a href="http://en.wikipedia.org/wiki/Quicksort">Wikipedia entry with
+<a href="https://en.wikipedia.org/wiki/Quicksort">Wikipedia entry with
 extended discussion and alternatives (C, Python, Haskell, pseudocode)</a>.
 Demos and code for <a
 href="http://people.cs.ubc.ca/~harrison/Java/sorting-demo.html">enhanced,
@@ -121,13 +146,12 @@ Algorithms and Data Structures'
 <a
 href="http://www.algolist.net/Algorithms/Sorting/Quicksort">explanation
 (Java and C++)</a>.
-<a
-href="http://www.cs.grinnell.edu/~stone/events/scheme-workshop/quicksort.html">(Scheme)</a>.
-<a
-href="http://www.markcrocker.com/rexxtipsntricks/rxtt28.2.0470.html">In-line
+Flower Brackets
+<a href="https://www.flowerbrackets.com/quick-sort-java/">explanation,
+including code and complexity (Java)</a>. 
+<a href="https://markcrocker.com/rexxtipsntricks/rxtt28.2.0470.html">In-line
 compare (Rexx)</a>, 
-<a
-href="http://www.markcrocker.com/rexxtipsntricks/rxtt28.2.0471.html">compare
+<a href="https://markcrocker.com/rexxtipsntricks/rxtt28.2.0471.html">compare
 function (Rexx)</a>.
 # further explanation (pure HTML)
 @LINKS=
@@ -135,6 +159,16 @@ Java applet
 <a href="http://www.cosc.canterbury.ac.nz/mukundan/dsal/QSort.html">animation (Java)</a>.
 <a href="http://www.azillionmonkeys.com/qed/sort.html">Comparison of
 quicksort, heapsort, and merge sort</a> on modern processors.
+
+<br />
+
+<br />
+Quicksort illustrated through a
+<a href="https://www.youtube.com/watch?v=ywWBy6J5gz8">Hungarian folk
+dance: K&uuml;k&uuml;ll&#337;menti leg&eacute;nyes</a>.  
+Created at Sapientia University.
+<br />
+<iframe src="https://www.youtube.com/embed/ywWBy6J5gz8" frameborder="0" allowfullscreen></iframe>
 # author's initials
 @AUTHOR=CM
-# end $Source: /home/black/DADS/Terms/RCS/quicksort.trm,v $
+# end $Source: /home/black/Workspace/dads/Terms/RCS/quicksort.trm,v $

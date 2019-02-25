@@ -1,7 +1,7 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
 # *modified "Fri Nov 30 11:52:07 2007" *by "Paul E. Black"
 
-# $Log: multiwaymrg.trm,v $
+# $Log: multiwayMerge.trm,v $
 # Revision 1.4  2007/11/30 16:52:17  black
 # IMA merge
 #
@@ -42,4 +42,4 @@ sorted stream.
 @IMPL=
 # author's initials
 @AUTHOR=ASK
-# end $Source: /home/black/DADS/Terms/RCS/multiwaymrg.trm,v $
+# end $Source: /home/black/Workspace/dads/Terms/RCS/multiwayMerge.trm,v $

@@ -1,7 +1,25 @@
 # *created  "Fri Dec 18 14:19:17 1998" *by "Paul E. Black"
-# *modified "Tue Sep 10 09:28:58 2013" *by "Paul E. Black"
+# *modified "Tue Feb 19 09:57:04 2019" *by "Paul E. Black"
 
 # $Log: binaryheap.trm,v $
+# Tue Feb 19 10:01:16 2019  Paul E. Black
+# Change xkcd URL to https
+# 
+# Tue Feb 12 09:38:48 2019  Paul E. Black
+# update access to rbaeza handbook
+# 
+# Mon Feb 11 17:08:24 2019  Paul E. Black
+# use https to access Wikipedia
+# 
+# Mon Dec  5 11:03:47 2016  Paul E. Black
+# Improve citation of xkcd comic.
+# 
+# Wed Nov 16 16:50:26 2016  Paul E. Black
+# Change "one-based indexing" to "1-based indexing".
+# 
+# Wed Apr 22 09:46:56 2015  Paul E. Black
+# Add XKCD cartoon 835 mentioning heaps as a LINK
+# 
 # Revision 1.12  2013/09/10 13:29:54  black
 # update URL for Fortran IMPL
 #
@@ -67,7 +85,7 @@ more extreme (greater or less) than or equal to the key of its
 the number of nodes.
 A binary heap can be efficiently implemented as an {array}, where a
 node at index $i$ has children at indexes $2i$ and $2i+1$ and a
-parent at index $i/2$, with {one-based indexing}.  
+parent at index $i/2$, with {1-based indexing}.  
 If a child index is greater than the number
 of nodes, the child does not exist.
 </p>
@@ -75,7 +93,7 @@ of nodes, the child does not exist.
 <p>
 The above implementation is inefficient with virtual memories because
 (almost) every {level} is in a different page.
-<a href="http://en.wikipedia.org/wiki/B-heap">B-heaps</a> allocate
+<a href="https://en.wikipedia.org/wiki/B-heap">B-heaps</a> allocate
 subtrees to a single page for better virtual memory performance.
 </p>
 
@@ -86,13 +104,20 @@ Two {binomial heaps} can be merged in O(ln n).
 Two {Fibonacci heaps} can be merged in $\Theta(1)$.
 # further explanation (pure HTML)
 @LINKS=
+<img src="../Images/xkcd 0835 tree.png"><br />
+"... you just KNOW Billy's going to open the root present first, and
+then everyone will have to wait while the heap is rebuilt."<br />
+From <a href="https://xkcd.com/835/">xkcd 835</a> by Randall Munroe.
+<a href="https://xkcd.com/license.html">Creative Commons
+Attribution-NonCommercial 2.5 License</a>.
+
 # implementation(s) (pure HTML)
 @IMPL=<a
-href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/5/513.del.c">delete
+href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/5/513.del.c">delete
 (C)</a> and <a
-href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/5/513.ins.c">insert
+href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/5/513.ins.c">insert
 (C and Pascal)</a> both of which use the auxiliary function <a
-href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/5/513.sift.c">siftup
+href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/5/513.sift.c">siftup
 (C and Pascal)</a>,
 # John Morris morris@ee.uwa.edu.au
 <a
@@ -101,4 +126,4 @@ examples, and code (C)</a>.
 <a href="http://www.netlib.org/toms/561">(Fortran)</a>.
 # author's initials
 @AUTHOR=CLK
-# end $Source: /home/black/DADS/Terms/RCS/binaryheap.trm,v $
+# end $Source: /home/black/Workspace/dads/Terms/RCS/binaryheap.trm,v $

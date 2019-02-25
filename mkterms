@@ -1,0 +1,1011 @@
+#!/usr/bin/perl -w
+# $Id: mkterms,v 1.85 2013/09/27 20:18:35 black Exp $
+# *created  "Tue Sep  8 11:36:37 1998" *by "Paul E. Black"
+# *modified "Mon Oct 29 13:51:24 2018" *by "Paul E. Black"
+#
+# Collect all DADS terms and format them for web pages.
+#	Paul E. Black <paul.black@nist.gov> or <p.black@acm.org>
+#	http://hissa.nist.gov/~black/
+#
+#------------------------------------------------------------------------
+
+$useMsg="usage: mkterms [--page path] [--url root] [--all] [--help]";
+$minOperands = 0;
+$maxOperands = 0;
+
+#------------------------------------------------------------------------
+#
+# This software was developed at the National Institute of Standards 
+# and Technology by employees of the Federal Government in the course 
+# of their official duties.  Pursuant to title 17 Section 105 of the 
+# United States Code this software is not subject to copyright 
+# protection and is in the public domain. 
+# 
+# We would appreciate acknowledgement if the software is used.
+#
+# Paul E. Black paul.black@nist.gov
+#
+# $Log$
+# Wed Feb 22 15:19:57 2017  Paul E. Black,,,
+# Open parens ({) in regexs need to be escaped. Having them stand alone
+# is deprecated.  Add a close-list-item (</li>) for every list-item (<li>).
+# 
+# Mon Jun 22 11:56:32 2015  Paul E. Black
+# Access external link to wikipedia with https.
+# 
+# Tue May  6 13:39:58 2014  Paul E. Black
+# Close the anchor tag for letters.  Add Log line.
+# 
+#
+#------------------------------------------------------------------------
+
+$justTesting = "";
+
+# true prints information as this runs
+$verbose = 1;
+
+# true generates all HTML pages
+$writeAllPages = "";
+
+# CONFIGURATION SECTION:
+require './mkcommon.pl';
+
+# - Name of the two-level index web page, less extension (.html),
+#	it is written to $WEB_DIR/$TWOLEVEL.html
+$TWOLEVEL ="terms2";
+# - Name of the unified index web page, less extension (.html),
+#	it is written to $WEB_DIR/$UNIFIED.html
+$UNIFIED ="ui";
+
+# the first and ending parts of each entry page
+$ENTINTRO="$PAGES/entry.intro";
+if (! -e $ENTINTRO) {
+    print "missing $ENTINTRO\n";
+    die;
+}
+$ENTCONCL="$PAGES/entry.concl";
+if (! -e $ENTCONCL) {
+    print "missing $ENTCONCL\n";
+    die;
+}
+
+#------------------------------------------------------------------------
+#
+# you should not have to edit anything below this
+#
+#------------------------------------------------------------------------
+
+#------------------------------------------------------------------------------
+#       Command line handling
+#------------------------------------------------------------------------------
+
+while ($#ARGV >= 0) {
+    if ($ARGV[0] =~ /^--?h(e(lp?)?)?/) {
+        print "$useMsg\n";
+        print "    where\n";
+	print "\t--page    File system path to web page directory (default: $WEB_DIR)\n";
+	print "\t--url     URL to web page directory (default: $URL_DIR)\n";
+	print "\t--all     Write all terms (not just out-of-date ones)\n";
+        print "\t--help    Print this message and exit\n";
+        print "\t--        End of options\n";
+        print "    This creates HTML pages and cross references for terms\n";
+        exit 0;
+    } elsif ($ARGV[0] =~ /^--?a(ll?)?$/) {
+	$writeAllPages = 1;
+	shift;
+    } elsif ($ARGV[0] =~ /^--?p(a(ge?)?)?$/) {
+	shift;
+	$WEB_DIR = shift;
+    } elsif ($ARGV[0] =~ /^--?u(rl?)?$/) {
+	shift;
+	$URL_DIR = shift;
+    } elsif ($ARGV[0] eq "--") {
+        shift;
+    } elsif ($ARGV[0] =~ /^-/) {
+        print "unknown option: $ARGV[0]\n";
+        print "$useMsg\n";
+        exit 1;
+    } else {
+        # end of options
+        last;
+    }
+}
+
+$numberOfOperands = 1 + $#ARGV; # - $optind
+if ($numberOfOperands < $minOperands || $maxOperands < $numberOfOperands) {
+    print "Wrong number of operands\n";
+    print "$useMsg\n";
+    die;
+}
+
+# so -w doesn't complain about these being used only once
+$dummy = $numEntriesInIndex;	# set in mkcommon.pl
+$dummy = $OUT_DIR;		# set in mkcommon.pl
+$dummy = $AUTHPAGE;		# set in mkcommon.pl
+$dummy = $OTHER;		# set in mkcommon.pl
+$dummy = $TERMS_DIR;		# set and used in mkcommon.pl
+$dummy = $authors;		# used here in mkterms
+undef $dummy;
+
+# get the year (CCYY), month (01-12), day (01-31), etc.  This is Y2K compliant.
+#($sec,$min,$hr,$mday,$mon,$yr,$wday,undef,undef) = localtime;
+# SKIMP - timezone (like MDT or EST) not printed
+#printf("%3s %3s %2d %02d:%02d:%02d %4d\n",
+#        (Sun,Mon,Tue,Wed,Thu,Fri,Sat)[$wday],
+#        (Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec)[$mon],
+#        $mday, $hr, $min, $sec, 1900+$yr);
+$now = localtime;
+
+# read/write by owner, readable by everyone else
+umask(0022);
+
+#------------------------------------------------------------------------
+#
+# Step I: read initialization and config files: types, areas, authors,
+#       and latex rewrite.  Compile the latex rewrites.
+#
+#------------------------------------------------------------------------
+&readConfigFiles;
+
+#------------------------------------------------------------------------
+#
+# Step II: read term entries.  "Compile" names.  Add entries for AKA & WEB
+#
+#------------------------------------------------------------------------
+&readTermEntries;
+
+#------------------------------------------------------------------------
+#
+# Step III: start pages for main, two-level, and unified indexes.  
+#	Write each entry to its own page and to appropriate indexes.
+#
+#------------------------------------------------------------------------
+
+sub rewriteXrefs {
+    # rewrite cross references ({...}) as href's (to entries, not files)
+    #print "STEP 1: $_[0] \n"; # for debugging
+    $_[0] =~ s|%|%P|go; # preserve our escape character
+    $_[0] =~ s|\\\{|%R|go; # escape {'s in HTML markup
+    #print "STEP 3: $_[0] \n"; # for debugging
+    # rewrite complex references ( {text#xref} ) first
+    $_[0] =~ s|\{([^}]+)\#([^}]+)}|<a href="\#$2"><em>$1</em></a>|go;
+    # now rewrite simple references ( {textref} )
+    $_[0] =~ s|\{(.+?)}|<a href="\#$1"><em>$1</em></a>|go;
+    # cite and rewrite href for external sources
+    if ($_[0] =~ /href="\#[^:"}]+:/) {
+	#print "External source: $_[0] \n" ;
+	# remove the external source that appears in text in simple case
+	$_[0] =~ s|<em>[^:<]+:|<em>|go;
+	# add citation
+	$_[0] =~ s|(href="\#([^:"}]+):[^<]+<em>[^<]+)</em>|$1 [$2]</em>|go;
+	# rewrite external source
+	$_[0] =~ s|href="\#Wikipedia:|href="https://en.wikipedia.org/wiki/|go;
+
+	# SKIMP: only reports the first one
+	if ($_[0] =~ /href="\#([^:"}]+):/) {
+	    print "\n    *****Unknown external reference to $1 in:\n$_[0]\n"
+	}
+
+	# rewrite HREFs with exit_nist script
+	&rewriteHrefs($_[0]);
+
+	#print "          AFTER: $_[0] \n" ;
+    }
+
+    # change escaped characters back
+    $_[0] =~ s|%R|{|go; # unescape {'s for final display
+    $_[0] =~ s|%P|%|go;
+    #print "STEP 7: $_[0] \n"; # for debugging
+
+    # warn about any dangling open paren
+    print "\nWarning: unmatched { in the following:\n$_[0]\n"
+	if $_[0] =~ /{[^}]*$/;
+
+    # change entry names to their corresponding files and
+    #   report any dangling xrefs
+    foreach $xref (split /^.*?href="\#|".*?href="\#|".*?$|^.*$/, $_[0]) {
+	next if ($xref eq ""); # above RE starts with a null split
+	#print "\nFound $xref\n"; # for debugging
+	my $strippedXref = $xref;
+	$strippedXref =~ s/\$([^\$]*)\$/$1/go; # strip LaTeX markers
+	my $indexXref = $strippedXref;
+	if (! defined $entriesForXref{$indexXref}) {
+	    # try the singular, i.e., removing a trailing "s"
+	    $indexXref =~ s/s$//;
+	    if (! defined $entriesForXref{$indexXref}) {
+		# try lower case on first character
+		$indexXref = $strippedXref; # start again
+		substr($indexXref, 0, 1) =~ tr/A-Z/a-z/;
+		if (! defined $entriesForXref{$indexXref}) {
+		    # try removing a trailing "es"
+		    $indexXref = $strippedXref; # start again
+		    $indexXref =~ s/es$//;
+		    if (! defined $entriesForXref{$indexXref}) {
+			print "\n    *****Unknown HyperREFerence to \"$xref\" in $_[1]\n";
+			next;
+		    }
+		}
+	    }
+	}
+
+	my $xrefKey = $entriesForXref{$indexXref};
+	#print "\nit is $xrefKey\n";
+	%xrefEntry = %{$entries{$xrefKey}};
+	my($xrefFile) = "$xrefEntry{FILENM}.html";
+
+	# quote special RE characters
+	my $xrefQ = quoteREpatterns("\#$xref");
+
+	#print "subs is /$xrefQ/$xrefFile/\n"; # for debugging
+	$_[0] =~ s/$xrefQ/$xrefFile/;
+    }
+}
+
+# Create the URL of an entry page, relative to the index
+sub pageURLrel {
+    return "$OUT_DIR/@_.html";
+}
+
+###################################################################
+# Step IIIa: start a temporary file for the main index
+###################################################################
+$temppage="$WEB_DIR/\#$WEBPAGE.html";
+
+unlink($temppage) if (-e $temppage);
+open(TMPPAGE, "> $temppage")
+    || die ("Cannot create temporary web page $temppage, stopped");
+
+&concatenate("$PAGES/$WEBPAGE.intro", TMPPAGE);
+
+# write processing date and time
+#print TMPPAGE "<p>\nRun on $now\n";
+
+print TMPPAGE "\n<h3>";
+foreach $letter ("A".."Z") {
+    print TMPPAGE "<a href=\"\#$letter\">$letter</a>\n";
+}
+print TMPPAGE "</h3>\n";
+
+# start a two-column table
+print TMPPAGE << "TABLE_BEGINNING";
+<table border="0" width="100%">
+<!-- the table has 2 columns, each 50% of the width -->
+<colgroup span="2" width="50%"></colgroup>
+<tr>
+<td valign=top>
+TABLE_BEGINNING
+
+# start with special characters
+$letter = " ";
+print TMPPAGE "<dl>\n";
+
+
+###################################################################
+# Step IIIb: start a temporary file for the two-level index
+###################################################################
+$twolevpage="$TWOLEVEL.html";
+$twolevtemp="$WEB_DIR/\#$TWOLEVEL.html";
+
+unlink($twolevtemp) if (-e $twolevtemp);
+open(TMP2LEV, "> $twolevtemp")
+    || die ("Cannot create temporary web page $twolevtemp, stopped");
+
+&concatenate("$PAGES/$TWOLEVEL.intro", TMP2LEV);
+
+# start the two-level index
+print TMP2LEV << "TWO_LEVEL_BEGINNING";
+<ul>
+TWO_LEVEL_BEGINNING
+$optimNumbPages = 1.42127 * sqrt $numEntriesInIndex;
+$optimEntriesPerPage = int(.5 + $numEntriesInIndex / $optimNumbPages);
+#print "\n=============================================\n";
+#print "number of entries in index is $numEntriesInIndex\n";
+#print "optimal number of pages is $optimNumbPages\n";
+#print "optimal entries per page is $optimEntriesPerPage\n";
+#print "=============================================\n";
+$entriesInPage = 0; # how many entries written in this page?
+$indexPageName = "t00";
+
+
+###################################################################
+# Step IIIc: start a temporary file for the unified index
+###################################################################
+$unifiedpage="$UNIFIED.html";
+$unifiedtemp="$WEB_DIR/\#$UNIFIED.html";
+
+unlink($unifiedtemp) if (-e $unifiedtemp);
+open(TMPUNIFI, "> $unifiedtemp")
+    || die ("Cannot create temporary web page $unifiedtemp, stopped");
+
+&concatenate("$PAGES/$UNIFIED.intro", TMPUNIFI);
+
+# write processing date and time
+print TMPUNIFI "<p>\nRun on $now\n";
+
+# start the unified index
+print TMPUNIFI << "UNIFIED_BEGINNING";
+<ul>
+UNIFIED_BEGINNING
+
+# to detect some cases of using the same file for two different entries
+$prevtermpageUI = "";
+
+# find the age of the younger of the entry intro and entry conclusion 
+# files, so we can check whether we need to rewrite the HTML page.
+$ENTNEWESTMOD = -M $ENTCONCL;
+if (-M $ENTINTRO < $ENTNEWESTMOD) {
+    $ENTNEWESTMOD = -M $ENTINTRO;
+}
+
+$prevdname = ""; # check for repeated entries
+my $prevalphaName = ""; # to break 2-level index
+
+# sort the entries
+@sortedentries = sort keys %entries;
+#print @sortedentries;
+$numEntries = 0;
+
+#------------------------------------------------------------------------
+#
+# Step IV: write each entry to its own page.  Write entry in main 
+#	index, two-level index, and unified index as appropriate.
+#
+#------------------------------------------------------------------------
+
+print STDERR "Writing terms\n" if ($verbose);
+
+for $ekey (@sortedentries) {
+    %thisEntry = %{$entries{$ekey}};
+    #print %thisEntry; print "\n";
+
+    #for $fld (keys %thisEntry) {
+    #	print "\$thisEntry\{$fld} = $thisEntry{$fld}\n";
+    #}
+
+    my($ename) = $thisEntry{NAME};
+    my($tname) = $thisEntry{TNAME};
+    my $dname = $thisEntry{DNAME};
+    my $alphaName = $ekey;
+    if (defined $thisEntry{MODIFIED}) {
+	$moddate = $thisEntry{MODIFIED};
+    } else {
+	$moddate = "sometime";
+    }
+
+    # check for repeated entry names.  This happens when I change the
+    # file name for an entry, but forget to remove the old file, or add
+    # an AKA, etc.
+    if ($dname eq $prevdname) {
+	print "\n    *****Repeated entry: $dname ($thisEntry{SRCFILE} and $prevfile)\n";
+    }
+    $prevdname = $dname;
+    $prevfile = $thisEntry{SRCFILE};
+
+    # the (relative) URL for the page
+    $termpage=pageURLrel($thisEntry{FILENM});
+    $termurl ="$URL_DIR/$termpage";
+    $termfile="$WEB_DIR/$termpage";
+
+    if ($thisEntry{ENTCLASS} ne "WEB") {
+	$numEntries++;
+
+	# For AKA, the entrypg is the original source (why visit a page 
+	# that just says "See SRCFILE"??)  For other terms, entrypg is
+	# the same as termpage.
+	# the href for the page in the index
+	my $entrypg = pageURLrel($thisEntry{SRCFILE});
+	my $indexEntry = "<a href=\"$entrypg\">$dname</a>";
+	if ($thisEntry{ENTCLASS} eq "AKA") {
+	    # just refer to main def'n
+	    $indexEntry = 
+"$dname: see <a href=\"$entrypg\">$thisEntry{SRCDNAME}</a>";
+	}
+
+	###########################################################
+	# Write an entry in the main index page
+	###########################################################
+
+	# this is a loop in case there is no entry for, say, j or x
+	while (substr($ekey, 0, 1) gt $letter) {
+	    # finish previous letter
+	    print TMPPAGE "</dl>\n\n";
+
+	    # start next letter
+	    if ($letter eq " ") {
+		$letter = "A";
+	    } else {
+		$letter++;
+	    }
+	    if ($letter eq "M") {
+		# start new column
+		print TMPPAGE << "TABLE_NEXT_COLUMN";
+</td>
+
+<td valign=top>
+TABLE_NEXT_COLUMN
+	    }
+	    print TMPPAGE "<a name=\"$letter\"><h2>$letter</h2></a>\n\n<dl>\n";
+	}
+
+	# write an entry in the main page
+	print TMPPAGE "<dt>$indexEntry\n";
+
+	###########################################################
+	# Write an entry in the two-level index
+	###########################################################
+
+	if ($entriesInPage == 0) {
+	    # start a new index page
+	    $indexPageName++;
+
+	    $indexPage = "$WEB_DIR/$indexPageName.html";
+
+	    unlink($indexPage) if (-e $indexPage);
+	    open(SUB2LEV, "> $indexPage")
+		|| die ("Cannot create index web page $indexPage, stopped");
+	    &concatenate("$PAGES/${TWOLEVEL}page.intro", SUB2LEV);
+
+	    print TMP2LEV "<li><a href=\"$indexPageName.html\">$dname - ";
+	}
+
+	# write an entry in the second level page
+	print SUB2LEV "<dt>$indexEntry\n";
+	$latestdname = $dname; # remember what appeared (last)
+
+	# finish the current index page if needed
+	$entriesInPage++;
+	if ($entriesInPage >= $optimEntriesPerPage) {
+	    # finish the current index page
+	    &concatenate("$PAGES/${TWOLEVEL}page.concl", SUB2LEV);
+	    close SUB2LEV;
+
+	    print TMP2LEV "$latestdname</a></li>\n";
+
+	    $entriesInPage = 0;
+	}
+    }
+
+    ###########################################################
+    # Write an entry in the unified index
+    ###########################################################
+
+    print TMPUNIFI "<li><a href=\"$termpage\">$dname</a></li>\n";
+    # detect some cases of using the same file for two different entries
+    if ($termpage eq $prevtermpageUI) {
+	print "\n    *****Reused file name: $termpage ($thisEntry{SRCFILE} and $prevfile)\n";
+    }
+    $prevtermpageUI = $termpage;
+
+    ###########################################################
+    # Write the entry HTML page (if necessary)
+    ###########################################################
+
+    $entryPages++;
+
+    # should we write the HTML page?
+    if ($writeAllPages || (! -e $termfile) || -z $termfile
+	|| (-M $termfile > -M "$TERMS_DIR/$thisEntry{SRCFILE}.trm")
+	|| (-M $termfile > $ENTNEWESTMOD)) {
+	# write the page
+	print STDERR "$tname, " if ($verbose);
+    } else {
+	# don't need to write the page
+	print STDERR ", " if ($verbose); # just a "working" mark
+	next;
+    }
+
+    # get type if there is one
+    $elongtype = "";
+    if (defined $thisEntry{TYPE}) {
+	my($etype) = $thisEntry{TYPE};
+	$elongtype = $types{$etype};
+	$elongtype =~ tr/A-Z/a-z/; # make lower case
+	$elongtype =~ s/s$//o; # make singular (not plural)
+    }
+
+    # get area if there is one
+    $termarea = "";
+    if (defined $thisEntry{AREA}) {
+	my($area) = $thisEntry{AREA};
+	$termarea = $areas{$area};
+    }
+
+    unlink($termfile) if (-e $termfile);
+    open(TERMPAGE, "> $termfile")
+	|| die ("Cannot create term web page $termfile, stopped");
+
+    # copy term page intro, replacing variables as appropriate
+    open(FHANDLE, "< $ENTINTRO")
+	|| die("Cannot open $ENTINTRO\n");
+    while (<FHANDLE>) {
+	s/\$NAME/$ename/g;
+	s/\$DNAME/$dname/g;
+	s/\$TNAME/$tname/g;
+	s/\$AREA/$termarea/g;
+	s/\$TYPE/$elongtype/g;
+	s/\$ROOTDIR/$URL_DIR/g;
+	print TERMPAGE $_;
+    };
+    close(FHANDLE);
+
+    if (defined $thisEntry{TYPE}) {
+	print TERMPAGE "<p>\n($elongtype)\n</p>\n\n";
+    }
+
+    print TERMPAGE "<p>\n<strong>Definition:</strong>\n";
+    if (defined $thisEntry{DEFN}) {
+	my($edefn) = $thisEntry{DEFN};
+	# convert cross references ({...}) to href's
+	&rewriteXrefs($edefn, $ename);
+	# convert LaTeX expressions to HTML
+	&rewriteLatex($edefn);
+	print TERMPAGE "$edefn\n";
+    } else {
+	print TERMPAGE << "NO_DEFN_MESSAGE";
+(no definition here, yet, but
+<a href=\"../$MAINPAGE\#needHelp\">you can help</a>.)
+NO_DEFN_MESSAGE
+    }
+    print TERMPAGE "</p>\n\n";
+
+    if (defined $thisEntry{FORML}) {
+	my($eformlDef) = $thisEntry{FORML};
+	# convert cross references ({...}) to href's
+	&rewriteXrefs($eformlDef, $ename);
+	# convert LaTeX expressions to HTML
+	&rewriteLatex($eformlDef);
+	print TERMPAGE "<p>\n<strong>Formal Definition:</strong> $eformlDef\n</p>\n";
+    }
+
+    if (defined $thisEntry{AKA}) {
+	my($ealiases) = $thisEntry{AKA};
+	# have exactly one space after a comma
+	$ealiases =~ s|,\s*|, |go;
+	# convert LaTeX expressions to HTML
+	&rewriteLatex($ealiases);
+	print TERMPAGE "<p>\n<strong>Also known as</strong> $ealiases.\n</p>\n\n";
+    }
+
+    if (defined $thisEntry{IMA}) {
+	my($eGeneralization) = $thisEntry{IMA};
+	# change cross references ({...}) to href's
+	&rewriteXrefs($eGeneralization, $ename);
+	# convert LaTeX expressions to HTML
+	&rewriteLatex($eGeneralization);
+	# have exactly one space after a comma
+	$eGeneralization =~ s|,\s*|, |go;
+	print TERMPAGE "<p>\n<strong>Generalization</strong> (I am a kind of ...)<br>\n$eGeneralization.\n</p>\n";
+    }
+    if (defined $thisEntry{VARIANT}) {
+	my($eSpecialization) = $thisEntry{VARIANT};
+	# change cross references ({...}) to href's
+	&rewriteXrefs($eSpecialization, $ename);
+	# convert LaTeX expressions to HTML
+	&rewriteLatex($eSpecialization);
+	# have exactly one space after a comma
+	$eSpecialization =~ s|,\s*|, |go;
+	print TERMPAGE "<p>\n<strong>Specialization</strong> (... is a kind of me.)<br>\n$eSpecialization.\n</p>\n";
+    }
+    if (defined $thisEntry{IMIN}) {
+	my($eAggParent) = $thisEntry{IMIN};
+	# change cross references ({...}) to href's
+	&rewriteXrefs($eAggParent, $ename);
+	# convert LaTeX expressions to HTML
+	&rewriteLatex($eAggParent);
+	# have exactly one space after a comma
+	$eAggParent =~ s|,\s*|, |go;
+	print TERMPAGE "<p>\n<strong>Aggregate parent</strong> (I am a part of or used in ...)<br>\n$eAggParent.\n</p>\n";
+    }
+    if (defined $thisEntry{INME}) {
+	my($eAggChild) = $thisEntry{INME};
+	# change cross references ({...}) to href's
+	&rewriteXrefs($eAggChild, $ename);
+	# convert LaTeX expressions to HTML
+	&rewriteLatex($eAggChild);
+	# have exactly one space after a comma
+	$eAggChild =~ s|,\s*|, |go;
+	print TERMPAGE "<p>\n<strong>Aggregate child</strong> (... is a part of or used in me.)<br>\n$eAggChild.\n</p>\n";
+    }
+    if (defined $thisEntry{XREFS}) {
+	my($exrefs) = $thisEntry{XREFS};
+	# change cross references ({...}) to href's
+	&rewriteXrefs($exrefs, $ename);
+	# convert LaTeX expressions to HTML
+	&rewriteLatex($exrefs);
+	# have exactly one space after a comma
+	$exrefs =~ s|,\s*|, |go;
+	print TERMPAGE "<p>\n<strong>See also</strong>\n$exrefs.\n</p>\n";
+    }
+    print TERMPAGE "\n";
+
+    if (defined $thisEntry{NOTES}) {
+	my($enotes) = $thisEntry{NOTES};
+	# rewrite HREFs with exit_nist script
+	&rewriteHrefs($enotes);
+	# convert cross references ({...}) to href's
+	&rewriteXrefs($enotes, $ename);
+	# convert LaTeX expressions to HTML
+	&rewriteLatex($enotes);
+        # add newlines at HTML marks to make source easier to read
+        $enotes =~ s/(<LI>|(?=.)<P>|<PRE>|<TR)/\n$1/gi;
+	print TERMPAGE "<p>\n<em>Note:\n$enotes</em>\n</p>\n\n";
+    }
+    my($citationAuthors) = "";
+    if (defined $thisEntry{AUTHOR}) {
+	my($eauth) = $thisEntry{AUTHOR};
+	$eauth =~ s| *([^,]+)|<a href="../$OTHER/$AUTHPAGE.html\#author$1">$1</a>|go;
+	# use plural if more than one
+	$plural = "";
+	if ($eauth =~ /,/o) {
+	    $plural = "s";
+	}
+	print TERMPAGE "<p>Author$plural: $eauth</p>\n";
+
+	# get the name(s) of author(s) for citation
+	my(@ainits) = split /,/, $thisEntry{AUTHOR};
+	if (@ainits > 2) {
+	    print "\nSKIMP mkterms does not handle more than 2 authors\n";
+	    # in loop, do something like $separator = ", "; with "and" at the end
+	}
+	my($separator) = "";
+	foreach $authInitials (@ainits) {
+	    $authInitials =~ s/ //g; # strip any leading blanks
+	    $citationAuthors .= "$separator$authors{$authInitials}";
+	    $separator = " and ";
+	}
+	# some authors have a newline
+	$citationAuthors =~ s/\n//g;
+	# separate authors from rest of citation
+	$citationAuthors .= ", ";
+	#print "\nAuthor entry in citation '$citationAuthors'\n";
+    }
+    if (defined $thisEntry{IMPL}) {
+	my($eimpls) = $thisEntry{IMPL};
+	# rewrite HREFs with exit_nist script
+	&rewriteHrefs($eimpls);
+	# convert cross references ({...}) to href's
+	&rewriteXrefs($eimpls, $ename);
+	# SKIMP write plural if more than one
+	print TERMPAGE "<h2>Implementation</h2>\n$eimpls\n";
+    }
+    if (defined $thisEntry{LINKS} || defined $thisEntry{BIB}
+		|| defined $thisEntry{HISTORY}) {
+	print TERMPAGE "<h2>More information</h2>\n";
+    }
+    if (defined $thisEntry{LINKS}) {
+	my($elinks) = $thisEntry{LINKS};
+	# rewrite HREFs with exit_nist script
+	&rewriteHrefs($elinks);
+	# convert cross references ({...}) to href's
+	&rewriteXrefs($elinks, $ename);
+	print TERMPAGE "<p>\n$elinks\n</p>\n";
+    }
+    if (defined $thisEntry{BIB}) {
+	my($ebiblio) = $thisEntry{BIB};
+	# rewrite HREFs with exit_nist script
+	&rewriteHrefs($ebiblio);
+	print TERMPAGE "<p>\n$ebiblio\n</p>\n";
+    }
+    if (defined $thisEntry{HISTORY}) {
+	my($eHistoricalNote) = $thisEntry{HISTORY};
+	# rewrite HREFs with exit_nist script
+	&rewriteHrefs($eHistoricalNote);
+	print TERMPAGE "<p>\n<strong>Historical Note</strong><br>\n$eHistoricalNote\n</p>\n";
+    }
+    print TERMPAGE "\n";
+
+    # copy term page conclusion, replacing variables as appropriate
+    open(FHANDLE, "< $ENTCONCL")
+	|| die("Cannot open $ENTCONCL\n");
+    my $runtime = localtime;
+    my $ddmmmyyyModdate = &unixDateStringToDDMMMYYY($moddate);
+    while (<FHANDLE>) {
+	s/\$AUTHORS/$citationAuthors/g;
+	s/\$NAME/$ename/g;
+	s/\$DNAME/$dname/g;
+	s/\$TNAME/$tname/g;
+	s/\$RUNDATE/$runtime/g;
+	s/\$MODDATE/$ddmmmyyyModdate/g;
+	s/\$URL/$termurl/g;
+	s/\$ROOTDIR/$URL_DIR/g;
+	print TERMPAGE $_;
+    };
+    close(FHANDLE);
+
+    close(TERMPAGE);
+}
+
+print STDERR "\n" if ($verbose);
+
+print "Wrote $numEntries terms in main index and $entryPages term pages\n";
+
+#------------------------------------------------------------------------
+#
+# Step V: Finish main index and two-level index, backup old page, and
+#	rename temporary page
+#    a) Finish the main index and copy closing
+#    b) Copy closing of two-level index
+#
+#------------------------------------------------------------------------
+
+########################################
+# Step Va: Finish main index
+########################################
+
+# print any remaining letters, for completeness
+while ("Z" gt $letter) {
+    # finish previous letter
+    print TMPPAGE "</dl>\n\n";
+
+    # start new letter
+    $letter++;
+    print TMPPAGE "<h2><a name=\"$letter\">$letter</a></h2>\n\n<dl>\n";
+}
+
+# finish last letter
+print TMPPAGE "</dl>\n\n"; # end of list and section
+
+# finish two column table
+print TMPPAGE << "TABLE_ENDING";
+</td>
+</tr>
+</table>
+TABLE_ENDING
+
+print STDERR "\n" if ($verbose);
+
+# copy the closing
+&concatenate("$PAGES/$WEBPAGE.concl", TMPPAGE);
+
+close TMPPAGE;
+
+# backup old page and rename the temporary file
+
+&backupMove($temppage, "$WEB_DIR/$MAINPAGE") if ! $justTesting;
+
+########################################
+# Step Vb: Finish two-level index
+########################################
+
+# if the index page isn't finished, do it now
+if ($entriesInPage > 0) {
+    # finish the current index page
+    &concatenate("$PAGES/${TWOLEVEL}page.concl", SUB2LEV);
+    close SUB2LEV;
+
+    print TMP2LEV "$latestdname</a></li>\n";
+}
+
+print TMP2LEV "</ul>\n\n";
+
+&concatenate("$PAGES/$TWOLEVEL.concl", TMP2LEV);
+
+close TMP2LEV;
+
+&backupMove($twolevtemp, "$WEB_DIR/$twolevpage") if ! $justTesting;
+
+########################################
+# Step Vc: Finish unified index
+########################################
+
+print TMPUNIFI "</ul>\n\n";
+
+&concatenate("$PAGES/$UNIFIED.concl", TMPUNIFI);
+
+close TMPUNIFI;
+
+&backupMove($unifiedtemp, "$WEB_DIR/$unifiedpage") if ! $justTesting;
+
+#------------------------------------------------------------------------
+#
+# Step VI: write entries with implementations
+#
+#------------------------------------------------------------------------
+
+# Step VIa: select name and open the page
+
+$pageroot="$WEBPAGE" . "Impl";
+$fspagename="$WEB_DIR/$pageroot.html";
+$temppage="$WEB_DIR/\#$pageroot.html";
+
+unlink($temppage) if (-e $temppage);
+open(TMPPAGE, "> $temppage")
+    || die ("Cannot create temporary web page $temppage, stopped");
+
+# Step VIb: copy the intro
+&concatenate("$PAGES/$pageroot.intro", TMPPAGE);
+
+# write processing date and time
+print TMPPAGE "<p>\nRun on $now\n";
+
+# Step VIc: write entries with implementations
+
+print STDERR "Writing entries with implementation links\n" if ($verbose);
+
+print TMPPAGE "<hr>\n";
+
+print TMPPAGE "<ul>\n";
+
+# go through all the entries and print those with implementations
+for $ent (@sortedentries) {
+    %thisEntry = %{$entries{$ent}};
+
+    next if ! defined $thisEntry{IMPL} || $thisEntry{ENTCLASS} eq "WEB";
+    my $dname = $thisEntry{DNAME};
+    my $eimpls = $thisEntry{IMPL};
+    my $erelurl = pageURLrel($thisEntry{SRCFILE});
+    print TMPPAGE "<li><a href=\"$erelurl\">$dname</a>: $eimpls</li>\n";
+}
+print TMPPAGE "</ul>\n\n";
+
+# Step VId: copy the conclusion and close
+&concatenate("$PAGES/$pageroot.concl", TMPPAGE);
+
+close TMPPAGE;
+
+# Step VIe: backup page and relink
+
+&backupMove($temppage, $fspagename);
+
+#------------------------------------------------------------------------
+#
+# Step VII: write area index page
+#
+#------------------------------------------------------------------------
+
+print STDERR "Writing entries by area\n" if ($verbose);
+
+# Step VIIa: select name and open the page
+
+$pageroot="$WEBPAGE" . "Area";
+$fspagename="$WEB_DIR/$pageroot.html";
+$temppage="$WEB_DIR/\#$pageroot.html";
+
+unlink($temppage) if (-e $temppage);
+open(TMPPAGE, "> $temppage")
+    || die ("Cannot create temporary web page $temppage, stopped");
+
+# Step VIIb: copy the intro
+&concatenate("$PAGES/$pageroot.intro", TMPPAGE);
+
+# write processing date and time
+print TMPPAGE "<p>\nRun on $now\n";
+
+# Add links to each area for fast access
+print TMPPAGE "\n<h3>Areas</h3>\n<ul>\n";
+for $area (sort keys %areas) {
+    print TMPPAGE "<li><a href=\"\#$area\">$areas{$area}</a></li>\n";
+}
+# add link to no area
+print TMPPAGE "<li><a href=\"\#noarea\">Entries with No Area</a></li>\n";
+print TMPPAGE "</ul>\n";
+
+# Step VIIc: write areas and entries
+
+print TMPPAGE "<hr>\n";
+
+sub printAreaEntry {
+    my %thisEntry = %{$entries{$_[0]}};
+    return if $thisEntry{ENTCLASS} eq "WEB";
+    my $dname = $thisEntry{DNAME};
+    my $erelurl = pageURLrel($thisEntry{SRCFILE});
+    print TMPPAGE "<li><a href=\"$erelurl\">$dname</a>";
+    if (defined $thisEntry{TYPE}) {
+	my $etype = $thisEntry{TYPE};
+	print TMPPAGE " [<strong>$etype</strong>]";
+    }
+    print TMPPAGE "</li>\n";
+}
+
+for $area (sort keys %areas) {
+    print TMPPAGE "<h2><a name=\"$area\">$areas{$area}</a></h2>\n";
+    print TMPPAGE "<ul>\n";
+
+    # go through all the entries and print those in this area
+    for $ent (@sortedentries) {
+	next if ! defined $entries{$ent}{AREA} ||
+			$entries{$ent}{AREA} ne $area;
+	&printAreaEntry($ent);
+    }
+    print TMPPAGE "</ul>\n\n";
+}
+
+# print any entries without an area
+print TMPPAGE "<h2><a name=\"noarea\">Entries with No Area</a></h2>\n";
+print TMPPAGE "<ul>\n";
+for $ent (@sortedentries) {
+    if (! defined $entries{$ent}{AREA}) {
+	&printAreaEntry($ent);
+    }
+}
+print TMPPAGE "</ul>\n\n";
+
+# Step VIId: copy the conclusion and close
+&concatenate("$PAGES/$pageroot.concl", TMPPAGE);
+
+close TMPPAGE;
+
+# Step VIIe: backup page and relink
+
+&backupMove($temppage, $fspagename);
+
+#------------------------------------------------------------------------
+#
+# Step VIII: write type index page
+#
+#------------------------------------------------------------------------
+
+print STDERR "Writing entries by type\n" if ($verbose);
+
+# Step VIIIa: select name and open the page
+
+$pageroot="$WEBPAGE" . "Type";
+$fspagename="$WEB_DIR/$pageroot.html";
+$temppage="$WEB_DIR/\#$pageroot.html";
+
+unlink($temppage) if (-e $temppage);
+open(TMPPAGE, "> $temppage")
+    || die ("Cannot create temporary web page $temppage, stopped");
+
+# Step VIIIb: copy the intro
+&concatenate("$PAGES/$pageroot.intro", TMPPAGE);
+
+# write processing date and time
+print TMPPAGE "<p>\nRun on $now\n";
+
+# Add links to each section for fast access
+print TMPPAGE "\n<h3>Types</h3>\n<ul>\n";
+for $tent (keys %types) {
+    print TMPPAGE "<li><a href=\"\#$tent\">$types{$tent}</a></li>\n";
+}
+# add link to unclassified entries
+print TMPPAGE "<li><a href=\"\#notype\">Entries with No Type</a></li>\n";
+print TMPPAGE "</ul>\n";
+
+# Step VIIIc: write types and entries
+
+print TMPPAGE "<hr>\n";
+
+sub printTypeEntry {
+    my %thisEntry = %{$entries{$_[0]}};
+    return if $thisEntry{ENTCLASS} eq "WEB";
+    my $dname = $thisEntry{DNAME};
+    my $erelurl = pageURLrel($thisEntry{SRCFILE});
+    print TMPPAGE "<li><a href=\"$erelurl\">$dname</a></li>\n";
+}
+
+for $tent (keys %types) {
+    print TMPPAGE "<h2><a name=\"$tent\">$types{$tent}</a></h2>\n";
+    print TMPPAGE "<ul>\n";
+
+    # go through all the entries and print those of this type
+    for $ent (@sortedentries) {
+	next if ! defined $entries{$ent}{TYPE} ||
+	    $entries{$ent}{TYPE} ne $tent;
+	&printTypeEntry($ent);
+    }
+    print TMPPAGE "</ul>\n\n";
+}
+
+# print those with no type
+print TMPPAGE "<h2><a name=\"notype\">Entries with No Type</a></h2>\n";
+print TMPPAGE "<ul>\n";
+for $ent (@sortedentries) {
+    if (! defined $entries{$ent}{TYPE}) {
+	&printTypeEntry($ent);
+    }
+}
+print TMPPAGE "</ul>\n\n";
+
+# Step VIIId: copy the conclusion and close
+&concatenate("$PAGES/$pageroot.concl", TMPPAGE);
+
+close TMPPAGE;
+
+# Step VIIIe: backup page and relink
+
+&backupMove($temppage, $fspagename);
+
+exit;
+
+# end of $Source: /home/black/DADS/dads/RCS/mkterms,v $

@@ -41,4 +41,4 @@ formally $m(n) = {O(\log<sup>k</sup> n)#big-O notation}$.
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=PEB
-# end $Source: /home/black/DADS/Terms/RCS/polylogarith.trm,v $
+# end $Source: /home/black/Workspace/dads/Terms/RCS/polylogarith.trm,v $

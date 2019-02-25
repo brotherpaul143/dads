@@ -40,4 +40,4 @@ time is {O(n log n + 0.1 n)#big-O notation}.
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=PEB
-# end $Source: /home/black/DADS/Terms/RCS/weakheapsort.trm,v $
+# end $Source: /home/black/Workspace/dads/Terms/RCS/weakheapsort.trm,v $

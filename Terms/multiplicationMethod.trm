@@ -1,7 +1,7 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
 # *modified "Mon Aug 24 10:23:35 2009" *by "Paul E. Black"
 
-# $Log: multplctnmth.trm,v $
+# $Log: multiplicationMethod.trm,v $
 # Revision 1.4  2009/08/24 14:23:55  black
 # Remove LINK to FSU example: not publicly accessible.
 #
@@ -51,4 +51,4 @@ operation removes the integer part of $k \times A$.
 @IMPL=
 # author's initials
 @AUTHOR=PEB
-# end $Source: /home/black/DADS/Terms/RCS/multplctnmth.trm,v $
+# end $Source: /home/black/Workspace/dads/Terms/RCS/multiplicationMethod.trm,v $

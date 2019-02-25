@@ -1,0 +1,130 @@
+# *created  "Tue Nov 17 17:00:47 1998" *by "Paul E. Black"
+# *modified "Mon Mar  5 09:46:28 2018" *by "Paul E. Black"
+
+# $Log$
+# Mon Dec  5 11:42:30 2016  Paul E. Black
+# Add Log line.  Change close paragraph marks to use lower case.  Note
+# how to enter lone dollar signs.
+# 
+
+# entry name
+@NAME=aaa $\alpha<sub>\omega</sub><sup>2</sup>$ R-tree TEST ENTRY
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=tree
+# the definition
+@DEFN=(1) This is a test term to check processing.  It should not be
+in the final release.  It has all the strangest, hardest examples and
+test cases I've found.
+(2) This is definition two.  A {node} \{this should not cause problems}
+some {B-trees} are big.  {P-tree}(2),
+# Unknown HyperREFerence to "arg\h?."
+{arg\h?.} 
+# Unknown HyperREFerence to "some%D%L%R%Pings"
+# Unknown HyperREFerence to "this is not found"
+{R<sup>+</sup>-tree} {some%D%L%R%Pings} {this is
+not found}
+</p>
+
+<p>
+Entering LaTeX commands takes some work.  Anything between dollar
+signs is considered to be a LaTeX expression and subject to
+substitution.  All open curly brackets must be escaped (preceeded by a
+backslash) so they aren't misinterpreted as cross references.
+Subscripts (underline) and superscripts (caret) must be replaced by
+the HTML sub...end-sub and sup...end-sup.  Less than and greater than
+must be entered with the HTML &amp;lt; and &amp;gt;, otherwise trying
+to replace them would mess up sup/end-sup.
+</p>
+
+<p>
+You can surround phrases with ``LaTeX-style doubled quotes'' or
+"doublequotes" it doesn't matter: there is a hard-wired conversion
+from LaTeX-style doubled quotes into doublequotes. 
+Putting $``LaTeX-style doubled quotes''$ in math mode markers (paired
+dollar signs) should make them doublequotes, too. 
+</p>
+
+<p>
+Enter dollar sign by doubling it: $$. This is a hack, but parsing is
+getting very complicated.
+</p>
+
+<p>
+Here is a sample:
+$\int\sqrt\{5} < \rho \div \left\{ \overline\{S}<sup>T</sup> \right\} \pm \mu$
+but in the limiting case we have
+$42\lambda \cdot \infty \in \{\cal Q}\cup\{\bf P}\mbox\{and}\log\Re$.
+Here is an example of the crude math array handling.  This is supposed
+to be combination (n over 2): 
+$\delta\bigtriangleup\Delta\left(\begin\{array}\{c}n\\2\end\{array}\right)$
+More math symbol:
+$ 3 \oplus 1 \sim \lceil 5 \rceil \otimes \lfloor 6 \rfloor \ldots $
+# comma-separated list of pure names or {cross references}
+@AKA={test entry}, exercises all facilities
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS=Both ${\omega}(n)$ and {$\omega$}(n) should be found,
+{B-tree},   {treesort (1)},{treesort (2)},
+{R<sup>+</sup>-tree},{R<sup>*</sup>-tree}, 
+{Merge sort} should be found--mkterms changes initial upper case to
+lower case
+{linked lists} should be ok--removes trailing s
+
+# Generalization: "I am a kind of ..."
+# Unknown HyperREFerence to "aaaaTest"
+@IMA={aaaaTest}, {man in a gorilla suit#sort}
+# Specialization: "... is a kind of me."
+@VARIANT={covering},
+{Unk External Ref:Quackerman function}
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN={algorithm},
+{Wikipedia:Ackermann function},
+{Office#Wikipedia:National_Institute_of_Standards_and_Technology}
+
+# Aggregate child: "... is a part of or used in me."
+# Warning: unmatched { in the following:
+@INME={data structure}, {
+
+# bibliographical references, e.g., to original defining article (pure HTML)
+@BIB=<strong>Paul E. Black</strong>, <em>Hypothetical Intelligent
+Plants, or, What Kind of Terminal Could a Tulip Use?</em>, to be
+published in Deep Thoughts, Proceedings of Life, the Universe,
+&amp; Everything XV, Provo, Utah, USA, February 1997.
+</p>
+
+<p>
+<strong>Jon L. Bentley and Robert Sedgewick</strong>, <em>Algorithms
+for Sorting and Searching Strings</em>, Proc. 8th Annual ACM-SIAM
+Symposium on Discrete Algorithms (SODA), January 1997.
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+$\alpha \times \alpha \leq \Omega \ll \Sigma$ and
+$\Gamma \geq \Theta<sub>j</sub>+\alpha \gg \epsilon$
+
+# Historical note 
+@HISTORY=This entry is used to test every feature.  I created it first
+when I was trying to get the Latex-to-HTML working.  I tried to cover
+every case.  When I need to test, I put a copy in Terms.  Afterward I
+need to remember to remove it.
+
+# further explanation (pure HTML)
+@LINKS=<A href="http://www.lds.org/">The Church of Jesus Christ of
+Latter Day Saints</A>
+<A href="http://nowhere.org/ %&+;=~blackfish">bad link</A>
+Rewrite <a href="gopher://sdf-eu.org/">gopher protocol links</a>.
+
+# implementation(s) (pure HTML)
+@IMPL=
+No exit-nist rewrite for this
+<a href="http://samate.nist.gov/">internal NIST link</a>
+or this
+<a href="mailto:p.black@acm.org">mailto link</a>.
+
+# author's initials
+@AUTHOR=PEB
+# formal definition or {cross reference} to an entry
+@FORML=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=daisy, hal 9000
+# end

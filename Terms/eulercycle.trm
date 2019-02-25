@@ -1,7 +1,13 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Oct 27 10:00:16 2005" *by "Paul E. Black"
+# *modified "Thu Aug 24 09:11:40 2017" *by "Paul E. Black"
 
 # $Log: eulercycle.trm,v $
+# Tue Sep  2 08:38:58 2014  Paul E. Black
+# Change stonybrook.edu URL in IMPL
+# 
+# Mon Jul 28 16:20:05 2014  Paul E. Black
+# update URL for Skienas Stony Brook Algorithm Respository IMPLs
+# 
 # Revision 1.5  2005/10/27 14:00:21  black
 # Update John Morris' URL
 #
@@ -44,7 +50,7 @@ same {vertex} and includes every {edge} exactly once.
 @XREFS={Hamiltonian cycle}, {Chinese postman problem}
 # any notes.  these will not be printed in the final dictionary
 
-@NOTES="Euler" is pronounced "oil-er."  A Hamiltonian cycle includes
+@NOTES="Euler" is pronounced "oil-er".  A Hamiltonian cycle includes
 each vertex once; an Euler cycle includes each edge once.
 # any historical notes
 @HISTORY=
@@ -59,8 +65,8 @@ href="http://www.cs.auckland.ac.nz/software/AlgAnim/hard.html#euler">examples
 and explanations</a>
 # implementation(s) (pure HTML)
 @IMPL=<a
-href="http://www.cs.sunysb.edu/~algorith/files/eulerian-cycle.shtml">(Mathematica
+href="http://www3.cs.stonybrook.edu/~algorith/files/eulerian-cycle.shtml">(Mathematica
 and Fortran)</a>
 # author's initials
 @AUTHOR=PEB
-# end $Source: /home/black/DADS/Terms/RCS/eulercycle.trm,v $
+# end $Source: /home/black/Workspace/dads/Terms/RCS/eulercycle.trm,v $

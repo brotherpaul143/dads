@@ -1,7 +1,22 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Nov  8 09:10:17 2010" *by "Paul E. Black"
+# *modified "Tue Feb 19 09:58:41 2019" *by "Paul E. Black"
 
 # $Log: knapsackProblem.trm,v $
+# Tue Feb 19 10:01:41 2019  Paul E. Black
+# Change xkcd URL to https
+# 
+# Mon Dec  5 11:03:34 2016  Paul E. Black
+# Improve citation of xkcd comic.
+# 
+# Wed Apr 22 09:48:15 2015  Paul E. Black
+# change file name of XKCD cartoon
+# 
+# Tue Sep  2 08:43:01 2014  Paul E. Black
+# Change stonybrook.edu URL in IMPL
+# 
+# Mon Jul 28 16:22:19 2014  Paul E. Black
+# update URL for Skienas Stony Brook Algorithm Respository IMPLs
+# 
 # Revision 1.14  2010/11/08 14:13:55  black
 # correct URL of XKCD cartoon
 #
@@ -93,16 +108,17 @@ different values and volumes and a knapsack, is there a subset that
 exceeds a certain value?  The decision problem is {NP-complete}.
 # further explanation (pure HTML)
 @LINKS=
-<img src="../Images/xkcd np_complete 287.png"><br />
-From <a href="http://xkcd.com/">xkcd</a> by
-<a href="http://xkcd.com/license.html">Creative Commons
+<img src="../Images/xkcd 0287 np_complete.png"><br />
+From <a href="https://xkcd.com/287/">xkcd 287</a> by Randall Munroe.
+<a href="https://xkcd.com/license.html">Creative Commons
 Attribution-NonCommercial 2.5 License</a>.
+
 # implementation(s) (pure HTML)
 @IMPL=<a
-href="http://www.cs.sunysb.edu/~algorith/files/knapsack.shtml">(Fortran
+href="http://www3.cs.stonybrook.edu/~algorith/files/knapsack.shtml">(Fortran
 and Pascal)</a>.
 GAMS <a href="http://gams.nist.gov/serve.cgi/Class/G2c3/">Class G2c3
 (Fortran)</a>.
 # author's initials
 @AUTHOR=PEB
-# end $Source: /home/black/DADS/Terms/RCS/knapsackProblem.trm,v $
+# end $Source: /home/black/Workspace/dads/Terms/RCS/knapsackProblem.trm,v $

@@ -1,7 +1,14 @@
 # *created  "Wed Feb  3 09:36:23 1999" *by "Paul E. Black"
-# *modified "Fri Dec 17 11:09:08 2004" *by "Paul E. Black"
+# *modified "Mon Dec 23 10:17:09 2013" *by "Paul E. Black"
 
 # $Log: externalsort.trm,v $
+# Mon Dec 23 10:20:03 2013  Paul E. Black
+# Return Chaudhrys dissertation to LINK since we got an interim link.
+# 
+# Mon Dec 23 10:07:04 2013  Paul E. Black
+# Remove link to Chaudhrys PhD dissertation - no longer on-line.  Move
+# to NOTE, since it is not a LINK.
+# 
 # Revision 1.4  2004/12/17 16:10:00  black
 # Remove external merge sort - undefined.
 #
@@ -40,6 +47,9 @@ unsuitable if the values to be sorted don't fit in main memory.
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={internal sort}, {external merge}, {external memory algorithm}
 
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=Algorithms may read the initial values from magnetic tape or
 write sorted values to disk, but this is not using external memory
@@ -51,14 +61,19 @@ much faster using an explicit external sort.
 <p>
 See <a href="../terms.html#Knuth98">[Knuth98, vol. 3, Sect. 5.4]</a>
 for an extensive treatment.
+
 # further explanation (pure HTML)
 @LINKS=
-<a href="http://www.cs.dartmouth.edu/reports/abstracts/TR2004-517/">Geeta
-Chaudhry's PhD thesis</a> which includes new external sort algorithms
+The PhD dissertation of 
+<strong>Geeta Chaudhry</strong> 
+(<a href="http://old-www.cs.dartmouth.edu/reports/TR2004-517.pdf"><em>Parallel
+Out-of-Core Sorting: The Third Way</em></a>, Dartmouth Computer
+Science Technical Report TR2004-517, September 2004.)
+includes new external sort algorithms
 and comparisons with other external sort algorithms.
 
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials
 @AUTHOR=PEB
-# end $Source: /home/black/DADS/Terms/RCS/externalsort.trm,v $
+# end $Source: /home/black/Workspace/dads/Terms/RCS/externalsort.trm,v $

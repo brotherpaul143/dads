@@ -1,7 +1,19 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Aug 22 15:42:00 2013" *by "Paul E. Black"
+# *modified "Wed Jan 30 12:38:52 2019" *by "Paul E. Black"
 
 # $Log: partition.trm,v $
+# Wed Jan 30 12:46:00 2019  Paul E. Black
+# Add IMIN dual-pivot quicksort
+# 
+# Mon Mar  2 15:59:39 2015  Paul E. Black
+# Remove John David Stones (Grinnell) IMPL - Stones account is entirely gone.
+# 
+# Tue Sep  2 08:44:53 2014  Paul E. Black
+# Change stonybrook.edu URL in IMPL
+# 
+# Mon Jul 28 16:23:48 2014  Paul E. Black
+# update URL for Skienas Stony Brook Algorithm Respository IMPLs
+# 
 # Revision 1.7  2013/08/22 19:42:01  black
 # update URL for Alex Lopez-Ortiz at U waterloo
 #
@@ -62,7 +74,8 @@ Thanks to Julio A. Cartaya &lt;jac@puma.mt.att.com&gt;.
 # Specialization: "... is a kind of me."
 @VARIANT={select and partition}
 # Aggregate parent: "I am a part of or used in ..."
-@IMIN={quicksort}, {Dutch national flag}, {American flag sort}
+@IMIN={quicksort}, {Dutch national flag}, {American flag sort},
+{dual-pivot quicksort}
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
@@ -74,9 +87,8 @@ Thanks to Julio A. Cartaya &lt;jac@puma.mt.att.com&gt;.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=<a
-href="http://www.cs.sunysb.edu/~algorith/files/generating-partitions.shtml">generating
-partitions (Fortran, Mathematica, Pascal, and C)</a>,
-<a href="http://www.cs.grinnell.edu/~stone/events/scheme-workshop/partition.html">(Scheme)</a>
+href="http://www3.cs.stonybrook.edu/~algorith/files/generating-partitions.shtml">generating
+partitions (Fortran, Mathematica, Pascal, and C)</a>.
 # author's initials
 @AUTHOR=PEB
-# end $Source: /home/black/DADS/Terms/RCS/partition.trm,v $
+# end $Source: /home/black/Workspace/dads/Terms/RCS/partition.trm,v $

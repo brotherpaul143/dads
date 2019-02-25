@@ -47,4 +47,4 @@ lot of ways to quicksort with lots of pivots used simultaneously.
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=
-# end $Source: /export/home/black/DADS/Terms/RCS/flashsort.trm,v $
+# end $Source: /home/black/Workspace/dads/Terms/RCS/flashsort.trm,v $

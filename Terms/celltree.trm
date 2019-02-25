@@ -33,4 +33,4 @@ pieces.  Each convex piece is indexed in every cell which it overlaps.
 @NOTES=After <a href="../terms.html#GG98">[GG98]</a>.
 # author's initials
 @AUTHOR=PEB
-# end $Source: /home/black/DADS/Terms/RCS/celltree.trm,v $
+# end $Source: /home/black/Workspace/dads/Terms/RCS/celltree.trm,v $

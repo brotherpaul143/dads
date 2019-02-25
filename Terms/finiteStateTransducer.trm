@@ -41,4 +41,4 @@ a write-only output.  The input and output cannot be reread or changed.
 @IMPL=
 # author's initials
 @AUTHOR=PEB
-# end $Source: /export/home/black/DADS/Terms/RCS/finiteStateTransducer.trm,v $
+# end $Source: /home/black/Workspace/dads/Terms/RCS/finiteStateTransducer.trm,v $

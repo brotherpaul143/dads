@@ -1,7 +1,13 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Dec 17 11:53:02 2004" *by "Paul E. Black"
+# *modified "Tue Sep  2 08:43:27 2014" *by "Paul E. Black"
 
 # $Log: matching.trm,v $
+# Tue Sep  2 08:43:32 2014  Paul E. Black
+# Change stonybrook.edu URL in IMPL
+# 
+# Mon Jul 28 16:22:44 2014  Paul E. Black
+# update URL for Skienas Stony Brook Algorithm Respository IMPLs
+# 
 # Revision 1.2  2004/12/17 16:53:03  black
 # Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
 #
@@ -40,8 +46,8 @@ Technology, Copyright &copy; 2000 CRC Press LLC.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=<a
-href="http://www.cs.sunysb.edu/~algorith/files/matching.shtml">(Fortran,
+href="http://www3.cs.stonybrook.edu/~algorith/files/matching.shtml">(Fortran,
 C, C++, and Pascal)</a>
 # author's initials
 @AUTHOR=CRC-A
-# end $Source: /home/black/DADS/Terms/RCS/matching.trm,v $
+# end $Source: /home/black/Workspace/dads/Terms/RCS/matching.trm,v $

@@ -1,42 +1,42 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:02:19 2004" *by "Paul E. Black"
+# *modified "Thu Jun  9 09:41:40 2016" *by "Paul E. Black"
 
-# $Log: asymptoticUpperBound.trm,v $
-# Revision 1.2  2004/12/17 17:02:20  black
+# $Log: dichotomic.trm,v $
+# Thu Jun  9 09:52:09 2016  Paul E. Black
+# IMA search.  binary search is a VARIANT, not just an XREF.
+# 
+# Revision 1.2  2004/12/17 17:03:35  black
 # Refine XREFS into IMA, etc.  Add RCS keywords.
 #
 
 # entry name
-@NAME=asymptotic upper bound
+@NAME=dichotomic search
 # _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
 @TYPE=D
-# basic numeric search sort graph combin(atorial) tree theory para(llel)
-@AREA=theory
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=search
 # the definition
-@DEFN=An {asymptotic bound}, as function of the size of the input, on
-the worst (slowest, most amount of space used, etc.) an {algorithm}
-will do to solve a problem.  That is, no input will cause the
-algorithm to use more resources than the bound.
+@DEFN=Search by selecting between two distinct alternatives
+(dichotomies) at each step.
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
-@IMA=
+@IMA={search}
 # Specialization: "... is a kind of me."
-@VARIANT=
+@VARIANT={binary search}
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN=
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={big-O notation}, {asymptotic lower bound}, {asymptotically
+@XREFS=
 
-tight bound}
 # any notes.  these will not be printed in the final dictionary
-@NOTES=
+@NOTES=Division into multiple alternatives is {polychotomy}.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials
-@AUTHOR=SKS
-# end $Source: /home/black/DADS/Terms/RCS/asymptoticUpperBound.trm,v $
+@AUTHOR=PEB
+# end $Source: /home/black/Workspace/dads/Terms/RCS/dichotomic.trm,v $

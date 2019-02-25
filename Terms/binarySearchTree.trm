@@ -1,7 +1,19 @@
 # *created  "Mon Jan  4 09:05:07 1999" *by "Paul E. Black"
-# *modified "Mon Dec 12 10:11:39 2011" *by "Paul E. Black"
+# *modified "Tue Feb 19 09:56:06 2019" *by "Paul E. Black"
 
 # $Log: binarySearchTree.trm,v $
+# Tue Feb 19 10:47:24 2019  Paul E. Black
+# Remove Gross IMPL - no longer found
+# 
+# Tue Feb 12 09:38:39 2019  Paul E. Black
+# update access to rbaeza handbook
+# 
+# Mon Jan 26 10:36:06 2015  Paul E. Black
+# Update URL of IMPL in Michael Gross slides
+# 
+# Mon Jul  7 09:36:32 2014  Paul E. Black
+# Update Goletas C# Collections IMPL URL
+# 
 # Revision 1.27  2011/12/12 15:12:08  black
 # update IMPL URL for Spring97 UCSC slide
 #
@@ -121,18 +133,14 @@ Ben Pfaff's
 <a href="http://adtinfo.org/libavl.html/Binary-Search-Trees.html">insert,
 delete, search, copy, etc. (literate C)</a>;
 Maksim Goleta's
-<a href="http://goletas.com/csharp-collections/">Collections
+<a href="http://goletas.com/csharp-collections">Collections
 (C#)</a> implementing stacks, queues, linked lists, binary search
 trees, AVL trees, and dictionaries.
-# class slides of Dr. Michael E. Gross
 <a
-href="http://classes.soe.ucsc.edu/cmps012b/Spring97/Lecture16/sld013.htm">insert
+href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/3/3411.ins.c">insert
 (C)</a>,
 <a
-href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/3411.ins.c">insert
-(C)</a>,
-<a
-href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/3411.srch.c">search
+href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/3/3411.srch.c">search
 (C)</a>.
 Algorithms and Data Structures'
 <a
@@ -145,4 +153,4 @@ search, delete, and various traversals (Modula-2)</a> (use must be
 acknowledged).
 # author's initials
 @AUTHOR=PEB
-# end $Source: /home/black/DADS/Terms/RCS/binarySearchTree.trm,v $
+# end $Source: /home/black/Workspace/dads/Terms/RCS/binarySearchTree.trm,v $

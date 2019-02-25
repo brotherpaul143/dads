@@ -36,4 +36,4 @@ algorithm ceases calling itself and begins to return values.
 @IMPL=
 # author's initials
 @AUTHOR=PR
-# end $Source: /home/black/DADS/Terms/RCS/recursiontrm.trm,v $
+# end $Source: /home/black/Workspace/dads/Terms/RCS/recursiontrm.trm,v $

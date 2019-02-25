@@ -1,7 +1,13 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Thu Aug 22 15:15:03 2013" *by "Paul E. Black"
+# *modified "Mon Feb 11 17:05:11 2019" *by "Paul E. Black"
 
 # $Log: Levenshtein.trm,v $
+# Mon Feb 11 17:05:43 2019  Paul E. Black
+# use https to access Wikipedia
+# 
+# Mon Jun 22 11:57:03 2015  Paul E. Black
+# Access wikibooks with https.
+# 
 # Revision 1.11  2013/08/22 19:16:30  black
 # update URL for Gilleland's IMPL
 #
@@ -85,7 +91,7 @@ Appearing in the Dictionary of Computer Science, Engineering and
 Technology, Copyright &copy; 2000 CRC Press LLC.
 # further explanation (pure HTML)
 @LINKS=
-<a href="http://en.wikipedia.org/wiki/Levenshtein_distance">Wikipedia
+<a href="https://en.wikipedia.org/wiki/Levenshtein_distance">Wikipedia
 entry</a> which has links to implementations.
 March 2003
 <a
@@ -99,9 +105,9 @@ href="http://people.cs.pitt.edu/~kirk/cs1501/Pruhs/Spring2006/assignments/editdi
 (Java, C++, Visual Basic)</a>, includes a great explanation and links
 to code in Perl, C, JavaScript, Python, and many more languages.
 Many implementations
-<a href="http://en.wikibooks.org/wiki/Algorithm_implementation/Strings/Levenshtein_distance">(Ada,
+<a href="https://en.wikibooks.org/wiki/Algorithm_implementation/Strings/Levenshtein_distance">(Ada,
 C++, Lisp, Io, Java, OCaml, Octave, PHP, Python, Ruby, Visual Basic)</a>.
 
 # author's initials (see authors.data)
 @AUTHOR=CRC-A
-# end $Source: /home/black/DADS/Terms/RCS/Levenshtein.trm,v $
+# end $Source: /home/black/Workspace/dads/Terms/RCS/Levenshtein.trm,v $

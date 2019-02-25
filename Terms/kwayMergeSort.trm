@@ -1,7 +1,7 @@
 # *created  "Thu Mar  4 11:52:49 1999" *by "Paul E. Black"
 # *modified "Fri Nov 30 11:48:41 2007" *by "Paul E. Black"
 
-# $Log: kwaymergsort.trm,v $
+# $Log: kwayMergeSort.trm,v $
 # Revision 1.4  2007/11/30 16:49:30  black
 # k-way merge is INME
 #
@@ -55,4 +55,4 @@ until there is a single sorted output.
 @IMPL=
 # author's initials
 @AUTHOR=ASK
-# end $Source: /home/black/DADS/Terms/RCS/kwaymergsort.trm,v $
+# end $Source: /home/black/Workspace/dads/Terms/RCS/kwayMergeSort.trm,v $

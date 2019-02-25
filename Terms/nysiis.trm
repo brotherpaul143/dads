@@ -1,7 +1,13 @@
 # *created  "Fri May  3 15:34:09 2002" *by "Paul E. Black"
-# *modified "Mon Mar  9 11:37:31 2009" *by "Paul E. Black"
+# *modified "Tue Feb 12 10:12:00 2019" *by "Paul E. Black"
 
 # $Log: nysiis.trm,v $
+# Tue Feb 12 10:12:08 2019  Paul E. Black
+# Update Mark Crocker IMPL URL
+# 
+# Fri Dec 22 15:01:49 2017  Paul E. Black
+# Report was December of 1970.
+# 
 # Revision 1.13  2009/03/09 15:37:55  black
 # Remove NOTE about algorithm review - document is gone.
 #
@@ -72,7 +78,7 @@
 @BIB=
 <strong>Robert L. Taft</strong>, <em>Name Search Techniques</em>,
 New York State Identification and Intelligence System, Special Report
-No. 1, Albany, New York, 1970.
+No. 1, Albany, New York, December 1970.
 
 # any notes.  these are not printed in the final dictionary
 @NOTES=
@@ -81,10 +87,10 @@ No. 1, Albany, New York, 1970.
 <a href="http://www.dropby.com/NYSIIS.html">(JavaScript)</a> (in page source).
 <a href="http://raven.utc.edu/cgi-bin/WA.EXE?A2=ind0102d&L=hp3000-l&P=33747">(SPL)</a>.
 <a
-href="http://www.markcrocker.com/rexxtipsntricks/rxtt28.2.0482.html">(Rexx)</a>
+href="https://markcrocker.com/rexxtipsntricks/rxtt28.2.0482.html">(Rexx)</a>
 (reportedly buggy).
 # further explanation (pure HTML)
 @LINKS=
 # author's initials (see authors.data)
 @AUTHOR=PEB
-# end $Source: /home/black/DADS/Terms/RCS/nysiis.trm,v $
+# end $Source: /home/black/Workspace/dads/Terms/RCS/nysiis.trm,v $

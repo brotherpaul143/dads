@@ -35,4 +35,4 @@ ends at the same {vertex}.
 @NOTES=An acyclic undirected graphic is like a {tree}.
 # author's initials
 @AUTHOR=PEB
-# end $Source: /export/home/black/DADS/Terms/RCS/acyclicgraph.trm,v $
+# end $Source: /home/black/Workspace/dads/Terms/RCS/acyclicgraph.trm,v $

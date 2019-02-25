@@ -37,4 +37,4 @@ operations in time {logarithmic} in the number of {nodes} in the tree.
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=PEB
-# end $Source: /export/home/black/DADS/Terms/RCS/heightBalancedBinSrchTree.trm,v $
+# end $Source: /home/black/Workspace/dads/Terms/RCS/heightBalancedBinSrchTree.trm,v $
