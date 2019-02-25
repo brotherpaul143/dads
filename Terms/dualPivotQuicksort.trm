@@ -1,7 +1,10 @@
 # *created  "Mon Nov 27 10:44:04 2017" *by "Paul E. Black"
-# *modified "Wed Jan 30 12:39:01 2019" *by "Paul E. Black"
+# *modified "Mon Feb 25 11:36:05 2019" *by "Paul E. Black"
 
 # $Log: dualPivotQuicksort.trm,v $
+# Mon Feb 25 11:36:28 2019  Paul E. Black
+# Update IMPL URL to use https
+# 
 # Wed Jan 30 12:45:19 2019  Paul E. Black
 # Update URL for Java IMPL. Add that partition is INME
 # 
@@ -63,7 +66,7 @@ Bentley, and Bloch (Java)</a> used in JDK,
 <a
 href="https://algs4.cs.princeton.edu/23quicksort/QuickDualPivot.java.html">Sedgewick
 and Wayne (Java)</a>,
-<a href="http://www.geeksforgeeks.org/dual-pivot-quicksort/">(C)</a>.
+<a href="https://www.geeksforgeeks.org/dual-pivot-quicksort/">(C)</a>.
 # further explanation (pure HTML)
 @LINKS=
 B.F. Lyon's <a href="https://learnforeverlearn.com/yaro_web/">animation showing
