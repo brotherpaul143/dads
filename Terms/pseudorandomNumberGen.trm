@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Tue Feb 19 09:58:15 2019" *by "Paul E. Black"
+# *modified "Mon Feb 25 11:16:51 2019" *by "Paul E. Black"
 
 # $Log: pseudorandomNumberGen.trm,v $
+# Mon Feb 25 11:18:04 2019  Paul E. Black
+# Update URL and name of NISTs page.  Update URL for Schneiers IMPL of Fortuna.
+# 
 # Tue Feb 19 10:01:57 2019  Paul E. Black
 # Change xkcd URL to https
 # 
@@ -175,15 +178,15 @@ Attribution-NonCommercial 2.5 License</a>.
 
 # further explanation (pure HTML)
 @LINKS=
-<a href="http://csrc.nist.gov/groups/ST/toolkit/random_number.html">Random 
-Number Generation</a> with links to reports, standard tests, and on-going
+<a href="https://csrc.nist.gov/projects/random-bit-generation.html">Random 
+Bit Generation</a> with links to reports, standard tests, and on-going
 research.
 <a href="http://www.fourmilab.ch/random/">ent</a>: a program to
 test the randomness of bytes in a file.
 Niels Ferguson and Bruce Schneier's
-<a href="https://www.schneier.com/fortuna.html">Fortuna</a> is a
+<a href="https://www.schneier.com/academia/fortuna.html">Fortuna</a> is a
 cryptographically strong pseudorandom number generator.  The 
-<a href="https://www.schneier.com/fortuna.pdf">description of
+<a href="https://www.schneier.com/academia/paperfiles/fortuna.pdf">description of
 Fortuna</a>, Sect. 9.3 of Ferguson, Schneier, and Kohno's
 "Cryptography Engineering: Design Principles and Practical
 Applications", explains trade-offs and cautions.
