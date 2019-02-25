@@ -1,8 +1,11 @@
 dnl $Id: creditNotice.html.m4,v 1.14 2011/12/06 20:58:45 black Exp $
 dnl *created  "Thu Jun  2 11:17:54 2005" *by "Paul E. Black"
-dnl *modified "Mon Sep 18 10:13:44 2017" *by "Paul E. Black"
+dnl *modified "Mon Feb 25 10:16:19 2019" *by "Paul E. Black"
 dnl
 dnl $Log$
+dnl Mon Feb 25 10:24:09 2019  Paul E. Black
+dnl Fix path for logo.  Remove Vreda as an editor.
+dnl 
 dnl Mon Sep 18 10:41:52 2017  Paul E. Black
 dnl Remove FASTAR from "hosted by" since it will not be hosting DADS.
 dnl 
@@ -62,7 +65,14 @@ dnl
 include(`Pages/bitsReqHeadStuff.m4')
 </head>
 <body>
-include(`Pages/bitsImageLogos.m4')
+dnl include(`Pages/bitsImageLogos.m4')
+dnl SKIMP define a bitsImageLogos.m4 with ../Images to use in files in subdirectories, like this one
+dnl for now, hard code the right path
+<center>
+<a href="https://www.nist.gov/" target="_blank"><img
+src="../Images/webidblue_1linecentr.gif" border=0 height=43 width=229
+alt="NIST"></a>
+</center>
 <center><font size="+1"><strong>Dictionary of Algorithms and Data Structures</strong></font></center>
 <center><h1>Citation and Credit Notice</h1></center>
 
@@ -94,11 +104,11 @@ appreciate a note expressing how valuable it is.
 <p>
 Here is a print citation.
 <pre>
-    Dictionary of Algorithms and Data Structures, Vreda Pieterse and Paul E. 
-    Black eds., $ROOTDIR/, (ACCESS DATE).
+    Dictionary of Algorithms and Data Structures, Paul E. Black ed.,
+    $ROOTDIR/, (ACCESS DATE).
 </pre>
 Put the latest date you accessed DADS in parentheses, for instance, 
-30 October 2013.
+30 October 2018.
 </p>
 
 
@@ -121,7 +131,7 @@ Here is a bibtex citation for
 @Misc{dads:rt,
   author = {Paul M. Sant},
   title = {"rooted tree"},
-  howpublished = {in \emph{Dictionary of Algorithms and Data Structures} [online], Vreda Pieterse and Paul E. Black eds.},
+  howpublished = {in \emph{Dictionary of Algorithms and Data Structures} [online], Paul E. Black ed.},
   month = {17 December}, % ENTRY MODIFIED DATE
   year = {2004},
   note =  {Available from: $ROOTDIR/HTML/rootedtree.html (accessed 4 July 2013)}, % LAST ACCESS DATE 
@@ -151,7 +161,7 @@ Thu Jun  2 11:21:13 2005
 include(`Pages/bitsPaul.m4')
 dnl following lines updated by emacs macros
 <em>Updated
-Mon Sep 18 10:13:44 2017
+Mon Feb 25 10:16:19 2019
 </em>
 by <a href="https://hissa.nist.gov/~black/">Paul E. Black
 </a>
