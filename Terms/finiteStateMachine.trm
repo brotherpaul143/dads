@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon Feb 25 10:48:10 2019" *by "Paul E. Black"
+# *modified "Mon Feb 25 11:27:59 2019" *by "Paul E. Black"
 
 # $Log: finiteStateMachine.trm,v $
+# Mon Feb 25 11:28:41 2019  Paul E. Black
+# Update van Noords IMPL URL and add his name.
+# 
 # Mon Feb 25 10:52:09 2019  Paul E. Black
 # Update URL of Daciuks IMPL and resource page.
 # 
@@ -104,7 +107,8 @@ David Lutterkort's
 libfa (C)</a>, which is part of Augeas, supports many operations like
 "compile" a regular expression into a finite automaton, minimize,
 union, intersect, and minus.
-<a href="http://odur.let.rug.nl/~vannoord/Fsa/">Finite State Automata
+Gertjan van Noord's
+<a href="http://www.let.rug.nl/~vannoord/Fsa/">Finite State Automata
 Utilities (Prolog)</a>, which generate C code, minimize, visualize,
 etc.  Page has binaries, too.
 For regular expressions <a
