@@ -1,7 +1,10 @@
 # *created  "Mon Nov  1 11:06:29 1999" *by "Paul E. Black"
-# *modified "Mon Feb 25 11:11:04 2019" *by "Paul E. Black"
+# *modified "Mon Feb 25 11:23:49 2019" *by "Paul E. Black"
 
 # $Log: nqueens.trm,v $
+# Mon Feb 25 11:24:23 2019  Paul E. Black
+# Update Antals IMPL URL to use https
+# 
 # Mon Feb 25 11:13:01 2019  Paul E. Black
 # Update IMPL URL to use https
 # 
@@ -52,8 +55,7 @@ values of $n$.
 # implementation(s) (pure HTML)
 @IMPL=
 Barzan "Tony" Antal's backtracking (or depth-first) 
-<a
-href="http://images.devshed.com/da/stories/Backtracking_Algorithm/n_queens.cpp">solution
+<a href="https://images.devshed.com/da/stories/Backtracking_Algorithm/n_queens.cpp">solution
 (C++)</a>, which has an
 <a href="https://www.devarticles.com/c/a/Development-Cycles/The-Backtracking-Algorithm-Technique/2/">explanation</a>.
 # author's initials (see authors.data)
