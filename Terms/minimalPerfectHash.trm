@@ -1,5 +1,5 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon May  9 14:38:15 2011" *by "Paul E. Black"
+# *modified "Mon Feb 25 10:58:36 2019" *by "Paul E. Black"
 
 # $Log: minimalPerfectHash.trm,v $
 # Revision 1.10  2011/05/09 18:38:51  black
@@ -72,7 +72,7 @@ f(k) is $1\ldots |K|$.
 @LINKS=
 <strong>Edward A. Fox, Lenwood S. Heath, Qi Fan Chen</strong> and
 <strong>Amjad M. Daoud</strong>,
-<em><a href="http://doi.acm.org/10.1145/129617.129623">Practical
+<em><a href="https://doi.acm.org/10.1145/129617.129623">Practical
 minimal perfect hash functions for large databases</a></em>, 
 CACM, 35(1):105-121, January 1992.
 <br />

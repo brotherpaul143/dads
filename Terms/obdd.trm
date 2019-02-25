@@ -1,5 +1,5 @@
 # *created  "Thu Feb  3 16:52:31 2000" *by "Paul E. Black"
-# *modified "Mon Jun 12 10:16:33 2006" *by "Paul E. Black"
+# *modified "Mon Feb 25 10:58:03 2019" *by "Paul E. Black"
 
 # $Log: obdd.trm,v $
 # Revision 1.5  2006/06/12 14:17:08  black
@@ -58,8 +58,8 @@ OBDD referred to as Oblivious ... by <strong>Lance Fortnow</strong>,
 Theory and Applications</em>, SIGACT News, 33(1):7, March 2002. 
 
 # further explanation (pure HTML)
-@LINKS=<a
-href="http://doi.acm.org/10.1145/136035.136043">Symbolic
+@LINKS=
+<a href="https://doi.acm.org/10.1145/136035.136043">Symbolic
 Boolean manipulation with ordered binary-decision diagrams</a>.
 # implementation(s) (pure HTML)
 @IMPL=
