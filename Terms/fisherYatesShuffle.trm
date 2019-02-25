@@ -1,7 +1,10 @@
 # *created  "Fri Jul 30 12:27:00 2004" *by "Paul E. Black"
-# *modified "Mon Mar  9 13:28:07 2015" *by "Paul E. Black"
+# *modified "Mon Feb 25 09:24:59 2019" *by "Paul E. Black"
 
 # $Log: fisherYatesShuffle.trm,v $
+# Mon Feb 25 10:25:55 2019  Paul E. Black
+# Update URL for Pfaffs IMPL 
+# 
 # Mon Mar  9 13:29:07 2015  Paul E. Black
 # Add Bostocks IMPL and animations of different shuffling algorithms.
 # 
@@ -112,7 +115,7 @@ Python, particularly v2.6.1.)
 # implementation(s) (pure HTML)
 @IMPL=
 Ben Pfaff's answer to
-<a href="http://benpfaff.org/writings/clc/shuffle.html">how
+<a href="https://benpfaff.org/writings/clc/shuffle.html">how
 can I shuffle the contents of an array? (C)</a>.
 Mike Bostock's
 <a href="http://bost.ocks.org/mike/shuffle/">animations with code
