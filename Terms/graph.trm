@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 13:26:31 1998" *by "Paul E. Black"
-# *modified "Mon Feb 25 11:21:49 2019" *by "Paul E. Black"
+# *modified "Mon Feb 25 11:52:49 2019" *by "Paul E. Black"
 
 # $Log: graph.trm,v $
+# Mon Feb 25 11:53:15 2019  Paul E. Black
+# Update JGraphT IMPL URL
+# 
 # Mon Feb 25 11:22:49 2019  Paul E. Black
 # Update Annas IMPL URL
 # 
@@ -214,7 +217,7 @@ Editor and Layout Program (C)</a>,
 <a
 href="http://www3.cs.stonybrook.edu/~algorith/files/graph-data-structures.shtml">graph
 manipulation (C++, C, Mathematica, and Pascal)</a>,
-<a href="http://jgrapht.sourceforge.net/">JGraphT (Java)</a> build, traverse,
+<a href="https://jgrapht.org/">JGraphT (Java)</a> build, traverse,
 and display directed and undirected graphs,
 <a href="http://gef.tigris.org/">GEF - Graph Editing Framework
 (Java)</a> a library to edit and display graphs.
