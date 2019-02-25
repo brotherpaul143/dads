@@ -1,7 +1,10 @@
 # *created  "Tue May 25 08:56:47 1999" *by "Paul E. Black"
-# *modified "Mon Nov 14 12:10:38 2011" *by "Paul E. Black"
+# *modified "Mon Feb 25 11:51:24 2019" *by "Paul E. Black"
 
 # $Log: towersOfHanoi.trm,v $
+# Mon Feb 25 11:51:46 2019  Paul E. Black
+# Update JavaScript IMPL URL
+# 
 # Revision 1.9  2011/11/14 17:12:03  black
 # update URL for Javascript IMPL
 #
@@ -74,7 +77,7 @@ href="http://brainyplanet.com/index.php/Hanoi Solution">Background
 and a recursive and an iterative solution</a>.
 # implementation(s) (pure HTML)
 @IMPL=
-<a href="http://www.javascriptsource.com/games/hanoi.html">(JavaScript)</a>
+<a href="https://www.javascriptsource.com/hanoi/">(JavaScript)</a>
 Mukundan's 
 <a href="http://www.cosc.canterbury.ac.nz/mukundan/dsal/ToHdb.html">animation
 (Java)</a>.
