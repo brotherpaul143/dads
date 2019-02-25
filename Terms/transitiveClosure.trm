@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Tue Sep  2 08:48:30 2014" *by "Paul E. Black"
+# *modified "Mon Feb 25 11:30:56 2019" *by "Paul E. Black"
 
 # $Log: transitiveClosure.trm,v $
+# Mon Feb 25 11:31:21 2019  Paul E. Black
+# Update Pieterses IMPL URL.
+# 
 # Tue Sep  2 08:54:26 2014  Paul E. Black
 # Change stonybrook.edu URL in IMPL
 # 
@@ -45,8 +48,8 @@ in the extension, $(a,c)$ is also in the extension.
 # implementation(s) (pure HTML)
 @IMPL=
 Vreda Pieterse's explanation of binary relations and transitive
-closure with links to <a
-href="http://www.cs.up.ac.za/cs/vpieterse/AptiAlgo/AptiAlgoritmi.html">implementations (C++)</a>;
+closure with links to
+<a href="https://cs.up.ac.za/cs/vpieterse/AptiAlgo/AptiAlgoritmi.html">implementations (C++)</a>.
 Stony Brook's explanation and links to <a
 href="http://www3.cs.stonybrook.edu/~algorith/files/transitive-closure.shtml">implementations
 (C++ and Mathematica)</a>.
