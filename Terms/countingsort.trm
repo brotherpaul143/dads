@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Nov 28 14:40:05 2014" *by "Paul E. Black"
+# *modified "Mon Mar  4 09:12:05 2019" *by "Paul E. Black"
 
 # $Log: countingsort.trm,v $
+# Mon Mar  4 09:14:12 2019  Paul E. Black
+# Remove McCoskeys IMPL: DNS and email are invalid; no other location found.
+# 
 # Fri Nov 28 14:53:12 2014  Paul E. Black
 # Generalize/clarify when counting sort is efficient
 # 
@@ -58,9 +61,7 @@ auxiliary array instead of counting them.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
-@IMPL=Marion McCoskey's
-<a href="http://www.mcky.net/hsrto.htm">Single Buffered
-Count Sort (C++)</a>.
+@IMPL=
 Bruno R. Preiss'
 <a href="http://www.brpreiss.com/books/opus4/html/page74.html">sort
 integers 0 to m-1 (C)</a>.
