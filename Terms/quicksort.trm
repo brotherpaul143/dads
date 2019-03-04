@@ -1,7 +1,10 @@
 # *created  "Wed Sep 16 08:54:42 1998" *by "Paul E. Black"
-# *modified "Tue Feb 12 10:07:55 2019" *by "Paul E. Black"
+# *modified "Thu Feb 28 10:11:28 2019" *by "Paul E. Black"
 
 # $Log: quicksort.trm,v $
+# Mon Mar  4 09:23:59 2019  Paul E. Black
+# Add IMA Las Vegas algorithm when the pivot is picked randomly
+# 
 # Tue Feb 12 10:08:21 2019  Paul E. Black
 # Update Flower Brackets and Mark Crocker IMPL URL
 # OUpdateDIFF:  @@ -2 +2 @@
@@ -86,7 +89,7 @@ algorithm for small partitions, etc.
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
-@IMA={in-place sort}
+@IMA={in-place sort}, {Las Vegas algorithm} when the pivot is picked randomly
 # Specialization: "... is a kind of me."
 @VARIANT={balanced quicksort}, {multikey Quicksort}, 
 {introspective sort}

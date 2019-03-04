@@ -1,7 +1,11 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Wed Jan 14 11:58:45 2009" *by "Paul E. Black"
+# *modified "Thu Feb 28 11:49:30 2019" *by "Paul E. Black"
 
 # $Log: randomizedAlgo.trm,v $
+# Mon Mar  4 09:25:46 2019  Paul E. Black
+# Improve definition wording slightly.  Change Copyright notice to cite
+# Dictionary of Computer Science, Engineering, and Technology.
+# 
 # Revision 1.6  2009/01/14 20:01:27  black
 # XREF new reservoir sampling
 #
@@ -27,7 +31,7 @@
 # autom basic theory search sort tree graph combin numeric etc. see areas.data
 @AREA=basic
 # the definition
-@DEFN=Any {algorithm} that makes random (or pseudorandom) choices.
+@DEFN=An {algorithm} that makes random (or pseudorandom) choices.
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
@@ -47,10 +51,8 @@
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
-From Algorithms and Theory of Computation Handbook, pages 10-17 and 15-21,
-Copyright &copy; 1999 by CRC Press LLC.
-Appearing in the Dictionary of Computer Science, Engineering and
-Technology, Copyright &copy; 2000 CRC Press LLC.
+Appearing in Dictionary of Computer Science, Engineering and Technology,
+Phillip A. Laplante ed., 2001, CRC Press LLC.
 </p>
 
 <p>
@@ -61,5 +63,5 @@ Some algorithms make random choices initially to avoid any fixed
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials (see authors.data)
-@AUTHOR=CRC-A
+@AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/randomizedAlgo.trm,v $
