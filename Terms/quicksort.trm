@@ -2,6 +2,9 @@
 # *modified "Thu Feb 28 10:11:28 2019" *by "Paul E. Black"
 
 # $Log: quicksort.trm,v $
+# Mon Mar  4 10:26:24 2019  Paul E. Black
+# Remove Mark Crocker Rexx IMPL - pages are gone
+# 
 # Mon Mar  4 09:23:59 2019  Paul E. Black
 # Add IMA Las Vegas algorithm when the pivot is picked randomly
 # 
@@ -152,10 +155,6 @@ href="http://www.algolist.net/Algorithms/Sorting/Quicksort">explanation
 Flower Brackets
 <a href="https://www.flowerbrackets.com/quick-sort-java/">explanation,
 including code and complexity (Java)</a>. 
-<a href="https://markcrocker.com/rexxtipsntricks/rxtt28.2.0470.html">In-line
-compare (Rexx)</a>, 
-<a href="https://markcrocker.com/rexxtipsntricks/rxtt28.2.0471.html">compare
-function (Rexx)</a>.
 # further explanation (pure HTML)
 @LINKS=
 Java applet 

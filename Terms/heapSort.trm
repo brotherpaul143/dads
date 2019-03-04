@@ -2,6 +2,10 @@
 # *modified "Tue Feb 12 10:11:49 2019" *by "Paul E. Black"
 
 # $Log: heapSort.trm,v $
+# Mon Mar  4 10:25:03 2019  Paul E. Black
+# Remove Mark Crocker Rexx IMPL - pages are gone
+# IFF:  @@ -121,2 +121 @@
+# 
 # Tue Feb 12 10:11:56 2019  Paul E. Black
 # Update Mark Crocker IMPL URL
 # 
@@ -118,8 +122,7 @@ Paulo Roma's
 <a href="http://pascalprog.blogspot.com/2008/06/heap-sort-algorithm.html">(Pascal)</a> implementation.
 Worst-case behavior <a
 href="https://www.auto.tuwien.ac.at/~blieb/woop/heapsort.html">annotated
-for real time (WOOP/ADA)</a>, including bibliography,
-<a href="https://markcrocker.com/rexxtipsntricks/rxtt28.2.0472.html">(Rexx)</a>.
+for real time (WOOP/ADA)</a>, including bibliography.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/heapSort.trm,v $
