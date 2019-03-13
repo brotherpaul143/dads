@@ -1,8 +1,11 @@
 dnl $Id: creditNotice.html.m4,v 1.14 2011/12/06 20:58:45 black Exp $
 dnl *created  "Thu Jun  2 11:17:54 2005" *by "Paul E. Black"
-dnl *modified "Mon Feb 25 10:16:19 2019" *by "Paul E. Black"
+dnl *modified "Wed Mar 13 12:36:34 2019" *by "Paul E. Black"
 dnl
 dnl $Log$
+dnl Wed Mar 13 12:41:14 2019  Paul E. Black
+dnl Remove Vreda as editor everywhere. (Update example dates.)
+dnl 
 dnl Mon Feb 25 10:24:09 2019  Paul E. Black
 dnl Fix path for logo.  Remove Vreda as an editor.
 dnl 
@@ -104,7 +107,7 @@ appreciate a note expressing how valuable it is.
 <p>
 Here is a print citation.
 <pre>
-    Dictionary of Algorithms and Data Structures, Paul E. Black ed.,
+    Dictionary of Algorithms and Data Structures, Paul E. Black, ed.,
     $ROOTDIR/, (ACCESS DATE).
 </pre>
 Put the latest date you accessed DADS in parentheses, for instance, 
@@ -131,13 +134,13 @@ Here is a bibtex citation for
 @Misc{dads:rt,
   author = {Paul M. Sant},
   title = {"rooted tree"},
-  howpublished = {in \emph{Dictionary of Algorithms and Data Structures} [online], Paul E. Black ed.},
+  howpublished = {in \emph{Dictionary of Algorithms and Data Structures} [online], Paul E. Black, ed.},
   month = {17 December}, % ENTRY MODIFIED DATE
   year = {2004},
-  note =  {Available from: $ROOTDIR/HTML/rootedtree.html (accessed 4 July 2013)}, % LAST ACCESS DATE 
+  note =  {Available from: $ROOTDIR/HTML/rootedtree.html (accessed 13 March 2019)}, % LAST ACCESS DATE 
 </pre>
 The result should be something like this:<br><br>
-Sant, Paul M. rooted tree. In <em>Dictionary of Algorithms and Data Structures</em> [online], Paul E. Black and Vreda Pieterse eds., 17 December 2004. Available from: $ROOTDIR/HTML/rootedtree.html. (accessed 4 July 2013)
+Sant, Paul M., rooted tree. In <em>Dictionary of Algorithms and Data Structures</em> [online], Paul E. Black, ed., 17 December 2004. Available from: $ROOTDIR/HTML/rootedtree.html. (accessed 13 March 2019)
 </p>
 
 <h2>Citation References</h2>
@@ -161,7 +164,7 @@ Thu Jun  2 11:21:13 2005
 include(`Pages/bitsPaul.m4')
 dnl following lines updated by emacs macros
 <em>Updated
-Mon Feb 25 10:16:19 2019
+Wed Mar 13 12:36:34 2019
 </em>
 by <a href="https://hissa.nist.gov/~black/">Paul E. Black
 </a>

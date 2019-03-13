@@ -1,10 +1,13 @@
 dnl *created  "Wed Feb  2 16:01:34 2000" *by "Paul E. Black"
-dnl *modified "Tue Feb 19 09:33:27 2019" *by "Paul E. Black"
+dnl *modified "Wed Mar 13 12:28:55 2019" *by "Paul E. Black"
 dnl
 dnl This is run through m4 then joined with an introduction and 
 dnl the entries to make a complete terms page.
 dnl
 dnl $Log$
+dnl Wed Mar 13 12:39:51 2019  Paul E. Black
+dnl Remove stuff about Vreda being editor.
+dnl 
 dnl Tue Feb 19 10:46:28 2019  Paul E. Black
 dnl Update URL for Computing Resource Repository (CoRR)
 dnl 
@@ -90,10 +93,6 @@ as well as many others who offered suggestions and corrections.
 </p>
 
 <p>
-After more than a decade of service as editor of DADS, Paul Black 
-was joined by Vreda Pieterse of the <a href="http://fastar.org/">FASTAR
-group</a> at Stellenbosch University (South Africa), University of
-Pretoria, and Eindhoven University (Netherlands) as co-editor.
 The URL https://www.nist.gov/dads/ is an alias which should continue
 to refer to DADS.  We regret any inconvenience this may cause.
 </p>
@@ -172,7 +171,7 @@ Fri Sep  4 16:39:23 1998
 include(`Pages/bitsPaul.m4')
 <em>This Trailer</em>
 <em>Updated
-Tue Feb 19 09:33:27 2019
+Wed Mar 13 12:28:55 2019
 </em><address>
 by <a href="https://hissa.nist.gov/~black/">Paul E. Black
 </a>
