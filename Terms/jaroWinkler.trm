@@ -1,7 +1,10 @@
 # *created  "Fri May  3 14:21:44 2002" *by "Paul E. Black"
-# *modified "Tue May 27 14:27:19 2014" *by "Paul E. Black"
+# *modified "Mon Mar 18 10:05:13 2019" *by "Paul E. Black"
 
 # $Log: jaroWinkler.trm,v $
+# Mon Mar 18 10:07:16 2019  Paul E. Black
+# BIB links to paper are https.
+# 
 # Tue May 27 14:29:09 2014  Paul E. Black
 # Correct BIB entry for "Advances" and move it before the 1976 entry.
 # 
@@ -73,10 +76,10 @@ Thibaudeau</strong>, <em>An Application of the Fellegi-Sunter Model of
 Record Linkage to the 1990 U.S. Decennial Census</em>, Statistical
 Research Report Series RR91/09, U.S. Bureau of the Census, Washington,
 D.C., 1991.
-The <a
-href="http://www.census.gov/srd/www/abstract/rr91-9.html">abstract</a>
-(HTML) and <a
-href="http://www.census.gov/srd/papers/pdf/rr91-9.pdf">full paper</a>
+The
+<a href="https://www.census.gov/srd/www/abstract/rr91-9.html">abstract</a>
+and
+<a href="https://www.census.gov/srd/papers/pdf/rr91-9.pdf">full paper</a>
 (PDF).
 <br />
 <strong>Matthew A. Jaro</strong>, <em>Advances in Record-Linkage
