@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Feb 25 11:16:51 2019" *by "Paul E. Black"
+# *modified "Mon Mar 18 10:16:54 2019" *by "Paul E. Black"
 
 # $Log: pseudorandomNumberGen.trm,v $
+# Mon Mar 18 10:18:25 2019  Paul E. Black
+# Update or remove broken links.
+# 
 # Mon Feb 25 11:18:04 2019  Paul E. Black
 # Update URL and name of NISTs page.  Update URL for Schneiers IMPL of Fortuna.
 # 
@@ -178,18 +181,14 @@ Attribution-NonCommercial 2.5 License</a>.
 
 # further explanation (pure HTML)
 @LINKS=
-<a href="https://csrc.nist.gov/projects/random-bit-generation.html">Random 
+<a href="https://csrc.nist.gov/Projects/Random-Bit-Generation">Random 
 Bit Generation</a> with links to reports, standard tests, and on-going
 research.
 <a href="http://www.fourmilab.ch/random/">ent</a>: a program to
 test the randomness of bytes in a file.
 Niels Ferguson and Bruce Schneier's
 <a href="https://www.schneier.com/academia/fortuna.html">Fortuna</a> is a
-cryptographically strong pseudorandom number generator.  The 
-<a href="https://www.schneier.com/academia/paperfiles/fortuna.pdf">description of
-Fortuna</a>, Sect. 9.3 of Ferguson, Schneier, and Kohno's
-"Cryptography Engineering: Design Principles and Practical
-Applications", explains trade-offs and cautions.
+cryptographically strong pseudorandom number generator.
 </p>
 
 <p>
@@ -206,9 +205,6 @@ Available at
 <a
 href="http://www3.cs.stonybrook.edu/~algorith/files/random-numbers.shtml">(C++,
 C, and Fortran)</a>.
-pLab's page on
-<a href="http://random.mat.sbg.ac.at/generators/">generators</a>
-including links to software and papers.
 GAMS <a href="http://gams.nist.gov/serve.cgi/Module/C/SERV/11669">(C)</a>.
 # Summit's C FAQ http://c-faq.com/lib/randrange.html
 Using C libraries to get 
