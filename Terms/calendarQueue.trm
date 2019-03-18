@@ -1,7 +1,10 @@
 # *created  "Thu Feb 11 16:40:46 1999" *by "Paul E. Black"
-# *modified "Tue Feb 12 10:26:58 2019" *by "Paul E. Black"
+# *modified "Mon Mar 18 10:35:05 2019" *by "Paul E. Black"
 
 # $Log: calendarQueue.trm,v $
+# Mon Mar 18 10:35:25 2019  Paul E. Black
+# Remove Fishwick IMPL: gone
+# 
 # Tue Feb 12 10:27:33 2019  Paul E. Black
 # Update Fishwick URL
 # 
@@ -53,9 +56,7 @@ John Wiley and Sons, Inc., 1996, page 410.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=
-In a
-<a href="https://www.cise.ufl.edu/~fishwick/CPUDisk/queuing_code.html">simulation
-tool package (C)</a>
+
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/calendarQueue.trm,v $
