@@ -1,7 +1,10 @@
 # *created  "Mon Jun 19 10:04:01 2006" *by "Paul E. Black"
-# *modified "Mon Jun 19 10:52:41 2006" *by "Paul E. Black"
+# *modified "Mon Mar 25 12:11:43 2019" *by "Paul E. Black"
 
 # $Log: rapidSort.trm,v $
+# Mon Mar 25 12:12:49 2019  Paul E. Black
+# Update Patrick Eberharts IMPL URL
+# 
 # Revision 1.1  2006/06/19 14:53:27  black
 # Initial revision
 #
@@ -74,7 +77,7 @@ the final destination.
 # implementation(s) (pure HTML)
 @IMPL=
 Patrick Eberhart's
-<a href="http://academia.wikia.com/wiki/Check_sort">description and
+<a href="https://academia.fandom.com/wiki/Check_sort">description and
 illustration (Visual Basic and C++)</a>.
 # further explanation (pure HTML)
 @LINKS=
