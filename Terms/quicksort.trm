@@ -1,7 +1,10 @@
 # *created  "Wed Sep 16 08:54:42 1998" *by "Paul E. Black"
-# *modified "Thu Feb 28 10:11:28 2019" *by "Paul E. Black"
+# *modified "Mon Mar 18 10:44:14 2019" *by "Paul E. Black"
 
 # $Log: quicksort.trm,v $
+# Mon Mar 25 11:59:36 2019  Paul E. Black
+# Remove link to Harrisons demo and code - gone.
+# 
 # Mon Mar  4 10:26:24 2019  Paul E. Black
 # Remove Mark Crocker Rexx IMPL - pages are gone
 # 
@@ -143,12 +146,6 @@ Is Optimal (C)</a> (pdf format) for random files possibly with
 duplicate keys; includes discussion and proof.
 <a href="https://en.wikipedia.org/wiki/Quicksort">Wikipedia entry with
 extended discussion and alternatives (C, Python, Haskell, pseudocode)</a>.
-Demos and code for <a
-href="http://people.cs.ubc.ca/~harrison/Java/sorting-demo.html">enhanced,
-fast, quicksort, and quicksort with bubble sort (Java)</a>.
-<a
-href="http://people.cs.ubc.ca/~harrison/Java/QSortAlgorithm.java">(Java)</a>.
-Algorithms and Data Structures'
 <a
 href="http://www.algolist.net/Algorithms/Sorting/Quicksort">explanation
 (Java and C++)</a>.

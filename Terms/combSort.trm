@@ -1,7 +1,10 @@
 # *created  "Thu Jan  6 12:27:59 2005" *by "Paul E. Black"
-# *modified "Mon Aug 24 10:02:50 2009" *by "Paul E. Black"
+# *modified "Mon Mar 18 10:40:10 2019" *by "Paul E. Black"
 
 # $Log: combSort.trm,v $
+# Mon Mar 25 11:58:03 2019  Paul E. Black
+# Remove link to Harrisons demo and code - gone.
+# 
 # Revision 1.7  2009/08/24 14:02:58  black
 # Update Harrison's sorting demo URL root
 #
@@ -84,8 +87,6 @@ the typical comb sort.
 
 # implementation(s) (pure HTML)
 @IMPL=
-<a
-href="http://people.cs.ubc.ca/~harrison/Java/CombSort11Algorithm.java">(Java)</a>.
 
 # further explanation (pure HTML)
 @LINKS=

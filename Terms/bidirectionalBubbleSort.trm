@@ -1,7 +1,10 @@
 # *created  "Fri Mar  3 13:54:01 2000" *by "Paul E. Black"
-# *modified "Mon Sep 29 09:06:19 2014" *by "Paul E. Black"
+# *modified "Mon Mar 18 10:39:44 2019" *by "Paul E. Black"
 
 # $Log: bidirectionalBubbleSort.trm,v $
+# Mon Mar 25 11:57:35 2019  Paul E. Black
+# Remove link to Harrisons demo and code - gone.
+# 
 # Mon Sep 29 09:06:28 2014  Paul E. Black
 # update URL for Pat Morins sorting algorithm visualizations
 # 
@@ -58,9 +61,6 @@ into place, but can only move items backward one location each pass.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=
-<a
-href="http://people.cs.ubc.ca/~harrison/Java/sorting-demo.html">demonstration
-and source code (Java)</a>;
 <a href="http://cglab.ca/~morin/misc/sortalg/">animation and
 code, see cocktail sort (Java)</a>.
 # author's initials (see authors.data)

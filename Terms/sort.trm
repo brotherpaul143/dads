@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 10:17:13 1998" *by "Paul E. Black"
-# *modified "Fri Mar 25 08:49:17 2016" *by "Paul E. Black"
+# *modified "Mon Mar 18 10:39:12 2019" *by "Paul E. Black"
 
 # $Log: sort.trm,v $
+# Mon Mar 25 11:59:59 2019  Paul E. Black
+# Remove link to Harrisons demo and code - gone.
+# 
 # Fri Mar 25 08:54:38 2016  Paul E. Black
 # Add q sort as a VARIANT.
 # 
@@ -121,9 +124,8 @@ came to be used in Computer Science because the earliest automated
 ordering procedures used punched card machines, which classified cards
 by their holes, to implement {radix sort}.
 # further explanation (pure HTML)
-@LINKS=Demonstrations of <a
-href="http://people.cs.ubc.ca/~harrison/Java/sorting-demo.html">various
-sorting algorithms</a>.
+@LINKS=
+
 # implementation(s) (pure HTML)
 @IMPL=Specific implementations can be found under the specific sort
 routines or at <a

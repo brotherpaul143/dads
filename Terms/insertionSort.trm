@@ -1,7 +1,10 @@
 # *created  "Wed Sep 16 08:53:23 1998" *by "Paul E. Black"
-# *modified "Tue Feb 12 09:58:57 2019" *by "Paul E. Black"
+# *modified "Mon Mar 18 10:45:18 2019" *by "Paul E. Black"
 
 # $Log: insertionSort.trm,v $
+# Mon Mar 25 11:58:23 2019  Paul E. Black
+# Remove link to Harrisons demo and code - gone.
+# 
 # Tue Feb 12 09:59:11 2019  Paul E. Black
 # Update Flower Bracket IMPL URL
 # 
@@ -116,7 +119,7 @@ However a binary search is likely to make this not a {stable} sort.
 # further explanation (pure HTML)
 
 # implementation(s) (pure HTML)
-@IMPL=<a href="http://people.cs.ubc.ca/~harrison/Java/InsertionSortAlgorithm.java">(Java)</a>.
+@IMPL=
 An 
 <a href="http://introcs.cs.princeton.edu/java/42sort/">implementation
 (Java)</a> due to Sedgewick and Wayne (search for Insertion sort).
@@ -136,9 +139,8 @@ objects, and recursion (Java)</a>.
 @LINKS=
 <a href="http://cs.smith.edu/~thiebaut/java/sort/demo.html">demonstration</a>
 of several sort algorithms, with particular emphasis on insertion
-sort; more <a
-href="http://people.cs.ubc.ca/~harrison/Java/sorting-demo.html">demonstrations</a>;
-a
+sort;
+an
 <a href="http://www.cosc.canterbury.ac.nz/mukundan/dsal/ISort.html">animation (Java)</a>
 of insertion sort.
 
