@@ -1,7 +1,10 @@
 # *created  "Fri Mar 25 09:41:35 2016" *by "Paul E. Black"
-# *modified "Tue Feb 19 10:16:34 2019" *by "Paul E. Black"
+# *modified "Mon Mar 25 12:30:17 2019" *by "Paul E. Black"
 
 # $Log: inversionList.trm $
+# Mon Mar 25 12:32:29 2019  Paul E. Black
+# Update Teodor Ziatanovs NOTE URL
+# 
 # Tue Feb 19 10:32:02 2019  Paul E. Black
 # Use underscore (_) instead of space in Wikipedia reference.
 # 
@@ -61,7 +64,7 @@ negation, etc.
 The term inversion list is also used to refer to storing a sequence of
 bits as the numeric position of each switch between 0 and 1 bits. See
 <a
-href="http://search.cpan.org/~teodor/Algorithm-InversionList-0.03/InversionList.pm">Teodor
+href="https://metacpan.org/pod/release/TEODOR/Algorithm-InversionList-0.03/InversionList.pm">Teodor
 Ziatanov's InversionList</a> in Perl.
 Some authors refer to {inverted index} as inversion list.
 
