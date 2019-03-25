@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon Feb 25 11:19:26 2019" *by "Paul E. Black"
+# *modified "Mon Mar 25 12:15:44 2019" *by "Paul E. Black"
 
 # $Log: turingMachine.trm,v $
+# Mon Mar 25 12:18:59 2019  Paul E. Black
+# Update Alex Vinokurs IMPL URL
+# 
 # Mon Feb 25 11:19:59 2019  Paul E. Black
 # Update URL for Stanford LINK
 # 
@@ -61,7 +64,7 @@ in the Stanford Encyclopedia of Philosophy.
 # implementation(s) (pure HTML)
 @IMPL=
 Alex Vinokur's
-<a href="http://sourceforge.net/projects/turing-machine/">Turing
+<a href="https://sourceforge.net/projects/turing-machine/">Turing
 machine simulator (C++)</a>.
 # author's initials (see authors.data)
 @AUTHOR=CRC-A

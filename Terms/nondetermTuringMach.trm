@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon Nov 21 09:44:27 2005" *by "Paul E. Black"
+# *modified "Mon Mar 25 12:16:15 2019" *by "Paul E. Black"
 
 # $Log: nondetermTuringMach.trm,v $
+# Mon Mar 25 12:18:47 2019  Paul E. Black
+# Update Alex Vinokurs IMPL URL
+# 
 # Revision 1.3  2005/11/21 14:48:56  black
 # Add Vinokur's IMPL
 #
@@ -46,7 +49,7 @@ Technology, Copyright &copy; 2000 CRC Press LLC.
 # implementation(s) (pure HTML)
 @IMPL=
 Alex Vinokur's
-<a href="http://sourceforge.net/projects/turing-machine/">Turing
+<a href="https://sourceforge.net/projects/turing-machine/">Turing
 machine simulator (C++)</a>.
 # author's initials (see authors.data)
 @AUTHOR=CRC-A

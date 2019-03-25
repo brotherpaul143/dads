@@ -1,7 +1,10 @@
 # *created  "Mon May  8 12:57:30 2000" *by "Paul E. Black"
-# *modified "Mon Jan 23 11:04:06 2006" *by "Paul E. Black"
+# *modified "Mon Mar 25 12:16:03 2019" *by "Paul E. Black"
 
 # $Log: postMachine.trm,v $
+# Mon Mar 25 12:18:53 2019  Paul E. Black
+# Update Alex Vinokurs IMPL URL
+# 
 # Revision 1.5  2006/01/23 16:04:27  black
 # Update St. Andrews' mathematician biography URL
 #
@@ -49,7 +52,7 @@ Leon Post</a>.
 # implementation(s) (pure HTML)
 @IMPL=
 Alex Vinokur's
-<a href="http://sourceforge.net/projects/turing-machine/">Post machine
+<a href="https://sourceforge.net/projects/turing-machine/">Post machine
 simulator (C++)</a>.
 # author's initials (see authors.data)
 @AUTHOR=
