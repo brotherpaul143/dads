@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Mar 18 10:16:54 2019" *by "Paul E. Black"
+# *modified "Mon Mar 25 11:52:49 2019" *by "Paul E. Black"
 
 # $Log: pseudorandomNumberGen.trm,v $
+# Mon Mar 25 11:54:25 2019  Paul E. Black
+# Remove LINK to Fortuna.  All pages are fone.
+# 
 # Mon Mar 18 10:18:25 2019  Paul E. Black
 # Update or remove broken links.
 # 
@@ -186,9 +189,6 @@ Bit Generation</a> with links to reports, standard tests, and on-going
 research.
 <a href="http://www.fourmilab.ch/random/">ent</a>: a program to
 test the randomness of bytes in a file.
-Niels Ferguson and Bruce Schneier's
-<a href="https://www.schneier.com/academia/fortuna.html">Fortuna</a> is a
-cryptographically strong pseudorandom number generator.
 </p>
 
 <p>
