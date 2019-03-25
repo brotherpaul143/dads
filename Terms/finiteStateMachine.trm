@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon Feb 25 11:27:59 2019" *by "Paul E. Black"
+# *modified "Mon Mar 25 12:22:49 2019" *by "Paul E. Black"
 
 # $Log: finiteStateMachine.trm,v $
+# Mon Mar 25 12:23:33 2019  Paul E. Black
+# Use https for Kent University IMPL
+# 
 # Mon Feb 25 11:28:41 2019  Paul E. Black
 # Update van Noords IMPL URL and add his name.
 # 
@@ -112,7 +115,7 @@ Gertjan van Noord's
 Utilities (Prolog)</a>, which generate C code, minimize, visualize,
 etc.  Page has binaries, too.
 For regular expressions <a
-href="http://www.cs.kent.ac.uk/people/staff/sjt/craft2e/regExp.html">generate
+href="https://www.cs.kent.ac.uk/people/staff/sjt/craft2e/regExp.html">generate
 NFSM, make deterministic, and optimize (Haskell)</a>.
 Oleg Kiselyov's program to <a
 href="http://okmij.org/ftp/Prolog/minimizer.prl">minimize a
