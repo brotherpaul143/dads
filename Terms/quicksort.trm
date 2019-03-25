@@ -1,7 +1,10 @@
 # *created  "Wed Sep 16 08:54:42 1998" *by "Paul E. Black"
-# *modified "Mon Mar 18 10:44:14 2019" *by "Paul E. Black"
+# *modified "Mon Mar 25 12:06:45 2019" *by "Paul E. Black"
 
 # $Log: quicksort.trm,v $
+# Mon Mar 25 12:07:34 2019  Paul E. Black
+# Fix Flower Bracket IMPL URL
+# 
 # Mon Mar 25 11:59:36 2019  Paul E. Black
 # Remove link to Harrisons demo and code - gone.
 # 
@@ -150,7 +153,7 @@ extended discussion and alternatives (C, Python, Haskell, pseudocode)</a>.
 href="http://www.algolist.net/Algorithms/Sorting/Quicksort">explanation
 (Java and C++)</a>.
 Flower Brackets
-<a href="https://www.flowerbrackets.com/quick-sort-java/">explanation,
+<a href="https://www.flowerbrackets.com/quicksort-java/">explanation,
 including code and complexity (Java)</a>. 
 # further explanation (pure HTML)
 @LINKS=
