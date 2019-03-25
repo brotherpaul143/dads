@@ -1,7 +1,10 @@
 # *created  "Mon Mar 15 13:23:12 2004" *by "Paul E. Black"
-# *modified "Wed Oct  6 10:16:10 2010" *by "Paul E. Black"
+# *modified "Mon Mar 25 12:08:35 2019" *by "Paul E. Black"
 
 # $Log: gnomeSort.trm,v $
+# Mon Mar 25 12:10:35 2019  Paul E. Black
+# Update Dick Grunes IMPL URL
+# 
 # Revision 1.9  2010/10/06 14:17:33  black
 # Add Rolfe's note how and rewrite showing more clearly how this is a
 # variant of insertion sort.
@@ -127,7 +130,7 @@ idea much earlier."
 
 # implementation(s) (pure HTML)
 @IMPL=
-<a href="http://www.cs.vu.nl/~dick/gnomesort.html">(C)</a>
+<a href="https://www.cs.vu.nl/~dick/gnomesort.html">(C)</a>
 # further explanation (pure HTML)
 @LINKS=
 # author's initials (see authors.data)
