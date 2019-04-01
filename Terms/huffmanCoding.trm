@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Feb 11 17:10:01 2019" *by "Paul E. Black"
+# *modified "Mon Apr  1 09:00:28 2019" *by "Paul E. Black"
 
 # $Log: huffmanCoding.trm,v $
+# Mon Apr  1 09:04:00 2019  Paul E. Black
+# Update URL for Alistair Moffats IMPL
+# 
 # Mon Feb 11 17:10:12 2019  Paul E. Black
 # use https to access Wikipedia
 # 
@@ -144,10 +147,11 @@ Wikipedia's encyclopedic article on
 coding</a>.
 # implementation(s) (pure HTML)
 @IMPL=
-# Alistair Moffat, alistair@cs.mu.oz.au or ammoffat@unimelb.edu.au
+# Alistair Moffat, ammoffat@unimelb.edu.au
 # University of Melbourne, Victoria
-<a
-href="http://www.csse.unimelb.edu.au/~alistair/abstracts/mk95:wads.html">build
+# "In-Place Calculation of Minimum-Redundancy Codes"
+#       ... Huffman's famous greedy algorithm solves this problem ...
+<a href="https://people.eng.unimelb.edu.au/ammoffat/abstracts/mk95wads.html">build
 tree in array (C)</a> --  also computes entropy and efficiency.
 # author's initials
 @AUTHOR=PEB
