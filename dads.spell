@@ -35,13 +35,11 @@ Alon
 Amalapurapu
 Amar
 Amjad
-analytical
 Andersson
 andomized
 Andoni
 Andreas
 Andreyevich
-Angeles
 Angewandte
 Anil
 Annalen
@@ -50,13 +48,11 @@ Antal
 antichain
 antisymmetric
 Aoe
-API
 APL
 Apostolico
 Appel
 Appleby
 ar
-Aragon
 Arash
 arborescence
 Arne
@@ -221,7 +217,6 @@ cri
 Crochemore
 CRYPTO
 cryptographic
-cryptographically
 Cryptology
 crystallizations
 Csango
@@ -246,7 +241,6 @@ deallocate
 deallocating
 decoherence
 decomposable
-decrement
 decremental
 Dedu
 Deepayan
@@ -302,7 +296,6 @@ Edsger
 edu
 Ege
 Eichstaedt
-Eindhoven
 ej
 Ekanadham
 El
@@ -365,10 +358,8 @@ FOCS
 Forcade
 Formeln
 FORML
-Formulae
 Fortnow
 Fortran
-Fortuna
 frameborder
 Francon
 Franois
@@ -394,6 +385,7 @@ GEF
 Geffert
 Georgiev
 Georgii
+Gertjan
 GG
 Ghose
 Giancarlo
@@ -404,7 +396,6 @@ Goetz
 Goleta
 Golomb
 Gonnet
-GOPBAT
 Gopinath
 Gosper
 GPERF
@@ -442,7 +433,6 @@ Harter
 Harwell
 HASE
 hashbelt
-Haskell
 Havas
 hB
 heapify
@@ -492,7 +482,6 @@ IBLT
 ibn
 ICS
 ie
-IEEE
 IETF
 iff
 ifi
@@ -584,7 +573,6 @@ Knott
 Ko
 Koehler
 Koenigsberg
-Kohno
 Kolmogorov
 Kozen
 Kranakis
@@ -606,7 +594,7 @@ Lahmadi
 Lamport
 Landis
 lang
-Las
+Laplante
 LCFS
 LCS
 Lecroq
@@ -642,9 +630,6 @@ lmu
 ln
 LNCS
 logN
-lookup
-Los
-Lossless
 Lothar
 Lotka
 Lourakis
@@ -685,7 +670,6 @@ Maxime
 maxlength
 MBB
 McCabe
-McCoskey
 McCreight
 McGraw
 McIlroy
@@ -711,7 +695,6 @@ Mika
 Mikkel
 Milner
 Milnes
-minima
 minimalnim
 minimax
 Minkowski
@@ -737,7 +720,6 @@ Moustafa
 MSSmartTagsPreventParsing
 Mukherjee
 Mukundan
-multi
 multigraph
 multikey
 multilayer
@@ -769,7 +751,6 @@ NFA
 NFSM
 NFTA
 Nicos
-Niels
 Nievergelt
 Nikolaevich
 Nilo
@@ -791,6 +772,7 @@ nonoverlapping
 nonperiodic
 nonrectangular
 nonterminal
+Noord
 NORs
 NOTFOUND
 NQP
@@ -821,7 +803,6 @@ ONJava
 ood
 Opensource
 optimality
-optimizations
 oracleRandom
 ordinar
 ordinating
@@ -869,7 +850,6 @@ Pippenger
 Pittenger
 piw
 PJT
-pLab
 planarity
 planarization
 Plauger
@@ -926,7 +906,6 @@ Puglisi
 pushdown
 PWS
 py
-QA
 Qi
 qm
 qsort
@@ -1013,20 +992,16 @@ Saxe
 saxon
 SBB
 Schlegel
-Schneier
 Schorr
 scs
 sdu
-searchable
 SecondString
 Sedgewick
-Seeger
 Seidel
 Seiferas
 Selby
 Selmer
 semidefinite
-Sep
 Shaili
 Shaoyun
 Sharat
@@ -1039,7 +1014,6 @@ shortcutting
 Shostak
 showArticle
 Shukla
-sici
 Sielaff
 siftup
 SIGACT
@@ -1080,7 +1054,6 @@ Stas
 Steffas
 Steinhaus
 Steinitz
-Stellenbosch
 Stepanov
 STOC
 Stockmeyer
@@ -1167,7 +1140,6 @@ TNAME
 Torsten
 tradeoffs
 transversal
-Transylvanian
 Traub
 travelling
 treap
@@ -1181,8 +1153,6 @@ tripartition
 TST
 tt
 Tuaff
-tuple
-tuples
 twolevelExplain
 u'v
 UB
@@ -1204,10 +1174,8 @@ und
 undirected
 UNIMATCH
 unmarking
-unordered
 UnShuffle
 unvisited
-unweighted
 upc
 Upfal
 uspto
@@ -1223,7 +1191,6 @@ verf
 verifier
 Verin
 Verlag
-versa
 vg
 Viennot
 Viewable
@@ -1294,7 +1261,6 @@ Zahlen
 Zarahemla
 Zbigniew
 zdelta
-Zealand
 Zeghbroeck
 Zelkowitz
 Zeller
