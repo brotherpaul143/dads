@@ -1,7 +1,10 @@
  *created  "Thu Oct 17 16:41:56 2013" *by "Vreda Pieterse"
- *modified "Wed Mar  7 16:44:01 2018" *by "Paul E. Black"
+ *modified "Tue Mar 26 09:02:12 2019" *by "Paul E. Black"
 
 $Log$
+Mon Apr  1 09:04:59 2019  Paul E. Black
+mostly wording changes. DADS is in git, so thats done.
+
 Fri Apr  6 11:20:20 2018  Paul E. Black
 Update URL
 
@@ -43,12 +46,12 @@ Initial list of todos
 -------------------------------------------------------------------
                              TOOLS
 -------------------------------------------------------------------
-* move chkhtml out of the Makefile to a stand-alone perl script and
+* move chkhtml out of the Makefile to a stand-alone script and
     run it on Other and Target dirs, in addition to Target/HTML dir.
 * update .emacs to search for "by <a href=" and change at that point,
       instead of searching for just "href="
-* Start using an issue tracker
-* cron script to gather and save visiting statistics
+* start using an issue tracker
+* add cron script to gather and save visiting statistics
 * Auto configure script
   - create the appropriate bits* files
   - add a new make configure* to make
@@ -74,12 +77,9 @@ Initial list of todos
                           DOCUMENTATION
 -------------------------------------------------------------------
 * How to guides (including notes on basic use)
-  - setup GIT to collaborate 
-      Step 1 $ git clone https://github.com/vpieterse/dads
-        this step creates a dads directory
   - the files needed and changes needed to create a new configuration
-  - setup linkchecking and fixing broken links
-  - setup emacs, e.g., to update files upon save
+  - set up link checking and fixing broken links
+  - set up emacs, e.g., to update files upon save
 
 * Conferenece/Journal publications
   - rework of TN that did not succeed 
