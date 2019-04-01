@@ -9,9 +9,13 @@ UNDERSCORE
 BACKSLASH, CARET, or DOLLAR SIGN
          visitNode(tree, n ^ key, 1);<br /> in CupifGianniniTreeTraversal.html
 UNDERSCORE
+<a href="https://en.wikipedia.org/wiki/Merkle_tree" target="_blank"><em>Merkle_tree [Wikipedia]</em></a>. in MerkleTree.html
+UNDERSCORE
  <strong>Ralph C. Merkle</strong>, <em>A Digital Signature Based on a Conventional Encryption Function</em>, in C. Pomerance (ed) Advances in Cryptology &mdash; CRYPTO &rsquo;87. Lecture Notes in Computer Science 293:369-378, 1988. <a href="https://doi.org/10.1007/3-540-48184-2_32" target="_blank">doi:10.1007/3-540-48184-2_32</a> in MerkleTree.html
 UNDERSCORE
 Contributed by Arvind &lt;uk_arvind@mail.utexas.edu&gt; May 2002.</em> in baumWelch.html
+UNDERSCORE
+<p> <a href="../terms.html#Knuth97">[Knuth97, 1:107]</a>,  <a href="../terms.html#HS83">[HS83, page 31]</a>, and <a href="../terms.html#Stand98">[Stand98, page 466]</a> use |f(n)| &le; c|g(n)|.   In <a href="https://en.wikipedia.org/wiki/computational_complexity_theory" target="_blank"><em>computational_complexity_theory [Wikipedia]</em></a> "only positive functions are considered, so the absolute value bars may be left out." (Wikipedia, "Big O notation"). This definition after <a href="../terms.html#CLR90">[CLR90, page 26]</a>. </p>  in bigOnotation.html
 BACKSLASH, CARET, or DOLLAR SIGN
                  /|\          <br /> in binaryTreeRepofTree.html
 BACKSLASH, CARET, or DOLLAR SIGN
@@ -29,6 +33,8 @@ BACKSLASH, CARET, or DOLLAR SIGN
 BACKSLASH, CARET, or DOLLAR SIGN
                \              <br /> in binaryTreeRepofTree.html
 UNDERSCORE
+ <a href="https://en.wikipedia.org/wiki/Bloom_filter" target="_blank"><em>Bloom_filter [Wikipedia]</em></a> gives many variants and extensions. <a href="http://cap-lore.com/code/BloomTheory.html" target="_blank" target="_blank">Trade-offs and engineering techniques</a> with links to sites with recent papers, hash functions, etc. <a href="http://pages.cs.wisc.edu/~cao/papers/summary-cache/node8.html" target="_blank" target="_blank">Another explanation</a> typo: probability of false positive is missing a minus sign; exponent should be ... e<sup>-kn/m</sup>. <a href="http://www.perl.com/pub/2004/04/08/bloom_filters.html" target="_blank" target="_blank">Using Bloom filters</a>.  Language is Perl. Jason Davies'  <a href="https://www.jasondavies.com/bloomfilter/" target="_blank" target="_blank">interactive animation</a> helps people understand how a Bloom filter works. in bloomFilter.html
+UNDERSCORE
  <strong>Prosenjit Bose, Hua Guo, Evangelos Kranakis, Anil Maheshwari, Pat Morin, Jason Morrison, Michiel Smid, and Yihui Tang</strong>, <em>On the False-Positive Rate of Bloom Filters</em>, Technical Report TR-07-07, Carleton University - School of Computer Science, 1 March 2007.  Available at http://www.scs.carleton.ca/research/tech_reports/index.php?Abstract=tr-07-07_0007 <br /> in bloomFilter.html
 UNDERSCORE
 <p> Contributed by Arvind &lt;uk_arvind@mail.utexas.edu&gt; May 2002.</em> in bradfordsLaw.html
@@ -36,6 +42,8 @@ BACKSLASH, CARET, or DOLLAR SIGN
   &nbsp; &nbsp; BWT[i] = T[SA[i]-1], if SA[i] &gt; 1, otherwise $ <br /> in burrowsWheelerTransform.html
 BACKSLASH, CARET, or DOLLAR SIGN
  where T is the original string, i goes from 1 (<a href="oneBasedIndexing.html"><em>1-based indexing</em></a>) to the length of T, SA is the suffix array of T, and $ is the special character indicating the end of string.</em> in burrowsWheelerTransform.html
+UNDERSCORE
+<a href="https://en.wikipedia.org/wiki/Burrows-Wheeler_transform" target="_blank"><em>Burrows-Wheeler_transform [Wikipedia]</em></a>. in burrowsWheelerTransform.html
 BACKSLASH, CARET, or DOLLAR SIGN
          printf("%d\n", head(l));<br /> in collectiveRecursion.html
 UNDERSCORE
@@ -124,6 +132,8 @@ UNDERSCORE
      inorder(tree.left_subtree);<br /> in inorderTraversal.html
 UNDERSCORE
      inorder(tree.right_subtree);<br /> in inorderTraversal.html
+UNDERSCORE
+Definition adapted from <a href="https://en.wikipedia.org/wiki/Inversion_list" target="_blank"><em>Inversion_list [Wikipedia]</em></a>.   More explanation and code in  <strong>Richard Gillam</strong>, <em> A Practical Programmer's Guide to the Encoding Standard</em>, chapter 13, page 504ff, Addison-Wesley Professional, 2002. in inversionList.html
 UNDERSCORE
          levelorderAux(tree.left_subtree, level-1);<br /> in levelOrderTraversal.html
 UNDERSCORE
@@ -236,6 +246,8 @@ UNDERSCORE
 <pre>       __1__6.8_4_0_4_2_7_5_...<br /> in squareRoot.html
 BACKSLASH, CARET, or DOLLAR SIGN
      \/  2,83.6		<br /> in squareRoot.html
+UNDERSCORE
+<a href="pearsonshash.html"><em>Pearson's hash</em></a>, <a href="https://en.wikipedia.org/wiki/Zobrist_hashing" target="_blank"><em>Zobrist_hashing [Wikipedia]</em></a>. in tabulationHashing.html
 UNDERSCORE
 <pre> int max_list(list l, int max_so_far)<br /> in tailRecursion.html
 UNDERSCORE
