@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Apr 23 09:21:37 2007" *by "Paul E. Black"
+# *modified "Thu Apr  4 11:15:51 2019" *by "Paul E. Black"
 
 # $Log: treeTraversal.trm,v $
+# Thu Apr  4 11:18:02 2019  Paul E. Black
+# XREF Cupif-Giannini tree traversal
+# 
 # Revision 1.4  2007/04/23 13:21:39  black
 # Update URL for Mukundan's Java demos and code
 #
@@ -35,7 +38,7 @@ traversal}, {level-order traversal}
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS=
+@XREFS={Cupif-Giannini tree traversal}
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
