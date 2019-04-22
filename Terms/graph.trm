@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 13:26:31 1998" *by "Paul E. Black"
-# *modified "Mon Feb 25 11:52:49 2019" *by "Paul E. Black"
+# *modified "Mon Apr 22 11:57:50 2019" *by "Paul E. Black"
 
 # $Log: graph.trm,v $
+# Mon Apr 22 11:58:50 2019  Paul E. Black
+# Update LINK to bib and glossary of graphs.  Update Boost IMPL URL.
+# 
 # Mon Feb 25 11:53:15 2019  Paul E. Black
 # Update JGraphT IMPL URL
 # 
@@ -202,8 +205,8 @@ February 2000
 
 # further explanation (pure HTML)
 @LINKS=Journal of Combinatorics dynamic surveys DS8 and DS9 are 
-<a href="http://www.combinatorics.org/issue/view/Surveys">a bibliography (DS8)
-and glossary (DS9) of graphs</a>.
+<a href="https://www.combinatorics.org/ojs/index.php/eljc/issue/view/Surveys">a bibliography (DS8)
+and glossary (DS9) of signed and gain graphs</a>.
 <strong>Deepayan Chakrabarti</strong> and <strong>Christos
 Faloutsos</strong>, <em>Graph Mining: Laws, Generators, and
 Algorithms</em>,  ACM Computing Surveys, Vol. 38, March 2006, Article 2.
@@ -224,7 +227,8 @@ and display directed and undirected graphs,
 <a
 href="http://www3.cs.stonybrook.edu/~algorith/files/generating-graphs.shtml">Graph
 generating (C, Mathematica, Pascal, C++, and Fortran)</a>,
-<a href="http://www.boost.org/doc/libs/1_43_0/libs/graph/doc/">BGL - the Boost Graph
+<a href="https://www.boost.org/doc/libs/1_43_0/libs/graph/doc/">BGL - 
+the Boost Graph
 Library (C++)</a>.
 <a href="http://freecode.com/projects/thegraphtemplatelibrary">GTL - the Graph
 Template Library (C)</a>.
