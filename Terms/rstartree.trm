@@ -1,7 +1,10 @@
 # *created  "Fri Nov 20 16:32:24 1998" *by "Paul E. Black"
-# *modified "Mon Nov 25 15:29:38 2013" *by "Paul E. Black"
+# *modified "Mon Apr 22 11:49:27 2019" *by "Paul E. Black"
 
 # $Log: rstartree.trm,v $
+# Mon Apr 22 11:52:59 2019  Paul E. Black
+# Update URL of Hadjieleftherious IMPL
+# 
 # Mon Nov 25 15:34:36 2013  Paul E. Black
 # Update URL of Hadjieleftherious IMPL
 # 
@@ -48,7 +51,7 @@ upon overflow, rather than splitting.
 # implementation(s) (pure HTML)
 @IMPL=
 In Marios Hadjieleftheriou's <a
-href="http://libspatialindex.github.io/">Spatial Index
+href="https://libspatialindex.org/">Spatial Index
 Library (C++)</a>
 # author's initials
 @AUTHOR=PEB
