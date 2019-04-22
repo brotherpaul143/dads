@@ -1,7 +1,10 @@
 # *created  "Mon Jan  4 09:05:07 1999" *by "Paul E. Black"
-# *modified "Tue Feb 19 09:56:06 2019" *by "Paul E. Black"
+# *modified "Mon Apr 22 12:05:00 2019" *by "Paul E. Black"
 
 # $Log: binarySearchTree.trm,v $
+# Mon Apr 22 12:13:15 2019  Paul E. Black
+# Remove LINK to Mukundans animation: no longer available.
+# 
 # Tue Feb 19 10:47:24 2019  Paul E. Black
 # Remove Gross IMPL - no longer found
 # 
@@ -125,8 +128,7 @@ subtree has keys greater than the node's key.
 pointers, but may have a variety of constraints on how it is composed.
 # further explanation (pure HTML)
 @LINKS=
-A <a
-href="http://www.cosc.canterbury.ac.nz/mukundan/dsal/BST.html">animation (Java)</a>.
+
 # implementation(s) (pure HTML)
 @IMPL=
 Ben Pfaff's 

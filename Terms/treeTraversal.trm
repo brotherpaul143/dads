@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Apr  4 11:15:51 2019" *by "Paul E. Black"
+# *modified "Mon Apr 22 12:02:42 2019" *by "Paul E. Black"
 
 # $Log: treeTraversal.trm,v $
+# Mon Apr 22 12:15:57 2019  Paul E. Black
+# Remove LINK to Mukundans animation: no longer available.
+# 
 # Thu Apr  4 11:18:02 2019  Paul E. Black
 # XREF Cupif-Giannini tree traversal
 # 
@@ -43,9 +46,8 @@ traversal}, {level-order traversal}
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 # further explanation (pure HTML)
-@LINKS=<a
-href="http://www.cosc.canterbury.ac.nz/mukundan/dsal/BTree.html">Demonstration</a>
-of preorder, in-order, and postorder traversal on a binary tree.
+@LINKS=
+
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials

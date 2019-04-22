@@ -1,7 +1,10 @@
 # *created  "Tue Dec  1 12:02:55 1998" *by "Paul E. Black"
-# *modified "Fri Feb 10 12:37:45 2017" *by "Paul E. Black"
+# *modified "Mon Apr 22 12:05:10 2019" *by "Paul E. Black"
 
 # $Log: breadthfirst.trm,v $
+# Mon Apr 22 12:13:25 2019  Paul E. Black
+# Remove LINK to Mukundans animation: no longer available.
+# 
 # Fri Feb 10 13:37:04 2017  Paul E. Black,,,
 # Clarify that, for trees, this is the SAME as a level-order traversal.
 # Fix tiny grammatical error.
@@ -84,8 +87,7 @@ parallel search
 Lecture notes from Design and Analysis of Algorithms on <a
 href="http://www.ics.uci.edu/~eppstein/161/960215.html">Breadth-first
 search and depth-first search</a>.
-An <a
-href="http://www.cosc.canterbury.ac.nz/mukundan/dsal/GraphAppl.html">animation (Java)</a>.
+
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials

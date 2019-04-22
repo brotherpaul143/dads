@@ -1,7 +1,10 @@
 # *created  "Wed Sep 16 08:54:15 1998" *by "Paul E. Black"
-# *modified "Mon Mar 18 10:44:50 2019" *by "Paul E. Black"
+# *modified "Mon Apr 22 12:07:13 2019" *by "Paul E. Black"
 
 # $Log: mergesort.trm,v $
+# Mon Apr 22 12:14:31 2019  Paul E. Black
+# Remove LINK to Mukundans animation: no longer available.
+# 
 # Mon Mar 25 11:58:31 2019  Paul E. Black
 # Remove link to Harrisons demo and code - gone.
 # 
@@ -142,7 +145,6 @@ Flower Brackets
 
 # further explanation (pure HTML)
 @LINKS=
-<a href="http://www.cosc.canterbury.ac.nz/mukundan/dsal/MSort.html">animation (Java)</a>.
 <a href="http://www.azillionmonkeys.com/qed/sort.html">Comparison of
 quicksort, heapsort, and merge sort</a> on modern processors.
 

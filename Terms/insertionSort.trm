@@ -1,7 +1,10 @@
 # *created  "Wed Sep 16 08:53:23 1998" *by "Paul E. Black"
-# *modified "Mon Mar 18 10:45:18 2019" *by "Paul E. Black"
+# *modified "Mon Apr 22 12:06:26 2019" *by "Paul E. Black"
 
 # $Log: insertionSort.trm,v $
+# Mon Apr 22 12:14:10 2019  Paul E. Black
+# Remove LINK to Mukundans animation: no longer available.
+# 
 # Mon Mar 25 11:58:23 2019  Paul E. Black
 # Remove link to Harrisons demo and code - gone.
 # 
@@ -139,11 +142,7 @@ objects, and recursion (Java)</a>.
 @LINKS=
 <a href="http://cs.smith.edu/~thiebaut/java/sort/demo.html">demonstration</a>
 of several sort algorithms, with particular emphasis on insertion
-sort;
-an
-<a href="http://www.cosc.canterbury.ac.nz/mukundan/dsal/ISort.html">animation (Java)</a>
-of insertion sort.
-
+sort.
 <br />
 
 <br />

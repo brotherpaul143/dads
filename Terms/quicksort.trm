@@ -1,7 +1,10 @@
 # *created  "Wed Sep 16 08:54:42 1998" *by "Paul E. Black"
-# *modified "Mon Mar 25 12:06:45 2019" *by "Paul E. Black"
+# *modified "Mon Apr 22 12:08:11 2019" *by "Paul E. Black"
 
 # $Log: quicksort.trm,v $
+# Mon Apr 22 12:15:17 2019  Paul E. Black
+# Remove LINK to Mukundans animation: no longer available.
+# 
 # Mon Mar 25 12:07:34 2019  Paul E. Black
 # Fix Flower Bracket IMPL URL
 # 
@@ -157,8 +160,6 @@ Flower Brackets
 including code and complexity (Java)</a>. 
 # further explanation (pure HTML)
 @LINKS=
-Java applet 
-<a href="http://www.cosc.canterbury.ac.nz/mukundan/dsal/QSort.html">animation (Java)</a>.
 <a href="http://www.azillionmonkeys.com/qed/sort.html">Comparison of
 quicksort, heapsort, and merge sort</a> on modern processors.
 

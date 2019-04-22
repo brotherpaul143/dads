@@ -1,7 +1,10 @@
 # *created  "Mon Nov  1 11:06:29 1999" *by "Paul E. Black"
-# *modified "Mon Feb 25 11:23:49 2019" *by "Paul E. Black"
+# *modified "Mon Apr 22 12:07:24 2019" *by "Paul E. Black"
 
 # $Log: nqueens.trm,v $
+# Mon Apr 22 12:14:39 2019  Paul E. Black
+# Remove LINK to Mukundans animation: no longer available.
+# 
 # Mon Feb 25 11:24:23 2019  Paul E. Black
 # Update Antals IMPL URL to use https
 # 
@@ -51,7 +54,7 @@ queen can attack another.  Efficiently find all possible placements.
 values of $n$.
 # further explanation (pure HTML)
 @LINKS=
-<a href="http://www.cosc.canterbury.ac.nz/mukundan/dsal/NQP.html">animation (Java)</a>
+
 # implementation(s) (pure HTML)
 @IMPL=
 Barzan "Tony" Antal's backtracking (or depth-first) 

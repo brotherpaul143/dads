@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Aug 24 09:17:51 2017" *by "Paul E. Black"
+# *modified "Mon Apr 22 12:06:04 2019" *by "Paul E. Black"
 
 # $Log: inorderTraversal.trm,v $
+# Mon Apr 22 12:14:00 2019  Paul E. Black
+# Remove LINK to Mukundans animation: no longer available.
+# 
 # Fri Feb 10 13:35:02 2017  Paul E. Black,,,
 # XREF Cupif-Giannini tree traversal, too.
 # 
@@ -72,8 +75,8 @@ begin<br />
 end
 </pre>
 # further explanation (pure HTML)
-@LINKS=<a
-href="http://www.cosc.canterbury.ac.nz/mukundan/dsal/BTree.html">animation (Java)</a>
+@LINKS=
+
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials

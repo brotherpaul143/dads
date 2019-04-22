@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 10:13:39 1998" *by "Paul E. Black"
-# *modified "Mon Mar 18 10:45:54 2019" *by "Paul E. Black"
+# *modified "Mon Apr 22 12:05:30 2019" *by "Paul E. Black"
 
 # $Log: bubblesort.trm,v $
+# Mon Apr 22 12:13:34 2019  Paul E. Black
+# Remove LINK to Mukundans animation: no longer available.
+# 
 # Mon Mar 25 11:57:49 2019  Paul E. Black
 # Remove link to Harrisons demo and code - gone.
 # 
@@ -120,11 +123,6 @@ Flower Brackets
 
 # further explanation (pure HTML)
 @LINKS=
-<a href="http://www.cosc.canterbury.ac.nz/mukundan/dsal/BSort.html">animation (Java)</a>.
-
-<br />
-
-<br />
 Bubble sort illustrated through a
 <a href="https://www.youtube.com/watch?v=lyZQPjUT5B4">Hungarian folk
 dance: Cs&aacute;ng&oacute;</a>.
