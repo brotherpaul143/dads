@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Apr 22 12:06:04 2019" *by "Paul E. Black"
+# *modified "Fri May  3 16:06:40 2019" *by "Paul E. Black"
 
 # $Log: inorderTraversal.trm,v $
+# Fri May  3 16:07:54 2019  Paul E. Black
+# In-order traversal is AKA symmetrical traversal
+# 
 # Mon Apr 22 12:14:00 2019  Paul E. Black
 # Remove LINK to Mukundans animation: no longer available.
 # 
@@ -44,7 +47,7 @@ the right subtree.
 # formal definition or {cross reference} to an entry
 @FORML=
 # comma-sep list of pure names that this is Also Known As.
-@AKA=
+@AKA=symmetrical traversal
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=inorder traversal, infix traversal
 
