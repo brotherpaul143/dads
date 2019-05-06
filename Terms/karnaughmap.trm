@@ -1,7 +1,10 @@
 # *created  "Thu Feb 11 16:27:49 1999" *by "Paul E. Black"
-# *modified "Mon Sep 24 09:55:26 2012" *by "Paul E. Black"
+# *modified "Mon May  6 09:55:27 2019" *by "Paul E. Black"
 
 # $Log: karnaughmap.trm,v $
+# Mon May  6 09:58:51 2019  Paul E. Black
+# LINK now uses https:
+# 
 # Revision 1.12  2012/09/24 13:56:10  black
 # be more specific about URL
 #
@@ -94,7 +97,7 @@ expression.
 # further explanation (pure HTML)
 @LINKS=
 <a
-href="http://www.embedded.com/electronics-blogs/programmer-s-toolbox/4024897/A-primer-on-Karnaugh-maps">A
+href="https://www.embedded.com/electronics-blogs/programmer-s-toolbox/4024897/A-primer-on-Karnaugh-maps">A
 primer on Karnaugh maps</a> motivated by minimizing logic.
 An <a
 href="http://homepages.wmich.edu/~johnson/ece250/Quiz5/quiz.html">interactive
