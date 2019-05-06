@@ -1,7 +1,10 @@
 # *created  "Mon Nov 27 13:58:44 2000" *by "Paul E. Black"
-# *modified "Mon Dec 17 10:11:01 2007" *by "Paul E. Black"
+# *modified "Mon May  6 09:41:02 2019" *by "Paul E. Black"
 
 # $Log: enfilade.trm,v $
+# Mon May  6 09:41:51 2019  Paul E. Black
+# Remove LINK to Xanadu Green; sunless-sea.net doesnt respond.
+# 
 # Revision 1.4  2007/12/17 15:12:53  black
 # Replace udanax.com IMPL, (bad hostname) with sunless-sea.net and
 # udanax.xanadu.com IMPLs.
@@ -44,7 +47,6 @@ Enfilade), Switcheroo, Switcheroonie, and tumbler.
 href="http://xanadu.com/tech/">introduction</a>.
 # implementation(s) (pure HTML)
 @IMPL=
-<a href="http://www.sunless-sea.net/static/green/docs/">Green (C)</a>.
 <a href="http://udanax.xanadu.com/gold/download/">Gold (Smalltalk)</a>.
 # author's initials (see authors.data)
 @AUTHOR=
