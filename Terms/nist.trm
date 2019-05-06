@@ -1,7 +1,10 @@
 # *created  "Wed Mar 10 12:53:59 1999" *by "Paul E. Black"
-# *modified "Fri Dec 17 11:53:16 2004" *by "Paul E. Black"
+# *modified "Mon May  6 10:10:34 2019" *by "Paul E. Black"
 
 # $Log: nist.trm,v $
+# Mon May  6 10:11:01 2019  Paul E. Black
+# LINK to home page now uses https:
+# 
 # Revision 1.2  2004/12/17 16:53:17  black
 # Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
 #
@@ -30,7 +33,7 @@
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 # further explanation (pure HTML)
-@LINKS=<a href="http://www.nist.gov/">home page</a>
+@LINKS=<a href="https://www.nist.gov/">home page</a>
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials
