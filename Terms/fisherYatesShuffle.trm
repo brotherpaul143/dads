@@ -1,7 +1,10 @@
 # *created  "Fri Jul 30 12:27:00 2004" *by "Paul E. Black"
-# *modified "Mon Feb 25 09:24:59 2019" *by "Paul E. Black"
+# *modified "Mon May  6 09:50:47 2019" *by "Paul E. Black"
 
 # $Log: fisherYatesShuffle.trm,v $
+# Mon May  6 09:51:19 2019  Paul E. Black
+# Bostocks IMPL now uses https:
+# 
 # Mon Feb 25 10:25:55 2019  Paul E. Black
 # Update URL for Pfaffs IMPL 
 # 
@@ -118,7 +121,7 @@ Ben Pfaff's answer to
 <a href="https://benpfaff.org/writings/clc/shuffle.html">how
 can I shuffle the contents of an array? (C)</a>.
 Mike Bostock's
-<a href="http://bost.ocks.org/mike/shuffle/">animations with code
+<a href="https://bost.ocks.org/mike/shuffle/">animations with code
 (JavaScript)</a>.
 An 
 <a href="http://introcs.cs.princeton.edu/java/14array/">implementation
