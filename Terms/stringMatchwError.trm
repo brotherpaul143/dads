@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Tue Sep  2 08:47:38 2014" *by "Paul E. Black"
+# *modified "Mon May  6 10:17:24 2019" *by "Paul E. Black"
 
 # $Log: stringMatchwError.trm,v $
+# Mon May  6 10:18:02 2019  Paul E. Black
+# Update LINK to Yang et. al. paper
+# 
 # Tue Sep  2 08:47:44 2014  Paul E. Black
 # Change stonybrook.edu URL in IMPL
 # 
@@ -91,7 +94,7 @@ faster, though more complicated, to start with an {inverted index} or
 a {suffix tree}.
 # further explanation (pure HTML)
 @LINKS=
-<a href="http://arxiv.org/abs/cs.DS/0112022">
+<a href="https://arxiv.org/abs/cs/0112022">
 <strong>Qi Xiao Yang, Sung Sam Yuan, Lu Chun, Li Zhao, and Sun Peng</strong>,
 <em>Faster Algorithm of
 String Comparison</em></a> 2001.
