@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Mar  9 13:31:16 2015" *by "Paul E. Black"
+# *modified "Mon May  6 09:43:52 2019" *by "Paul E. Black"
 
 # $Log: permutation.trm,v $
+# Mon May  6 09:44:17 2019  Paul E. Black
+# Bostocks IMPL now uses https
+# 
 # Mon Mar  9 13:32:02 2015  Paul E. Black
 # Add Bostocks IMPL and animations of different permutation algorithms.
 # 
@@ -106,7 +109,7 @@ href="http://www3.cs.stonybrook.edu/~algorith/files/generating-permutations.shtm
 Fortran, Mathematica, and C)</a>;
 <a href="http://gams.nist.gov/serve.cgi/Class/N8">(Fortran)</a>.
 Mike Bostock's animations of different
-<a href="http://bost.ocks.org/mike/shuffle/">permutation algorithms
+<a href="https://bost.ocks.org/mike/shuffle/">permutation algorithms
 with code (JavaScript)</a>.
 <a
 href="http://okmij.org/ftp/Haskell/perfect-shuffle.txt">Perfect
