@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Tue Sep  2 08:47:26 2014" *by "Paul E. Black"
+# *modified "Mon May  6 09:24:33 2019" *by "Paul E. Black"
 
 # $Log: steinertree.trm,v $
+# Mon May  6 09:29:42 2019  Paul E. Black
+# Kimberlings LINK now uses https
+# 
 # Tue Sep  2 08:47:29 2014  Paul E. Black
 # Change stonybrook.edu URL in IMPL
 # 
@@ -73,7 +76,7 @@ be used.
 <p>
 # ck6 is Clark Kimberling
 Named for <a
-href="http://faculty.evansville.edu/ck6/bstud/steiner.html">Jakob
+href="https://faculty.evansville.edu/ck6/bstud/steiner.html">Jakob
 Steiner</a>.
 </p>
 
