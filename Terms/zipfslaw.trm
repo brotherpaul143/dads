@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Aug 24 10:28:40 2009" *by "Paul E. Black"
+# *modified "Mon May  6 10:21:42 2019" *by "Paul E. Black"
 
 # $Log: zipfslaw.trm,v $
+# Mon May  6 10:22:09 2019  Paul E. Black
+# LINK to graphs now uses https:
+# 
 # Revision 1.5  2009/08/24 14:29:07  black
 # Update LINK to graphs showing law.
 #
@@ -59,7 +62,7 @@ compression approaches.
 Named for George Kingsley Zipf.
 # further explanation (pure HTML)
 @LINKS=
-Two <a href="http://www.hermetic.ch/wfca/zipf.htm">graphs</a>
+Two <a href="https://www.hermetic.ch/wfca/zipf.htm">graphs</a>
 illustrating the law.
 # implementation(s) (pure HTML)
 @IMPL=
