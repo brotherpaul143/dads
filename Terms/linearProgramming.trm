@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon Dec 15 09:10:25 2008" *by "Paul E. Black"
+# *modified "Mon May  6 10:02:09 2019" *by "Paul E. Black"
 
 # $Log: linearProgramming.trm,v $
+# Mon May  6 10:02:47 2019  Paul E. Black
+# LINK to Spanish site now uses https:
+# 
 # Revision 1.4  2008/12/15 14:15:14  black
 # Replace non-ASCII character with HTML sequence.
 #
@@ -48,7 +51,7 @@ Appearing in the Dictionary of Computer Science, Engineering and
 Technology, Copyright &copy; 2000 CRC Press LLC.
 # further explanation (pure HTML)
 @LINKS=
-<a href="http://www.programacionlineal.net/">Programaci&oacute;n Lineal</a>,
+<a href="https://www.programacionlineal.net/">Programaci&oacute;n Lineal</a>,
 a site in Spanish about linear programming.
 # implementation(s) (pure HTML)
 @IMPL=
