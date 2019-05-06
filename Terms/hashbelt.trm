@@ -1,7 +1,10 @@
 # *created  "Mon Dec  3 17:00:11 2007" *by "Paul E. Black"
-# *modified "Thu Aug 22 16:03:08 2013" *by "Paul E. Black"
+# *modified "Mon May  6 09:54:10 2019" *by "Paul E. Black"
 
 # $Log: hashbelt.trm,v $
+# Mon May  6 09:54:53 2019  Paul E. Black
+# Grossos BIB is no longer on-line anywhere that I could find.
+# 
 # Revision 1.4  2013/08/22 20:04:41  black
 # update URL for Grosso's article
 #
@@ -49,10 +52,7 @@ its contents.  To find an item, search all the tables.
 # bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
 <strong>William Grosso</strong>, <em>The Hashbelt Data Structure</em>,
-O'Reilly ONJava.com, 9 January 2002.  Available at
-<a href="http://www.onjava.com/pub/a/onjava/2002/01/30/dataexp2.html">
-http://www.onjava.com/pub/a/onjava/2002/01/30/dataexp2.html</a>
-(Accessed 3 Dec 2007).
+O'Reilly ONJava.com, 9 January 2002.
 
 # any notes.  these are not printed in the final dictionary
 @NOTES=
