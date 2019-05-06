@@ -1,7 +1,10 @@
 # *created  "Tue Sep 15 12:08:46 1998" *by "Paul E. Black"
-# *modified "Mon Mar 18 10:32:19 2019" *by "Paul E. Black"
+# *modified "Mon May  6 10:15:50 2019" *by "Paul E. Black"
 
 # $Log: sieve.trm,v $
+# Mon May  6 10:16:23 2019  Paul E. Black
+# Deerings LINK now uses https:
+# 
 # Mon Mar 18 10:33:03 2019  Paul E. Black
 # Remove Primes Glossary IMPL: gone.
 # 
@@ -162,7 +165,7 @@ href="https://primes.utm.edu/glossary/page.php?sort=SieveOfEratosthenes">explana
 and (pseudocode)</a> in the Prime pages.
 Larry Deering explains his
 # ldeering@optonline.net  7 Nov 2009
-<a href="http://www.qsl.net/w2gl/">Black Key Sieve</a> which
+<a href="https://www.qsl.net/w2gl/">Black Key Sieve</a> which
 uses a sparse bit array of possible multiples.
 # implementation(s) (pure HTML)
 @IMPL=
