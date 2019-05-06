@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Mar 25 11:52:49 2019" *by "Paul E. Black"
+# *modified "Mon May  6 09:45:11 2019" *by "Paul E. Black"
 
 # $Log: pseudorandomNumberGen.trm,v $
+# Mon May  6 09:45:54 2019  Paul E. Black
+# Wheelers LINK now uses https and a slightly different domain name
+# 
 # Mon Mar 25 11:54:25 2019  Paul E. Black
 # Remove LINK to Fortuna.  All pages are fone.
 # 
@@ -155,7 +158,7 @@ every time it is used.
 Do <strong>NOT</strong> use typical ``random'' number generators for
 security or cryptographic purposes.
 <a
-href="http://www.dwheeler.com/secure-programs/Secure-Programs-HOWTO/random-numbers.html">Random
+href="https://dwheeler.com/secure-programs/Secure-Programs-HOWTO/random-numbers.html">Random
 Numbers</a> from David Wheeler's <em>Secure Programming for Linux and
 Unix HOWTO</em>, Section 11.3, gives suggestions and guidelines.
 </p>
