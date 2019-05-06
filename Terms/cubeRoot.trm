@@ -1,7 +1,10 @@
 # *created  "Fri Oct 15 08:54:48 2004" *by "Paul E. Black"
-# *modified "Mon Mar 18 10:20:06 2019" *by "Paul E. Black"
+# *modified "Mon May  6 09:49:52 2019" *by "Paul E. Black"
 
 # $Log: cubeRoot.trm,v $
+# Mon May  6 09:50:14 2019  Paul E. Black
+# GAMS IMPL now uses https
+# 
 # Mon Mar 18 10:21:07 2019  Paul E. Black
 # Remove link to lesson on convergence: not accessible.
 # 
@@ -294,7 +297,8 @@ method</a>, sometimes called Newton's method.
 @HISTORY=
 
 # implementation(s) (pure HTML)
-@IMPL=<a href="http://gams.nist.gov/">GAMS</a> Class C2 has many
+@IMPL=
+<a href="https://gams.nist.gov/">GAMS</a> Class C2 has many
 implementations of
 <a href="http://gams.nist.gov/serve.cgi/Class/C2/">powers, roots, and
 reciprocals (C and Fortran)</a>.
