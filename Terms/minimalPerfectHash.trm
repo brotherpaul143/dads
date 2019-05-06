@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Feb 25 10:58:36 2019" *by "Paul E. Black"
+# *modified "Mon May  6 10:07:39 2019" *by "Paul E. Black"
 
 # $Log: minimalPerfectHash.trm,v $
+# Mon May  6 10:10:01 2019  Paul E. Black
+# Update LINK to Schmidts paper on GPERF
+# 
 # Revision 1.10  2011/05/09 18:38:51  black
 # update LINK to Schmidt's gperf paper
 #
@@ -76,8 +79,9 @@ f(k) is $1\ldots |K|$.
 minimal perfect hash functions for large databases</a></em>, 
 CACM, 35(1):105-121, January 1992.
 <br />
-<a href="http://www1.cse.wustl.edu/~schmidt/PDF/gperf.pdf">GPERF: A
-Perfect Hash Function Generator</a> PDF document.
+<strong>Douglas C. Schmidt</strong>,
+<a href="http://www.dre.vanderbilt.edu/~schmidt/PDF/gperf.pdf">GPERF: A
+Perfect Hash Function Generator</a>, about 1997.
 # implementation(s) (pure HTML)
 @IMPL=
 Description and code for <a
