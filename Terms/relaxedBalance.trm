@@ -1,7 +1,10 @@
 # *created  "Mon Feb 22 08:42:33 1999" *by "Paul E. Black"
-# *modified "Tue Jul 15 11:52:14 2014" *by "Paul E. Black"
+# *modified "Mon May  6 10:13:57 2019" *by "Paul E. Black"
 
 # $Log: relaxedBalance.trm,v $
+# Mon May  6 10:15:02 2019  Paul E. Black
+# Update LINK for Larsens bib (and put text in the proper field)
+# 
 # Tue Jul 15 11:53:02 2014  Paul E. Black
 # Explain Kim Larsens relaxed balance page more.
 # 
@@ -44,8 +47,9 @@ such that an update can leave the tree in a well-defined state.  Thus,
 the assumptions under which rebalancing is carried out change.  This
 poses the problem of still carrying out the rebalancing efficiently.
 # further explanation (pure HTML)
+@LINKS=
 Kim S. Larsen's bibliographical information for
-@LINKS=<a href="http://www.imada.sdu.dk/~kslarsen/RelBal/">Search
+<a href="https://imada.sdu.dk/~kslarsen/RelBal/">Search
 Trees with Relaxed Balance</a>.
 # implementation(s) (pure HTML)
 @IMPL=
