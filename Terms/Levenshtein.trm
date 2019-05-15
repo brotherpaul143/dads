@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon Feb 11 17:05:11 2019" *by "Paul E. Black"
+# *modified "Wed May 15 14:53:20 2019" *by "Paul E. Black"
 
 # $Log: Levenshtein.trm,v $
+# Wed May 15 14:55:09 2019  Paul E. Black
+# LINK to pictures is now https
+# 
 # Mon Feb 11 17:05:43 2019  Paul E. Black
 # use https to access Wikipedia
 # 
@@ -95,7 +98,7 @@ Technology, Copyright &copy; 2000 CRC Press LLC.
 entry</a> which has links to implementations.
 March 2003
 <a
-href="http://www.uni-bielefeld.de/(en)/ZIF/FG/2002Combinatorics/02-reception.html">pictures
+href="https://www.uni-bielefeld.de/(en)/ZIF/FG/2002Combinatorics/02-reception.html">pictures
 of Levenshtein</a> at a reception.
 # implementation(s) (pure HTML)
 @IMPL=
