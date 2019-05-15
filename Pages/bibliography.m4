@@ -1,7 +1,10 @@
 dnl *created  "Tue Dec  5 11:11:34 2006" *by "Paul E. Black"
-dnl *modified "Mon Dec 10 08:19:17 2018" *by "Paul E. Black"
+dnl *modified "Wed May 15 15:19:40 2019" *by "Paul E. Black"
 dnl
 dnl $Log: bibliography.m4,v $
+dnl Wed May 15 15:22:17 2019  Paul E. Black
+dnl Update LEDA link and add what it is an acronym for.
+dnl 
 dnl Mon Dec 10 08:31:45 2018  Paul E. Black
 dnl Update LEDA URL (https instead of http). Regularize Log entries and
 dnl *modified line.  Add end-of-file line.
@@ -114,8 +117,9 @@ Programming</em>, Addison-Wesley, volume 3, 2<sup>nd</sup> edition, 1998.
 
 <p>
 <a name="Leda98">[Leda98]</a>
-<a href="https://www.algorithmic-solutions.com/enleda.htm">LEDA</a>
-(accessed 4 December 2002).
+<a href="https://www.algorithmic-solutions.com/leda_manual/MANUAL.html">LEDA</a>
+Library of Efficient Data types and Algorithms
+(accessed 15 May 2019).
 </p>
 
 <p>
