@@ -1,5 +1,5 @@
 # *created  "Wed Nov 19 16:46:46 2008" *by "Paul E. Black"
-# *modified "Thu Nov 20 16:14:19 2008" *by "Paul E. Black"
+# *modified "Tue May 28 14:19:03 2019" *by "Paul E. Black"
 
 # $Log: SchorrWaiteGraphMarking.trm,v $
 # Revision 1.1  2008/11/20 21:15:38  black
@@ -45,10 +45,7 @@ in various list structures</em>, CACM, 10(8):501-506, August 1967.
 
 <p>
 There are many variants, better presentations, and proofs of
-correctness, such as
-<strong>David Gries</strong>,
-<a href="http://www.cs.cornell.edu/courses/cs312/2007fa/lectures/lec21-schorr-waite.pdf"><em>Schorr-Waite
-Graph Marking Algorithm - Developed With Style</em></a>, 2007.
+correctness.
 
 
 # any notes.  these are not printed in the final dictionary
@@ -63,7 +60,11 @@ This algorithm works for graphs with {cycles}, so is not limited to
 <p>
 This is used in garbage collection to mark all nodes in use.  Any
 node still unmarked after the algorithm finishes is unused and may be
-collected.  Although a depth-first search to mark nodes is easy to
+collected.
+</p>
+
+<p>
+Although a depth-first search to mark nodes is easy to
 write, it takes extra space proportional to the maximum search depth,
 which could be all nodes.
 
