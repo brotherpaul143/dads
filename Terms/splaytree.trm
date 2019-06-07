@@ -1,5 +1,5 @@
 # *created  "Tue Feb  2 15:55:14 1999" *by "Paul E. Black"
-# *modified "Mon Nov 17 14:42:03 2008" *by "Paul E. Black"
+# *modified "Fri Jun  7 13:56:48 2019" *by "Paul E. Black"
 
 # $Log: splaytree.trm,v $
 # Revision 1.7  2008/11/17 19:42:35  black
@@ -60,8 +60,7 @@ Binary Search Trees</a></em>, Journal of the ACM, 32(3):652-686, 1985.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=
-Danny Sleator's
-<a href="ftp://ftp.cs.cmu.edu/user/sleator/splaying/">(Java and C)</a>.
+
 # author's initials
 @AUTHOR=CLK
 # end $Source: /home/black/Workspace/dads/Terms/RCS/splaytree.trm,v $
