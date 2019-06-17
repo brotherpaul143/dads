@@ -1,7 +1,10 @@
 # *created  "Tue Sep 15 12:08:29 1998" *by "Paul E. Black"
-# *modified "Tue Feb 12 09:58:07 2019" *by "Paul E. Black"
+# *modified "Mon Jun 10 08:33:59 2019" *by "Paul E. Black"
 
 # $Log: greatestCommonDivisor.trm,v $
+# Mon Jun 17 08:45:45 2019  Paul E. Black
+# Update flowerbrackets IMPL URL
+# 
 # Tue Feb 12 09:58:22 2019  Paul E. Black
 # Update Flower Bracket IMPL URL
 # 
@@ -63,7 +66,7 @@ the same.
 # implementation(s) (pure HTML)
 @IMPL=
 Flower Brackets
-<a href="https://www.flowerbrackets.com/gcd-java/">(Java)</a>. 
+<a href="https://www.flowerbrackets.com/java-find-gcd-lcm-euclids-algorithm/">(Java)</a>. 
 
 # author's initials
 @AUTHOR=PEB
