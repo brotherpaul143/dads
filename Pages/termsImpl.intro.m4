@@ -1,7 +1,10 @@
 dnl *created  "Wed Nov 18 08:51:04 1998" *by "Paul E. Black"
-dnl *modified "Tue Sep  2 08:24:19 2014" *by "Paul E. Black"
+dnl *modified "Mon Jun 17 08:29:00 2019" *by "Paul E. Black"
 dnl
 dnl $Log$
+dnl Mon Jun 17 08:41:27 2019  Paul E. Black
+dnl Use https for GAMS
+dnl 
 dnl Tue Sep  2 08:56:48 2014  Paul E. Black
 dnl Change www.cs.sunysb.edu to www3.cs.stonybrook.edu for Stony Brook URL
 dnl 
@@ -73,7 +76,7 @@ quality, is the
 <a href="http://www3.cs.stonybrook.edu/~algorith/">Stony Brook
 Algorithm Repository</a>.  A great source of implementations of
 mathematical functions is the NIST
-<a href="http://gams.nist.gov/">Guide to Available Mathematical
+<a href="https://gams.nist.gov/">Guide to Available Mathematical
 Software</a> or GAMS.
 </p>
 
