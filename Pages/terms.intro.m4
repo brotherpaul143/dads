@@ -1,7 +1,10 @@
 dnl *created  "Fri Sep  4 16:39:08 1998" *by "Paul E. Black"
-dnl *modified "Wed Dec 12 13:07:20 2018" *by "Paul E. Black"
+dnl *modified "Mon Jun 17 09:02:00 2019" *by "Paul E. Black"
 dnl
 dnl $Log: terms.intro.m4,v $
+dnl Mon Jun 17 09:37:21 2019  Paul E. Black
+dnl Remove "DADS needs to move" comment.  Vadim says SAMATE will keep it.
+dnl 
 dnl Tue Feb 12 10:41:53 2019  Paul E. Black
 dnl Add (back) note seeking someone to take over DADS.
 dnl 
@@ -99,14 +102,6 @@ This web site is hosted by
 include(`Pages/bitsHostedBy.m4')
 Development of this dictionary started in 1998 
 under the editorship of Paul E. Black. </p>
-
-<p>
-<strong>
-After 20 years, DADS needs to move.  If you are interested in
-taking over DADS, please contact 
-include(`Pages/bitsEmail.m4').
-</strong>
-</p>
 
 <p>
 This is a dictionary of algorithms, algorithmic techniques, 
