@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 10:13:39 1998" *by "Paul E. Black"
-# *modified "Fri Mar 25 08:48:32 2016" *by "Paul E. Black"
+# *modified "Mon Jun 17 08:20:42 2019" *by "Paul E. Black"
 
 # $Log: qsort.trm,v $
+# Mon Jun 17 08:42:50 2019  Paul E. Black
+# Remove metager.de IMPL - no longer on line.  Improve DEFN.
+# 
 # Fri Mar 25 08:53:56 2016  Paul E. Black
 # Add DEFN per David C. Rankin.  Move sort from XREFS to IMA.  Add that
 # quicksort and insertion sort are INME.  Add GNU libc and Apple
@@ -21,9 +24,9 @@
 # basic, numeric, search, sort, graph, combin(atorial)
 @AREA=sort
 # the definition
-@DEFN=The {quicksort} implementation in many libraries. It is generally
-a combination of quicksort, for large partitions, and {insertion sort},
-for small partitions.
+@DEFN=The {sort} function in many libraries. It is generally
+a combination of quicksort, for many items, and {insertion sort},
+for a few items.
 # formal definition or {cross reference} to an entry
 @FORML=
 # comma-sep list of pure names that this is Also Known As.
@@ -51,8 +54,6 @@ for small partitions.
 @IMPL=
 <a href="http://cglab.ca/~morin/misc/sortalg/">demonstration and
 source code (Java)</a>,
-<a href="http://code.metager.de/source/raw/gnu/glibc/stdlib/qsort.c">GNU
-libc qsort (C)</a>,
 <a href="http://www.opensource.apple.com/source/xnu/xnu-1456.1.26/bsd/kern/qsort.c">Apple
 Opensource qsort (C)</a>.
 
