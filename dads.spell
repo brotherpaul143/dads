@@ -103,6 +103,8 @@ bintree
 Bitner
 bitNumber
 bitonic
+bitsFixDefn
+bitsReqHeadStuff
 bitwise
 BJ
 BKP
@@ -406,7 +408,6 @@ Granfilade
 GraphEd
 Graphviz
 GreaterThan
-Gries
 Grillo
 Grossi
 Grosso
@@ -616,7 +617,6 @@ LH
 li
 Liang
 libavl
-libc
 libfa
 libstree
 lim
