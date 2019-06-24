@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Jul 20 16:28:30 2018" *by "Paul E. Black"
+# *modified "Mon Jun 24 15:01:53 2019" *by "Paul E. Black"
 
 # $Log: stringMatching.trm,v $
+# Mon Jun 24 15:08:39 2019  Paul E. Black
+# Update Strmat URL
+# 
 # Fri Jul 20 16:37:49 2018  Paul E. Black
 # Add strsrch as a VARIANT
 # 
@@ -82,7 +85,7 @@ Matching Algorithms (C)</a>,
 <a
 href="http://www3.cs.stonybrook.edu/~algorith/files/string-matching.shtml">(C++
 and Pascal)</a>,
-<a href="http://www.cs.ucdavis.edu/~gusfield/strmat.html">Strmat
+<a href="https://web.cs.ucdavis.edu/~gusfield/strmat.html">Strmat
 (C)</a> - a collection of string matching and pattern discovery
 programs,
 <a

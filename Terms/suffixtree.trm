@@ -1,7 +1,10 @@
 # *created  "Tue Dec 15 11:00:58 1998" *by "Paul E. Black"
-# *modified "Mon Feb 11 17:11:29 2019" *by "Paul E. Black"
+# *modified "Mon Jun 24 15:01:22 2019" *by "Paul E. Black"
 
 # $Log: suffixtree.trm,v $
+# Mon Jun 24 15:09:22 2019  Paul E. Black
+# Update Strmat URL
+# 
 # Mon Feb 11 17:11:33 2019  Paul E. Black
 # use https to access Wikipedia
 # 
@@ -105,7 +108,7 @@ structure of choice in many applications.
 
 # implementation(s) (pure HTML)
 @IMPL=Strmat - a variety of <a
-href="http://www.cs.ucdavis.edu/~gusfield/strmat.html">string matching
+href="https://web.cs.ucdavis.edu/~gusfield/strmat.html">string matching
 and pattern discovery algorithms (C)</a>.
 Christian Kreibich's
 <a href="http://www.icir.org/christian/libstree/">libstree (C)</a>
