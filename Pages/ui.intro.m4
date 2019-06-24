@@ -1,7 +1,10 @@
 dnl *created  "Thu Jan 17 10:05:27 2002" *by "Paul E. Black"
-dnl *modified "Mon Apr 21 12:23:03 2014" *by "Paul E. Black"
+dnl *modified "Mon Jun 24 15:14:08 2019" *by "Paul E. Black"
 dnl
 dnl $Log: ui.intro.m4,v $
+dnl Mon Jun 24 15:35:47 2019  Paul E. Black
+dnl Update URL for robots FAQ
+dnl 
 dnl Mon Apr 21 12:24:49 2014  Paul E. Black
 dnl Replace header (<h1></h1> etc) tags, which are used for formatting,
 dnl with format tags.  Note: formatting should be in the CSS.
@@ -46,8 +49,8 @@ Doubly linked list and its synonyms appears four times: as
 doubly linked list, symmetrically linked list, two-way linked list,
 and two-way list.  The last two would occur close to each other in the 
 <a href="terms.html">main index</a>, so "two-way list" is only in
-this index, which is for <a
-href="http://www.robotstxt.org/faq.html">robots</a>
+this index, which is for
+<a href="https://www.robotstxt.org/faq.html">robots</a>
 to find and index.
 </p>
 
