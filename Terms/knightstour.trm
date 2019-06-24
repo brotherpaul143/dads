@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Jun 24 14:58:24 2019" *by "Paul E. Black"
+# *modified "Mon Jun 24 15:11:56 2019" *by "Paul E. Black"
 
 # $Log: knightstour.trm,v $
+# Mon Jun 24 15:12:46 2019  Paul E. Black
+# Remove LINK to Thomassons Knights Tour page - its gone.
+# 
 # Mon Jun 17 08:44:08 2019  Paul E. Black
 # Update borderschess INFO URL
 # 
