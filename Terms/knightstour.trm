@@ -1,5 +1,5 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Jun 17 08:25:20 2019" *by "Paul E. Black"
+# *modified "Mon Jun 24 14:58:24 2019" *by "Paul E. Black"
 
 # $Log: knightstour.trm,v $
 # Mon Jun 17 08:44:08 2019  Paul E. Black
@@ -46,10 +46,7 @@ problem can be generalized to an $n \times m$ rectangular chess board.
 Solutions may be found using {backtracking}.
 # further explanation (pure HTML)
 @LINKS=
-# page author is Dan Thomasson <dthomasson@carolina.rr.com> Apr 2005
-Dan Thomasson's
-<a href="http://borderschess.org/KnightTour.htm">Knight's Tour</a>
-page, with application to prime numbers, tour on a cube's face, etc.
+
 # implementation(s) (pure HTML)
 @IMPL=Oleg Kiselyov's <a
 href="http://okmij.org/ftp/Prolog/Knight.prl">derivation (Prolog)</a>
