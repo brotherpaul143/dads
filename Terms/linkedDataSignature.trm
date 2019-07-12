@@ -1,0 +1,67 @@
+# *created  "Thu Jul 11 17:25:48 2019" *by "Paul E. Black"
+# *modified "Fri Jul 12 08:47:11 2019" *by "Paul E. Black"
+
+# $Log$
+
+# entry name
+@NAME=linked data signature
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=crypt
+# the definition
+@DEFN=A digital signature, and information to verify it, for linked data.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names that this is Also Known As.
+@AKA=LDS
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS=
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+<strong>Dave Longley</strong>, <strong>Manu Sporny</strong>, and
+<strong>Christopher Allen</strong>,
+<em>Linked Data Signatures 1.0</em>,
+Draft Community Group Report 27 February 2018.
+Available at
+<a href="https://w3c-dvcg.github.io/ld-signatures/">https://w3c-dvcg.github.io/ld-signatures/</a> or
+<a href="https://github.com/w3c-dvcg/ld-signatures">https://github.com/w3c-dvcg/ld-signatures</a>.
+Accessed 11 July 2019.
+</p>
+
+<p>
+"This specification was published by the W3C Digital Verification
+Community Group.  It is not a W3C Standard nor is it on the W3C
+Standards Track.
+...
+This is an experimental specification and is undergoing regular
+revisions. It is not fit for production deployment."
+
+# any notes.  these are not printed in the final dictionary
+@NOTES=
+"Linked data" is information on the Web accessible through standards,
+such as URLs and DOIs.
+
+# any historical notes
+@HISTORY=
+
+# implementation(s) (pure HTML)
+@IMPL=
+# further explanation (pure HTML)
+@LINKS=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end $Source$
