@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Jun 10 08:34:00 2019" *by "Paul E. Black"
+# *modified "Fri Jul 12 10:48:13 2019" *by "Paul E. Black"
 
 # $Log: leastCommonMultiple.trm,v $
+# Fri Jul 12 10:52:34 2019  Paul E. Black
+# Update Flower Brackets IMPL URL (again - name of page changed)
+# 
 # Mon Jun 17 08:46:06 2019  Paul E. Black
 # Update flowerbrackets IMPL URL
 # 
@@ -50,7 +53,7 @@ instance, LCM(6, 10) = 30.
 # implementation(s) (pure HTML)
 @IMPL=
 Flower Brackets
-<a href="https://www.flowerbrackets.com/java-find-gcd-lcm-euclids-algorithm/">(Java)</a>. 
+<a href="https://www.flowerbrackets.com/java-program-find-gcd-lcm-two-numbers-euclids-algorithm/">(Java)</a>. 
 
 # author's initials
 @AUTHOR=PEB
