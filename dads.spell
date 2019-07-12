@@ -103,8 +103,6 @@ bintree
 Bitner
 bitNumber
 bitonic
-bitsFixDefn
-bitsReqHeadStuff
 bitwise
 BJ
 BKP
@@ -271,13 +269,13 @@ diviser
 dk
 DM
 DNAME
-dnl
 Dobb
 Dobosiewicz
 Docid
 Doclady
 DOCTYPE
 doi
+DOIs
 Dokladi
 Doklady
 DPDA
@@ -289,6 +287,7 @@ DTD
 DualPivotQuicksort
 duals
 Durstenfeld
+dvcg
 dx
 dynamization
 Eberhart
@@ -394,6 +393,7 @@ Ghose
 Giancarlo
 Gillam
 Gilleland
+github
 gnomesort
 Goetz
 Goleta
@@ -599,6 +599,8 @@ lang
 Laplante
 LCFS
 LCS
+ld
+LDS
 Lecroq
 Leeuwen
 legenyes
@@ -631,6 +633,7 @@ lmu
 ln
 LNCS
 logN
+Longley
 Lothar
 Lotka
 Lourakis
@@ -653,6 +656,7 @@ Manasse
 Manber
 Manolis
 Manti
+Manu
 Manzini
 Marios
 Markus
@@ -1045,6 +1049,7 @@ SPL
 SPMD
 SPOJ
 Spolecnosti
+Sporny
 Springer
 SRC
 srchnum
@@ -1131,7 +1136,6 @@ th
 Thibaudeau
 Thiel
 Thierry
-Thomasson
 Thorsten
 Thorup
 tiac
