@@ -1,5 +1,5 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon May  6 10:17:24 2019" *by "Paul E. Black"
+# *modified "Mon Jul 15 12:31:47 2019" *by "Paul E. Black"
 
 # $Log: stringMatchwError.trm,v $
 # Mon May  6 10:18:02 2019  Paul E. Black
@@ -100,7 +100,7 @@ a {suffix tree}.
 String Comparison</em></a> 2001.
 # implementation(s) (pure HTML)
 @IMPL=See implementations at {string matching}. <a
-href="http://www3.cs.stonybrook.edu/~algorith/files/approximate-pattern-matching.shtml">(C
+href="http://algorist.com/problems/Approximate_Pattern_Matching.html">(C
 and Pascal)</a>
 # author's initials (see authors.data)
 @AUTHOR=CRC-A

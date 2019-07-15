@@ -1,5 +1,5 @@
 # *created  "Wed Nov 19 09:25:46 2003" *by "Paul E. Black"
-# *modified "Mon Mar  4 10:01:07 2019" *by "Paul E. Black"
+# *modified "Mon Jul 15 12:33:01 2019" *by "Paul E. Black"
 
 # $Log: longestCommonSubstring.trm,v $
 # Mon Mar  4 10:17:01 2019  Paul E. Black
@@ -68,8 +68,8 @@ subsequence need not be.
 @LINKS=
 
 # implementation(s) (pure HTML)
-@IMPL=<a
-href="http://www3.cs.stonybrook.edu/~algorith/files/longest-common-substring.shtml">(C
+@IMPL=
+<a href="http://algorist.com/problems/Longest_Common_Substring.html">(C
 and Mathematica)</a>
 # author's initials (see authors.data)
 @AUTHOR=PEB

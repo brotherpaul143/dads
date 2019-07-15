@@ -1,5 +1,5 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Tue Sep  2 08:41:42 2014" *by "Paul E. Black"
+# *modified "Mon Jul 15 12:29:11 2019" *by "Paul E. Black"
 
 # $Log: graphisomrph.trm,v $
 # Tue Sep  2 08:41:47 2014  Paul E. Black
@@ -39,7 +39,7 @@
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=<a
-href="http://www3.cs.stonybrook.edu/~algorith/files/graph-isomorphism.shtml">(C
+href="http://algorist.com/problems/Graph_Isomorphism.html">(C
 and Mathematica)</a>
 # author's initials
 @AUTHOR=PEB

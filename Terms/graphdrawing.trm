@@ -1,5 +1,5 @@
 # *created  "Mon Apr 12 09:34:27 1999" *by "Paul E. Black"
-# *modified "Tue Sep  2 08:41:25 2014" *by "Paul E. Black"
+# *modified "Mon Jul 15 12:29:11 2019" *by "Paul E. Black"
 
 # $Log: graphdrawing.trm,v $
 # Tue Sep  2 08:41:39 2014  Paul E. Black
@@ -60,9 +60,9 @@ for instance with a minimum number of {edge crossings}.
 # implementation(s) (pure HTML)
 @IMPL=
 <a
-href="http://www3.cs.stonybrook.edu/~algorith/files/drawing-graphs.shtml">Draw
+href="http://algorist.com/problems/Drawing_Graphs.html">Draw
 a graph nicely (C and Mathematica)</a>, <a
-href="http://www3.cs.stonybrook.edu/~algorith/files/planar-drawing.shtml">draw
+href="http://algorist.com/problems/Planar_Drawing.html">draw
 a graph in the plane such that no edges cross (C, C++, and
 Mathematica)</a>, GraphEd: <a
 href="http://www3.cs.stonybrook.edu/~algorith/implement/graphed/implement.shtml">Graph

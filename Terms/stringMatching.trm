@@ -1,5 +1,5 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Jun 24 15:01:53 2019" *by "Paul E. Black"
+# *modified "Mon Jul 15 12:29:11 2019" *by "Paul E. Black"
 
 # $Log: stringMatching.trm,v $
 # Mon Jun 24 15:08:39 2019  Paul E. Black
@@ -83,7 +83,7 @@ Christian Charras' and Thierry Lecroq's <a
 href="http://www-igm.univ-mlv.fr/~lecroq/string/">Exact String
 Matching Algorithms (C)</a>,
 <a
-href="http://www3.cs.stonybrook.edu/~algorith/files/string-matching.shtml">(C++
+href="http://algorist.com/problems/String_Matching.html">(C++
 and Pascal)</a>,
 <a href="https://web.cs.ucdavis.edu/~gusfield/strmat.html">Strmat
 (C)</a> - a collection of string matching and pattern discovery

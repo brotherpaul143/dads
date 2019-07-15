@@ -1,5 +1,5 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Tue Sep  2 08:39:02 2014" *by "Paul E. Black"
+# *modified "Mon Jul 15 12:29:11 2019" *by "Paul E. Black"
 
 # $Log: feedbackEdgeSet.trm,v $
 # Tue Sep  2 08:39:09 2014  Paul E. Black
@@ -42,7 +42,7 @@
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
-@IMPL=<a href="http://www3.cs.stonybrook.edu/~algorith/files/feedback-set.shtml">(C)</a>
+@IMPL=<a href="http://algorist.com/problems/Feedback_Set.html">(C)</a>
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/feedbackEdgeSet.trm,v $

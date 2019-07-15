@@ -1,5 +1,5 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Tue Sep  2 08:38:03 2014" *by "Paul E. Black"
+# *modified "Mon Jul 15 12:32:01 2019" *by "Paul E. Black"
 
 # $Log: edgeConnectivity.trm,v $
 # Tue Sep  2 08:38:32 2014  Paul E. Black
@@ -48,7 +48,7 @@ deletion will separate $s$ from $t$.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=<a
-href="http://www3.cs.stonybrook.edu/~algorith/files/edge-vertex-connectivity.shtml">(Mathematica,
+href="http://algorist.com/problems/Edge_Vertex_Connectivity.html">(Mathematica,
 C, and Pascal)</a>
 # author's initials
 @AUTHOR=GS

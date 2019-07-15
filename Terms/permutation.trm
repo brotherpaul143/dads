@@ -1,5 +1,5 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon May  6 09:43:52 2019" *by "Paul E. Black"
+# *modified "Mon Jul 15 12:29:11 2019" *by "Paul E. Black"
 
 # $Log: permutation.trm,v $
 # Mon May  6 09:44:17 2019  Paul E. Black
@@ -105,7 +105,7 @@ There are {$n!$#factorial} permutations of $n$ (distinguishable) elements.
 # implementation(s) (pure HTML)
 @IMPL=
 <a
-href="http://www3.cs.stonybrook.edu/~algorith/files/generating-permutations.shtml">(Pascal,
+href="http://algorist.com/problems/Generating_Permutations.html">(Pascal,
 Fortran, Mathematica, and C)</a>;
 <a href="http://gams.nist.gov/serve.cgi/Class/N8">(Fortran)</a>.
 Mike Bostock's animations of different

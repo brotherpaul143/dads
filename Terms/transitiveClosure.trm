@@ -1,5 +1,5 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Feb 25 11:30:56 2019" *by "Paul E. Black"
+# *modified "Mon Jul 15 12:29:12 2019" *by "Paul E. Black"
 
 # $Log: transitiveClosure.trm,v $
 # Mon Feb 25 11:31:21 2019  Paul E. Black
@@ -51,7 +51,7 @@ Vreda Pieterse's explanation of binary relations and transitive
 closure with links to
 <a href="https://cs.up.ac.za/cs/vpieterse/AptiAlgo/AptiAlgoritmi.html">implementations (C++)</a>.
 Stony Brook's explanation and links to <a
-href="http://www3.cs.stonybrook.edu/~algorith/files/transitive-closure.shtml">implementations
+href="http://algorist.com/problems/Transitive_Closure.html">implementations
 (C++ and Mathematica)</a>.
 # author's initials
 @AUTHOR=SKS

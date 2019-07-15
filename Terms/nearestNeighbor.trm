@@ -1,5 +1,5 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Tue Sep  2 08:44:30 2014" *by "Paul E. Black"
+# *modified "Mon Jul 15 12:29:11 2019" *by "Paul E. Black"
 
 # $Log: nearestNeighbor.trm,v $
 # Tue Sep  2 08:44:34 2014  Paul E. Black
@@ -45,7 +45,7 @@ A <a href="http://mathworld.wolfram.com/VoronoiDiagram.html">Voronoi
 diagram</a> divides a plane into regions of nearest neighbors.
 # implementation(s) (pure HTML)
 @IMPL=<a
-href="http://www3.cs.stonybrook.edu/~algorith/files/nearest-neighbor.shtml">(C,
+href="http://algorist.com/problems/Nearest_Neighbor.html">(C,
 C++, and Pascal)</a>
 # author's initials
 @AUTHOR=PEB

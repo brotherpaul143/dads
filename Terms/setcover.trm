@@ -1,5 +1,5 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Tue Sep  2 08:45:43 2014" *by "Paul E. Black"
+# *modified "Mon Jul 15 12:29:11 2019" *by "Paul E. Black"
 
 # $Log: setcover.trm,v $
 # Tue Sep  2 08:45:51 2014  Paul E. Black
@@ -46,7 +46,7 @@ $\bigcup<sub>i=1</sub> c<sub>i</sub> = \bigcup<sub>i=1</sub> S<sub>i</sub>$.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
-@IMPL=<a href="http://www3.cs.stonybrook.edu/~algorith/files/set-cover.shtml">(Pascal)</a>
+@IMPL=<a href="http://algorist.com/problems/Set_Cover.html">(Pascal)</a>
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/setcover.trm,v $

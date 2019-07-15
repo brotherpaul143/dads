@@ -1,5 +1,5 @@
 # *created  "Tue Dec  1 11:46:37 1998" *by "Paul E. Black"
-# *modified "Mon Mar 25 12:34:00 2019" *by "Paul E. Black"
+# *modified "Mon Jul 15 12:29:12 2019" *by "Paul E. Black"
 
 # $Log: topologicalSort.trm,v $
 # Mon Mar 25 12:34:41 2019  Paul E. Black
@@ -66,7 +66,7 @@ Eric Lippert's narrative example and <a
 href="https://blogs.msdn.microsoft.com/ericlippert/2004/03/16/im-putting-on-my-top-hat-tying-up-my-white-tie-brushing-out-my-tails-in-that-order/">solution
 (JScript)</a>.
 <a
-href="http://www3.cs.stonybrook.edu/~algorith/files/topological-sorting.shtml">(C++,
+href="http://algorist.com/problems/Topological_Sorting.html">(C++,
 Mathematica, C, and Pascal)</a>
 # author's initials
 @AUTHOR=PEB

@@ -1,5 +1,5 @@
 # *created  "Mon Nov 16 15:21:02 1998" *by "Paul E. Black"
-# *modified "Tue Feb 12 09:41:30 2019" *by "Paul E. Black"
+# *modified "Mon Jul 15 12:29:11 2019" *by "Paul E. Black"
 
 # $Log: kdtree.trm,v $
 # Tue Feb 12 09:41:35 2019  Paul E. Black
@@ -70,7 +70,7 @@ been used.  The keys are used again beginning at level $k$.
 @LINKS=
 
 # implementation(s) (pure HTML)
-@IMPL=<a href="http://www3.cs.stonybrook.edu/~algorith/files/kd-trees.shtml">C,
+@IMPL=<a href="http://algorist.com/problems/Kd_Trees.html">C,
 Pascal, or FORTRAN</a>, <a
 href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/3/352.ins.c">insert
 (C)</a>, <a
@@ -78,7 +78,7 @@ href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/3/352.range.c">range
 search (C)</a>, and <a
 href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/3/352.srch.c">search
 (C)</a>.
-<a href="http://www3.cs.stonybrook.edu/~algorith/files/kd-trees.shtml">(C,
+<a href="http://algorist.com/problems/Kd_Trees.html">(C,
 Pascal, and Fortran)</a>
 # author's initials
 @AUTHOR=PEB

@@ -1,5 +1,5 @@
 # *created  "Fri Sep 18 10:17:13 1998" *by "Paul E. Black"
-# *modified "Mon Mar 18 10:39:12 2019" *by "Paul E. Black"
+# *modified "Mon Jul 15 12:29:11 2019" *by "Paul E. Black"
 
 # $Log: sort.trm,v $
 # Mon Mar 25 11:59:59 2019  Paul E. Black
@@ -129,7 +129,7 @@ by their holes, to implement {radix sort}.
 # implementation(s) (pure HTML)
 @IMPL=Specific implementations can be found under the specific sort
 routines or at <a
-href="http://www3.cs.stonybrook.edu/~algorith/files/sorting.shtml">(Pascal,
+href="http://algorist.com/problems/Sorting.html">(Pascal,
 C++, Fortran, and Mathematica)</a>.
 Thomas Baudel's 
 <a href="http://thomas.baudel.name/Visualisation/VisuTri/">sort

@@ -1,5 +1,5 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Tue Sep  2 08:49:25 2014" *by "Paul E. Black"
+# *modified "Mon Jul 15 11:18:11 2019" *by "Paul E. Black"
 
 # $Log: vertexcover.trm,v $
 # Tue Sep  2 08:49:30 2014  Paul E. Black
@@ -52,7 +52,7 @@ problem is to find a minimum size set and is {NP-complete}.
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
-An illustration of vertex cover is posting the least number of polices
+An illustration of vertex cover is posting the least number of police
 to watch every street in a city.  Clearly police should be at
 intersections.  What's the smallest set of intersections?
 </p>

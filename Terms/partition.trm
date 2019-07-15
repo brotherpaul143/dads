@@ -1,5 +1,5 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Wed Jan 30 12:38:52 2019" *by "Paul E. Black"
+# *modified "Mon Jul 15 12:29:11 2019" *by "Paul E. Black"
 
 # $Log: partition.trm,v $
 # Wed Jan 30 12:46:00 2019  Paul E. Black
@@ -87,7 +87,7 @@ Thanks to Julio A. Cartaya &lt;jac@puma.mt.att.com&gt;.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=<a
-href="http://www3.cs.stonybrook.edu/~algorith/files/generating-partitions.shtml">generating
+href="http://algorist.com/problems/Generating_Partitions.html">generating
 partitions (Fortran, Mathematica, Pascal, and C)</a>.
 # author's initials
 @AUTHOR=PEB

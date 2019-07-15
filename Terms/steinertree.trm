@@ -1,5 +1,5 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon May  6 09:24:33 2019" *by "Paul E. Black"
+# *modified "Mon Jul 15 12:29:11 2019" *by "Paul E. Black"
 
 # $Log: steinertree.trm,v $
 # Mon May  6 09:29:42 2019  Paul E. Black
@@ -87,7 +87,7 @@ trees.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=<a
-href="http://www3.cs.stonybrook.edu/~algorith/files/steiner-tree.shtml">(C
+href="http://algorist.com/problems/Steiner_Tree.html">(C
 and Pascal)</a>.
 # author's initials
 @AUTHOR=JLG

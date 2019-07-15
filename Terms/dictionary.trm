@@ -1,5 +1,5 @@
 # *created  "Tue Feb  2 13:01:38 1999" *by "Paul E. Black"
-# *modified "Fri Jun  8 10:14:36 2018" *by "Paul E. Black"
+# *modified "Mon Jul 15 12:29:11 2019" *by "Paul E. Black"
 
 # $Log: dictionary.trm,v $
 # Fri Jun  8 10:25:04 2018  Paul E. Black
@@ -133,7 +133,7 @@ Contributions by Rob Stewart 16 March 2004.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=<a
-href="http://www3.cs.stonybrook.edu/~algorith/files/dictionaries.shtml">(C++,
+href="http://algorist.com/problems/Dictionaries.html">(C++,
 Pascal, and Fortran)</a>.
 Maksim Goleta's
 <a href="http://goletas.com/csharp-collections">Collections

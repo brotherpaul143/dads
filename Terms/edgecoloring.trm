@@ -1,5 +1,5 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Tue Sep  2 08:38:37 2014" *by "Paul E. Black"
+# *modified "Mon Jul 15 12:29:11 2019" *by "Paul E. Black"
 
 # $Log: edgecoloring.trm,v $
 # Tue Sep  2 08:38:44 2014  Paul E. Black
@@ -45,7 +45,7 @@ Technology, Copyright &copy; 2000 CRC Press LLC.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=<a
-href="http://www3.cs.stonybrook.edu/~algorith/files/edge-coloring.shtml">(C++,
+href="http://algorist.com/problems/Edge_Coloring.html">(C++,
 Mathematica, and C)</a>
 # author's initials
 @AUTHOR=PEB, CRC-A

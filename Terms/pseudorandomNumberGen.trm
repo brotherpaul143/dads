@@ -1,5 +1,5 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon May  6 09:45:11 2019" *by "Paul E. Black"
+# *modified "Mon Jul 15 12:29:11 2019" *by "Paul E. Black"
 
 # $Log: pseudorandomNumberGen.trm,v $
 # Mon May  6 09:45:54 2019  Paul E. Black
@@ -206,7 +206,7 @@ Available at
 # implementation(s) (pure HTML)
 @IMPL=
 <a
-href="http://www3.cs.stonybrook.edu/~algorith/files/random-numbers.shtml">(C++,
+href="http://algorist.com/problems/Random_Numbers.html">(C++,
 C, and Fortran)</a>.
 GAMS <a href="http://gams.nist.gov/serve.cgi/Module/C/SERV/11669">(C)</a>.
 # Summit's C FAQ http://c-faq.com/lib/randrange.html

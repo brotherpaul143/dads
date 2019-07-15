@@ -1,5 +1,5 @@
 # *created  "Tue Dec  1 12:33:55 1998" *by "Paul E. Black"
-# *modified "Tue Sep  2 08:43:50 2014" *by "Paul E. Black"
+# *modified "Mon Jul 15 12:29:11 2019" *by "Paul E. Black"
 
 # $Log: maximumflow.trm,v $
 # Tue Sep  2 08:43:59 2014  Paul E. Black
@@ -64,7 +64,7 @@ and development of Ford-Fulkerson (pseudocode)</a>; including solving
 related problems, like multi-source, vertex capacity, bipartite
 matching, etc.
 <a
-href="http://www3.cs.stonybrook.edu/~algorith/files/network-flow.shtml">description
+href="http://algorist.com/problems/Network_Flow.html">description
 and links to implementations (C, Fortran, C++, Pascal, and Mathematica)</a>.
 # author's initials
 @AUTHOR=PEB

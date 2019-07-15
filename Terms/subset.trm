@@ -1,5 +1,5 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Mar  2 16:07:08 2015" *by "Paul E. Black"
+# *modified "Mon Jul 15 12:29:12 2019" *by "Paul E. Black"
 
 # $Log: subset.trm,v $
 # Mon Mar  2 16:12:56 2015  Paul E. Black
@@ -60,7 +60,7 @@ A combination is a subset with exactly $n$ elements.
 # implementation(s) (pure HTML)
 @IMPL=
 <a
-href="http://www3.cs.stonybrook.edu/~algorith/files/generating-subsets.shtml">generating
+href="http://algorist.com/problems/Generating_Subsets.html">generating
 subsets (Fortran, Mathematica, and Pascal)</a>
 # author's initials
 @AUTHOR=PR
