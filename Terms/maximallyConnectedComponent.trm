@@ -1,7 +1,10 @@
 # *created  "Wed Dec 12 15:13:56 2001" *by "Paul E. Black"
-# *modified "Mon Jul 15 12:29:11 2019" *by "Paul E. Black"
+# *modified "Mon Aug 12 09:19:54 2019" *by "Paul E. Black"
 
 # $Log: maximallyConnectedComponent.trm,v $
+# Mon Aug 12 09:20:08 2019  Paul E. Black
+# Update Skiena algorist IMPL page name.
+# 
 # Tue Sep  2 08:43:41 2014  Paul E. Black
 # Change stonybrook.edu URL in IMPL
 # 
@@ -62,11 +65,12 @@ vertex $v\in V'$ for which $(u, v)\in E$.
 graph.  Also know as "connected component", with the "maximal"
 property understood.
 # further explanation (pure HTML)
-@LINKS=<a
-href="http://algorist.com/problems/Dfs_Bfs.html">(C++, C,
-Pascal, Mathematica, and Fortran)</a>
+@LINKS=
 # implementation(s) (pure HTML)
 @IMPL=
+<a href="http://algorist.com/problems/Connected_Components.html">(C++,
+C, Java, and Mathematica)</a>
+
 # author's initials (see authors.data)
 @AUTHOR=AL
 # end $Source: /home/black/Workspace/dads/Terms/RCS/maximallyConnectedComponent.trm,v $

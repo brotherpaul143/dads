@@ -2,6 +2,9 @@
 # *modified "Mon Jul 15 12:29:12 2019" *by "Paul E. Black"
 
 # $Log: stronglyConnectedGraph.trm,v $
+# Mon Aug 12 09:21:27 2019  Paul E. Black
+# Update Skiena algorist IMPL page name.
+# 
 # Tue Sep  2 08:48:02 2014  Paul E. Black
 # Change stonybrook.edu URL in IMPL
 # 
@@ -56,9 +59,10 @@ Appearing in the Dictionary of Computer Science, Engineering and Technology, Cop
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
-@IMPL=<a
-href="http://algorist.com/problems/Dfs_Bfs.html">(C++, C,
-Pascal, Mathematica, and Fortran)</a>
+@IMPL=
+<a href="http://algorist.com/problems/Connected_Components.html">(C++,
+C, Java, and Mathematica)</a>
+
 # author's initials (see authors.data)
 @AUTHOR=CRC-A
 # end $Source: /home/black/Workspace/dads/Terms/RCS/stronglyConnectedGraph.trm,v $

@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Jul 15 12:29:11 2019" *by "Paul E. Black"
+# *modified "Mon Aug 12 09:17:18 2019" *by "Paul E. Black"
 
 # $Log: connectedComponents.trm,v $
+# Mon Aug 12 09:18:10 2019  Paul E. Black
+# Update Skiena algorist IMPL page name.
+# 
 # Tue Sep  2 08:37:48 2014  Paul E. Black
 # Change stonybrook.edu URL in IMPL
 # 
@@ -68,9 +71,9 @@ $E=E<sub>1</sub>\cup\ldots\cup E<sub>m</sub>$.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
-@IMPL=<a
-href="http://algorist.com/problems/Dfs_Bfs.html">(C++, C,
-Pascal, Mathematica, and Fortran)</a>
+@IMPL=
+<a href="http://algorist.com/problems/Connected_Components.html">(C++,
+C, Java, and Mathematica)</a>
 # author's initials
 @AUTHOR=AL
 # end $Source: /home/black/Workspace/dads/Terms/RCS/connectedComponents.trm,v $
