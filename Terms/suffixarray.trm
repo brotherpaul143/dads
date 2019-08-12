@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Wed Nov 16 13:59:27 2016" *by "Paul E. Black"
+# *modified "Mon Aug 12 09:46:32 2019" *by "Paul E. Black"
 
 # $Log: suffixarray.trm,v $
+# Mon Aug 12 09:47:31 2019  Paul E. Black
+# Add Skiena algorist IMPL
+# 
 # Wed Nov 16 16:54:51 2016  Paul E. Black
 # Change "one-based indexing" to "1-based indexing".
 # 
@@ -84,6 +87,10 @@ Technology, Copyright &copy; 2000 CRC Press LLC.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=
+Steven Skiena's
+<a
+href="http://algorist.com/problems/Suffix_Trees_and_Arrays.html">Suffix
+Trees and Arrays (C++, Python, and Java)</a>.
 # author's initials
 @AUTHOR=CRC-A
 # end $Source: /home/black/Workspace/dads/Terms/RCS/suffixarray.trm,v $
