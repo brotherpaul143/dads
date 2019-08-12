@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Jul 15 12:32:11 2019" *by "Paul E. Black"
+# *modified "Mon Aug 12 09:27:15 2019" *by "Paul E. Black"
 
 # $Log: finitestmmin.trm,v $
+# Mon Aug 12 09:28:06 2019  Paul E. Black
+# Update Skiena algorist IMPL page name.
+# 
 # Tue Sep  2 08:40:53 2014  Paul E. Black
 # Change stonybrook.edu URL in IMPL
 # 
@@ -38,9 +41,9 @@
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
-@IMPL=<a
-href="http://algorist.com/problems/Finite_State_Minimization.html">(C++
-and Pascal)</a>
+@IMPL=
+<a href="http://algorist.com/problems/Finite_State_Machine_Minimization.html">(C++
+and Java)</a>
 # author's initials
 @AUTHOR=
 # end $Source: /home/black/Workspace/dads/Terms/RCS/finitestmmin.trm,v $
