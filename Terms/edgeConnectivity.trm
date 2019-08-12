@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Jul 15 12:32:01 2019" *by "Paul E. Black"
+# *modified "Mon Aug 12 09:56:58 2019" *by "Paul E. Black"
 
 # $Log: edgeConnectivity.trm,v $
+# Mon Aug 12 09:57:58 2019  Paul E. Black
+# Update Skiena algorist IMPL entry, page name, and languages.
+# 
 # Tue Sep  2 08:38:32 2014  Paul E. Black
 # Change stonybrook.edu URL in IMPL
 # 
@@ -47,9 +50,11 @@ deletion will separate $s$ from $t$.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
-@IMPL=<a
-href="http://algorist.com/problems/Edge_Vertex_Connectivity.html">(Mathematica,
-C, and Pascal)</a>
+@IMPL=
+Steve Skiena's Stony Brook Algorithm Repository
+<a
+href="http://algorist.com/problems/Edge_and_Vertex_Connectivity.html">(C,
+C++, Java, and Mathematica)</a>
 # author's initials
 @AUTHOR=GS
 # end $Source: /home/black/Workspace/dads/Terms/RCS/edgeConnectivity.trm,v $
