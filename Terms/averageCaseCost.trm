@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Tue Sep  2 08:59:39 2008" *by "Paul E. Black"
+# *modified "Mon Aug 12 08:55:42 2019" *by "Paul E. Black"
 
 # $Log: averageCaseCost.trm,v $
+# Mon Aug 12 08:59:36 2019  Paul E. Black
+# Update URL for Average Case Complexity Form: use https
+# 
 # Revision 1.3  2008/09/02 13:00:37  black
 # Update URL for Ave. Case Complexity Forum LINK.
 #
@@ -41,7 +44,7 @@ Technology, Copyright &copy; 2000 CRC Press LLC.
 # further explanation (pure HTML)
 @LINKS=
 # Editor: Jie Wang wang@cs.uml.edu
-<a href="http://www.cs.uml.edu/~wang/acc-forum/">Average Case
+<a href="https://www.cs.uml.edu/~wang/acc-forum/">Average Case
 Complexity Forum</a>
 # implementation(s) (pure HTML)
 @IMPL=

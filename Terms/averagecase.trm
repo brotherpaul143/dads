@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Tue Sep  2 09:13:26 2008" *by "Paul E. Black"
+# *modified "Mon Aug 12 08:55:35 2019" *by "Paul E. Black"
 
 # $Log: averagecase.trm,v $
+# Mon Aug 12 09:00:01 2019  Paul E. Black
+# Update URL for Average Case Complexity Form: use https
+# 
 # Revision 1.3  2008/09/02 13:13:43  black
 # Update LINK for Ave. Case Complexity Forum
 #
@@ -36,7 +39,7 @@ are all expected or reasonable cases can be difficult.
 # further explanation (pure HTML)
 @LINKS=
 # Editor: Jie Wang wang@cs.uml.edu
-<a href="http://www.cs.uml.edu/~wang/acc-forum/">Average Case
+<a href="https://www.cs.uml.edu/~wang/acc-forum/">Average Case
 Complexity Forum</a>
 # implementation(s) (pure HTML)
 @IMPL=
