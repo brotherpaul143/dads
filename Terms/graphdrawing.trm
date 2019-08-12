@@ -1,7 +1,10 @@
 # *created  "Mon Apr 12 09:34:27 1999" *by "Paul E. Black"
-# *modified "Mon Jul 15 12:29:11 2019" *by "Paul E. Black"
+# *modified "Mon Aug 12 09:30:46 2019" *by "Paul E. Black"
 
 # $Log: graphdrawing.trm,v $
+# Mon Aug 12 09:31:30 2019  Paul E. Black
+# Update Skiena algorist IMPL page names.
+# 
 # Tue Sep  2 08:41:39 2014  Paul E. Black
 # Change stonybrook.edu URL in IMPL
 # 
@@ -60,9 +63,10 @@ for instance with a minimum number of {edge crossings}.
 # implementation(s) (pure HTML)
 @IMPL=
 <a
-href="http://algorist.com/problems/Drawing_Graphs.html">Draw
-a graph nicely (C and Mathematica)</a>, <a
-href="http://algorist.com/problems/Planar_Drawing.html">draw
+href="http://algorist.com/problems/Drawing_Graphs_Nicely.html">Draw
+a graph nicely (C and Mathematica)</a>,
+<a
+href="http://algorist.com/problems/Planarity_Detection_and_Embedding.html">draw
 a graph in the plane such that no edges cross (C, C++, and
 Mathematica)</a>, GraphEd: <a
 href="http://www3.cs.stonybrook.edu/~algorith/implement/graphed/implement.shtml">Graph
