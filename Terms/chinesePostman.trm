@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon Jul 15 12:29:11 2019" *by "Paul E. Black"
+# *modified "Mon Aug 12 09:06:31 2019" *by "Paul E. Black"
 
 # $Log: chinesePostman.trm,v $
+# Mon Aug 12 09:07:44 2019  Paul E. Black
+# Update Skiena algorist IMPL URL - change page name
+# 
 # Tue Sep  2 08:37:27 2014  Paul E. Black
 # Change stonybrook.edu URL in IMPL
 # 
@@ -98,10 +101,9 @@ Technology, Copyright &copy; 2000 CRC Press LLC.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
-@IMPL=<a
-href="http://algorist.com/problems/Eulerian_Cycle.html">(C++,
-Mathematica
-and Fortran)</a>
+@IMPL=
+<a href="http://algorist.com/problems/Eulerian_Cycle_Chinese_Postman.html">(Java,
+C++, and Mathematica)</a>
 # author's initials (see authors.data)
 @AUTHOR=CRC-A
 # end $Source: /home/black/Workspace/dads/Terms/RCS/chinesePostman.trm,v $

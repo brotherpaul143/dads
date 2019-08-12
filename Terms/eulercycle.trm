@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Jul 15 12:29:11 2019" *by "Paul E. Black"
+# *modified "Mon Aug 12 09:06:29 2019" *by "Paul E. Black"
 
 # $Log: eulercycle.trm,v $
+# Mon Aug 12 09:08:05 2019  Paul E. Black
+# Update Skiena algorist IMPL URL - change page name
+# 
 # Tue Sep  2 08:38:58 2014  Paul E. Black
 # Change stonybrook.edu URL in IMPL
 # 
@@ -64,9 +67,8 @@ every bridge of the German city of K&ouml;nigsberg exactly once.
 href="http://www.cs.auckland.ac.nz/software/AlgAnim/hard.html#euler">examples
 and explanations</a>
 # implementation(s) (pure HTML)
-@IMPL=<a
-href="http://algorist.com/problems/Eulerian_Cycle.html">(Mathematica
-and Fortran)</a>
+<a href="http://algorist.com/problems/Eulerian_Cycle_Chinese_Postman.html">(Java,
+C++, and Mathematica)</a>
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/eulercycle.trm,v $
