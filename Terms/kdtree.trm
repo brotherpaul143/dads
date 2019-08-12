@@ -1,7 +1,10 @@
 # *created  "Mon Nov 16 15:21:02 1998" *by "Paul E. Black"
-# *modified "Mon Jul 15 12:29:11 2019" *by "Paul E. Black"
+# *modified "Mon Aug 12 09:33:34 2019" *by "Paul E. Black"
 
 # $Log: kdtree.trm,v $
+# Mon Aug 12 09:34:15 2019  Paul E. Black
+# Update Skiena algorist IMPL page name. Remove duplicate.
+# 
 # Tue Feb 12 09:41:35 2019  Paul E. Black
 # update access to rbaeza handbook
 # 
@@ -70,16 +73,16 @@ been used.  The keys are used again beginning at level $k$.
 @LINKS=
 
 # implementation(s) (pure HTML)
-@IMPL=<a href="http://algorist.com/problems/Kd_Trees.html">C,
-Pascal, or FORTRAN</a>, <a
+@IMPL=
+<a href="http://algorist.com/problems/Kd-Trees.html">C, C++, and
+Java</a>,
+<a
 href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/3/352.ins.c">insert
 (C)</a>, <a
 href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/3/352.range.c">range
 search (C)</a>, and <a
 href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/3/352.srch.c">search
 (C)</a>.
-<a href="http://algorist.com/problems/Kd_Trees.html">(C,
-Pascal, and Fortran)</a>
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/kdtree.trm,v $
