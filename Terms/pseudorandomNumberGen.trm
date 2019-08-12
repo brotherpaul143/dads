@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Jul 15 12:29:11 2019" *by "Paul E. Black"
+# *modified "Mon Aug 12 09:39:35 2019" *by "Paul E. Black"
 
 # $Log: pseudorandomNumberGen.trm,v $
+# Mon Aug 12 09:40:10 2019  Paul E. Black
+# Update Skiena algorist IMPL page name and languages.
+# 
 # Mon May  6 09:45:54 2019  Paul E. Black
 # Wheelers LINK now uses https and a slightly different domain name
 # 
@@ -205,9 +208,9 @@ Available at
 
 # implementation(s) (pure HTML)
 @IMPL=
-<a
-href="http://algorist.com/problems/Random_Numbers.html">(C++,
-C, and Fortran)</a>.
+# Steven Skiena's Stony Brook Algorithm Repository
+<a href="http://algorist.com/problems/Random_Number_Generation.html">(C++,
+C, and Java)</a>.
 GAMS <a href="http://gams.nist.gov/serve.cgi/Module/C/SERV/11669">(C)</a>.
 # Summit's C FAQ http://c-faq.com/lib/randrange.html
 Using C libraries to get 
