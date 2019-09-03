@@ -1,5 +1,5 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Aug 24 09:19:24 2017" *by "Paul E. Black"
+# *modified "Tue Sep  3 08:52:30 2019" *by "Paul E. Black"
 
 # $Log: bucketTrie.trm,v $
 # Revision 1.3  2008/08/01 14:17:49  black
@@ -31,7 +31,7 @@ hold up to $k$ strings.  Usually implies fixed sized buckets.
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS=
 
-# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
 <strong>Edward H. Sussenguth, Jr.</strong>, <em>Use of Tree Structures
 for Processing Files</em>, CACM, 6(5):272-279, May 1963.

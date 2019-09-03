@@ -1,5 +1,5 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Mar  8 09:59:13 2004" *by "Paul E. Black"
+# *modified "Tue Sep  3 08:52:50 2019" *by "Paul E. Black"
 
 # $Log: jumpsearch.trm,v $
 # Revision 1.2  2004/03/08 15:26:42  black
@@ -35,7 +35,7 @@ search}.  The optimum for $n$ items is when $j=\sqrt n$.
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={interpolation search}, {binary search}, {linear search}
 
-# bib refs, eg, to defining articles (pure HTML).  printed within <P>..</P>.
+# bib refs, eg, to defining articles (pure HTML).  printed within <p>..</p>.
 @BIB=<strong>Ben Shneiderman</strong>, <em>Jump Searching: A Fast
 Sequential Search Technique</em>, CACM, 21(10):831-834, October 1978.
 # any notes.  these will not be printed in the final dictionary

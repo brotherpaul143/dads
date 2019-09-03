@@ -1,5 +1,5 @@
 # *created  "Thu Mar  9 13:33:29 2000" *by "Paul E. Black"
-# *modified "Mon May 24 11:22:06 2004" *by "Paul E. Black"
+# *modified "Tue Sep  3 08:52:44 2019" *by "Paul E. Black"
 
 # $Log: flashsort.trm,v $
 # Revision 1.2  2004/05/24 15:22:28  black
@@ -33,7 +33,7 @@
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS=
 
-# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
 <strong>J. H. Reif and L. G. Valiant</strong>, <em>A logarithmic time
 sort for linear size networks</em>, Proc. 15th Annual STOC, pages 10-16, 1983.

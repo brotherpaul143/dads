@@ -1,5 +1,5 @@
 # *created  "Thu Aug  1 16:42:06 2002" *by "Paul E. Black"
-# *modified "Wed Jul  7 12:11:13 2004" *by "Paul E. Black"
+# *modified "Tue Sep  3 08:52:23 2019" *by "Paul E. Black"
 
 # $Log: baumWelch.trm,v $
 # Revision 1.3  2004/07/07 16:12:08  black
@@ -39,7 +39,7 @@ sequence in the observation vector.
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={Viterbi algorithm}
 
-# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
 # any notes.  these are not printed in the final dictionary
 @NOTES=Contributed by Arvind &lt;uk_arvind@mail.utexas.edu&gt; May 2002.
