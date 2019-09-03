@@ -1,7 +1,10 @@
 # *created  "Wed Mar 17 12:22:48 1999" *by "Paul E. Black"
-# *modified "Mon Feb 25 11:34:21 2019" *by "Paul E. Black"
+# *modified "Tue Sep  3 08:56:46 2019" *by "Paul E. Black"
 
 # $Log: ternarySearchTree.trm,v $
+# Tue Sep  3 09:03:24 2019  Paul E. Black
+# Update Robert Sedgewick IMPL URL to use https
+# 
 # Mon Feb 25 11:35:12 2019  Paul E. Black
 # Fix de Halleuxs IMPL URL to use https.
 # 
@@ -98,7 +101,7 @@ The
 <a href="https://en.wikipedia.org/wiki/Ternary_search_tree">wikipedia
 entry</a>.
 # implementation(s) (pure HTML)
-@IMPL=<a href="http://www.cs.princeton.edu/~rs/strings/">papers,
+@IMPL=<a href="https://www.cs.princeton.edu/~rs/strings/">papers,
 demos, and code (C)</a>.
 Richard McGraw's 
 <a

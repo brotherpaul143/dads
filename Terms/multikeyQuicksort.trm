@@ -1,7 +1,10 @@
 # *created  "Mon Dec  4 14:01:57 2000" *by "Paul E. Black"
-# *modified "Fri Dec 30 15:16:28 2005" *by "Paul E. Black"
+# *modified "Tue Sep  3 08:56:46 2019" *by "Paul E. Black"
 
 # $Log: multikeyQuicksort.trm,v $
+# Tue Sep  3 09:02:28 2019  Paul E. Black
+# Update Robert Sedgewick IMPL URL to use https
+# 
 # Revision 1.5  2005/12/30 20:16:38  black
 # fix typo in BIB entry
 #
@@ -65,7 +68,7 @@ gives a good 3-way partition algorithm.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
-@IMPL=<a href="http://www.cs.princeton.edu/~rs/strings/">Fast
+@IMPL=<a href="https://www.cs.princeton.edu/~rs/strings/">Fast
 Algorithms paper,
 demos, and code (C)</a>
 # author's initials (see authors.data)

@@ -1,7 +1,10 @@
 # *created  "Wed Sep 16 08:54:42 1998" *by "Paul E. Black"
-# *modified "Mon Apr 22 12:08:11 2019" *by "Paul E. Black"
+# *modified "Tue Sep  3 08:56:46 2019" *by "Paul E. Black"
 
 # $Log: quicksort.trm,v $
+# Tue Sep  3 09:03:03 2019  Paul E. Black
+# Update Robert Sedgewick IMPL and NOTE URL to use https
+# 
 # Mon Apr 22 12:15:17 2019  Paul E. Black
 # Remove LINK to Mukundans animation: no longer available.
 # 
@@ -144,10 +147,10 @@ they access less memory.
 # http://www.cs.dartmouth.edu/~doug/aqsort.c
 
 # implementation(s) (pure HTML)
-@IMPL=<a href="http://www.cs.princeton.edu/~rs/">Robert
+@IMPL=<a href="https://www.cs.princeton.edu/~rs/">Robert
 Sedgewick's</a> talk showing that with Bentley-McIlroy 3-way
 partitioning <a
-href="http://www.cs.princeton.edu/~rs/talks/QuicksortIsOptimal.pdf">Quicksort
+href="https://www.cs.princeton.edu/~rs/talks/QuicksortIsOptimal.pdf">Quicksort
 Is Optimal (C)</a> (pdf format) for random files possibly with
 duplicate keys; includes discussion and proof.
 <a href="https://en.wikipedia.org/wiki/Quicksort">Wikipedia entry with
