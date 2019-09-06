@@ -1,5 +1,5 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Wed Feb 24 12:04:04 2016" *by "Paul E. Black"
+# *modified "Fri Sep  6 15:28:34 2019" *by "Paul E. Black"
 
 # $Log: littleOnotation.trm,v $
 # Wed Feb 24 12:20:03 2016  Paul E. Black
@@ -62,8 +62,8 @@ $o(f(n))$ is an upper bound, but is not an
 </p>
 
 <p>
-Strictly, the character is the lower-case Greek letter
-omicron.
+This is lower case "o", not the lower case Greek letter omicron.
+See the note at {big-O notation}. 
 # further explanation (pure HTML)
 @LINKS=
 Little o is a

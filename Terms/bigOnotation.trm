@@ -1,5 +1,5 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon May  6 09:48:18 2019" *by "Paul E. Black"
+# *modified "Fri Sep  6 15:28:09 2019" *by "Paul E. Black"
 
 # $Log: bigOnotation.trm,v $
 # Mon May  6 09:49:05 2019  Paul E. Black
@@ -158,8 +158,17 @@ This definition after
 </p>
 
 <p>
-Strictly, the character is the upper-case Greek letter Omicron, not
-the letter O, but who can tell the difference?
+This notation was introduced by Paul Bauchmann in his "Analytische
+Zahlentheorie" (1894).  "... the O is apparently derived from the
+German word "Ordnung" (meaning 'order')." (Ivan Panchenko, private
+communication, 6 September 2019)
+# Panchenko points out that Knuth typesets Greek capital letters in
+# roman (upright) font, and the O is in italic. For example, "The Art
+# of Computer Programming", vol. 1, bottom of page 110.  He also uses
+# the phrases "Big Omega" and "Big Theta", but only "O-notation",
+# never "Big Omicron".  Knuth's "Big Omicron and big Omega and big
+# Theta" never uses "omicron" in the body, only in the title. 
+It is capital "O", not the capital Greek letter Omicron.
 # further explanation (pure HTML)
 @LINKS=
 Wikipedia <a href="https://en.wikipedia.org/wiki/Big_O_notation">Big O
