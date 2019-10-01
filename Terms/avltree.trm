@@ -1,7 +1,10 @@
 # *created  "Tue Sep 15 16:54:05 1998" *by "Paul E. Black"
-# *modified "Mon Jul  7 09:34:40 2014" *by "Paul E. Black"
+# *modified "Tue Oct  1 14:51:46 2019" *by "Paul E. Black"
 
 # $Log: avltree.trm,v $
+# Tue Oct  1 16:30:32 2019  Paul E. Black
+# Update Goletas IMPL URL and make it specific.
+# 
 # Mon Jul  7 09:35:48 2014  Paul E. Black
 # Update Goletas C# Collections IMPL URL
 # 
@@ -150,10 +153,9 @@ example</a>.
 Ben Pfaff's 
 <a href="http://adtinfo.org/">explanations and code
 (C)</a>.
-Maksim Goleta's
-<a href="http://goletas.com/csharp-collections">Collections
-(C#)</a> implementing stacks, queues, linked lists, binary search
-trees, AVL trees, and dictionaries.
+Maksim Goleta's C# Collections uses it to
+<a href="https://github.com/Goleta/csharp-collections/blob/master/Goletas.Collections/SortedSet.cs">implement sorted set
+(C#)</a>.
 Bro. David Carlson's
 <a
 href="http://cis.stvincent.edu/html/tutorials/swd/avltrees/avltrees.html">tutorial

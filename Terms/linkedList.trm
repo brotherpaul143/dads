@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 10:03:43 1998" *by "Paul E. Black"
-# *modified "Mon Apr 22 12:07:01 2019" *by "Paul E. Black"
+# *modified "Tue Oct  1 16:00:14 2019" *by "Paul E. Black"
 
 # $Log: linkedList.trm,v $
+# Tue Oct  1 16:31:12 2019  Paul E. Black
+# Update Goletas IMPL URL and make it specific.
+# 
 # Mon Apr 22 12:14:24 2019  Paul E. Black
 # Remove LINK to Mukundans animation: no longer available.
 # 
@@ -136,10 +139,9 @@ Bro. David Carlson's
 <a
 href="http://cis.stvincent.edu/html/tutorials/swd/lists/lists.html">tutorial
 and code (C++)</a>.
-Maksim Goleta's
-<a href="http://goletas.com/csharp-collections">Collections
-(C#)</a> implementing stacks, queues, linked lists, binary search
-trees, AVL trees, and dictionaries.
+Maksim Goleta's C# Collections uses it to
+<a href="https://github.com/Goleta/csharp-collections/blob/master/Goletas.Collections/LinkedQueue.cs">implement
+queue (C#)</a>.
 Algorithms and Data Structures'
 <a
 href="http://www.algolist.net/Data_structures/Singly-linked_list">explanation

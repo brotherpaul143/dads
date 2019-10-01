@@ -1,7 +1,10 @@
 # *created  "Wed Sep 16 08:55:08 1998" *by "Paul E. Black"
-# *modified "Mon Apr 22 12:08:32 2019" *by "Paul E. Black"
+# *modified "Tue Oct  1 14:43:24 2019" *by "Paul E. Black"
 
 # $Log: stack.trm,v $
+# Tue Oct  1 16:32:31 2019  Paul E. Black
+# Update Goletas IMPL URL and make it specific.
+# 
 # Mon Apr 22 12:15:28 2019  Paul E. Black
 # Remove LINK to Mukundans animation: no longer available.
 # 
@@ -130,10 +133,9 @@ and code</a>.
 
 # implementation(s) (pure HTML)
 @IMPL=
-Maksim Goleta's
-<a href="http://goletas.com/csharp-collections">Collections
-(C#)</a> implementing stacks, queues, linked lists, binary search
-trees, AVL trees, and dictionaries.
+Maksim Goleta's C# Collections
+<a href="https://github.com/Goleta/csharp-collections/blob/master/Goletas.Collections/LinkedStack.cs">linked-list implementation
+(C#)</a>.
 Bro. David Carlson's
 <a
 href="http://cis.stvincent.edu/html/tutorials/swd/stacks/stacks.html">tutorial

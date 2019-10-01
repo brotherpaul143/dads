@@ -1,7 +1,10 @@
 # *created  "Mon Jan  4 09:05:07 1999" *by "Paul E. Black"
-# *modified "Mon Apr 22 12:05:00 2019" *by "Paul E. Black"
+# *modified "Tue Oct  1 14:51:57 2019" *by "Paul E. Black"
 
 # $Log: binarySearchTree.trm,v $
+# Tue Oct  1 16:30:47 2019  Paul E. Black
+# Update Goletas IMPL URL and make it specific.
+# 
 # Mon Apr 22 12:13:15 2019  Paul E. Black
 # Remove LINK to Mukundans animation: no longer available.
 # 
@@ -134,10 +137,9 @@ pointers, but may have a variety of constraints on how it is composed.
 Ben Pfaff's 
 <a href="http://adtinfo.org/libavl.html/Binary-Search-Trees.html">insert,
 delete, search, copy, etc. (literate C)</a>;
-Maksim Goleta's
-<a href="http://goletas.com/csharp-collections">Collections
-(C#)</a> implementing stacks, queues, linked lists, binary search
-trees, AVL trees, and dictionaries.
+Maksim Goleta's C# Collections uses it to
+<a href="https://github.com/Goleta/csharp-collections/blob/master/Goletas.Collections/SortedSet.cs">implement sorted set
+(C#)</a>.
 <a
 href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/3/3411.ins.c">insert
 (C)</a>,

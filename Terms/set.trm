@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Jul 15 12:33:28 2019" *by "Paul E. Black"
+# *modified "Tue Oct  1 15:59:57 2019" *by "Paul E. Black"
 
 # $Log: set.trm,v $
+# Tue Oct  1 16:32:00 2019  Paul E. Black
+# Add Goletas IMPL
+# 
 # Fri Mar 25 10:30:08 2016  Paul E. Black
 # NOTE some implementation data structures.
 # 
@@ -105,6 +108,9 @@ ranges may be efficiently implemented as an {inversion list}.
 @IMPL=
 <a href="http://algorist.com/problems/Set_Data_Structures.html">(C++
 and Pascal)</a>.
+Maksim Goleta's C# Collections
+<a href="https://github.com/Goleta/csharp-collections/blob/master/Goletas.Collections/SortedSet.cs">sorted
+set (C#)</a>.
 
 # author's initials
 @AUTHOR=PR, PEB

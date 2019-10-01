@@ -1,7 +1,10 @@
 # *created  "Tue Feb  2 13:01:38 1999" *by "Paul E. Black"
-# *modified "Mon Jul 15 12:29:11 2019" *by "Paul E. Black"
+# *modified "Tue Oct  1 15:50:42 2019" *by "Paul E. Black"
 
 # $Log: dictionary.trm,v $
+# Tue Oct  1 16:30:55 2019  Paul E. Black
+# Update Goletas IMPL URL and make it specific.
+# 
 # Fri Jun  8 10:25:04 2018  Paul E. Black
 # New VARIANT: invertible Bloom lookup table
 # 
@@ -135,10 +138,11 @@ Contributions by Rob Stewart 16 March 2004.
 @IMPL=<a
 href="http://algorist.com/problems/Dictionaries.html">(C++,
 Pascal, and Fortran)</a>.
-Maksim Goleta's
-<a href="http://goletas.com/csharp-collections">Collections
-(C#)</a> implementing stacks, queues, linked lists, binary search
-trees, AVL trees, and dictionaries.
+Maksim Goleta's C# Collections
+<a href="https://github.com/Goleta/csharp-collections/blob/master/Goletas.Collections/SortedDictionary.cs">sorted
+(C#)</a> and
+<a href="https://github.com/Goleta/csharp-collections/blob/master/Goletas.Collections/IDictionary.cs">unordered
+(C#)</a>.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/dictionary.trm,v $
