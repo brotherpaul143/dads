@@ -1,7 +1,10 @@
 # *created  "Tue Feb  2 15:46:43 1999" *by "Paul E. Black"
-# *modified "Fri Aug 29 13:40:01 2014" *by "Paul E. Black"
+# *modified "Tue Nov 12 09:56:53 2019" *by "Paul E. Black"
 
 # $Log: balancedbist.trm,v $
+# Tue Nov 12 10:02:51 2019  Paul E. Black
+# Update Ben Pfaff IMPL URL
+# 
 # Fri Aug 29 13:56:36 2014  Paul E. Black
 # IMIN jelly-fish, a new entry.  Fix HTML markings on bibliographical NOTE.
 # 
@@ -68,7 +71,7 @@ CACM, 29(9):902-908, September 1986.
 # further explanation (pure HTML)
 @LINKS=
 Example of
-<a href="http://adtinfo.org/libavl.html/Balancing-a-BST.html">balancing
+<a href="https://adtinfo.org/libavl.html/Balancing-a-BST.html">balancing
 a BST</a>.
 # implementation(s) (pure HTML)
 @IMPL=

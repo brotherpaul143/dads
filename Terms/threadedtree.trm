@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon May 23 09:53:36 2011" *by "Paul E. Black"
+# *modified "Tue Nov 12 09:56:53 2019" *by "Paul E. Black"
 
 # $Log: threadedtree.trm,v $
+# Tue Nov 12 10:03:30 2019  Paul E. Black
+# Update Ben Pfaff IMPL URL
+# 
 # Revision 1.6  2011/05/23 14:27:46  black
 # update URL of Pfaff's IMPL
 #
@@ -51,7 +54,7 @@ defines a threaded tree as a binary tree.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=Ben Pfaff's 
-<a href="http://adtinfo.org/">explanations and
+<a href="https://adtinfo.org/">explanations and
 code (C)</a>
 # author's initials
 @AUTHOR=PEB

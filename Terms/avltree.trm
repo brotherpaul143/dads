@@ -1,7 +1,10 @@
 # *created  "Tue Sep 15 16:54:05 1998" *by "Paul E. Black"
-# *modified "Tue Oct  1 14:51:46 2019" *by "Paul E. Black"
+# *modified "Tue Nov 12 09:51:48 2019" *by "Paul E. Black"
 
 # $Log: avltree.trm,v $
+# Tue Nov 12 10:02:26 2019  Paul E. Black
+# Update Ben Pfaff IMPL URL
+# 
 # Tue Oct  1 16:30:32 2019  Paul E. Black
 # Update Goletas IMPL URL and make it specific.
 # 
@@ -151,7 +154,7 @@ example</a>.
 # implementation(s) (pure HTML)
 @IMPL=
 Ben Pfaff's 
-<a href="http://adtinfo.org/">explanations and code
+<a href="https://adtinfo.org/">explanations and code
 (C)</a>.
 Maksim Goleta's C# Collections uses it to
 <a href="https://github.com/Goleta/csharp-collections/blob/master/Goletas.Collections/SortedSet.cs">implement sorted set

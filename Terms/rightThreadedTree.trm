@@ -1,7 +1,10 @@
 # *created  "Mon May 15 14:03:39 2000" *by "Paul E. Black"
-# *modified "Mon May 23 10:01:09 2011" *by "Paul E. Black"
+# *modified "Tue Nov 12 09:56:53 2019" *by "Paul E. Black"
 
 # $Log: rightThreadedTree.trm,v $
+# Tue Nov 12 10:03:20 2019  Paul E. Black
+# Update Ben Pfaff IMPL URL
+# 
 # Revision 1.6  2011/05/23 14:01:14  black
 # update URL for Ben Pfaff's work
 #
@@ -48,7 +51,7 @@ insert and delete.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=Ben Pfaff's 
-<a href="http://adtinfo.org/">explanations and
+<a href="https://adtinfo.org/">explanations and
 code (C)</a>
 # author's initials (see authors.data)
 @AUTHOR=PEB

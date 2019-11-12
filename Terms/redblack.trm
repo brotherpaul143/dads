@@ -1,7 +1,10 @@
 # *created  "Mon Nov 16 14:10:54 1998" *by "Paul E. Black"
-# *modified "Mon Apr 13 11:36:32 2015" *by "Paul E. Black"
+# *modified "Tue Nov 12 09:56:53 2019" *by "Paul E. Black"
 
 # $Log: redblack.trm,v $
+# Tue Nov 12 10:03:14 2019  Paul E. Black
+# Update Ben Pfaff IMPL URL
+# 
 # Mon Apr 13 11:38:18 2015  Paul E. Black
 # remove Glenn Schepers RBSL LINK - no longer accessible; gone?
 # 
@@ -106,7 +109,7 @@ An AVL tree is at least as balanced as a red-black tree.
 href="http://www.cs.auckland.ac.nz/software/AlgAnim/red_black.html">analysis,
 explanation, examples, and code (C)</a>.
 Ben Pfaff's 
-<a href="http://adtinfo.org/">libavl (C)</a> including
+<a href="https://adtinfo.org/">libavl (C)</a> including
 pointers to other implementations.
 # author's initials
 @AUTHOR=PEB
