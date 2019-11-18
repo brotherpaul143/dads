@@ -1,7 +1,10 @@
 # *created  "Wed Sep  9 13:13:49 1998" *by "Paul E. Black"
-# *modified "Mon Oct  4 14:55:40 2010" *by "Paul E. Black"
+# *modified "Mon Nov 18 11:38:14 2019" *by "Paul E. Black"
 
 # $Log: ackermann.trm,v $
+# Mon Nov 18 11:39:10 2019  Paul E. Black
+# update St. Andrews mathematician history NOTE URL
+# 
 # Revision 1.13  2010/10/04 18:55:53  black
 # Update utexas URLs
 #
@@ -109,7 +112,7 @@ a restating of this one.
 <p>
 In 1928, 
 <a
-href="http://www-history.mcs.st-andrews.ac.uk/Mathematicians/Ackermann.html">Wilhelm
+href="http://mathshistory.st-andrews.ac.uk/Mathematicians/Ackermann.html">Wilhelm
 Ackermann</a> observed that
 A(x,y,z), the z-fold iterated exponentiation of x with y, is
 a recursive function that is not primitive recursive.

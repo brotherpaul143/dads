@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Tue Apr 14 12:38:02 2009" *by "Paul E. Black"
+# *modified "Mon Nov 18 11:40:07 2019" *by "Paul E. Black"
 
 # $Log: postsCorrespondProb.trm,v $
+# Mon Nov 18 11:40:11 2019  Paul E. Black
+# update St. Andrews mathematician history NOTE URL
+# 
 # Revision 1.4  2009/04/14 16:38:24  black
 # remove LINK to Zhao's page - account is empty
 #
@@ -44,7 +47,7 @@ This is an {undecidable problem}.
 
 # bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=<strong><a
-href="http://www-history.mcs.st-andrews.ac.uk/Mathematicians/Post.html">Emil
+href="http://mathshistory.st-andrews.ac.uk/Mathematicians/Post.html">Emil
 Post</a></strong>, <em>A Variant of a Recursively Unsolvable Problem.</em>
 Bulletin of the American Mathematical Society, 52:264-268, 1946.
 # any notes.  these will not be printed in the final dictionary

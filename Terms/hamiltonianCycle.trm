@@ -1,7 +1,10 @@
 # *created  "Tue Nov  3 16:42:25 1998" *by "Paul E. Black"
-# *modified "Mon Jul 15 12:29:11 2019" *by "Paul E. Black"
+# *modified "Mon Nov 18 11:39:34 2019" *by "Paul E. Black"
 
 # $Log: hamiltonianCycle.trm,v $
+# Mon Nov 18 11:39:41 2019  Paul E. Black
+# update St. Andrews mathematician history NOTE URL
+# 
 # Tue Sep  2 08:42:01 2014  Paul E. Black
 # Change stonybrook.edu URL in IMPL
 # 
@@ -72,7 +75,7 @@ Also known as a Hamiltonian circuit.
 
 <p>
 Named for <a
-href="http://www-history.mcs.st-andrews.ac.uk/Mathematicians/Hamilton.html">Sir
+href="http://mathshistory.st-andrews.ac.uk/Mathematicians/Hamilton.html">Sir
 William Rowan Hamilton (1805-1865)</a>.
 # further explanation (pure HTML)
 @LINKS=
