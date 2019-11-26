@@ -1,10 +1,13 @@
 dnl $Id: bitsSearch.m4,v 1.11 2009/06/04 19:26:18 black Exp $
 dnl *created  "Wed Mar 26 11:04:15 2003" *by "Paul E. Black"
-dnl *modified "Wed Mar  7 16:44:58 2018" *by "Paul E. Black"
+dnl *modified "Tue Nov 26 14:30:47 2019" *by "Paul E. Black"
 dnl
 dnl	A paragraph with explanation and HTML form for the search box
 dnl
 dnl $Log: bitsSearch.m4,v $
+dnl Tue Nov 26 14:39:57 2019  Paul E. Black
+dnl Update DADS URL so search works (again).  Update other minutia.
+dnl 
 dnl Fri Apr  6 11:19:16 2018  Paul E. Black
 dnl Update values for the search
 dnl 
@@ -47,29 +50,28 @@ dnl Revision 1.2  2003/12/02 18:34:11  black
 dnl Remove link to AlgoVista - can no longer contact the server - found an
 dnl email contact and sent an inquiry.
 dnl
-dnl
 <p>
 To look up words or phrases, enter them in the box, then click the
 button.
 </p>
 
-dnl instructions at http://services.google.com/searchcode2.html?accept=on
+dnl instructions at http://services.google.com/searchcode2.html
 <!-- Google SafeSearch -->
 <form method=GET action="http://www.google.com/search">
 <input type=hidden name=ie value=UTF-8>
 <input type=hidden name=oe value=UTF-8>
 <table><tr><td>
-<a href="http://www.google.com/webhp?safe=vss">
+<a href="http://www.google.com/search?safe=vss">
 <img src="http://www.google.com/logos/Google_Safe.gif" 
-border="0" ALT="Google"></A>
+border="0" alt="Google"></a>
 </td>
 <td>
 <input type=text name=q size=31 maxlength=255 value="">
 <input type=hidden name=safe value=strict>
-<input type=submit name=btnG value="Google Search">
-<small>
-<input type=hidden name=domains value="https://samate.nist.gov/other/dads"><br /><input type=radio name=sitesearch value=""> Web <input type=radio name=sitesearch value="https://samate.nist.gov/other/dads" checked> DADS <br />
-</small>
+<input type=submit name=sa value="Google Search">
+<font size=-1>
+<input type=hidden name=domains value="https://xlinux.nist.gov/dads"><br /><input type=radio name=sitesearch value=""> Web <input type=radio name=sitesearch value="https://xlinux.nist.gov/dads" checked> DADS <br />
+</font>
 </td></tr></table>
 </form>
 <!-- Google SafeSearch -->
