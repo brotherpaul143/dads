@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Tue Jan 22 11:58:53 2008" *by "Paul E. Black"
+# *modified "Wed Nov 27 08:37:44 2019" *by "Paul E. Black"
 
 # $Log: perfectBinaryTree.trm,v $
+# Wed Nov 27 08:40:19 2019  Paul E. Black
+# Remove Preiss NOTE. The page is gone.
+# 
 # Revision 1.6  2008/01/22 17:04:24  black
 # correct formula for number of nodes
 #
@@ -71,10 +74,7 @@ Ege,
 <a href="../terms.html#HS83">[HS83, page 225]</a>, and Sahni page 461).
 # further explanation (pure HTML)
 @LINKS=
-# Bruno Preiss' book
-<a
-href="http://www.brpreiss.com/books/opus4/html/page305.html">example
-and formal definition</a>.
+
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials

@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Mar  4 09:12:05 2019" *by "Paul E. Black"
+# *modified "Wed Nov 27 08:38:10 2019" *by "Paul E. Black"
 
 # $Log: countingsort.trm,v $
+# Wed Nov 27 08:39:55 2019  Paul E. Black
+# Remove Preiss IMPL. The page is gone.
+# 
 # Mon Mar  4 09:14:12 2019  Paul E. Black
 # Remove McCoskeys IMPL: DNS and email are invalid; no other location found.
 # 
@@ -62,9 +65,7 @@ auxiliary array instead of counting them.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=
-Bruno R. Preiss'
-<a href="http://www.brpreiss.com/books/opus4/html/page74.html">sort
-integers 0 to m-1 (C)</a>.
+
 # author's initials
 @AUTHOR=ASK
 # end $Source: /home/black/Workspace/dads/Terms/RCS/countingsort.trm,v $
