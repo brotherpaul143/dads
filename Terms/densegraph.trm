@@ -1,7 +1,10 @@
 # *created  "Tue Feb  9 08:55:41 1999" *by "Paul E. Black"
-# *modified "Tue Nov 26 14:07:42 2019" *by "Paul E. Black"
+# *modified "Mon Dec  2 09:07:22 2019" *by "Paul E. Black"
 
 # $Log: densegraph.trm,v $
+# Mon Dec  2 09:09:52 2019  Paul E. Black
+# Use the Wikipedia final link: Dense_graph (not Dense graph; underscore, not space).
+# 
 # Tue Nov 26 14:36:48 2019  Paul E. Black
 # Remove NOTE about Preiss.  The page is gone and Wikipedians criticizes it for
 # being unclear.  LINK to Wikipedia page of dense graph.
@@ -71,7 +74,7 @@ Typically, a sparse (connected) graph has about as many edges as vertices, and a
 dense graph has nearly the maximum number of edges.
 
 # further explanation (pure HTML)
-@LINKS={Wikipedia:Dense graph}
+@LINKS={Wikipedia:Dense_graph}
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials

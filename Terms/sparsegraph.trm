@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Tue Nov 26 14:13:21 2019" *by "Paul E. Black"
+# *modified "Mon Dec  2 09:07:11 2019" *by "Paul E. Black"
 
 # $Log: sparsegraph.trm,v $
+# Mon Dec  2 09:10:06 2019  Paul E. Black
+# Use the Wikipedia final link: Dense_graph (not Dense graph; underscore, not space).
+# 
 # Tue Nov 26 14:37:10 2019  Paul E. Black
 # Remove NOTE about Preiss.  The page is gone and Wikipedians criticizes it for
 # being unclear.  LINK to Wikipedia page of dense graph.
@@ -66,7 +69,7 @@ There is no strict distinction between sparse and dense graphs.
 Typically, a sparse (connected) graph has about as many edges as vertices, and a
 dense graph has nearly the maximum number of edges.
 # further explanation (pure HTML)
-@LINKS={Wikipedia:Dense graph}
+@LINKS={Wikipedia:Dense_graph}
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials (see authors.data)
