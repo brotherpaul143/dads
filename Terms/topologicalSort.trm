@@ -1,7 +1,10 @@
 # *created  "Tue Dec  1 11:46:37 1998" *by "Paul E. Black"
-# *modified "Mon Jul 15 12:29:12 2019" *by "Paul E. Black"
+# *modified "Tue Jan 21 16:08:50 2020" *by "Paul E. Black"
 
 # $Log: topologicalSort.trm,v $
+# Tue Jan 21 16:14:06 2020  Paul E. Black
+# Update URL to Eric Clippert NOTE.
+# 
 # Mon Mar 25 12:34:41 2019  Paul E. Black
 # ppppdate Eric Lipperts example and IMPL URL
 # 
@@ -63,7 +66,7 @@ that is, according to a {partial order}.
 # implementation(s) (pure HTML)
 @IMPL=
 Eric Lippert's narrative example and <a
-href="https://blogs.msdn.microsoft.com/ericlippert/2004/03/16/im-putting-on-my-top-hat-tying-up-my-white-tie-brushing-out-my-tails-in-that-order/">solution
+href="https://docs.microsoft.com/en-us/archive/blogs/ericlippert/im-putting-on-my-top-hat-tying-up-my-white-tie-brushing-out-my-tails-in-that-order">solution
 (JScript)</a>.
 <a
 href="http://algorist.com/problems/Topological_Sorting.html">(C++,

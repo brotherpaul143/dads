@@ -1,7 +1,10 @@
 # *created  "Wed Jan 14 09:48:02 2009" *by "Paul E. Black"
-# *modified "Mon Apr 22 11:41:19 2019" *by "Paul E. Black"
+# *modified "Tue Jan 21 16:16:36 2020" *by "Paul E. Black"
 
 # $Log: reservoirSampling.trm,v $
+# Tue Jan 21 16:13:29 2020  Paul E. Black
+# Update URL for Sahil NOTE
+# 
 # Mon Apr 22 11:51:29 2019  Paul E. Black
 # Update LINK to Sahils explanation of correctness.  Note that the
 # distributed algo is flawed.
@@ -96,9 +99,9 @@ He credits Alan G. Waterman.  This algorithm is suggested in exercise 10.
 
 # further explanation (pure HTML)
 @LINKS=
-Sahil's
-# Sahil Thaker? user name is sahilthaker
-<a href="https://blogs.msdn.microsoft.com/spt/2008/02/05/reservoir-sampling/">explanation
+Sahil (Thaker?)'s
+# user name is sahilthaker
+<a href="https://docs.microsoft.com/en-us/archive/blogs/spt/reservoir-sampling">explanation
 of correctness</a>. The extension to distributed reservoir sampling is
 flawed.
 
