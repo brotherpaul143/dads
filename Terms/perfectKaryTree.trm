@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Wed Apr 20 16:54:03 2011" *by "Paul E. Black"
+# *modified "Tue Jan 21 16:24:10 2020" *by "Paul E. Black"
 
 # $Log: perfectKaryTree.trm,v $
+# Tue Jan 21 16:25:24 2020  Paul E. Black
+# Add explicitly that authors differ in their definitions.
+# 
 # Revision 1.3  2011/04/20 20:59:16  black
 # Move WEB reference to complete tree, since that is what it really
 # belongs to.  Improve IMA and XREFS.
@@ -36,7 +39,9 @@ All {internal nodes} have {degree} k.
 @XREFS={perfect binary tree}
 
 # any notes.  these will not be printed in the final dictionary
-@NOTES=Called "complete" by 
+@NOTES=
+Authors differ in their definitions.
+This is called "complete" by
 <a href="../terms.html#CLR90">[CLR90, page 95]</a>.
 # further explanation (pure HTML)
 @LINKS=
