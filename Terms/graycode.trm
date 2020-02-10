@@ -1,7 +1,10 @@
 # *created  "Thu Dec 16 09:26:33 1999" *by "Paul E. Black"
-# *modified "Mon Feb 11 17:09:14 2019" *by "Paul E. Black"
+# *modified "Mon Feb 10 09:17:44 2020" *by "Paul E. Black"
 
 # $Log: graycode.trm,v $
+# Mon Feb 10 09:21:35 2020  Paul E. Black
+# tslrr LINK is gone.  Replace it.  Replace Wikipedia link with colon citation.
+# 
 # Mon Feb 11 17:09:21 2019  Paul E. Black
 # use https to access Wikipedia
 # 
@@ -130,8 +133,7 @@ patented a method using the codes in 1953.
 </p>
 
 <p>
-See the Wikipedia entry for
-<a href="https://en.wikipedia.org/wiki/Gray_code">Gray code</a> for
+See the Wikipedia {Wikipedia:Gray code} entry for
 more information.
 </p>
 
@@ -141,9 +143,9 @@ binary numbers and certain Gray codes.
 
 # further explanation (pure HTML)
 @LINKS=
-Image of a 
-<a href="http://www.tslrr.com/graycode.htm">Gray
-code rotary railroad control</a>.
+How to create (one kind of) Gray code with
+<a href="https://www.allaboutcircuits.com/technical-articles/gray-code-basics/">diagram
+of rotary encoder</a>.
 # implementation(s) (pure HTML)
 @IMPL=
 
