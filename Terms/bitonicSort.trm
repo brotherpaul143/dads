@@ -1,7 +1,10 @@
 # *created  "Wed Jun  4 12:59:25 2003" *by "Paul E. Black"
-# *modified "Tue Mar 25 10:47:31 2014" *by "Paul E. Black"
+# *modified "Mon Feb 10 09:05:56 2020" *by "Paul E. Black"
 
 # $Log: bitonicSort.trm,v $
+# Mon Feb 10 09:06:55 2020  Paul E. Black
+# Update URL of Lang IMPL.
+# 
 # Tue Mar 25 10:48:30 2014  Paul E. Black
 # Dont refer to sample IMPL as "reference" - it may cause confusion.
 # Add a sentence suggesting the parallel nature of the algorithm.
@@ -107,9 +110,9 @@ Knuth calls this <a href="../terms.html#Knuth98">Algorithm 5.2.2M
 [Knuth98, 3:111]</a>.
 # implementation(s) (pure HTML)
 @IMPL=
-<a
-href="http://www.iti.fh-flensburg.de/lang/algorithmen/sortieren/bitonic/bitonicen.htm">explanation,
-analysis, bibliography, etc. (Java)</a>.
+Prof. Dr. Hans Wener Lang's
+<a href="http://www.inf.hs-flensburg.de/lang/algorithmen/sortieren/bitonic/bitonicen.htm">explanation,
+proof of correctness, analysis, bibliography, etc. (Java)</a>.
 Other implementations in <a
 href="http://groups.csail.mit.edu/cag/streamit/results/bitonic/code/c/">(C)</a>
 and in
