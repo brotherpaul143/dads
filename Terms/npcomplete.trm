@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Tue Feb 19 09:58:25 2019" *by "Paul E. Black"
+# *modified "Tue Mar  3 11:37:15 2020" *by "Paul E. Black"
 
 # $Log: npcomplete.trm,v $
+# Tue Mar  3 11:39:08 2020  Paul E. Black
+# Update LINK to compendium of NP optimization problems URL Pierluigi Crescenzi and Viggo Kann eds.
+# 
 # Tue Feb 19 10:01:49 2019  Paul E. Black
 # Change xkcd URL to https
 # 
@@ -125,8 +128,8 @@ href="http://www.ics.uci.edu/~eppstein/161/960312.html">NP-completeness</a>,
 with sections like Why should we care?, Examples of problems in
 different classes, and how to prove a problem is NP-complete.
 A
-<a href="http://www.nada.kth.se/~viggo/problemlist/compendium.html">compendium
-of NP optimization problems</a>.  
+<a href="http://www.csc.kth.se/~viggo/wwwcompendium/">compendium
+of NP optimization problems</a> edited by Pierluigi Crescenzi and Viggo Kann.
 </p>
 
 <p>
