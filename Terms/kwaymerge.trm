@@ -1,7 +1,10 @@
 # *created  "Tue Mar 30 10:27:11 1999" *by "Paul E. Black"
-# *modified "Mon Aug  9 09:52:15 2010" *by "Paul E. Black"
+# *modified "Tue Mar  3 11:11:37 2020" *by "Paul E. Black"
 
 # $Log: kwaymerge.trm,v $
+# Tue Mar  3 11:13:08 2020  Paul E. Black
+# Update Zimmerman IMPL URL
+# 
 # Revision 1.5  2010/08/09 13:54:45  black
 # update Zimmerman's IMPL URL
 #
@@ -44,7 +47,7 @@ sorted stream.
 # implementation(s) (pure HTML)
 @IMPL=
 Jordan Zimmerman's
-<a href="http://code.google.com/p/kway/">k-way merge (Java)</a>.
+<a href="https://code.google.com/p/kway/">k-way merge (Java)</a>.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/kwaymerge.trm,v $
