@@ -1,7 +1,10 @@
 # *created  "Wed Sep 16 08:54:15 1998" *by "Paul E. Black"
-# *modified "Mon Jul 15 12:29:11 2019" *by "Paul E. Black"
+# *modified "Tue Mar  3 11:29:52 2020" *by "Paul E. Black"
 
 # $Log: mergesort.trm,v $
+# Tue Mar  3 11:30:18 2020  Paul E. Black
+# Update Georgiev IMPL URL
+# 
 # Mon Apr 22 12:14:31 2019  Paul E. Black
 # Remove LINK to Mukundans animation: no longer available.
 # 
@@ -136,8 +139,7 @@ Other implementations may be available through the <a
 href="http://algorist.com/problems/Sorting.html">Stony
 Brook Algorithm Repository, Sorting</a>.
 Alexander Georgiev's
-<a
-href="https://code.google.com/p/singly-linked-list/source/browse/trunk/src/main/java/datastructure/SinglyLinkedList.java">
+<a href="https://code.google.com/archive/p/singly-linked-list/">
 merge sort (Java)</a> implemented as part of a linked-list package.
 Includes a parallel merge sort, too.
 Flower Brackets
