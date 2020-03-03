@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 10:03:43 1998" *by "Paul E. Black"
-# *modified "Tue Oct  1 16:00:14 2019" *by "Paul E. Black"
+# *modified "Tue Mar  3 11:27:32 2020" *by "Paul E. Black"
 
 # $Log: linkedList.trm,v $
+# Tue Mar  3 11:28:27 2020  Paul E. Black
+# Update Georgiev IMPL URL
+# 
 # Tue Oct  1 16:31:12 2019  Paul E. Black
 # Update Goletas IMPL URL and make it specific.
 # 
@@ -147,8 +150,7 @@ Algorithms and Data Structures'
 href="http://www.algolist.net/Data_structures/Singly-linked_list">explanation
 (Java and C++)</a>.
 Alexander Georgiev's
-<a
-href="https://code.google.com/p/singly-linked-list/source/browse/trunk/src/main/java/datastructure/SinglyLinkedList.java">singly
+<a href="https://code.google.com/archive/p/singly-linked-list/">singly
 linked list (Java)</a>, including a merge and parallel merge sorts.
 # author's initials
 @AUTHOR=PEB
