@@ -1,7 +1,10 @@
 # *created  "Thu Jul 11 17:25:48 2019" *by "Paul E. Black"
-# *modified "Fri Jul 12 08:47:11 2019" *by "Paul E. Black"
+# *modified "Tue Mar  3 11:18:26 2020" *by "Paul E. Black"
 
 # $Log$
+# Tue Mar  3 11:23:20 2020  Paul E. Black
+# Remove BIB link that is gone.
+# 
 
 # entry name
 @NAME=linked data signature
@@ -37,9 +40,8 @@
 <em>Linked Data Signatures 1.0</em>,
 Draft Community Group Report 27 February 2018.
 Available at
-<a href="https://w3c-dvcg.github.io/ld-signatures/">https://w3c-dvcg.github.io/ld-signatures/</a> or
 <a href="https://github.com/w3c-dvcg/ld-signatures">https://github.com/w3c-dvcg/ld-signatures</a>.
-Accessed 11 July 2019.
+Accessed 3 March 2020.
 </p>
 
 <p>
