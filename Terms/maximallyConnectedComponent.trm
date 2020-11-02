@@ -1,7 +1,10 @@
 # *created  "Wed Dec 12 15:13:56 2001" *by "Paul E. Black"
-# *modified "Mon Aug 12 09:19:54 2019" *by "Paul E. Black"
+# *modified "Mon Nov  2 12:25:32 2020" *by "Paul E. Black"
 
 # $Log: maximallyConnectedComponent.trm,v $
+# Mon Nov  2 12:25:36 2020  Paul E. Black
+# Update IMPL URL for Algorist.com to use https
+# 
 # Mon Aug 12 09:20:08 2019  Paul E. Black
 # Update Skiena algorist IMPL page name.
 # 
@@ -68,7 +71,7 @@ property understood.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=
-<a href="http://algorist.com/problems/Connected_Components.html">(C++,
+<a href="https://algorist.com/problems/Connected_Components.html">(C++,
 C, Java, and Mathematica)</a>
 
 # author's initials (see authors.data)

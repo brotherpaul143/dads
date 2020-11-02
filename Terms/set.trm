@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Tue Oct  1 15:59:57 2019" *by "Paul E. Black"
+# *modified "Mon Nov  2 12:26:18 2020" *by "Paul E. Black"
 
 # $Log: set.trm,v $
+# Mon Nov  2 12:26:21 2020  Paul E. Black
+# Update IMPL URL for Algorist.com to use https
+# 
 # Tue Oct  1 16:32:00 2019  Paul E. Black
 # Add Goletas IMPL
 # 
@@ -106,7 +109,7 @@ ranges may be efficiently implemented as an {inversion list}.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=
-<a href="http://algorist.com/problems/Set_Data_Structures.html">(C++
+<a href="https://algorist.com/problems/Set_Data_Structures.html">(C++
 and Pascal)</a>.
 Maksim Goleta's C# Collections
 <a href="https://github.com/Goleta/csharp-collections/blob/master/Goletas.Collections/SortedSet.cs">sorted

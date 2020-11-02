@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Jul 15 12:29:12 2019" *by "Paul E. Black"
+# *modified "Mon Nov  2 12:27:39 2020" *by "Paul E. Black"
 
 # $Log: subset.trm,v $
+# Mon Nov  2 12:27:43 2020  Paul E. Black
+# Update IMPL URL for Algorist.com to use https
+# 
 # Mon Mar  2 16:12:56 2015  Paul E. Black
 # Remove Combinatorial Object Server IMPL - all of COS is gone.
 # 
@@ -60,7 +63,7 @@ A combination is a subset with exactly $n$ elements.
 # implementation(s) (pure HTML)
 @IMPL=
 <a
-href="http://algorist.com/problems/Generating_Subsets.html">generating
+href="https://algorist.com/problems/Generating_Subsets.html">generating
 subsets (Fortran, Mathematica, and Pascal)</a>
 # author's initials
 @AUTHOR=PR

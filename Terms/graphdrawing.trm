@@ -1,7 +1,10 @@
 # *created  "Mon Apr 12 09:34:27 1999" *by "Paul E. Black"
-# *modified "Mon Nov  2 10:56:46 2020" *by "Paul E. Black"
+# *modified "Mon Nov  2 12:24:17 2020" *by "Paul E. Black"
 
 # $Log: graphdrawing.trm,v $
+# Mon Nov  2 12:24:26 2020  Paul E. Black
+# Update IMPL URL for Algorist.com to use https
+# 
 # Mon Nov  2 10:56:54 2020  Paul E. Black
 # Change Stony Brook IMPL URL to https
 # 
@@ -66,10 +69,10 @@ for instance with a minimum number of {edge crossings}.
 # implementation(s) (pure HTML)
 @IMPL=
 <a
-href="http://algorist.com/problems/Drawing_Graphs_Nicely.html">Draw
+href="https://algorist.com/problems/Drawing_Graphs_Nicely.html">Draw
 a graph nicely (C and Mathematica)</a>,
 <a
-href="http://algorist.com/problems/Planarity_Detection_and_Embedding.html">draw
+href="https://algorist.com/problems/Planarity_Detection_and_Embedding.html">draw
 a graph in the plane such that no edges cross (C, C++, and
 Mathematica)</a>, GraphEd: <a
 href="https://www3.cs.stonybrook.edu/~algorith/implement/graphed/implement.shtml">Graph

@@ -1,7 +1,10 @@
 # *created  "Tue Mar  9 08:38:47 1999" *by "Paul E. Black"
-# *modified "Mon Aug 12 09:37:49 2019" *by "Paul E. Black"
+# *modified "Mon Nov  2 12:26:09 2020" *by "Paul E. Black"
 
 # $Log: planargraph.trm,v $
+# Mon Nov  2 12:26:12 2020  Paul E. Black
+# Update IMPL URL for Algorist.com to use https
+# 
 # Mon Aug 12 09:49:45 2019  Paul E. Black
 # Update Skiena algorist IMPL page name and languages.
 # 
@@ -61,7 +64,7 @@ complete {bipartite graph} with 3 vertices in each partition.
 # implementation(s) (pure HTML)
 @IMPL=
 <a
-href="http://algorist.com/problems/Planarity_Detection_and_Embedding.html">draw
+href="https://algorist.com/problems/Planarity_Detection_and_Embedding.html">draw
 a graph in the plane such that no edges cross (C, C++, Java, and
 Mathematica)</a>.
 # author's initials

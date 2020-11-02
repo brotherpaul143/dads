@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Aug 12 09:39:35 2019" *by "Paul E. Black"
+# *modified "Mon Nov  2 12:26:14 2020" *by "Paul E. Black"
 
 # $Log: pseudorandomNumberGen.trm,v $
+# Mon Nov  2 12:26:17 2020  Paul E. Black
+# Update IMPL URL for Algorist.com to use https
+# 
 # Mon Aug 12 09:40:10 2019  Paul E. Black
 # Update Skiena algorist IMPL page name and languages.
 # 
@@ -209,7 +212,7 @@ Available at
 # implementation(s) (pure HTML)
 @IMPL=
 # Steven Skiena's Stony Brook Algorithm Repository
-<a href="http://algorist.com/problems/Random_Number_Generation.html">(C++,
+<a href="https://algorist.com/problems/Random_Number_Generation.html">(C++,
 C, and Java)</a>.
 GAMS <a href="http://gams.nist.gov/serve.cgi/Module/C/SERV/11669">(C)</a>.
 # Summit's C FAQ http://c-faq.com/lib/randrange.html

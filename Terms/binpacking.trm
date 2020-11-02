@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Jul 15 12:29:11 2019" *by "Paul E. Black"
+# *modified "Mon Nov  2 12:21:38 2020" *by "Paul E. Black"
 
 # $Log: binpacking.trm,v $
+# Mon Nov  2 12:22:06 2020  Paul E. Black
+# Update IMPL URL for Algorist.com to use https
+# 
 # Tue Feb 19 10:48:25 2019  Paul E. Black
 # Update URL for Arizona Icon IMPL (add comment of page name to find it again)
 # 
@@ -66,7 +69,7 @@ Thanks to Frank A. Adrian &lt;fadrian@symantec.com&gt;, 28 January 2000.
 and references</a>.
 Suggestions on
 <a
-href="http://algorist.com/problems/Bin_Packing.html">books
+href="https://algorist.com/problems/Bin_Packing.html">books
 and related topics</a>.
 # implementation(s) (pure HTML)
 @IMPL=

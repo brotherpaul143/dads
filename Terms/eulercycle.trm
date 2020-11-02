@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Aug 12 09:06:29 2019" *by "Paul E. Black"
+# *modified "Mon Nov  2 12:22:57 2020" *by "Paul E. Black"
 
 # $Log: eulercycle.trm,v $
+# Mon Nov  2 12:23:01 2020  Paul E. Black
+# Update IMPL URL for Algorist.com to use https
+# 
 # Mon Aug 12 09:08:05 2019  Paul E. Black
 # Update Skiena algorist IMPL URL - change page name
 # 
@@ -67,7 +70,7 @@ every bridge of the German city of K&ouml;nigsberg exactly once.
 href="http://www.cs.auckland.ac.nz/software/AlgAnim/hard.html#euler">examples
 and explanations</a>
 # implementation(s) (pure HTML)
-<a href="http://algorist.com/problems/Eulerian_Cycle_Chinese_Postman.html">(Java,
+<a href="https://algorist.com/problems/Eulerian_Cycle_Chinese_Postman.html">(Java,
 C++, and Mathematica)</a>
 # author's initials
 @AUTHOR=PEB
