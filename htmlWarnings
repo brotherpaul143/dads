@@ -33,7 +33,7 @@ BACKSLASH, CARET, or DOLLAR SIGN
 BACKSLASH, CARET, or DOLLAR SIGN
                \              <br /> in binaryTreeRepofTree.html
 UNDERSCORE
- <a href="https://en.wikipedia.org/wiki/Bloom_filter" target="_blank"><em>Bloom_filter [Wikipedia]</em></a> gives many variants and extensions. <a href="http://cap-lore.com/code/BloomTheory.html" target="_blank" target="_blank">Trade-offs and engineering techniques</a> with links to sites with recent papers, hash functions, etc. <a href="http://pages.cs.wisc.edu/~cao/papers/summary-cache/node8.html" target="_blank" target="_blank">Another explanation</a> typo: probability of false positive is missing a minus sign; exponent should be ... e<sup>-kn/m</sup>. <a href="http://www.perl.com/pub/2004/04/08/bloom_filters.html" target="_blank" target="_blank">Using Bloom filters</a>.  Language is Perl. Jason Davies'  <a href="https://www.jasondavies.com/bloomfilter/" target="_blank" target="_blank">interactive animation</a> helps people understand how a Bloom filter works. in bloomFilter.html
+ <a href="https://en.wikipedia.org/wiki/Bloom_filter" target="_blank"><em>Bloom_filter [Wikipedia]</em></a> gives many variants and extensions. <a href="http://cap-lore.com/code/BloomTheory.html" target="_blank" target="_blank">Trade-offs and engineering techniques</a> with links to sites with recent papers, hash functions, etc. <a href="http://pages.cs.wisc.edu/~cao/papers/summary-cache/node8.html" target="_blank" target="_blank">Another explanation</a> typo: probability of false positive is missing a minus sign; exponent should be ... e<sup>-kn/m</sup>. <a href="https://www.perl.com/pub/2004/04/08/bloom_filters.html" target="_blank" target="_blank">Using Bloom filters</a>.  Language is Perl. Jason Davies'  <a href="https://www.jasondavies.com/bloomfilter/" target="_blank" target="_blank">interactive animation</a> helps people understand how a Bloom filter works. in bloomFilter.html
 UNDERSCORE
  <strong>Prosenjit Bose, Hua Guo, Evangelos Kranakis, Anil Maheshwari, Pat Morin, Jason Morrison, Michiel Smid, and Yihui Tang</strong>, <em>On the False-Positive Rate of Bloom Filters</em>, Technical Report TR-07-07, Carleton University - School of Computer Science, 1 March 2007.  Available at http://www.scs.carleton.ca/research/tech_reports/index.php?Abstract=tr-07-07_0007 <br /> in bloomFilter.html
 UNDERSCORE
@@ -114,6 +114,8 @@ BACKSLASH, CARET, or DOLLAR SIGN
         \/ 55,742,968.	<br /> in cubeRoot.html
 UNDERSCORE
 <p> Contributed by Arvind &lt;uk_arvind@mail.utexas.edu&gt; May 2002.</em> in cyclicRedundancyCheck.html
+UNDERSCORE
+<a href="https://en.wikipedia.org/wiki/Dense_graph" target="_blank"><em>Dense_graph [Wikipedia]</em></a> in densegraph.html
 BACKSLASH, CARET, or DOLLAR SIGN
 <pre> 	(1,0)^N = (F(N),F(N-1)) </pre> which can be computed in log N steps by <a href="repeatedSquaring.html"><em>repeated squaring</em></a>. </p>  in fibonacciNumber.html
 BACKSLASH, CARET, or DOLLAR SIGN
@@ -208,6 +210,8 @@ BACKSLASH, CARET, or DOLLAR SIGN
          = x<sup>2^3</sup>  * x<sup>2^2</sup>  *  1    * x<sup>2^0</sup> <br /> in repeatedSquaring.html
 BACKSLASH, CARET, or DOLLAR SIGN
 How do you <a href="http://ai.eecs.umich.edu/people/rounds/Winter02Slides/LectureApril4.pdf" target="_blank">compute 1415^13 mod 2537 with a calculator?</a> (PDF). To work out  <a href="http://www.tricki.org/article/To_work_out_powers_mod_n_use_repeated_squaring" target="_blank">powers mod n</a>, use repeated squaring. in repeatedSquaring.html
+UNDERSCORE
+<a href="https://en.wikipedia.org/wiki/Dense_graph" target="_blank"><em>Dense_graph [Wikipedia]</em></a> in sparsegraph.html
 UNDERSCORE
 <pre>               ___________	<br /> in squareRoot.html
 BACKSLASH, CARET, or DOLLAR SIGN
