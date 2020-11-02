@@ -1,7 +1,10 @@
 # *created  "Mon Apr 12 09:34:27 1999" *by "Paul E. Black"
-# *modified "Mon Aug 12 09:30:46 2019" *by "Paul E. Black"
+# *modified "Mon Nov  2 10:56:46 2020" *by "Paul E. Black"
 
 # $Log: graphdrawing.trm,v $
+# Mon Nov  2 10:56:54 2020  Paul E. Black
+# Change Stony Brook IMPL URL to https
+# 
 # Mon Aug 12 09:31:30 2019  Paul E. Black
 # Update Skiena algorist IMPL page names.
 # 
@@ -69,7 +72,7 @@ a graph nicely (C and Mathematica)</a>,
 href="http://algorist.com/problems/Planarity_Detection_and_Embedding.html">draw
 a graph in the plane such that no edges cross (C, C++, and
 Mathematica)</a>, GraphEd: <a
-href="http://www3.cs.stonybrook.edu/~algorith/implement/graphed/implement.shtml">Graph
+href="https://www3.cs.stonybrook.edu/~algorith/implement/graphed/implement.shtml">Graph
 Editor and Layout Program (C)</a>.
 Graphviz: <a href="http://www.graphviz.org/">Graph Visualization
 Software (C)</a>, consisting of many graph drawing programs, viewers
