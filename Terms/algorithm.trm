@@ -1,7 +1,10 @@
 # *created  "Wed Sep  9 09:11:15 1998" *by "Paul E. Black"
-# *modified "Wed Feb 24 11:19:03 2016" *by "Paul E. Black"
+# *modified "Mon Nov  2 12:02:24 2020" *by "Paul E. Black"
 
 # $Log: algorithm.trm,v $
+# Mon Nov  2 12:03:05 2020  Paul E. Black
+# Update LINK to Analysis of Algorithms site.
+# 
 # Wed Feb 24 11:25:01 2016  Paul E. Black
 # Add new entries: primitive algorithm and compound algorithm
 # 
@@ -53,8 +56,8 @@ algoritham, algorithim, algorithum, algorythm, algorithms, algorithym
 M&ucirc;s&acirc; <strong>al-Khow&acirc;rizm&icirc;</strong> who wrote a
 book with arithmetic rules dating from about 825 A.D.
 # further explanation (pure HTML)
-@LINKS=The <a
-href="http://algo.inria.fr/AofA/">Analysis of
+@LINKS=The former <a
+href="http://algo.inria.fr/aofa.html/">Analysis of
 Algorithms</a> web site.
 # implementation(s) (pure HTML)
 @IMPL=
