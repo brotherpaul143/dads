@@ -1,7 +1,10 @@
 # *created  "Thu Oct 15 08:36:29 1998" *by "Paul E. Black"
-# *modified "Mon Nov  2 12:35:07 2020" *by "Paul E. Black"
+# *modified "Mon Nov  9 16:31:30 2020" *by "Paul E. Black"
 
 # $Log: bloomFilter.trm,v $
+# Mon Nov  9 16:32:50 2020  Paul E. Black
+# Add trailing slash to Using Bloom Filters URL to avoid redirect.
+# 
 # Mon Nov  2 12:35:44 2020  Paul E. Black
 # Update perl.com NOTE URL to use https
 # 
@@ -134,7 +137,7 @@ href="http://pages.cs.wisc.edu/~cao/papers/summary-cache/node8.html">Another
 explanation</a> typo: probability of false positive is missing a
 minus sign; exponent should be ... e<sup>-kn/m</sup>.
 <a
-href="https://www.perl.com/pub/2004/04/08/bloom_filters.html">Using
+href="https://www.perl.com/pub/2004/04/08/bloom_filters.html/">Using
 Bloom filters</a>.  Language is Perl.
 Jason Davies' 
 <a href="https://www.jasondavies.com/bloomfilter/">interactive
