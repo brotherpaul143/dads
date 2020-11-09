@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Nov  2 12:23:12 2020" *by "Paul E. Black"
+# *modified "Mon Nov  9 16:37:44 2020" *by "Paul E. Black"
 
 # $Log: feedbackVertexSet.trm,v $
+# Mon Nov  9 16:38:47 2020  Paul E. Black
+# Update Algorist IMPL URL
+# 
 # Mon Nov  2 12:23:16 2020  Paul E. Black
 # Update IMPL URL for Algorist.com to use https
 # 
@@ -45,7 +48,7 @@ in an {acyclic graph}.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
-@IMPL=<a href="https://algorist.com/problems/Feedback_Set.html">(C)</a>
+@IMPL=<a href="https://algorist.com/problems/Feedback_Set_Vertex_Set.html">(C)</a>
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/feedbackVertexSet.trm,v $
