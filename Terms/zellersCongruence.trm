@@ -1,7 +1,10 @@
 # *created  "Tue Mar  5 12:32:22 2002" *by "Paul E. Black"
-# *modified "Mon Feb 11 17:11:47 2019" *by "Paul E. Black"
+# *modified "Mon Nov 23 08:53:35 2020" *by "Paul E. Black"
 
 # $Log: zellersCongruence.trm,v $
+# Mon Nov 23 08:56:52 2020  Paul E. Black
+# Use new location of IMPL of Stocktons page of Zellers works.
+# 
 # Mon Feb 11 17:11:51 2019  Paul E. Black
 # use https to access Wikipedia
 # 
@@ -72,8 +75,8 @@ Acta Mathematica, 9:131-6, Nov 1886.
 # implementation(s) (pure HTML)
 @IMPL=
 Dr J R Stockton's <em>The Calendrical Works of Rektor Chr. Zeller: The
-Day-of-Week and Easter Formulae</em> page has implementations of <a 
-href="http://www.merlyn.demon.co.uk/zeller-c.htm">Zeller's
+Day-of-Week and Easter Formulae</em> page has implementations of
+<a href="http://ss64.net/merlyn/zeller-c.htm">Zeller's
 congruence, for day-of-week (Pascal, JavaScript)</a>.  The page
 includes tests and code for Easter, Zeller's original papers (and
 translations), etc.
