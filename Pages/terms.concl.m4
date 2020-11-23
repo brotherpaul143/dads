@@ -1,10 +1,13 @@
 dnl *created  "Wed Feb  2 16:01:34 2000" *by "Paul E. Black"
-dnl *modified "Wed Mar 13 12:28:55 2019" *by "Paul E. Black"
+dnl *modified "Mon Nov 23 08:40:10 2020" *by "Paul E. Black"
 dnl
 dnl This is run through m4 then joined with an introduction and 
 dnl the entries to make a complete terms page.
 dnl
 dnl $Log$
+dnl Mon Nov 23 08:46:45 2020  Paul E. Black
+dnl Use https to access Stony Brook.
+dnl 
 dnl Wed Mar 13 12:39:51 2019  Paul E. Black
 dnl Remove stuff about Vreda being editor.
 dnl 
@@ -102,7 +105,7 @@ Here are some references on algorithms and data structures.
 </p>
 
 <p>
-The <a href="http://www3.cs.stonybrook.edu/~algorith/">Stony Brook
+The <a href="https://www3.cs.stonybrook.edu/~algorith/">Stony Brook
 Algorithm Repository</a>, which has algorithms organized by type,
 succinct, illustrated definitions, and ratings of sites with
 implementations.
@@ -171,7 +174,7 @@ Fri Sep  4 16:39:23 1998
 include(`Pages/bitsPaul.m4')
 <em>This Trailer</em>
 <em>Updated
-Wed Mar 13 12:28:55 2019
+Mon Nov 23 08:40:10 2020
 </em><address>
 by <a href="https://hissa.nist.gov/~black/">Paul E. Black
 </a>

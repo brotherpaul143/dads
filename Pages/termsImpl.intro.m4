@@ -1,7 +1,10 @@
 dnl *created  "Wed Nov 18 08:51:04 1998" *by "Paul E. Black"
-dnl *modified "Mon Jun 17 08:29:00 2019" *by "Paul E. Black"
+dnl *modified "Mon Nov 23 08:40:01 2020" *by "Paul E. Black"
 dnl
 dnl $Log$
+dnl Mon Nov 23 08:47:30 2020  Paul E. Black
+dnl Use https to access Stony Brook.
+dnl 
 dnl Mon Jun 17 08:41:27 2019  Paul E. Black
 dnl Use https for GAMS
 dnl 
@@ -73,7 +76,7 @@ concur with the facts presented on these sites.
 <p>
 A great source of implementations, organized by area and reviewed for
 quality, is the
-<a href="http://www3.cs.stonybrook.edu/~algorith/">Stony Brook
+<a href="https://www3.cs.stonybrook.edu/~algorith/">Stony Brook
 Algorithm Repository</a>.  A great source of implementations of
 mathematical functions is the NIST
 <a href="https://gams.nist.gov/">Guide to Available Mathematical
