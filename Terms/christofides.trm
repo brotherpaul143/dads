@@ -1,7 +1,11 @@
 # *created  "Fri Aug  3 12:16:15 2001" *by "Paul E. Black"
-# *modified "Tue Oct 28 09:01:56 2008" *by "Paul E. Black"
+# *modified "Tue Nov 24 09:38:47 2020" *by "Paul E. Black"
 
 # $Log: christofides.trm,v $
+# Tue Nov 24 09:45:47 2020  Paul E. Black
+# Correct description by adding the 5th step to make it a Hamiltonian cycle.
+# Thanks to 24 Nov 2020 email from Martin Sig N&oslash;rbjerg martin1509@outlook.dk
+# 
 # Revision 1.8  2008/10/28 13:03:23  black
 # Make Christofides heuristic a WEB reference instead of an AKA.  Remove
 # LINK to troy.org document with algorithm and proof - it is not
@@ -38,7 +42,8 @@ the {traveling salesman} problem.  Step 1: find a {minimum spanning
 tree} T.  Step 2: find a {perfect matching} M among {vertices#vertex}
 with odd
 {degree}.  Step 3: combine the {edges} of M and T to make a
-{multigraph} G.  Step 4: find an {Euler cycle} in G by skipping
+{multigraph} G.  Step 4: find an {Euler cycle} in G.
+Step 5: Turn the Euler cycle into a {Hamiltonian cycle} by skipping
 vertices already seen.  (2) An algorithm to find the {chromatic
 number} of a graph.
 # formal definition or {cross reference} to an entry
