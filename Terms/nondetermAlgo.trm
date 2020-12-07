@@ -1,7 +1,14 @@
 # *created  "Fri Feb 26 16:47:11 1999" *by "Paul E. Black"
-# *modified "Thu Aug 14 12:14:54 2008" *by "Paul E. Black"
+# *modified "Mon Dec  7 13:44:54 2020" *by "Paul E. Black"
 
 # $Log: nondetermAlgo.trm,v $
+# Mon Dec  7 13:50:20 2020  Paul E. Black
+# Remove "Random" from the example function name for clarity.
+# 
+# Jim S. Hefferon <jhefferon@smcvt.edu> points out that "Random" in the
+# name may lead some to think that nondeterminism is done by, say coin
+# flipping.  That is, that it is the same as random choice.
+# 
 # Revision 1.4  2008/08/14 16:14:56  black
 # Update HTML line break (br) tags to be XML/XHMTL compatible
 #
@@ -12,7 +19,6 @@
 # Define and explain in notes.  Add more cross references.  Change file
 # name to something a little longer and more readable.  Refine XREFS to
 # IMA, etc.
-#
 
 # entry name
 @NAME=nondeterministic algorithm
@@ -65,10 +71,10 @@ constant expected time.
 <pre>
 int search(key k, array a)		<br />
 \{					<br />
-    return oracleRandom(0, sizeof(a));	<br />
+    return oracle(0, sizeof(a));	<br />
 }
 </pre>
-where oracleRandom() returns (the right) number between 0 and the size
+where oracle() returns (the right) number between 0 and the size
 of the array in constant time.
 
 # further explanation (pure HTML)
