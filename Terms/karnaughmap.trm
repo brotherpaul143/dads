@@ -1,7 +1,10 @@
 # *created  "Thu Feb 11 16:27:49 1999" *by "Paul E. Black"
-# *modified "Mon May  6 09:55:27 2019" *by "Paul E. Black"
+# *modified "Mon Dec 14 09:11:56 2020" *by "Paul E. Black"
 
 # $Log: karnaughmap.trm,v $
+# Mon Dec 14 09:13:35 2020  Paul E. Black
+# Update NOTE links and remove defunct IMPL link.
+# 
 # Mon May  6 09:58:51 2019  Paul E. Black
 # LINK now uses https:
 # 
@@ -96,16 +99,14 @@ final output.  The positive implementation is smaller for this
 expression.
 # further explanation (pure HTML)
 @LINKS=
-<a
-href="https://www.embedded.com/electronics-blogs/programmer-s-toolbox/4024897/A-primer-on-Karnaugh-maps">A
+<a href="https://www.embedded.com/a-primer-on-Karnaugh-maps/">A
 primer on Karnaugh maps</a> motivated by minimizing logic.
-An <a
-href="http://homepages.wmich.edu/~johnson/ece250/Quiz5/quiz.html">interactive
+Dean Johnson's 
+<a href="http://homepages.wmich.edu/~johnson/ece2500/Quiz5/quiz.html">interactive
 quiz</a>.
 # implementation(s) (pure HTML)
 @IMPL=
-<a href="http://tams-www.informatik.uni-hamburg.de/applets/kvd/">(Java)</a>
-applet demonstrating minimization.
+
 # author's initials
 @AUTHOR=SKS
 # end $Source: /home/black/Workspace/dads/Terms/RCS/karnaughmap.trm,v $
