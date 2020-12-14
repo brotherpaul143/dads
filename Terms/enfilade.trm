@@ -1,7 +1,10 @@
 # *created  "Mon Nov 27 13:58:44 2000" *by "Paul E. Black"
-# *modified "Mon May  6 09:41:02 2019" *by "Paul E. Black"
+# *modified "Mon Dec 14 10:54:15 2020" *by "Paul E. Black"
 
 # $Log: enfilade.trm,v $
+# Mon Dec 14 10:55:01 2020  Paul E. Black
+# Update Xanadu LINKS URL
+# 
 # Mon May  6 09:41:51 2019  Paul E. Black
 # Remove LINK to Xanadu Green; sunless-sea.net doesnt respond.
 # 
@@ -43,8 +46,8 @@ Related concepts are Ent, Granfilade (Grand Enfilade), POOMfilade
 (Permutation Of Order Matrix Enfilade), Spanfilade (Spanning
 Enfilade), Switcheroo, Switcheroonie, and tumbler.
 # further explanation (pure HTML)
-@LINKS=An <a
-href="http://xanadu.com/tech/">introduction</a>.
+@LINKS=An
+<a href="https://xanadu.com/tech/">introduction</a>.
 # implementation(s) (pure HTML)
 @IMPL=
 <a href="http://udanax.xanadu.com/gold/download/">Gold (Smalltalk)</a>.
