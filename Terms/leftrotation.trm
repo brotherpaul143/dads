@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 09:14:23 1999" *by "Paul E. Black"
-# *modified "Tue Feb 12 09:41:53 2019" *by "Paul E. Black"
+# *modified "Mon Dec 14 09:19:43 2020" *by "Paul E. Black"
 
 # $Log: leftrotation.trm,v $
+# Mon Dec 14 10:14:50 2020  Paul E. Black
+# Update Queens U NOTE URLs
+# 
 # Tue Feb 12 09:41:57 2019  Paul E. Black
 # update access to rbaeza handbook
 # 
@@ -66,10 +69,10 @@ rotation.
 href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/3/3418.lrot.p">(Pascal)</a>,
 <a
 href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/3/3414.lrot.c">(C)</a>.
-A great series of <a
-href="http://research.cs.queensu.ca/home/jstewart/applets/bst/bst-rotation.html">animations
-explaining rotations</a> with <a
-href="http://research.cs.queensu.ca/home/jstewart/applets/bst/source/bst.java">code
+A great series of
+<a href="https://research.cs.queensu.ca/home/jstewart/applets/bst/bst-rotation.html">animations
+explaining rotations</a> with
+<a href="https://research.cs.queensu.ca/home/jstewart/applets/bst/source/bst.java">code
 (Java)</a>.
 # author's initials
 @AUTHOR=BB
