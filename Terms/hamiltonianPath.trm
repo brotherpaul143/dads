@@ -1,7 +1,10 @@
 # *created  "Mon Jul 14 16:47:42 2003" *by "Paul E. Black"
-# *modified "Mon Nov 18 11:39:43 2019" *by "Paul E. Black"
+# *modified "Mon Dec 14 09:22:59 2020" *by "Paul E. Black"
 
 # $Log: hamiltonianPath.trm,v $
+# Mon Dec 14 10:18:17 2020  Paul E. Black
+# Update mathshistory St. Andrews NOTE URL
+# 
 # Mon Nov 18 11:39:47 2019  Paul E. Black
 # update St. Andrews mathematician history NOTE URL
 # 
@@ -62,8 +65,8 @@ the graph.
 #Proc. Everything XV, Provo, Utah, USA, 2(7):30-32, February 1997.
 # any notes.  these are not printed in the final dictionary
 @NOTES=
-Named for <a
-href="http://mathshistory.st-andrews.ac.uk/Mathematicians/Hamilton.html">Sir
+Named for
+<a href="https://mathshistory.st-andrews.ac.uk/Mathematicians/Hamilton.html">Sir
 William Rowan Hamilton (1805-1865)</a>.
 # implementation(s) (pure HTML)
 @IMPL=
