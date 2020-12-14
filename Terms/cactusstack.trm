@@ -1,7 +1,10 @@
 # *created  "Fri Jan 28 11:03:02 2000" *by "Paul E. Black"
-# *modified "Thu Aug 22 15:51:17 2013" *by "Paul E. Black"
+# *modified "Mon Dec 14 10:41:39 2020" *by "Paul E. Black"
 
 # $Log: cactusstack.trm,v $
+# Mon Dec 14 10:43:10 2020  Paul E. Black
+# Update Desert USA LINKS URL to https
+# 
 # Revision 1.4  2013/08/22 19:52:58  black
 # update URL for pictures of a saguaro cactus.
 #
@@ -56,8 +59,7 @@ notch(v), may be defined with {axiomatic semantics} as follows.
 A saguaro is a kind of branching cactus.
 # further explanation (pure HTML)
 @LINKS=
-<a
-href="http://www.desertusa.com/cactus/saguaro-cactus.html">Pictures
+<a href="https://www.desertusa.com/cactus/saguaro-cactus.html">Pictures
 and a description</a> of saguaro cactus.
 # implementation(s) (pure HTML)
 @IMPL=
