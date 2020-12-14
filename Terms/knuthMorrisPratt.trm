@@ -1,7 +1,10 @@
 # *created  "Wed Apr  5 11:10:38 2000" *by "Sterling Bates"
-# *modified "Tue Feb 12 09:41:39 2019" *by "Paul E. Black"
+# *modified "Mon Dec 14 09:18:42 2020" *by "Paul E. Black"
 
 # $Log: knuthMorrisPratt.trm,v $
+# Mon Dec 14 10:11:56 2020  Paul E. Black
+# Update U Texas NOTE URL
+# 
 # Tue Feb 12 09:41:44 2019  Paul E. Black
 # update access to rbaeza handbook
 # 
@@ -77,8 +80,7 @@ SIAM Journal on Computing, 6(2):323-350, 1977.
 # further explanation (pure HTML)
 @LINKS=
 Series of pages explaining
-<a
-href="http://www.cs.utexas.edu/users/moore/best-ideas/string-searching/kpm-example.html">how
+<a href="https://www.cs.utexas.edu/users/moore/best-ideas/string-searching/kpm-example.html">how
 Knuth-Morris-Pratt works</a>.
 # implementation(s) (pure HTML)
 @IMPL=Christian Charras' and Thierry Lecroq's <a
