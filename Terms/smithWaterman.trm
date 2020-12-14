@@ -1,7 +1,10 @@
 # *created  "Mon Aug 14 15:42:09 2000" *by "Paul E. Black"
-# *modified "Mon Mar 13 09:15:44 2006" *by "Paul E. Black"
+# *modified "Mon Dec 14 11:34:26 2020" *by "Paul E. Black"
 
 # $Log: smithWaterman.trm,v $
+# Mon Dec 14 11:35:21 2020  Paul E. Black
+# Remove both LINKS - both are gone.
+# 
 # Revision 1.6  2006/03/13 14:16:19  black
 # Remove amclysag LINK - it is gone.
 #
@@ -50,12 +53,7 @@ J. Mol. Biol., 147:195-197, 1981.
 @NOTES=
 # further explanation (pure HTML)
 @LINKS=
-Some
-<a href="http://www.med.nyu.edu/rcr/rcr/course/sim-sw.html">notes and
-diagrams</a> about how it works.
-A few <a
-href="http://www.maths.tcd.ie/~lily/pres2/sld009.htm">explanatory
-slides</a>.
+
 # implementation(s) (pure HTML)
 @IMPL=
 Ahmed Moustafa's implementation in
