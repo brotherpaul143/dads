@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 09:15:03 1999" *by "Paul E. Black"
-# *modified "Tue Feb 12 09:43:41 2019" *by "Paul E. Black"
+# *modified "Mon Dec 14 11:27:38 2020" *by "Paul E. Black"
 
 # $Log: rightrotatn.trm,v $
+# Mon Dec 14 11:28:11 2020  Paul E. Black
+# Update Queens U IMPL URLs to https
+# 
 # Tue Feb 12 09:43:47 2019  Paul E. Black
 # update access to rbaeza handbook
 # 
@@ -63,12 +66,13 @@ right rotation.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
-@IMPL=<a
-href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/3/3414.rrot.c">(C
-and Pascal)</a>.  A great series of <a
-href="http://research.cs.queensu.ca/home/jstewart/applets/bst/bst-rotation.html">animations
-explaining rotations</a> with <a
-href="http://research.cs.queensu.ca/home/jstewart/applets/bst/source/bst.java">code
+@IMPL=
+<a href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/3/3414.rrot.c">(C
+and Pascal)</a>.
+A great series of
+<a href="https://research.cs.queensu.ca/home/jstewart/applets/bst/bst-rotation.html">animations
+explaining rotations</a> with
+<a href="https://research.cs.queensu.ca/home/jstewart/applets/bst/source/bst.java">code
 (Java)</a>.
 # author's initials
 @AUTHOR=BB
