@@ -1,7 +1,10 @@
 # *created  "Mon Jun 12 16:25:09 2000" *by "Paul E. Black"
-# *modified "Tue Jan 21 16:04:08 2020" *by "Paul E. Black"
+# *modified "Mon Dec 14 10:29:44 2020" *by "Paul E. Black"
 
 # $Log: bresenham.trm,v $
+# Mon Dec 14 10:30:54 2020  Paul E. Black
+# Update Helsinki LINK URL
+# 
 # Tue Jan 21 16:06:22 2020  Paul E. Black
 # Fix Dedu URL typo.  Remove 1401 autocoder IMPL: no longer found.
 # 
@@ -113,8 +116,8 @@ they could publish the paper.  I happily agreed, and they printed it in
 1965."
 # further explanation (pure HTML)
 @LINKS=
-An <a
-href="http://www.cs.helsinki.fi/group/goa/mallinnus/lines/bresenh.html">explanation</a>.
+An
+<a href="https://www.cs.helsinki.fi/group/goa/mallinnus/lines/bresenh.html">explanation</a>.
 </p>
 
 <p>
