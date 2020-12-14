@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Oct  4 14:56:03 2010" *by "Paul E. Black"
+# *modified "Mon Dec 14 10:24:50 2020" *by "Paul E. Black"
 
 # $Log: smoothsort.trm,v $
+# Mon Dec 14 10:27:32 2020  Paul E. Black
+# update Utexas Moore IMPL URLs
+# 
 # Revision 1.4  2010/10/04 18:56:04  black
 # Update utexas URLs
 #
@@ -45,7 +48,7 @@ performance for {worst case}.
 @BIB=<strong>Edsger W. Dijkstra</strong>, <em>An alternative to
 Heapsort for sorting in situ</em>, manuscript, June 1981.
 <a
-href="http://www.cs.utexas.edu/users/EWD/ewd07xx/EWD795.PDF">PDF</a>.
+href="https://www.cs.utexas.edu/users/EWD/ewd07xx/EWD795.PDF">PDF</a>.
 # any notes.  these will not be printed in the final dictionary
 @NOTES=From Lynn Milnes &lt;trjudo@hotmail.com&gt; August 2003
 # further explanation (pure HTML)
@@ -55,7 +58,7 @@ href="http://www.cs.utexas.edu/users/EWD/ewd07xx/EWD795.PDF">PDF</a>.
 Smoothsort,
 an alternative for sorting in situ
 <a
-href="http://www.cs.utexas.edu/users/EWD/ewd07xx/EWD796a.PDF">typescript
+href="https://www.cs.utexas.edu/users/EWD/ewd07xx/EWD796a.PDF">typescript
 (guarded command language)</a>
 # author's initials
 @AUTHOR=PEB

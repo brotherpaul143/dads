@@ -1,7 +1,10 @@
 # *created  "Tue Nov 17 13:35:17 1998" *by "Paul E. Black"
-# *modified "Tue Feb 12 09:39:19 2019" *by "Paul E. Black"
+# *modified "Mon Dec 14 10:24:50 2020" *by "Paul E. Black"
 
 # $Log: boyermoore.trm,v $
+# Mon Dec 14 10:26:27 2020  Paul E. Black
+# update Utexas Moore IMPL URLs
+# 
 # Tue Feb 12 09:39:27 2019  Paul E. Black
 # update access to rbaeza handbook
 # 
@@ -75,7 +78,7 @@ CACM, 20(10):762-772, October 1977.
 @LINKS=
 Series of pages explaining
 <a
-href="http://www.cs.utexas.edu/users/moore/best-ideas/string-searching/fstrpos-example.html">how
+href="https://www.cs.utexas.edu/users/moore/best-ideas/string-searching/fstrpos-example.html">how
 Boyer-Moore works</a>.
 # implementation(s) (pure HTML)
 @IMPL=Christian Charras' and Thierry Lecroq's <a
