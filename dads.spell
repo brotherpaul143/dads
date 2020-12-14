@@ -104,6 +104,9 @@ bintree
 Bitner
 bitNumber
 bitonic
+bitsFixDefn
+bitsPaul
+bitsReqHeadStuff
 bitwise
 BJ
 BKP
@@ -270,6 +273,7 @@ diviser
 dk
 DM
 DNAME
+dnl
 Dobb
 Dobosiewicz
 Docid
@@ -531,7 +535,6 @@ Jarkko
 Jarnik
 Jaro
 jb
-JDK
 JDSL
 Jenkin
 Jens
@@ -549,7 +552,6 @@ JohnPaul
 Jozsa
 JScript
 JSort
-jstor
 Juerg
 Juergen
 Kagel
@@ -778,7 +780,6 @@ nonterminal
 Noord
 NORs
 NOTFOUND
-NQP
 nr
 nt
 nullary
@@ -806,7 +807,6 @@ ONJava
 ood
 Opensource
 optimality
-oracleRandom
 ordinar
 ordinating
 Ordnung
@@ -843,7 +843,6 @@ Peng
 Perrin
 persistance
 Petersson
-Peyser
 Pfaff
 PHP
 PHS
@@ -1018,7 +1017,6 @@ Shneiderman
 Shor
 shortcutting
 Shostak
-showArticle
 Shukla
 Sielaff
 siftup
