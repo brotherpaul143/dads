@@ -1,7 +1,10 @@
 # *created  "Thu Dec 16 09:26:33 1999" *by "Paul E. Black"
-# *modified "Mon Feb 10 09:17:44 2020" *by "Paul E. Black"
+# *modified "Mon Dec 14 10:58:58 2020" *by "Paul E. Black"
 
 # $Log: graycode.trm,v $
+# Mon Dec 14 11:00:38 2020  Paul E. Black
+# Update Wikipedia URL.  It uses underscore instead of HTML for space.
+# 
 # Mon Feb 10 09:21:35 2020  Paul E. Black
 # tslrr LINK is gone.  Replace it.  Replace Wikipedia link with colon citation.
 # 
@@ -133,7 +136,7 @@ patented a method using the codes in 1953.
 </p>
 
 <p>
-See the Wikipedia {Wikipedia:Gray code} entry for
+See the Wikipedia {Gray code#Wikipedia:Gray_code} entry for
 more information.
 </p>
 
