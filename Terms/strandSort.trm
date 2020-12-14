@@ -1,7 +1,10 @@
 # *created  "Tue Aug 12 10:52:34 2003" *by "Paul E. Black"
-# *modified "Mon Nov 24 12:04:14 2008" *by "Paul E. Black"
+# *modified "Mon Dec 14 11:37:03 2020" *by "Paul E. Black"
 
 # $Log: strandSort.trm,v $
+# Mon Dec 14 11:37:50 2020  Paul E. Black
+# Update 1997 message LINKS URL
+# 
 # Revision 1.6  2008/11/24 17:12:08  black
 # Update URL for 1997 message
 #
@@ -63,7 +66,7 @@ special cases.
 @IMPL=
 # further explanation (pure HTML)
 @LINKS=Explained in
-<a href="http://groups.google.com/group/fido7.ru.algorithms/msg/26084cdb04008ab3">a
+<a href="https://groups.google.com/g/fido7.ru.algorithms/c/dL4SAH96OPY/m/s4oABNtMCCYJ">a
 message about J sort</a> posted in 1997.
 # author's initials (see authors.data)
 @AUTHOR=PEB
