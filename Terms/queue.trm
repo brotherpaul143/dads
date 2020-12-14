@@ -1,7 +1,10 @@
 # *created  "Tue Sep 15 09:19:57 1998" *by "Paul E. Black"
-# *modified "Tue Oct  1 14:47:03 2019" *by "Paul E. Black"
+# *modified "Mon Dec 14 11:25:32 2020" *by "Paul E. Black"
 
 # $Log: queue.trm,v $
+# Mon Dec 14 11:26:02 2020  Paul E. Black
+# Update Goleta IMPL URL
+# 
 # Tue Oct  1 16:31:26 2019  Paul E. Black
 # Update Goletas IMPL URL and make it specific.
 # 
@@ -105,7 +108,7 @@ where Q is a queue and v and w are values.
 # implementation(s) (pure HTML)
 @IMPL=
 Maksim Goleta's C# Collections
-<a href="https://github.com/Goleta/csharp-collections/tree/master/Goletas.Collections/LinkedQueue.cs">linked-list implementation
+<a href="https://github.com/Goleta/csharp-collections/blob/master/Goletas.Collections/LinkedQueue.cs">linked-list implementation
 (C#)</a>.
 Bro. David Carlson's
 <a
