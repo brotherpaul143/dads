@@ -1,7 +1,10 @@
 # *created  "Tue Aug 12 11:48:10 2003" *by "Paul E. Black"
-# *modified "Mon Nov 24 12:04:26 2008" *by "Paul E. Black"
+# *modified "Mon Dec 14 11:30:13 2020" *by "Paul E. Black"
 
 # $Log: shuffleSort.trm,v $
+# Mon Dec 14 11:31:18 2020  Paul E. Black
+# Update LINKS URL
+# 
 # Revision 1.7  2008/11/24 17:11:49  black
 # Update URL for 1997 message
 #
@@ -72,7 +75,7 @@ the maximum.
 @IMPL=
 # further explanation (pure HTML)
 @LINKS=Explained in
-<a href="http://groups.google.com/group/fido7.ru.algorithms/msg/26084cdb04008ab3">a
+<a href="http://groups.google.com/g/fido7.ru.algorithms/c/dL4SAH96OPY/m/s4oABNtMCCYJ">a
 message about J sort</a> posted in 1997.
 # author's initials (see authors.data)
 @AUTHOR=PEB
