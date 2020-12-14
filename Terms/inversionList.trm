@@ -1,7 +1,10 @@
 # *created  "Fri Mar 25 09:41:35 2016" *by "Paul E. Black"
-# *modified "Mon Mar 25 12:30:17 2019" *by "Paul E. Black"
+# *modified "Mon Dec 14 11:04:02 2020" *by "Paul E. Black"
 
 # $Log: inversionList.trm $
+# Mon Dec 14 11:21:34 2020  Paul E. Black
+# Update perlmonks IMPL URL and remove NQP IMPL - the latter is gone.
+# 
 # Mon Mar 25 12:32:29 2019  Paul E. Black
 # Update Teodor Ziatanovs NOTE URL
 # 
@@ -73,10 +76,8 @@ Some authors refer to {inverted index} as inversion list.
 
 # implementation(s) (pure HTML)
 @IMPL=
-<a href="http://www.perlmonks.org/bare/?node_id=600394">prototype code
-with tests (Perl)</a>,
-<a href="https://github.com/perl6/nqp-inversion-list">NQP
-implementation (Perl)</a>.
+<a href="https://www.perlmonks.org/bare/?node_id=600394">prototype code
+with tests (Perl)</a>.
 
 # further explanation (pure HTML)
 @LINKS=
