@@ -1,7 +1,10 @@
 # *created  "Mon Nov 29 15:25:29 2004" *by "Paul E. Black"
-# *modified "Tue Sep  3 08:52:15 2019" *by "Paul E. Black"
+# *modified "Mon Dec 21 09:39:46 2020" *by "Paul E. Black"
 
 # $Log: tournamentSort.trm,v $
+# Mon Dec 21 09:40:34 2020  Paul E. Black
+# Update Stepanov paper NOTE URL
+# 
 # Revision 1.4  2008/12/03 19:48:42  black
 # remove LINK to McGill 1997 CS251 - appears to be completely gone
 #
@@ -61,7 +64,7 @@ winner is removed and the appropriate matches replayed.
 
 <p>
 In
-<a href="http://www.stepanovpapers.com/TournamentTrees.pdf">Using
+<a href="http://stepanovpapers.com/TournamentTrees.pdf">Using
 Tournament Trees to Sort</a>, Center for Advanced
 Technology in Telecommunications, Polytechnic University, Brooklyn,
 New York, C.A.T.T Technical Report 86-13, Alexander Stepanov and
