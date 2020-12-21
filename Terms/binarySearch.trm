@@ -1,7 +1,10 @@
 # *created  "Tue Sep 15 16:55:53 1998" *by "Paul E. Black"
-# *modified "Mon Apr 22 12:04:13 2019" *by "Paul E. Black"
+# *modified "Mon Dec 21 08:51:10 2020" *by "Paul E. Black"
 
 # $Log: binarySearch.trm,v $
+# Mon Dec 21 08:55:27 2020  Paul E. Black
+# Remove Tim Rolfes NOTE -- gone from web.
+# 
 # Mon Apr 22 12:13:04 2019  Paul E. Black
 # Remove LINK to Mukundans animation: no longer available.
 # 
@@ -153,8 +156,7 @@ Binary search may be effective with an
 {ordered linked list}.
 It makes O(n) traversals, as does {linear search}, but it
 only performs O(log n) comparisons.
-For more explanation, see Tim Rolfe's
-<a href="http://penguin.ewu.edu/~trolfe/Nifty2010/LinkedListBinarySearch/Asg2.html">Searching in a Sorted Linked List</a>.
+
 # further explanation (pure HTML)
 @LINKS=
 # John Morris morris@ee.uwa.edu.au
