@@ -1,8 +1,11 @@
 dnl $Id: creditNotice.html.m4,v 1.14 2011/12/06 20:58:45 black Exp $
 dnl *created  "Thu Jun  2 11:17:54 2005" *by "Paul E. Black"
-dnl *modified "Wed Mar 13 12:36:34 2019" *by "Paul E. Black"
+dnl *modified "Mon Dec 21 09:47:00 2020" *by "Paul E. Black"
 dnl
 dnl $Log$
+dnl Mon Dec 21 09:48:17 2020  Paul E. Black
+dnl Update CRC Press permissions web page URL
+dnl 
 dnl Wed Mar 13 12:41:14 2019  Paul E. Black
 dnl Remove Vreda as editor everywhere. (Update example dates.)
 dnl 
@@ -83,7 +86,7 @@ alt="NIST"></a>
 Some definitions are copyright CRC Press, such as
 <a href="$ROOTDIR/HTML/depoissonization.html">depoissonization</a>.
 You must get 
-<a href="https://www.crcpress.com/contactus/rightspermissions">CRC Press
+<a href="https://www.routledge.com/contacts/rights-and-permissions">CRC Press
 permission</a>
 for those.  All others are public domain.
 </p>
@@ -164,7 +167,7 @@ Thu Jun  2 11:21:13 2005
 include(`Pages/bitsPaul.m4')
 dnl following lines updated by emacs macros
 <em>Updated
-Wed Mar 13 12:36:34 2019
+Mon Dec 21 09:47:00 2020
 </em>
 by <a href="https://hissa.nist.gov/~black/">Paul E. Black
 </a>
