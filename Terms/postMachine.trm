@@ -1,7 +1,10 @@
 # *created  "Mon May  8 12:57:30 2000" *by "Paul E. Black"
-# *modified "Mon Dec 14 09:23:24 2020" *by "Paul E. Black"
+# *modified "Mon Dec 21 09:05:06 2020" *by "Paul E. Black"
 
 # $Log: postMachine.trm,v $
+# Mon Dec 21 09:34:25 2020  Paul E. Black
+# update St. Andrews mathematicians biography NOTE URL
+# 
 # Mon Dec 14 10:18:43 2020  Paul E. Black
 # Update mathshistory St. Andrews NOTE URL
 # 
@@ -53,7 +56,7 @@ Formulation 1</em>, Journal of Symbolic Logic, 1, 103-105, 1936.
 infinite tape.
 # further explanation (pure HTML)
 @LINKS=Biography of
-<a href="https://mathshistory.st-andrews.ac.uk/Mathematicians/Post.html">Emil
+<a href="https://mathshistory.st-andrews.ac.uk/Biographies/Post/">Emil
 Leon Post</a>.
 # implementation(s) (pure HTML)
 @IMPL=

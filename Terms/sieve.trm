@@ -1,7 +1,10 @@
 # *created  "Tue Sep 15 12:08:46 1998" *by "Paul E. Black"
-# *modified "Mon Dec 14 09:21:55 2020" *by "Paul E. Black"
+# *modified "Mon Dec 21 09:05:06 2020" *by "Paul E. Black"
 
 # $Log: sieve.trm,v $
+# Mon Dec 21 09:34:44 2020  Paul E. Black
+# update St. Andrews mathematicians biography NOTE URL
+# 
 # Mon Dec 14 10:18:58 2020  Paul E. Black
 # Update mathshistory St. Andrews NOTE URL
 # 
@@ -62,7 +65,7 @@ and mark every multiple of the prime.
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=Invented by
-<a href="https://mathshistory.st-andrews.ac.uk/Mathematicians/Eratosthenes.html">Eratosthenes
+<a href="https://mathshistory.st-andrews.ac.uk/Biographies/Eratosthenes/">Eratosthenes
 of Cyrene</a> (276 BC - 194 BC).
 </p>
 

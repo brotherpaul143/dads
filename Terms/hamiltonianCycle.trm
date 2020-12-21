@@ -1,7 +1,10 @@
 # *created  "Tue Nov  3 16:42:25 1998" *by "Paul E. Black"
-# *modified "Mon Dec 14 09:22:48 2020" *by "Paul E. Black"
+# *modified "Mon Dec 21 09:05:06 2020" *by "Paul E. Black"
 
 # $Log: hamiltonianCycle.trm,v $
+# Mon Dec 21 09:31:53 2020  Paul E. Black
+# update St. Andrews mathematicians biography NOTE URL
+# 
 # Mon Dec 14 10:18:00 2020  Paul E. Black
 # Update mathshistory St. Andrews NOTE URL
 # 
@@ -81,7 +84,7 @@ Also known as a Hamiltonian circuit.
 
 <p>
 Named for
-<a href="https://mathshistory.st-andrews.ac.uk/Mathematicians/Hamilton.html">Sir
+<a href="https://mathshistory.st-andrews.ac.uk/Biographies/Hamilton/">Sir
 William Rowan Hamilton (1805-1865)</a>.
 # further explanation (pure HTML)
 @LINKS=

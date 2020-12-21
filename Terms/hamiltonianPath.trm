@@ -1,7 +1,10 @@
 # *created  "Mon Jul 14 16:47:42 2003" *by "Paul E. Black"
-# *modified "Mon Dec 14 09:22:59 2020" *by "Paul E. Black"
+# *modified "Mon Dec 21 09:05:06 2020" *by "Paul E. Black"
 
 # $Log: hamiltonianPath.trm,v $
+# Mon Dec 21 09:33:40 2020  Paul E. Black
+# update St. Andrews mathematicians biography NOTE URL
+# 
 # Mon Dec 14 10:18:17 2020  Paul E. Black
 # Update mathshistory St. Andrews NOTE URL
 # 
@@ -66,7 +69,7 @@ the graph.
 # any notes.  these are not printed in the final dictionary
 @NOTES=
 Named for
-<a href="https://mathshistory.st-andrews.ac.uk/Mathematicians/Hamilton.html">Sir
+<a href="https://mathshistory.st-andrews.ac.uk/Biographies/Hamilton/">Sir
 William Rowan Hamilton (1805-1865)</a>.
 # implementation(s) (pure HTML)
 @IMPL=
