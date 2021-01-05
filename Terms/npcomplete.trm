@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Tue Mar  3 11:37:15 2020" *by "Paul E. Black"
+# *modified "Tue Jan  5 09:10:36 2021" *by "Paul E. Black"
 
 # $Log: npcomplete.trm,v $
+# Tue Jan  5 09:19:09 2021  Paul E. Black
+# Complexity Zoo of Scott Aaronson moved to new server; update LINK URL.
+# 
 # Tue Mar  3 11:39:08 2020  Paul E. Black
 # Update LINK to compendium of NP optimization problems URL Pierluigi Crescenzi and Viggo Kann eds.
 # 
@@ -134,7 +137,7 @@ of NP optimization problems</a> edited by Pierluigi Crescenzi and Viggo Kann.
 
 <p>
 Scott Aaronson's
-<a href="https://complexityzoo.uwaterloo.ca/Complexity_Zoo">Complexity
+<a href="https://complexityzoo.net/Complexity_Zoo">Complexity
 Zoo</a>
 </p>
 

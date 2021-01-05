@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon Sep  9 13:56:43 2013" *by "Paul E. Black"
+# *modified "Tue Jan  5 09:10:36 2021" *by "Paul E. Black"
 
 # $Log: nphard.trm,v $
+# Tue Jan  5 09:19:24 2021  Paul E. Black
+# Complexity Zoo of Scott Aaronson moved to new server; update LINK URL.
+# 
 # Revision 1.11  2013/09/09 17:56:44  black
 # update URL for Aaronson's Complexity Zoo
 #
@@ -94,7 +97,7 @@ FAQ</a>, scroll down to <strong>P vs. NP</strong>.
 
 <p>
 Scott Aaronson's
-<a href="https://complexityzoo.uwaterloo.ca/Complexity_Zoo">Complexity
+<a href="https://complexityzoo.net/Complexity_Zoo">Complexity
 Zoo</a>
 # implementation(s) (pure HTML)
 @IMPL=

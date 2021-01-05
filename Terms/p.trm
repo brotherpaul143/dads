@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon Feb 11 17:10:45 2019" *by "Paul E. Black"
+# *modified "Tue Jan  5 09:10:36 2021" *by "Paul E. Black"
 
 # $Log: p.trm,v $
+# Tue Jan  5 09:19:37 2021  Paul E. Black
+# Complexity Zoo of Scott Aaronson moved to new server; update LINK URL.
+# 
 # Mon Feb 11 17:10:50 2019  Paul E. Black
 # use https to access Wikipedia
 # 
@@ -79,7 +82,7 @@ classes P and NP</a>.
 
 <p>
 Scott Aaronson's
-<a href="https://complexityzoo.uwaterloo.ca/Complexity_Zoo">Complexity
+<a href="https://complexityzoo.net/Complexity_Zoo">Complexity
 Zoo</a>
 # implementation(s) (pure HTML)
 @IMPL=
