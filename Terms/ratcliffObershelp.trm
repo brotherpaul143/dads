@@ -1,7 +1,10 @@
 # *created  "Thu Oct  4 08:55:27 2001" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:28:37 2004" *by "Paul E. Black"
+# *modified "Fri Jan  8 09:13:45 2021" *by "Paul E. Black"
 
 # $Log: ratcliffObershelp.trm,v $
+# Fri Jan  8 09:15:17 2021  Paul E. Black
+# Correct longest subSTRING, not subsequence. Add link to article.
+# 
 # Revision 1.4  2005/08/09 12:41:52  black
 # Remove eddata IMPL - no longer found.
 #
@@ -23,8 +26,8 @@
 @DEFN=Compute the similarity of two {strings} as the number of
 matching characters divided by the total number of characters in the
 two strings.  Matching characters are those in the {longest
-common subsequence} plus, recursively, matching characters in the
-unmatched region on either side of the longest common subsequence.
+common substring} plus, recursively, matching characters in the
+unmatched region on either side of the longest common substring.
 # formal definition or {cross reference} to an entry
 @FORML=
 # comma-sep list of pure names that this is Also Known As.
@@ -45,8 +48,10 @@ unmatched region on either side of the longest common subsequence.
 @XREFS=
 
 # bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
-@BIB=<strong>John W. Ratcliff and David Metzener</strong>, <em>Pattern
-Matching: The Gestalt Approach</em>, Dr. Dobb's Journal, page 46, July 1988.
+@BIB=<strong>John W. Ratcliff and David E. Metzener</strong>, 
+<em><a href="https://www.drdobbs.com/database/pattern-matching-the-gestalt-approach/184407970?pgno=5">Pattern
+Matching: The Gestalt Approach</a></em>,
+Dr. Dobb's Journal, page 46, July 1988.
 # any notes.  these are not printed in the final dictionary
 @NOTES=
 # further explanation (pure HTML)
