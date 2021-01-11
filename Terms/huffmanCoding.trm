@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Apr  1 09:00:28 2019" *by "Paul E. Black"
+# *modified "Mon Jan 11 10:03:57 2021" *by "Paul E. Black"
 
 # $Log: huffmanCoding.trm,v $
+# Mon Jan 11 10:05:28 2021  Paul E. Black
+# Remove URL for Alex Vinokur NOTE; I can no longer find it.
+# 
 # Mon Apr  1 09:04:00 2019  Paul E. Black
 # Update URL for Alistair Moffats IMPL
 # 
@@ -106,10 +109,9 @@ Proceedings of IRE, 40(9):1098-1101, September 1952.
 @NOTES=
 The {worst case} for Huffman coding (or, equivalently, the longest
 Huffman coding for a set of characters) is when the distribution
-of frequencies follows the {Fibonacci numbers}.  For this and other
-relations see Alex Vinokur's note on
-<a href="http://mathforum.org/kb/thread.jspa?messageID=3400647">Fibonacci
-numbers, Lucas numbers and Huffman codes</a>.
+of frequencies follows the {Fibonacci numbers}.  (This and other
+relations came from Alex Vinokur
+"Fibonacci numbers, Lucas numbers and Huffman codes".)
 </p>
 
 <p>
