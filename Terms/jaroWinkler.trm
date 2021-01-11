@@ -1,7 +1,10 @@
 # *created  "Fri May  3 14:21:44 2002" *by "Paul E. Black"
-# *modified "Mon Mar 18 10:05:13 2019" *by "Paul E. Black"
+# *modified "Mon Jan 11 10:16:37 2021" *by "Paul E. Black"
 
 # $Log: jaroWinkler.trm,v $
+# Mon Jan 11 10:21:59 2021  Paul E. Black
+# Update NOTE to Dr. Math answers about piecewise functions
+# 
 # Mon Mar 18 10:07:16 2019  Paul E. Black
 # BIB links to paper are https.
 # 
@@ -35,7 +38,6 @@
 #
 # Revision 1.2  2003/11/19 14:09:57  black
 # Remove link which has no longer valid.
-#
 
 # entry name
 @NAME=Jaro-Winkler
@@ -96,8 +98,7 @@ Census, Washington, D.C., 1976.
 <a
 href="http://mathworld.wolfram.com/PiecewiseFunction.html">definition
 in MathWorld</a> or
-<a
-href="http://mathforum.org/library/drmath/sets/select/dm_piecewise.html">answers
+<a href="https://nctm.org/tmf/library/drmath/sets/select/dm_piecewise.html">answers
 from Dr. Math</a>.
 # implementation(s) (pure HTML)
 @IMPL=

@@ -1,7 +1,10 @@
 # *created  "Fri Dec 18 14:19:17 1998" *by "Paul E. Black"
-# *modified "Tue Feb 12 09:43:11 2019" *by "Paul E. Black"
+# *modified "Mon Jan 11 10:14:06 2021" *by "Paul E. Black"
 
 # $Log: quadraticprb.trm,v $
+# Mon Jan 11 10:23:42 2021  Paul E. Black
+# Update LINK to Dr. Math answer how quadratic got its name.
+# 
 # Tue Feb 12 09:43:15 2019  Paul E. Black
 # update access to rbaeza handbook
 # 
@@ -51,8 +54,7 @@ not creating empty spots.  One solution is to mark an entry as deleted
 so it can be reused for insertion, but the search list is intact.  
 # further explanation (pure HTML)
 @LINKS=An explanation of
-<a
-href="http://mathforum.org/library/drmath/view/52572.html">how
+<a href="https://nctm.org/tmf/library/drmath/view/52572.html">how
 quadratic equations got their name</a>.
 # implementation(s) (pure HTML)
 @IMPL=<a
