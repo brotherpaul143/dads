@@ -1,7 +1,10 @@
 # *created  "Wed Apr 24 13:37:06 2002" *by "Paul E. Black"
-# *modified "Tue Feb 19 10:50:44 2019" *by "Paul E. Black"
+# *modified "Tue Jan 19 08:45:06 2021" *by "Paul E. Black"
 
 # $Log: bozoSort.trm,v $
+# Tue Jan 19 08:37:07 2021  Paul E. Black
+# Update URL for IMPL of Pat Morin
+# 
 # Tue Feb 19 10:51:35 2019  Paul E. Black
 # Gruber paper not found; remove reference.
 # 
@@ -68,7 +71,9 @@ Note: "Supercalifragilisticexpialidocious" is misspelled
 on the sixth page, although it is spelled correctly in the footnote.
 
 # implementation(s) (pure HTML)
-@IMPL=<a href="http://cglab.ca/~morin/misc/sortalg/">demonstration and source code (Java)</a>.
+@IMPL=
+Pat Morin's
+<a href="https://cglab.ca/~morin/misc/sortalg/">implementation (Java)</a>.
 # further explanation (pure HTML)
 @LINKS=
 # author's initials (see authors.data)

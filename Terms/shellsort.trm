@@ -1,7 +1,10 @@
 # *created  "Tue Dec  1 12:54:51 1998" *by "Paul E. Black"
-# *modified "Tue Sep  3 08:56:46 2019" *by "Paul E. Black"
+# *modified "Tue Jan 19 08:43:01 2021" *by "Paul E. Black"
 
 # $Log: shellsort.trm,v $
+# Tue Jan 19 08:40:16 2021  Paul E. Black
+# Update URL for IMPL by Pat Morin
+# 
 # Tue Sep  3 09:03:15 2019  Paul E. Black
 # Update Robert Sedgewick IMPL URL to use https
 # 
@@ -300,8 +303,9 @@ Sedgewick's <a href="https://www.cs.princeton.edu/~rs/shell/">Analysis
 of Shellsort and Related Algorithms (C)</a>;
 Worst-case behavior <a
 href="https://www.auto.tuwien.ac.at/~blieb/woop/shell.html">annotated
-for real time (WOOP/ADA)</a>, including bibliography;
-<a href="http://cglab.ca/~morin/misc/sortalg/">demonstration and source code (Java)</a>;
+for real time (WOOP/ADA)</a>, including bibliography.
+Pat Morin's
+<a href="https://cglab.ca/~morin/misc/sortalg/">implementation (Java)</a>.
 <a href="http://lib.stat.cmu.edu/apstat/304">scroll down to ALGORITHM
 AS 304.8 (Fortran)</a>,
 <a href="http://www.complang.tuwien.ac.at/forth/ftp.dei.isep.ipp.pt/pub/forth/docs/4thsort.txt">(Forth)</a>,

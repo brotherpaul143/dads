@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 10:13:39 1998" *by "Paul E. Black"
-# *modified "Mon Sep 29 09:06:55 2014" *by "Paul E. Black"
+# *modified "Tue Jan 19 08:53:31 2021" *by "Paul E. Black"
 
 # $Log: qmsort.trm,v $
+# Tue Jan 19 08:39:36 2021  Paul E. Black
+# Update URL for IMPL by Pat Morin
+# 
 # Mon Sep 29 09:07:03 2014  Paul E. Black
 # update URL for Pat Morins sorting algorithm visualizations
 # 
@@ -41,7 +44,9 @@
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
-@IMPL=<a href="http://cglab.ca/~morin/misc/sortalg/">demonstration and source code (Java)</a>.
+@IMPL=
+Pat Morin's
+<a href="https://cglab.ca/~morin/misc/sortalg/">implementation (Java)</a>.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/qmsort.trm,v $
