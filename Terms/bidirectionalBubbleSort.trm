@@ -1,7 +1,10 @@
 # *created  "Fri Mar  3 13:54:01 2000" *by "Paul E. Black"
-# *modified "Tue Jan 19 08:44:36 2021" *by "Paul E. Black"
+# *modified "Mon Jan 25 09:14:23 2021" *by "Paul E. Black"
 
 # $Log: bidirectionalBubbleSort.trm,v $
+# Mon Jan 25 09:15:20 2021  Paul E. Black
+# Add / to the end of URL of Morin IMPL.
+# 
 # Tue Jan 19 08:36:25 2021  Paul E. Black
 # Update URL for IMPL of Pat Morin
 # 
@@ -65,7 +68,7 @@ into place, but can only move items backward one location each pass.
 # implementation(s) (pure HTML)
 @IMPL=
 Pat Morin's
-<a href="https://cglab.ca/~morin/misc/sortalg">implementation, see cocktail sort (Java)</a>.
+<a href="https://cglab.ca/~morin/misc/sortalg/">implementation, see cocktail sort (Java)</a>.
 # author's initials (see authors.data)
 @AUTHOR=PEB,BB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/bidirectionalBubbleSort.trm,v $
