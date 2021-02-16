@@ -1,7 +1,10 @@
 # *created  "Wed Jun  4 12:59:25 2003" *by "Paul E. Black"
-# *modified "Mon Feb 10 09:05:56 2020" *by "Paul E. Black"
+# *modified "Tue Feb 16 08:59:37 2021" *by "Paul E. Black"
 
 # $Log: bitonicSort.trm,v $
+# Tue Feb 16 09:00:28 2021  Paul E. Black
+# Remove csail.mit.edu IMPLs: those pages seem to be completely gone.
+# 
 # Mon Feb 10 09:06:55 2020  Paul E. Black
 # Update URL of Lang IMPL.
 # 
@@ -113,11 +116,7 @@ Knuth calls this <a href="../terms.html#Knuth98">Algorithm 5.2.2M
 Prof. Dr. Hans Wener Lang's
 <a href="http://www.inf.hs-flensburg.de/lang/algorithmen/sortieren/bitonic/bitonicen.htm">explanation,
 proof of correctness, analysis, bibliography, etc. (Java)</a>.
-Other implementations in <a
-href="http://groups.csail.mit.edu/cag/streamit/results/bitonic/code/c/">(C)</a>
-and in
-<a
-href="http://groups.csail.mit.edu/cag/streamit/results/bitonic/code/streamit/">(Java)</a>.
+
 # further explanation (pure HTML)
 @LINKS=
 # author's initials (see authors.data)
