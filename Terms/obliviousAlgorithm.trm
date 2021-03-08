@@ -1,19 +1,18 @@
 # *created  "Wed Jan 10 10:28:06 2007" *by "Paul E. Black"
-# *modified "Wed Jan 10 13:51:32 2007" *by "Paul E. Black"
+# *modified "Mon Mar  8 10:00:27 2021" *by "Paul E. Black"
 
 # $Log: obliviousAlgorithm.trm,v $
 # Revision 1.1  2007/01/10 18:51:59  black
 # Initial revision
-#
 
 # entry name
 @NAME=oblivious algorithm
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
-@TYPE=
+@TYPE=D
 # autom basic theory search sort tree graph combin numeric etc. see areas.data
 @AREA=
 # the definition
-@DEFN=An algorithm whose behavior, by design, is independent of
+@DEFN=An {algorithm} whose behavior, by design, is independent of
 some property that influences a typical algorithm for the same
 problem.
 # formal definition or {cross reference} to an entry

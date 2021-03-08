@@ -1,5 +1,5 @@
 # *created  "Mon Dec  4 14:01:57 2000" *by "Paul E. Black"
-# *modified "Tue Sep  3 08:56:46 2019" *by "Paul E. Black"
+# *modified "Mon Mar  8 10:00:35 2021" *by "Paul E. Black"
 
 # $Log: multikeyQuicksort.trm,v $
 # Tue Sep  3 09:02:28 2019  Paul E. Black
@@ -19,12 +19,11 @@
 #
 # Revision 1.2  2004/12/17 16:55:07  black
 # Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
-#
 
 # entry name
 @NAME=multikey Quicksort
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
-@TYPE=
+@TYPE=A
 # autom basic theory search sort tree graph combin numeric etc. see areas.data
 @AREA=
 # the definition
