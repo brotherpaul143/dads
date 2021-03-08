@@ -1,7 +1,7 @@
 # $Id: Makefile,v 1.56 2012/01/06 17:06:55 black Exp $
 # *created  "Tue Nov 17 11:55:10 1998" *by "Paul E. Black"
-# *modified "Mon Dec  3 15:44:54 2018" *by "Paul E. Black"
-#
+# *modified "Mon Mar  8 10:08:05 2021" *by "Paul E. Black"
+
 # $Log$
 # Wed Feb 22 15:17:48 2017  Paul E. Black,,,
 # If index.html is older than terms.html or is missing, make it a link
@@ -47,7 +47,7 @@ OTHERDIR=${OUTDIR}/Other
 IMAGESDIR=${OUTDIR}/Images
 
 default:
-	@echo targets are site, spell, chkhtml, tar, undefs, configFastar, and configNIST
+	@echo targets are site, spell, chkhtml, tar, undefs, and configNIST
 
 # various rules to update pieces of the Dictionary site
 site: ${PAGES}/entry.intro ${PAGES}/entry.concl \
@@ -247,7 +247,7 @@ mksite.pl: mksiteFastar.pl mksiteNIST.pl
 # cp -p: if you're changing from one site to another, you may install a
 # *newer* version, which breaks the above checks.  Also don't make these
 # copies time-dependent, since you may want to install another site's
-# version, which may a *newer* version.
+# version, which may be a *newer* version.
 configFastar:
 	cp ${PAGES}/bitsImageLogosFastar.m4 ${PAGES}/bitsImageLogos.m4
 	cp ${PAGES}/bitsHostedByFastar.m4 ${PAGES}/bitsHostedBy.m4
@@ -313,12 +313,5 @@ findnew:
 chkhtml:
 	(cd ${HTMLDIR};perl -pwe 's/(<LI>|(?=.)<P>|<PRE>|<TR)/ in $$ARGV\n$$1/gi;s|(<BR ?/?>)|$$1 in $$ARGV\n|gi;s/(.)\n$$/$$1 in $$ARGV\n/' *.html) | perl -nwe 'print "BACKSLASH, CARET, or DOLLAR SIGN\n$$_" if /[\\^\$$]/o;print "UNDERSCORE\n$$_" if /_[^"]*("[^"]+"[^"]*)*$$/o;print "DOUBLED QUOTES\n$$_" if /(``|\047\047)/o;print "DOUBLED PERIODS\n$$_" if /[^".][.][.][^.a-z]/o;print "LONE AMPERSAND\n$$_" if /&[^a-zA-Z#]/o;print "DANGLING HREF ($$$$)\n$$_" if /href="\#/o; print "BAD URL\n$$_" if (/url=(?!(https?|ftp|gopher):)/)' > htmlWarnings.new
 	-diff -b htmlWarnings.new htmlWarnings
-
-# This rule was used when sending the terms to Taz for the print Dictionary
-# check the final LaTeX for any problems
-#    look for angle brackets (<>), carets (^), or underscores (_)
-#    that are not in dollar signs (math mode) or for ampersands (&)
-chklatex:
-	perl -nwe '$$n=$$_ if $$namenext;$$namenext=/^$$/;print "CARETS, UNDERSCORES, or ANGLE BRACKETS not in math mode or DOUBLED DOLLARS or AMPERSANDS in $$n$$_" if /\$$\$$|&/ || /^[^\$$]*(\$$[^\$$]+\$$[^\$$]*)*[_^<>]/o' termFinal.txt
 
 # end of $Source: /home/black/DADS/RCS/Makefile,v $
