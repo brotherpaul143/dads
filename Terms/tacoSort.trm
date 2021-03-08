@@ -1,5 +1,5 @@
 # *created  "Mon Apr 27 15:33:20 2009" *by "Paul E. Black"
-# *modified "Tue Oct 11 12:19:34 2011" *by "Paul E. Black"
+# *modified "Mon Mar  8 11:19:39 2021" *by "Paul E. Black"
 
 # $Log: tacoSort.trm,v $
 # Revision 1.3  2011/10/11 16:20:16  black
@@ -10,7 +10,6 @@
 #
 # Revision 1.1  2009/04/27 20:09:19  black
 # Initial revision
-#
 
 # entry name
 @NAME=taco sort
@@ -32,7 +31,7 @@ is $n \times 2<sup>nk</sup>$.
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
-@IMA={Las Vegas algorithm}
+@IMA={sort} algorithm, {Las Vegas algorithm}
 # Specialization: "... is a kind of me."
 @VARIANT=
 # Aggregate parent: "I am a part of or used in ..."
@@ -40,7 +39,7 @@ is $n \times 2<sup>nk</sup>$.
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={bogosort}, {bozo sort}, {stooge sort}, {lucky sort}
+@XREFS={bogosort}, {bozo sort}, {permutation sort}, {stooge sort}, {lucky sort}
 
 # bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=

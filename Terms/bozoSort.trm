@@ -1,5 +1,5 @@
 # *created  "Wed Apr 24 13:37:06 2002" *by "Paul E. Black"
-# *modified "Tue Jan 19 08:45:06 2021" *by "Paul E. Black"
+# *modified "Mon Mar  8 11:20:43 2021" *by "Paul E. Black"
 
 # $Log: bozoSort.trm,v $
 # Tue Jan 19 08:37:07 2021  Paul E. Black
@@ -45,7 +45,7 @@ items until they are in order.
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
-@IMA={Las Vegas algorithm}
+@IMA={sort} algorithm, {Las Vegas algorithm}
 # Specialization: "... is a kind of me."
 @VARIANT=
 # Aggregate parent: "I am a part of or used in ..."
@@ -53,7 +53,7 @@ items until they are in order.
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={bogosort}, {stooge sort}, {lucky sort}
+@XREFS={bogosort}, {stooge sort}, {permutation sort}, {lucky sort}
 
 # bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=

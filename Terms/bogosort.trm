@@ -1,5 +1,5 @@
 # *created  "Wed Apr 16 13:06:51 2003" *by "Paul E. Black"
-# *modified "Thu Aug 24 09:19:41 2017" *by "Paul E. Black"
+# *modified "Mon Mar  8 11:31:05 2021" *by "Paul E. Black"
 #
 # $Log: bogosort.trm,v $
 # Revision "Mon Sep 30 09:56:41 2013" *by "Vreda Pieterse"
@@ -59,7 +59,7 @@ order.
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
-@IMA={Las Vegas algorithm}
+@IMA={sort} algorithm, {Las Vegas algorithm}
 # Specialization: "... is a kind of me."
 @VARIANT=
 # Aggregate parent: "I am a part of or used in ..."
@@ -67,19 +67,16 @@ order.
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={taco sort}, {bozo sort}, {stooge sort}, {lucky sort}
+@XREFS={permutation sort}, {taco sort}, {bozo sort}, {stooge sort}, {lucky sort}
 
 # bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
-# any notes.  these are not printed in the final dictionary
-@NOTES=From the slang "bogus" meaning "bad" as in "I can't believe
-anybody would be so thoughtless to write/do/say/believe that, and I
-just can't let it pass without objecting".
+<strong>Timothy J. Rolfe</strong>, <em>Algorithm Alley: Randomized Shuffling</em>,
+Dr. Dobb's Journal, 25(1):113-114, January 2000.
 </p>
 
 <p>
-Fastest run time is $\Theta(n)$.  Average run time is 
-$\Omega(n \times n!)$. From <br />
+Called "bogosort" in<br />
 <strong>Hermann Gruber, Markus Holzer</strong>, and <strong>Oliver
 Ruepp</strong>, <em>Sorting the slow way: An analysis of perversely
 awful randomized sorting algorithms</em>, FUN 2007, LNCS 4475,
@@ -90,6 +87,18 @@ Available at
 Note: the permutation subroutine given for Algorithm 1 is
 {Fisher-Yates shuffle}.  Also "Supercalifragilisticexpialidocious" is misspelled
 on the sixth page, although it is spelled correctly in the footnote.
+
+
+# any notes.  these are not printed in the final dictionary
+@NOTES=From the slang "bogus" meaning "bad" as in "I can't believe
+anybody would be so thoughtless to write/do/say/believe that, and I
+just can't let it pass without objecting".
+</p>
+
+<p>
+Gruber, Holzer, and Ruepp give
+the fastest run time as $\Theta(n)$ and
+the average run time as $\Omega(n \times n!)$.
 </p>
 
 <p>

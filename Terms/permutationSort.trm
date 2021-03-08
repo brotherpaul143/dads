@@ -1,0 +1,54 @@
+# *created  "Mon Mar  8 10:46:46 2021" *by "Paul E. Black"
+# *modified "Mon Mar  8 11:21:24 2021" *by "Paul E. Black"
+
+# $Log$
+
+# entry name
+@NAME=permutation sort
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=sort
+# the definition
+@DEFN=A terribly inefficient {sort} algorithm that generates each {permutation}
+of the items until the items are in order.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={sort} algorithm
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={bogosort}, {bozo sort}, {taco sort}
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+<strong>Timothy J. Rolfe</strong>, <em>Perverse and Foolish Oft I Strayed</em>,
+SIGCSE Bulletin, 40(2):52-55, June 2008.
+
+# any notes.  these are not printed in the final dictionary
+@NOTES=
+Expected run time is $\Theta(n!)$.
+
+# any historical notes
+@HISTORY=Rolfe says this algorithm "... has been part of computing culture for
+a <em>long</em> time.  A web search on the key &ldquo;permutation sort&rdquo;
+pulls up 396 references, some prior to 2001."
+
+# implementation(s) (pure HTML)
+@IMPL=
+# further explanation (pure HTML)
+@LINKS=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/dads/RCS/template.trm,v $
