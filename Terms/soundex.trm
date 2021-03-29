@@ -1,5 +1,5 @@
 # *created  "Fri Feb 19 11:27:28 1999" *by "Paul E. Black"
-# *modified "Mon Dec 21 09:37:44 2020" *by "Paul E. Black"
+# *modified "Mon Mar 29 09:01:23 2021" *by "Paul E. Black"
 
 # $Log: soundex.trm,v $
 # Mon Dec 21 09:38:24 2020  Paul E. Black
@@ -51,7 +51,7 @@
 #
 # Revision 1.2  2003/09/05 12:38:33  black
 # Add a Rexx implementation.
-#
+
 
 # entry name
 @NAME=soundex
@@ -79,12 +79,12 @@ different spellings.
 {Levenshtein distance}
 
 # any notes.  these will not be printed in the final dictionary
-@NOTES=The algorithm was devised to code names recorded in US census
+@NOTES=The algorithm was devised to code names in US census
 records.  The standard algorithm works best on European names.
 Variants have been devised for names from other cultures.
 # further explanation (pure HTML)
 @LINKS=
-<a href="https://bradandkathy.com/genealogy/overviewofsoundex.html">Overview
+<a href="https://bradandkathy.com/genealogy/overviewofsoundex.php">Overview
 of Soundex</a>.
 # implementation(s) (pure HTML)
 @IMPL=
