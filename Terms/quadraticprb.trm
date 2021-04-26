@@ -1,7 +1,10 @@
 # *created  "Fri Dec 18 14:19:17 1998" *by "Paul E. Black"
-# *modified "Mon Jan 25 09:02:11 2021" *by "Paul E. Black"
+# *modified "Mon Apr 26 09:20:00 2021" *by "Paul E. Black"
 
 # $Log: quadraticprb.trm,v $
+# Mon Apr 26 09:22:56 2021  Paul E. Black
+# Remove Dr. Math NOTE: no longer at NCTM web site.
+# 
 # Mon Jan 25 09:05:06 2021  Paul E. Black
 # Add www. to NOTE to Dr. Math URL
 # 
@@ -56,9 +59,8 @@ increases quadratically.
 not creating empty spots.  One solution is to mark an entry as deleted
 so it can be reused for insertion, but the search list is intact.  
 # further explanation (pure HTML)
-@LINKS=An explanation of
-<a href="https://www.nctm.org/tmf/library/drmath/view/52572.html">how
-quadratic equations got their name</a>.
+@LINKS=
+
 # implementation(s) (pure HTML)
 @IMPL=<a
 href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/3/336.ins.p">insert
