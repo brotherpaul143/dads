@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Tue Jan  5 09:10:36 2021" *by "Paul E. Black"
+# *modified "Mon Apr 26 09:14:38 2021" *by "Paul E. Black"
 
 # $Log: npcomplete.trm,v $
+# Mon Apr 26 09:16:44 2021  Paul E. Black
+# Change Crescenzi and Kann URL to https.  Improve XKCD cartoon alt text.
+# 
 # Tue Jan  5 09:19:09 2021  Paul E. Black
 # Complexity Zoo of Scott Aaronson moved to new server; update LINK URL.
 # 
@@ -131,7 +134,7 @@ href="http://www.ics.uci.edu/~eppstein/161/960312.html">NP-completeness</a>,
 with sections like Why should we care?, Examples of problems in
 different classes, and how to prove a problem is NP-complete.
 A
-<a href="http://www.csc.kth.se/~viggo/wwwcompendium/">compendium
+<a href="https://www.csc.kth.se/~viggo/wwwcompendium/">compendium
 of NP optimization problems</a> edited by Pierluigi Crescenzi and Viggo Kann.
 </p>
 
@@ -143,10 +146,10 @@ Zoo</a>
 
 <p>
 <img src="../Images/xkcd 0287 np_complete.png"
-  alt="Caption: My hobby embedding NP-complete problems in restaurant
+  alt="Caption: My hobby: embedding NP-complete problems in restaurant
   orders. Left panel is a menu.  In the right panel, person ordering
   says, 'We'd like exactly $15.05 worth of appetizers, please.'
-  followed by a discussion of knapsack and other np-complete problems.">
+  followed by mentions of knapsack and other NP-complete problems.">
 <br />
 From <a href="https://xkcd.com/287/">xkcd 287</a> by Randall Munroe.
 <a href="https://xkcd.com/license.html">Creative Commons
