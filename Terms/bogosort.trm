@@ -1,7 +1,11 @@
 # *created  "Wed Apr 16 13:06:51 2003" *by "Paul E. Black"
-# *modified "Mon Mar  8 11:31:05 2021" *by "Paul E. Black"
+# *modified "Mon Apr 26 08:50:20 2021" *by "Paul E. Black"
 #
 # $Log: bogosort.trm,v $
+# Mon Apr 26 08:56:42 2021  Paul E. Black
+# Remove link to paper; Gruber no longer has an account.  Hardcode link to DADS
+# entry to Fisher-Yates shuffle, since curly brackets are not interpreted in NOTES.
+# 
 # Revision "Mon Sep 30 09:56:41 2013" *by "Vreda Pieterse"
 # Use {Fisher-Yates shuffle} in NOTES instead of hard-coded link to DADS. 
 #
@@ -81,11 +85,10 @@ Called "bogosort" in<br />
 Ruepp</strong>, <em>Sorting the slow way: An analysis of perversely
 awful randomized sorting algorithms</em>, FUN 2007, LNCS 4475,
 pp. 183-197, 2007.
-Available at 
-<a href="http://www2.tcs.ifi.lmu.de/~gruberh/data/fun07-final.pdf">http://www2.tcs.ifi.lmu.de/~gruberh/data/fun07-final.pdf</a>
 <br />
 Note: the permutation subroutine given for Algorithm 1 is
-{Fisher-Yates shuffle}.  Also "Supercalifragilisticexpialidocious" is misspelled
+<a href="https://www.nist.gov/dads/HTML/fisherYatesShuffle.html">Fisher-Yates shuffle</a>.
+Also "Supercalifragilisticexpialidocious" is misspelled
 on the sixth page, although it is spelled correctly in the footnote.
 
 
