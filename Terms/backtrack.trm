@@ -1,5 +1,5 @@
 # *created  "Mon Nov 23 10:46:18 1998" *by "Paul E. Black"
-# *modified "Mon Nov 10 13:26:54 2008" *by "Paul E. Black"
+# *modified "Mon May 17 10:09:13 2021" *by "Paul E. Black"
 
 # $Log: backtrack.trm,v $
 # Revision 1.12  2009/04/14 16:21:34  black
@@ -92,9 +92,6 @@ search} of a {tree} of possible (partial) solutions.  Each choice is a
 @LINKS=Explanation with the <a
 href="http://students.ceid.upatras.gr/~papagel/project/kef5_8.htm">8-queens</a>
 problems.
-<a
-href="http://gaia.ecs.csus.edu/~wang/backtrack/maze/maze1/mazetraversal.html">maze
-solving Java applet</a>.
 James D. Allen's
 <a
 href="http://fabpedigree.com/james/lesson9.htm">short
