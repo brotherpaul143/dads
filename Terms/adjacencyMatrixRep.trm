@@ -1,5 +1,5 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Aug  3 09:57:27 2009" *by "Paul E. Black"
+# *modified "Mon Jun 21 09:10:34 2021" *by "Paul E. Black"
 
 # $Log: adjacencyMatrixRep.trm,v $
 # Revision 1.7  2009/08/03 13:57:44  black
@@ -86,7 +86,7 @@ The adjacency-list representation is more compact for a {sparse matrix}.
 @IMPL=
 Algorithms and Data Structures'
 <a
-href="http://www.algolist.net/Data_structures/Graph/Internal_representation">implementation (Java and C++)</a>.
+href="https://www.algolist.net/Data_structures/Graph/Internal_representation">implementation (Java and C++)</a>.
 # author's initials
 @AUTHOR=SKS
 # end $Source: /home/black/Workspace/dads/Terms/RCS/adjacencyMatrixRep.trm,v $

@@ -1,5 +1,5 @@
 # *created  "Tue Sep 15 16:55:53 1998" *by "Paul E. Black"
-# *modified "Mon Dec 21 08:51:10 2020" *by "Paul E. Black"
+# *modified "Mon Jun 21 09:10:34 2021" *by "Paul E. Black"
 
 # $Log: binarySearch.trm,v $
 # Mon Dec 21 08:55:27 2020  Paul E. Black
@@ -173,7 +173,7 @@ Flower Brackets
 (Java)</a>. 
 Algorithms and Data Structures'
 <a
-href="http://www.algolist.net/Algorithms/Binary_search">explanation
+href="https://www.algolist.net/Algorithms/Binary_search">explanation
 (Java and C++)</a>.
 Worst-case behavior <a
 href="https://www.auto.tuwien.ac.at/~blieb/woop/binsearc.html">annotated

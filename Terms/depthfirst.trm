@@ -1,5 +1,5 @@
 # *created  "Tue Dec  1 12:02:24 1998" *by "Paul E. Black"
-# *modified "Mon Apr 22 12:05:51 2019" *by "Paul E. Black"
+# *modified "Mon Jun 21 09:10:34 2021" *by "Paul E. Black"
 
 # $Log: depthfirst.trm,v $
 # Mon Apr 22 12:13:43 2019  Paul E. Black
@@ -211,7 +211,7 @@ Attribution-NonCommercial 2.5 License</a>.
 @IMPL=
 Algorithms and Data Structures'
 <a
-href="http://www.algolist.net/Algorithms/Graph/Undirected/Depth-first_search">explanation
+href="https://www.algolist.net/Algorithms/Graph/Undirected/Depth-first_search">explanation
 and implementation (Java and C++)</a> for undirected graphs.
 # author's initials
 @AUTHOR=PEB

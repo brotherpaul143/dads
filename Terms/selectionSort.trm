@@ -1,5 +1,5 @@
 # *created  "Thu Jan  7 13:33:55 1999" *by "Paul E. Black"
-# *modified "Mon Apr 22 12:08:19 2019" *by "Paul E. Black"
+# *modified "Mon Jun 21 09:10:34 2021" *by "Paul E. Black"
 
 # $Log: selectionSort.trm,v $
 # Mon Apr 22 12:15:22 2019  Paul E. Black
@@ -134,7 +134,7 @@ href="http://thomas.baudel.name/Visualisation/VisuTri/selectionsort.html">links
 to animation (Java)</a>.
 Simple Programming Tutorials'
 <a
-href="http://www.algolist.net/Algorithms/Sorting/Selection_sort">explanation
+href="https://www.algolist.net/Algorithms/Sorting/Selection_sort">explanation
 (Java and C++)</a>.
 Flower Brackets
 <a href="https://www.flowerbrackets.com/selection-sort-java/">explanation (Java)</a>. 

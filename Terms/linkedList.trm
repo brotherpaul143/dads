@@ -1,5 +1,5 @@
 # *created  "Fri Sep 18 10:03:43 1998" *by "Paul E. Black"
-# *modified "Tue Mar  3 11:27:32 2020" *by "Paul E. Black"
+# *modified "Mon Jun 21 09:10:34 2021" *by "Paul E. Black"
 
 # $Log: linkedList.trm,v $
 # Tue Mar  3 11:28:27 2020  Paul E. Black
@@ -147,7 +147,7 @@ Maksim Goleta's C# Collections uses it to
 queue (C#)</a>.
 Algorithms and Data Structures'
 <a
-href="http://www.algolist.net/Data_structures/Singly-linked_list">explanation
+href="https://www.algolist.net/Data_structures/Singly-linked_list">explanation
 (Java and C++)</a>.
 Alexander Georgiev's
 <a href="https://code.google.com/archive/p/singly-linked-list/">singly
