@@ -1,7 +1,10 @@
 # *created  "Mon Nov  1 11:06:29 1999" *by "Paul E. Black"
-# *modified "Mon Apr 22 12:07:24 2019" *by "Paul E. Black"
+# *modified "Tue Jun 29 14:14:48 2021" *by "Paul E. Black"
 
 # $Log: nqueens.trm,v $
+# Tue Jun 29 14:15:44 2021  Paul E. Black
+# Remove Tony Antals IMPL - gone from the web.
+# 
 # Mon Apr 22 12:14:39 2019  Paul E. Black
 # Remove LINK to Mukundans animation: no longer available.
 # 
@@ -57,10 +60,7 @@ values of $n$.
 
 # implementation(s) (pure HTML)
 @IMPL=
-Barzan "Tony" Antal's backtracking (or depth-first) 
-<a href="https://images.devshed.com/da/stories/Backtracking_Algorithm/n_queens.cpp">solution
-(C++)</a>, which has an
-<a href="https://www.devarticles.com/c/a/Development-Cycles/The-Backtracking-Algorithm-Technique/2/">explanation</a>.
+
 # author's initials (see authors.data)
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/nqueens.trm,v $
