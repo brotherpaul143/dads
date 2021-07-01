@@ -1,10 +1,13 @@
 dnl *created  "Wed Feb  2 16:01:34 2000" *by "Paul E. Black"
-dnl *modified "Mon Nov 23 08:40:10 2020" *by "Paul E. Black"
+dnl *modified "Thu Jul  1 10:41:20 2021" *by "Paul E. Black"
 dnl
 dnl This is run through m4 then joined with an introduction and 
 dnl the entries to make a complete terms page.
 dnl
 dnl $Log$
+dnl Thu Jul  1 10:43:18 2021  Paul E. Black
+dnl Add DOI
+dnl 
 dnl Mon Nov 23 08:46:45 2020  Paul E. Black
 dnl Use https to access Stony Brook.
 dnl 
@@ -174,7 +177,7 @@ Fri Sep  4 16:39:23 1998
 include(`Pages/bitsPaul.m4')
 <em>This Trailer</em>
 <em>Updated
-Mon Nov 23 08:40:10 2020
+Thu Jul  1 10:41:20 2021
 </em><address>
 by <a href="https://hissa.nist.gov/~black/">Paul E. Black
 </a>
@@ -184,6 +187,7 @@ by <a href="https://hissa.nist.gov/~black/">Paul E. Black
 <p>
 This page's URL is
 <a href="$ROOTDIR/">$ROOTDIR/</a>
+DOI <a href="https://doi.org/10.18434/T4/1422485">10.18434/T4/1422485</a>
 </p>
 
 </body>
