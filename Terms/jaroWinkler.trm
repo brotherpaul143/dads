@@ -1,7 +1,10 @@
 # *created  "Fri May  3 14:21:44 2002" *by "Paul E. Black"
-# *modified "Mon Jan 25 09:00:11 2021" *by "Paul E. Black"
+# *modified "Mon Jul 12 13:03:24 2021" *by "Paul E. Black"
 
 # $Log: jaroWinkler.trm,v $
+# Mon Jul 12 13:04:23 2021  Paul E. Black
+# Remove LINK to Dr. Math: site is gone.
+# 
 # Mon Jan 25 09:03:27 2021  Paul E. Black
 # Add www. to LINK to Dr. Math URL.
 # 
@@ -100,9 +103,7 @@ Census, Washington, D.C., 1976.
 @NOTES=For "piecewise function", see the
 <a
 href="http://mathworld.wolfram.com/PiecewiseFunction.html">definition
-in MathWorld</a> or
-<a href="https://www.nctm.org/tmf/library/drmath/sets/select/dm_piecewise.html">answers
-from Dr. Math</a>.
+in MathWorld</a>.
 # implementation(s) (pure HTML)
 @IMPL=
 Cohen, Ravikumar, and Fienberg have an implementation in their
