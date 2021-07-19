@@ -1,7 +1,10 @@
 # *created  "Mon Dec 14 14:33:02 1998" *by "Paul E. Black"
-# *modified "Mon May  6 10:11:43 2019" *by "Paul E. Black"
+# *modified "Mon Jul 19 10:25:34 2021" *by "Paul E. Black"
 
 # $Log: patriciatree.trm,v $
+# Mon Jul 19 10:35:02 2021  Paul E. Black
+# Update metacpan IMPL URL.
+# 
 # Mon May  6 10:12:34 2019  Paul E. Black
 # Update IMPL for metacpan Net-Patricia
 # 
@@ -116,7 +119,7 @@ A radix tree is taken to be a binary Patricia tree.
 
 # implementation(s): pure HTML
 @IMPL=
-<a href="https://metacpan.org/release/Net-Patricia">Net-Patricia (Perl
+<a href="https://metacpan.org/dist/Net-Patricia">Net-Patricia (Perl
 and C)</a> is a C implementation with a Perl API.
 C prototyping tools,
 <a href="http://cprops.sourceforge.net/">cprops (C)</a>, is a threaded

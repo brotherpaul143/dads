@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 10:05:14 1998" *by "Paul E. Black"
-# *modified "Tue Oct  1 16:28:39 2019" *by "Paul E. Black"
+# *modified "Mon Jul 19 10:17:36 2021" *by "Paul E. Black"
 
 # $Log: doublyLinkedList.trm,v $
+# Mon Jul 19 10:32:08 2021  Paul E. Black
+# Remove LINK to Tim Rolfe explanation: gone.
+# 
 # Revision 1.12  2011/05/23 14:25:27  black
 # Remove Goleta's IMPL
 #
@@ -73,8 +76,6 @@ in constant time.
 {ordered#ordered linked list}, {doubly linked list}.
 It makes O(n) traversals, as does {linear search}, but it
 only performs O(log n) comparisons.
-For more explanation, see Tim Rolfe's
-<a href="http://penguin.ewu.edu/~trolfe/Nifty2010/LinkedListBinarySearch/Asg2.html">Searching in a Sorted Linked List</a>.
 
 # further explanation (pure HTML)
 @LINKS=

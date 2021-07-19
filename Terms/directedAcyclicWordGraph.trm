@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Dec 30 14:36:56 2011" *by "Paul E. Black"
+# *modified "Mon Jul 19 10:14:29 2021" *by "Paul E. Black"
 
 # $Log: directedAcyclicWordGraph.trm,v $
+# Mon Jul 19 10:31:21 2021  Paul E. Black
+# Update pathcom.com IMPL URL.
+# 
 # Revision 1.6  2011/12/30 19:42:33  black
 # Move Adamovsky's page, since it is an IMPL, not just a LINK.
 #
@@ -85,7 +88,7 @@ coded with new characters, like a simplified {Huffman coding}.
 # implementation(s) (pure HTML)
 @IMPL=
 JohnPaul Adamovsky's
-<a href="http://www.pathcom.com/~vadco/dawg.html">Directed Acyclic
+<a href="https://pages.pathcom.com/~vadco/dawg.html">Directed Acyclic
 Word Graph or DAWG</a> page with introduction, explanation, C
 implementation, and notes on optimization.
 

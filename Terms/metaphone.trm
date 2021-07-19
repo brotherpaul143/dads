@@ -1,7 +1,10 @@
 # *created  "Wed Feb 24 09:02:09 1999" *by "Paul E. Black"
-# *modified "Mon Jul 30 08:41:46 2007" *by "Paul E. Black"
+# *modified "Mon Jul 19 09:58:38 2021" *by "Paul E. Black"
 
 # $Log: metaphone.trm,v $
+# Mon Jul 19 10:34:33 2021  Paul E. Black
+# Update URL for Apache IMPL.
+# 
 # Revision 1.11  2007/07/30 12:44:06  black
 # Update Apache IMPL URL
 #
@@ -82,7 +85,7 @@ double metaphone (Basic, C, Perl, and C++)</a> implementations.
 <a href="http://www.wbrogden.com/phonetic/index.html">applet
 for name lookup (Java)</a>,
 Apache codec implementations of 
-<a href="http://commons.apache.org/codec/">soundex, Metaphone,
+<a href="https://commons.apache.org/proper/commons-codec/">soundex, Metaphone,
 and Double Metaphone (Java)</a>. 
 # author's initials
 @AUTHOR=PEB

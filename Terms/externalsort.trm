@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 09:36:23 1999" *by "Paul E. Black"
-# *modified "Mon Dec 23 10:17:09 2013" *by "Paul E. Black"
+# *modified "Mon Jul 19 10:22:26 2021" *by "Paul E. Black"
 
 # $Log: externalsort.trm,v $
+# Mon Jul 19 10:33:38 2021  Paul E. Black
+# Update URL for Geeta Chaudhry PhD LINK.
+# 
 # Mon Dec 23 10:20:03 2013  Paul E. Black
 # Return Chaudhrys dissertation to LINK since we got an interim link.
 # 
@@ -66,9 +69,9 @@ for an extensive treatment.
 @LINKS=
 The PhD dissertation of 
 <strong>Geeta Chaudhry</strong> 
-(<a href="http://old-www.cs.dartmouth.edu/reports/TR2004-517.pdf"><em>Parallel
-Out-of-Core Sorting: The Third Way</em></a>, Dartmouth Computer
-Science Technical Report TR2004-517, September 2004.)
+(<a href="https://digitalcommons.dartmouth.edu/dissertations/7/"><em>Parallel
+Out-of-Core Sorting: The Third Way</em></a>, Dartmouth College
+Ph.D. Dissertation 7, September 2004.)
 includes new external sort algorithms
 and comparisons with other external sort algorithms.
 

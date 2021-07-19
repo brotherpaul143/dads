@@ -1,7 +1,10 @@
 # *created  "Fri Feb 19 11:27:28 1999" *by "Paul E. Black"
-# *modified "Mon Mar 29 09:01:23 2021" *by "Paul E. Black"
+# *modified "Mon Jul 19 09:58:54 2021" *by "Paul E. Black"
 
 # $Log: soundex.trm,v $
+# Mon Jul 19 10:35:15 2021  Paul E. Black
+# Update Apache IMPL URL.
+# 
 # Mon Dec 21 09:38:24 2020  Paul E. Black
 # Update LINK and IMPL URLs to use https
 # 
@@ -90,7 +93,7 @@ of Soundex</a>.
 @IMPL=
 <a href="https://physics.nist.gov/cuu/Reference/soundex.html">(C)</a>.
 Apache codec implementations of 
-<a href="http://commons.apache.org/codec/">soundex, Metaphone,
+<a href="https://commons.apache.org/proper/commons-codec/">soundex, Metaphone,
 and Double Metaphone (Java)</a>. 
 <a href="https://www.source-code.biz/snippets/vbasic/4.htm">(Visual Basic)</a>.
 <a href="http://raven.utc.edu/cgi-bin/WA.EXE?A2=ind0102d&L=hp3000-l&P=33747">(Cobol)</a>.

@@ -1,7 +1,10 @@
 # *created  "Fri Mar 25 09:41:35 2016" *by "Paul E. Black"
-# *modified "Mon Dec 14 11:04:02 2020" *by "Paul E. Black"
+# *modified "Mon Jul 19 10:24:34 2021" *by "Paul E. Black"
 
 # $Log: inversionList.trm $
+# Mon Jul 19 10:34:05 2021  Paul E. Black
+# Update URL for metacpan IMPL.
+# 
 # Mon Dec 14 11:21:34 2020  Paul E. Black
 # Update perlmonks IMPL URL and remove NQP IMPL - the latter is gone.
 # 
@@ -67,7 +70,7 @@ negation, etc.
 The term inversion list is also used to refer to storing a sequence of
 bits as the numeric position of each switch between 0 and 1 bits. See
 <a
-href="https://metacpan.org/pod/release/TEODOR/Algorithm-InversionList-0.03/InversionList.pm">Teodor
+href="https://metacpan.org/release/TEODOR/Algorithm-InversionList-0.03/view/InversionList.pm">Teodor
 Ziatanov's InversionList</a> in Perl.
 Some authors refer to {inverted index} as inversion list.
 
