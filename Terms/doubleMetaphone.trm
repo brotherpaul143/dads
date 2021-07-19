@@ -1,7 +1,10 @@
 # *created  "Fri May 19 09:55:48 2000" *by "Paul E. Black"
-# *modified "Tue May 27 14:56:35 2014" *by "Paul E. Black"
+# *modified "Mon Jul 19 09:53:17 2021" *by "Paul E. Black"
 
 # $Log: doubleMetaphone.trm,v $
+# Mon Jul 19 09:55:42 2021  Paul E. Black
+# Update URL of Apache IMPL.  Remove wbrogden IMPL: no longer found.
+# 
 # Tue May 27 14:57:56 2014  Paul E. Black
 # NOTE the existence of a newer version, Metaphone 3.
 # 
@@ -120,10 +123,9 @@ which reportedly "increases the accuracy of phonetic encoding".
 Many <a href="http://aspell.net/metaphone/">metaphone and
 double metaphone (Basic, C, Perl, and C++)</a> implementations.
 Apache codec implementations of 
-<a href="http://commons.apache.org/codec/">soundex, Metaphone,
+<a href="https://commons.apache.org/proper/commons-codec/">soundex, Metaphone,
 and Double Metaphone (Java)</a>. 
-<a href="http://www.wbrogden.com/phonetic/index.html">applet
-for name lookup (Java)</a>.
+
 # author's initials (see authors.data)
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/doubleMetaphone.trm,v $
