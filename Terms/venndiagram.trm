@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Feb 24 09:23:05 2020" *by "Paul E. Black"
+# *modified "Mon Jul 26 11:55:11 2021" *by "Paul E. Black"
 
 # $Log: venndiagram.trm,v $
+# Mon Jul 26 11:56:10 2021  Paul E. Black
+# Remove detailed NOTE of Ruskey and Weston paper.
+# 
 # Revision 1.10  2009/08/03 13:47:56  black
 # update all of cut-the-knot URL (.org instead of .com)
 #
@@ -72,10 +75,9 @@ although similar diagrams were used much earlier by Leibniz and Euler
 Omnia</a>), a century earlier.
 # further explanation (pure HTML)
 @LINKS=
-<a href="https://webhome.cs.uvic.ca/~cos/venn/VennWhatEJC.html">Formal
-definition and methods to draw diagrams for N variables</a> from
 Frank Ruskey and Mark Weston's
-<a href="https://doi.org/10.37236/26">Venn Diagrams</a>,
+<a href="https://doi.org/10.37236/26">Venn Diagrams</a> gives formal definition
+and methods to draw diagrams for N variables,
 The Electronic Journal of Combinatorics, Dynamic Surveys DS5, 18 June 2005,
 DOI: 10.37236/26.
 
