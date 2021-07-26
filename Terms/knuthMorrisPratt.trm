@@ -1,7 +1,10 @@
 # *created  "Wed Apr  5 11:10:38 2000" *by "Sterling Bates"
-# *modified "Mon Dec 14 09:18:42 2020" *by "Paul E. Black"
+# *modified "Mon Jul 26 11:24:14 2021" *by "Paul E. Black"
 
 # $Log: knuthMorrisPratt.trm,v $
+# Mon Jul 26 11:25:04 2021  Paul E. Black
+# Update domain of Terry McConnell kmp IMPL
+# 
 # Mon Dec 14 10:11:56 2020  Paul E. Black
 # Update U Texas NOTE URL
 # 
@@ -86,8 +89,8 @@ Knuth-Morris-Pratt works</a>.
 @IMPL=Christian Charras' and Thierry Lecroq's <a
 href="http://www-igm.univ-mlv.fr/~lecroq/string/">Exact String
 Matching Algorithms (C)</a>.
-Unix strstr implemented with <a
-href="http://barnyard.syr.edu/quickies/kmp.c">KMP (C)</a>.
+Terry R. McConnell's implementation of Unix strstr with
+<a href="http://subarnyard.net/quickies/kmp.c">KMP (C)</a>.
 <a
 href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/7/712.srch.c">(C
 and Pascal)</a> which uses <a
