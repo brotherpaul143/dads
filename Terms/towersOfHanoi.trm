@@ -1,7 +1,10 @@
 # *created  "Tue May 25 08:56:47 1999" *by "Paul E. Black"
-# *modified "Mon Apr 22 12:03:15 2019" *by "Paul E. Black"
+# *modified "Mon Jul 26 11:49:49 2021" *by "Paul E. Black"
 
 # $Log: towersOfHanoi.trm,v $
+# Mon Jul 26 11:51:19 2021  Paul E. Black
+# Remove Brainy Planet NOTE: site is empty.
+# 
 # Mon Apr 22 12:15:33 2019  Paul E. Black
 # Remove LINK to Mukundans animation: no longer available.
 # 
@@ -78,9 +81,7 @@ other move which is possible.
 puzzle, algorithms, and proofs.
 # further explanation (pure HTML)
 @LINKS=
-<a
-href="http://brainyplanet.com/index.php/Hanoi Solution">Background
-and a recursive and an iterative solution</a>.
+
 # implementation(s) (pure HTML)
 @IMPL=
 <a href="https://javascriptsource.com/hanoi/">(JavaScript)</a>
