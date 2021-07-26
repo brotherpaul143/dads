@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Nov  2 12:25:08 2020" *by "Paul E. Black"
+# *modified "Mon Jul 26 11:01:04 2021" *by "Paul E. Black"
 
 # $Log: knapsackProblem.trm,v $
+# Mon Jul 26 11:09:18 2021  Paul E. Black
+# Update Steven Skiena Stony Brook Algorithm Repository IMPL URL
+# 
 # Mon Nov  2 12:25:13 2020  Paul E. Black
 # Update IMPL URL for Algorist.com to use https
 # 
@@ -117,8 +120,9 @@ From <a href="https://xkcd.com/287/">xkcd 287</a> by Randall Munroe.
 Attribution-NonCommercial 2.5 License</a>.
 
 # implementation(s) (pure HTML)
-@IMPL=<a
-href="https://algorist.com/problems/Knapsack.html">(Fortran
+@IMPL=
+Steven Skiena's Stony Brook Algorithm Repository
+<a href="https://algorist.com/problems/Knapsack_Problem.html">(Fortran
 and Pascal)</a>.
 GAMS <a href="http://gams.nist.gov/serve.cgi/Class/G2c3/">Class G2c3
 (Fortran)</a>.

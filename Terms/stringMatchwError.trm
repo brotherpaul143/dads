@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon Nov  2 12:26:59 2020" *by "Paul E. Black"
+# *modified "Mon Jul 26 11:03:15 2021" *by "Paul E. Black"
 
 # $Log: stringMatchwError.trm,v $
+# Mon Jul 26 11:09:30 2021  Paul E. Black
+# Update Steven Skiena Stony Brook Algorithm Repository IMPL URL
+# 
 # Mon Nov  2 12:31:06 2020  Paul E. Black
 # Update IMPL URL for Algorist.com to use https
 # 
@@ -102,8 +105,9 @@ a {suffix tree}.
 <em>Faster Algorithm of
 String Comparison</em></a> 2001.
 # implementation(s) (pure HTML)
-@IMPL=See implementations at {string matching}. <a
-href="https://algorist.com/problems/Approximate_Pattern_Matching.html">(C
+@IMPL=See implementations at {string matching}.
+Steven Skiena's Stony Brook Algorithm Repository
+<a href="https://algorist.com/problems/Approximate_String_Matching.html">(C
 and Pascal)</a>
 # author's initials (see authors.data)
 @AUTHOR=CRC-A
