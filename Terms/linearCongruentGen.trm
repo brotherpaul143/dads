@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Wed Feb  1 12:57:16 2012" *by "Paul E. Black"
+# *modified "Mon Jul 26 11:39:03 2021" *by "Paul E. Black"
 
 # $Log: linearCongruentGen.trm,v $
+# Mon Jul 26 11:39:49 2021  Paul E. Black
+# Remove LINK to Karl Entacher site: it is gone again.
+# 
 # Revision 1.6  2012/02/01 17:58:29  black
 # Restore LINK to Entacher's web site - it is back
 #
@@ -57,9 +60,6 @@ the range of the integer used in the computation.
 Better algorithms are available, but they are more complex.
 # further explanation (pure HTML)
 @LINKS=
-Karl Entacher's thorough review and comparison of
-<a href="http://random.mat.sbg.ac.at/results/karl/server/">many
-linear congruential generators</a>.
 
 # implementation(s) (pure HTML)
 @IMPL=
