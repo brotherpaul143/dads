@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 09:36:23 1999" *by "Paul E. Black"
-# *modified "Mon Jul 19 10:40:42 2021" *by "Paul E. Black"
+# *modified "Mon Jul 26 09:48:19 2021" *by "Paul E. Black"
 
 # $Log: externalsort.trm,v $
+# Mon Jul 26 09:49:47 2021  Paul E. Black
+# Refer to final Wikipedia name (underscores instead of spaces) for cascade merge sort.
+# 
 # Mon Jul 19 10:42:03 2021  Paul E. Black
 # Cascade merge sort is only in Wikipedia.
 # 
@@ -42,7 +45,7 @@ unsuitable if the values to be sorted don't fit in main memory.
 # Generalization: "I am a kind of ..."
 @IMA=
 # Specialization: "... is a kind of me."
-@VARIANT={balanced multiway merge}, {Wikipedia:cascade merge sort},
+@VARIANT={balanced multiway merge}, {Wikipedia:Cascade_merge_sort},
 {optimal polyphase merge sort},
 {oscillating merge sort}, {polyphase merge sort},
 {external radix sort}, {external quicksort}
