@@ -116,6 +116,8 @@ UNDERSCORE
 <p> Contributed by Arvind &lt;uk_arvind@mail.utexas.edu&gt; May 2002.</em> in cyclicRedundancyCheck.html
 UNDERSCORE
 <a href="https://en.wikipedia.org/wiki/Dense_graph" target="_blank"><em>Dense_graph [Wikipedia]</em></a> in densegraph.html
+UNDERSCORE
+<a href="balancedMultiwayMerge.html"><em>balanced multiway merge</em></a>, <a href="https://en.wikipedia.org/wiki/Cascade_merge_sort" target="_blank"><em>Cascade_merge_sort [Wikipedia]</em></a>, <a href="optimalPolyphaseMergeSort.html"><em>optimal polyphase merge sort</em></a>, <a href="oscillatingMergeSort.html"><em>oscillating merge sort</em></a>, <a href="polyphmrgsrt.html"><em>polyphase merge sort</em></a>, <a href="externalRadixSort.html"><em>external radix sort</em></a>, <a href="externalQuicksort.html"><em>external quicksort</em></a>. in externalsort.html
 BACKSLASH, CARET, or DOLLAR SIGN
 <pre> 	(1,0)^N = (F(N),F(N-1)) </pre> which can be computed in log N steps by <a href="repeatedSquaring.html"><em>repeated squaring</em></a>. </p>  in fibonacciNumber.html
 BACKSLASH, CARET, or DOLLAR SIGN
@@ -145,7 +147,7 @@ UNDERSCORE
 UNDERSCORE
 <a href="https://en.wikipedia.org/wiki/Self-organising_heuristic" target="_blank"><em>Self-organising_heuristic [Wikipedia]</em></a>. in movefront.html
 BACKSLASH, CARET, or DOLLAR SIGN
-<p> <img src="../Images/xkcd 0287 np_complete.png"   alt="Caption: My hobby embedding NP-complete problems in restaurant   orders. Left panel is a menu.  In the right panel, person ordering   says, 'We'd like exactly $15.05 worth of appetizers, please.'   followed by a discussion of knapsack and other np-complete problems."> <br /> in npcomplete.html
+<p> <img src="../Images/xkcd 0287 np_complete.png"   alt="Caption: My hobby: embedding NP-complete problems in restaurant   orders. Left panel is a menu.  In the right panel, person ordering   says, 'We'd like exactly $15.05 worth of appetizers, please.'   followed by mentions of knapsack and other NP-complete problems."> <br /> in npcomplete.html
 BACKSLASH, CARET, or DOLLAR SIGN
   / \								<br /> in optimalMerge.html
 BACKSLASH, CARET, or DOLLAR SIGN
@@ -210,8 +212,6 @@ BACKSLASH, CARET, or DOLLAR SIGN
          = x<sup>1*2^3</sup>* x<sup>1*2^2</sup>* x<sup>0*2^1</sup>* x<sup>1*2^0</sup>		<br /> in repeatedSquaring.html
 BACKSLASH, CARET, or DOLLAR SIGN
          = x<sup>2^3</sup>  * x<sup>2^2</sup>  *  1    * x<sup>2^0</sup> <br /> in repeatedSquaring.html
-BACKSLASH, CARET, or DOLLAR SIGN
-How do you <a href="http://ai.eecs.umich.edu/people/rounds/Winter02Slides/LectureApril4.pdf" target="_blank">compute 1415^13 mod 2537 with a calculator?</a> (PDF). To work out  <a href="http://www.tricki.org/article/To_work_out_powers_mod_n_use_repeated_squaring" target="_blank">powers mod n</a>, use repeated squaring. in repeatedSquaring.html
 UNDERSCORE
 <a href="https://en.wikipedia.org/wiki/Dense_graph" target="_blank"><em>Dense_graph [Wikipedia]</em></a> in sparsegraph.html
 UNDERSCORE
