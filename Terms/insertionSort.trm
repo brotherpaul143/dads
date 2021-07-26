@@ -1,7 +1,10 @@
 # *created  "Wed Sep 16 08:53:23 1998" *by "Paul E. Black"
-# *modified "Mon Jun 21 09:10:34 2021" *by "Paul E. Black"
+# *modified "Mon Jul 26 11:15:39 2021" *by "Paul E. Black"
 
 # $Log: insertionSort.trm,v $
+# Mon Jul 26 11:16:24 2021  Paul E. Black
+# Remove Dominique Thiebaut demo NOTE: gone from web.
+# 
 # Mon Nov  2 12:24:54 2020  Paul E. Black
 # Update IMPL URL for Algorist.com to use https
 # 
@@ -143,12 +146,6 @@ objects, and recursion (Java)</a>.
 
 
 @LINKS=
-<a href="http://cs.smith.edu/~thiebaut/java/sort/demo.html">demonstration</a>
-of several sort algorithms, with particular emphasis on insertion
-sort.
-<br />
-
-<br />
 Insertion sort illustrated through a
 <a href="https://www.youtube.com/watch?v=ROalU379l3U">Romanian folk
 dance</a>. Created at Sapientia University.
