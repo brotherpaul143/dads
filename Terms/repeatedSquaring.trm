@@ -1,7 +1,10 @@
 # *created  "Mon Jun 14 09:53:49 2004" *by "Paul E. Black"
-# *modified "Wed Jun 12 10:15:02 2013" *by "Paul E. Black"
+# *modified "Mon Jul 26 11:45:09 2021" *by "Paul E. Black"
 
 # $Log: repeatedSquaring.trm,v $
+# Mon Jul 26 11:47:45 2021  Paul E. Black
+# Remove Rounds LINK about using a calculator.
+# 
 # Revision 1.9  2013/06/12 14:17:28  black
 # add LINK to interesting article on computing powers mod n using
 # repeated squaring.
@@ -185,10 +188,6 @@ could multiply by repeatedly doubling and summing.
 <a href="http://cseweb.ucsd.edu/classes/fa96/cse30/lec4/exp.html">(C)</a>
 # further explanation (pure HTML)
 @LINKS=
-How do you
-<a
-href="http://ai.eecs.umich.edu/people/rounds/Winter02Slides/LectureApril4.pdf">compute
-1415^13 mod 2537 with a calculator?</a> (PDF).
 To work out 
 <a href="http://www.tricki.org/article/To_work_out_powers_mod_n_use_repeated_squaring">powers mod n</a>, use repeated squaring.
 # author's initials (see authors.data)
