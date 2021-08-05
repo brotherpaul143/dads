@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon May  4 09:42:13 2009" *by "Paul E. Black"
+# *modified "Thu Aug  5 16:14:59 2021" *by "Paul E. Black"
 
 # $Log: stirlingsApproximation.trm,v $
+# Thu Aug  5 16:16:38 2021  Paul E. Black
+# Remove NOTE of Bart j. Van Zeghbroeck book: old URL gone; cannot find a new one.
+# 
 # Revision 1.8  2009/05/04 13:43:27  black
 # update LINK to approximation from Van Zeghbroeck's book.
 #
@@ -60,9 +63,7 @@ See Eric W. Weisstein,
 <a
 href="http://mathworld.wolfram.com/StirlingsApproximation.html">Stirling's
 Approximation</a> for a derivation and other approximations.
-A slightly different <a
-href="http://ecee.colorado.edu/~bart/book/stirling.htm">approximation
-and relative errors</a> from Bart j. Van Zeghbroeck's book.
+
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials
