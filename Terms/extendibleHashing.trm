@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon May  2 10:15:15 2005" *by "Paul E. Black"
+# *modified "Tue Aug 17 11:37:09 2021" *by "Paul E. Black"
 
 # $Log: extendibleHashing.trm,v $
+# Tue Aug 17 11:38:10 2021  Paul E. Black
+# Remove IMPL of hash function in COBOL - page is gone.
+# 
 # Revision 1.4  2005/05/02 14:16:32  black
 # Update description and IMPL URL from isqa.
 #
@@ -53,9 +56,8 @@ buckets are (possibly) shared {leaf} nodes.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
-@IMPL=A description including a
-<a href="http://www.isqa.unomaha.edu/haworth/isqa3300/fs009.htm">hash
-function (COBOL)</a>.
+@IMPL=
+
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/extendibleHashing.trm,v $
