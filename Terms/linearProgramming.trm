@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon May  6 10:02:09 2019" *by "Paul E. Black"
+# *modified "Mon Aug 23 09:13:14 2021" *by "Paul E. Black"
 
 # $Log: linearProgramming.trm,v $
+# Mon Aug 23 09:15:07 2021  Paul E. Black
+# Remove INFO about Spanish linear programming site: the certificate expired.
+# 
 # Mon May  6 10:02:47 2019  Paul E. Black
 # LINK to Spanish site now uses https:
 # 
@@ -51,8 +54,7 @@ Appearing in the Dictionary of Computer Science, Engineering and
 Technology, Copyright &copy; 2000 CRC Press LLC.
 # further explanation (pure HTML)
 @LINKS=
-<a href="https://www.programacionlineal.net/">Programaci&oacute;n Lineal</a>,
-a site in Spanish about linear programming.
+
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials (see authors.data)
