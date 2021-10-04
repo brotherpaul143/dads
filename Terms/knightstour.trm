@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Jun 24 15:11:56 2019" *by "Paul E. Black"
+# *modified "Mon Oct  4 14:15:16 2021" *by "Paul E. Black"
 
 # $Log: knightstour.trm,v $
+# Mon Oct  4 14:19:29 2021  Paul E. Black
+# Use https to access okmij.org IMPL
+# 
 # Mon Jun 24 15:12:46 2019  Paul E. Black
 # Remove LINK to Thomassons Knights Tour page - its gone.
 # 
@@ -52,7 +55,7 @@ Solutions may be found using {backtracking}.
 
 # implementation(s) (pure HTML)
 @IMPL=Oleg Kiselyov's <a
-href="http://okmij.org/ftp/Prolog/Knight.prl">derivation (Prolog)</a>
+href="https://okmij.org/ftp/Prolog/Knight.prl">derivation (Prolog)</a>
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/knightstour.trm,v $

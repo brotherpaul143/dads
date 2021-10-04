@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon Mar 23 10:34:40 2015" *by "Paul E. Black"
+# *modified "Mon Oct  4 14:17:39 2021" *by "Paul E. Black"
 
 # $Log: dynamicprog.trm,v $
+# Mon Oct  4 14:10:44 2021  Paul E. Black
+# Use https to access okmij.org IMPL
+# 
 # Mon Mar 23 10:35:31 2015  Paul E. Black
 # Remove LINK to Dan Hirschbergs example - no longer accessible.
 # 
@@ -67,8 +70,8 @@ Technology, Copyright &copy; 2000 CRC Press LLC.
 Mark Nelson's tutorial to using
 <a href="http://marknelson.us/2007/08/01/memoization/">C++ Hash Table
 Memoization: [for] Simplifying Dynamic Programming (C++)</a>.
-Oleg Kiselyov's program to <a
-href="http://okmij.org/ftp/packages/word_layout.cc">optimally
+Oleg Kiselyov's program to
+<a href="https://okmij.org/ftp/packages/word_layout.cc">optimally
 lay out a page (C++)</a> using dynamic programming.
 # author's initials (see authors.data)
 @AUTHOR=CRC-A

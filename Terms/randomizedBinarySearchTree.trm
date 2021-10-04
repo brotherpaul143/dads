@@ -1,7 +1,10 @@
 # *created  "Wed Feb 24 15:03:32 1999" *by "Paul E. Black"
-# *modified "Tue Sep  7 09:36:31 2010" *by "Paul E. Black"
+# *modified "Mon Oct  4 14:15:16 2021" *by "Paul E. Black"
 
 # $Log: randomizedBinarySearchTree.trm,v $
+# Mon Oct  4 14:20:17 2021  Paul E. Black
+# Use https to access okmij.org IMPLs
+# 
 # Revision 1.7  2010/09/07 13:37:30  black
 # Update URL for Kiselyov's IMPL
 #
@@ -74,9 +77,9 @@ search in a RBST of size $n$.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=Oleg Kiselyov's
-<a href="http://okmij.org/ftp/Scheme/lib/treap.scm">treap
+<a href="https://okmij.org/ftp/Scheme/lib/treap.scm">treap
 implementation (Scheme)</a> and
-<a href="http://okmij.org/ftp/Scheme/#treaps">verification code and
+<a href="https://okmij.org/ftp/Scheme/#treaps">verification code and
 other links</a>.
 # author's initials
 @AUTHOR=CM

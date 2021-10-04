@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Nov  2 12:26:03 2020" *by "Paul E. Black"
+# *modified "Mon Oct  4 14:15:16 2021" *by "Paul E. Black"
 
 # $Log: permutation.trm,v $
+# Mon Oct  4 14:19:50 2021  Paul E. Black
+# Use https to access okmij.org IMPL
+# 
 # Mon Nov  2 12:26:08 2020  Paul E. Black
 # Update IMPL URL for Algorist.com to use https
 # 
@@ -115,7 +118,7 @@ Mike Bostock's animations of different
 <a href="https://bost.ocks.org/mike/shuffle/">permutation algorithms
 with code (JavaScript)</a>.
 <a
-href="http://okmij.org/ftp/Haskell/perfect-shuffle.txt">Perfect
+href="https://okmij.org/ftp/Haskell/perfect-shuffle.txt">Perfect
 shuffle (Haskell)</a>.
 # author's initials
 @AUTHOR=PEB

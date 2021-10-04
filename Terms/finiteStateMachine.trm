@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon Mar 25 12:22:49 2019" *by "Paul E. Black"
+# *modified "Mon Oct  4 14:15:16 2021" *by "Paul E. Black"
 
 # $Log: finiteStateMachine.trm,v $
+# Mon Oct  4 14:18:32 2021  Paul E. Black
+# Access okmij.org IML with https
+# 
 # Mon Mar 25 12:23:33 2019  Paul E. Black
 # Use https for Kent University IMPL
 # 
@@ -118,7 +121,7 @@ For regular expressions <a
 href="https://www.cs.kent.ac.uk/people/staff/sjt/craft2e/regExp.html">generate
 NFSM, make deterministic, and optimize (Haskell)</a>.
 Oleg Kiselyov's program to <a
-href="http://okmij.org/ftp/Prolog/minimizer.prl">minimize a
+href="https://okmij.org/ftp/Prolog/minimizer.prl">minimize a
 finite state machine (Prolog)</a>.
 # author's initials (see authors.data)
 @AUTHOR=PEB

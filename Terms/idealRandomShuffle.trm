@@ -1,7 +1,10 @@
 # *created  "Fri Jul  5 16:18:10 2002" *by "Paul E. Black"
-# *modified "Mon Dec 27 11:50:50 2010" *by "Paul E. Black"
+# *modified "Mon Oct  4 14:15:16 2021" *by "Paul E. Black"
 
 # $Log: idealRandomShuffle.trm,v $
+# Mon Oct  4 14:19:08 2021  Paul E. Black
+# Access okmij.org IMPL with https
+# 
 # Revision 1.7  2010/12/27 16:51:08  black
 # remove Python IMPL - moved or gone
 #
@@ -70,7 +73,7 @@ precisely interleaving the two halves.  This has been the use of
 # implementation(s) (pure HTML)
 @IMPL=
 Discussion and explanation of what makes a shuffle ideal and <a
-href="http://okmij.org/ftp/Haskell/perfect-shuffle.txt">two
+href="https://okmij.org/ftp/Haskell/perfect-shuffle.txt">two
 implementations (Haskell)</a>.
 
 # further explanation (pure HTML)
