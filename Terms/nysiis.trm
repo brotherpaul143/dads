@@ -1,7 +1,10 @@
 # *created  "Fri May  3 15:34:09 2002" *by "Paul E. Black"
-# *modified "Mon Mar  4 10:25:20 2019" *by "Paul E. Black"
+# *modified "Mon Oct  4 14:34:08 2021" *by "Paul E. Black"
 
 # $Log: nysiis.trm,v $
+# Mon Oct  4 14:34:53 2021  Paul E. Black
+# Remove SPL IMPL at raven.utc.edu. Page is gone.
+# 
 # Mon Mar  4 10:25:40 2019  Paul E. Black
 # Remove Mark Crocker Rexx IMPL - pages are gone
 # 
@@ -88,7 +91,7 @@ No. 1, Albany, New York, December 1970.
 # implementation(s) (pure HTML)
 @IMPL=
 <a href="http://www.dropby.com/NYSIIS.html">(JavaScript)</a> (in page source).
-<a href="http://raven.utc.edu/cgi-bin/WA.EXE?A2=ind0102d&L=hp3000-l&P=33747">(SPL)</a>.
+
 # further explanation (pure HTML)
 @LINKS=
 # author's initials (see authors.data)
