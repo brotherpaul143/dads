@@ -1,7 +1,10 @@
 # *created  "Tue Dec  1 11:46:37 1998" *by "Paul E. Black"
-# *modified "Mon Nov  2 12:27:54 2020" *by "Paul E. Black"
+# *modified "Fri Oct 15 16:46:06 2021" *by "Paul E. Black"
 
 # $Log: topologicalSort.trm,v $
+# Fri Oct 15 16:46:39 2021  Paul E. Black
+# Add Sedgewick and Wayne "Algorithms" IMPL
+# 
 # Mon Nov  2 12:27:59 2020  Paul E. Black
 # Update IMPL URL for Algorist.com to use https
 # 
@@ -74,6 +77,9 @@ href="https://docs.microsoft.com/en-us/archive/blogs/ericlippert/im-putting-on-m
 <a
 href="https://algorist.com/problems/Topological_Sorting.html">(C++,
 Mathematica, C, and Pascal)</a>
+<a href="https://algs4.cs.princeton.edu/42digraph/">topological sort
+for directed graphs (Java)</a> from
+Sedgewick and Wayne "Algorithms" 4th edition.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/topologicalSort.trm,v $

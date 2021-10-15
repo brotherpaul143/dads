@@ -1,7 +1,10 @@
 # *created  "Thu May 13 10:18:15 1999" *by "Paul E. Black"
-# *modified "Thu Aug 14 12:11:52 2008" *by "Paul E. Black"
+# *modified "Fri Oct 15 10:17:04 2021" *by "Paul E. Black"
 
 # $Log: adjacencyListRep.trm,v $
+# Fri Oct 15 16:41:29 2021  Paul E. Black
+# Add Sedgewick and Wayne "Algorithms" IMPL
+# 
 # Revision 1.5  2008/08/14 16:12:01  black
 # Update HTML line break (br) tags to be XML/XHMTL compatible
 #
@@ -79,6 +82,10 @@ for a {sparse matrix}.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=
+Sedgewick and Wayne "Algorithms" 4th edition's
+<a href="https://algs4.cs.princeton.edu/42digraph/">implementation
+(Java)</a>.
+
 # author's initials (see authors.data)
 @AUTHOR=BB,PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/adjacencyListRep.trm,v $

@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 13:28:22 1998" *by "Paul E. Black"
-# *modified "Mon Dec 21 09:05:06 2020" *by "Paul E. Black"
+# *modified "Fri Oct 15 10:13:01 2021" *by "Paul E. Black"
 
 # $Log: directedGraph.trm,v $
+# Fri Oct 15 16:43:41 2021  Paul E. Black
+# Add Sedgewick and Wayne "Algorithms" IMPL and XREF adjacency list and matrix
+# 
 # Mon Dec 21 09:16:42 2020  Paul E. Black
 # update St. Andrews mathematicians biogrpahy NOTE URL
 # 
@@ -71,7 +74,9 @@ $E \subseteq \{(u,v) | u, v \in V \wedge u \neq v}$.
 # Aggregate child: "... is a part of or used in me."
 @INME={source}, {sink}, {in-degree}, {out-degree}
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={undirected graph}, {hypergraph}, {multigraph},
+@XREFS=Implemented by {adjacency list#adjacency-list representation} or
+{adjacency matrix#adjacency-matrix representation}.
+{undirected graph}, {hypergraph}, {multigraph},
 {Schorr-Waite graph marking algorithm}
 
 # any notes.  these will not be printed in the final dictionary
@@ -122,6 +127,11 @@ If you find an earlier digraph, please contact me,
 
 # implementation(s) (pure HTML)
 @IMPL=
+A glossary of directed graph terms and
+<a href="https://algs4.cs.princeton.edu/42digraph/">adjacency-list and
+-matrix, reachability, cycles, etc. implementations (Java)</a> from
+Sedgewick and Wayne "Algorithms" 4th edition.
+
 # further explanation (pure HTML)
 @LINKS=
 # author's initials

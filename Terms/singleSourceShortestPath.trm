@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Tue Feb  1 15:45:16 2005" *by "Paul E. Black"
+# *modified "Fri Oct 15 16:19:48 2021" *by "Paul E. Black"
 
 # $Log: singleSourceShortestPath.trm,v $
+# Fri Oct 15 16:44:22 2021  Paul E. Black
+# Add Sedgewick and Wayne "Algorithms" IMPL
+# 
 # Revision 1.4  2005/02/01 20:45:26  black
 # format change
 #
@@ -44,6 +47,10 @@ with all directions reversed.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=See implementations at graph.
+Single-source
+<a href="https://algs4.cs.princeton.edu/42digraph/">shortest directed
+path (Java)</a> from
+Sedgewick and Wayne "Algorithms" 4th edition.
 # author's initials
 @AUTHOR=PEB
-# end $Source: /home/black/Workspace/dads/Terms/RCS/singleSourceShortestPath.trm,v $
+# end $Source: singleSourceShortestPath.trm,v $

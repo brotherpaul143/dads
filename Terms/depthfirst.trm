@@ -1,7 +1,10 @@
 # *created  "Tue Dec  1 12:02:24 1998" *by "Paul E. Black"
-# *modified "Mon Jun 21 09:10:34 2021" *by "Paul E. Black"
+# *modified "Fri Oct 15 16:30:59 2021" *by "Paul E. Black"
 
 # $Log: depthfirst.trm,v $
+# Fri Oct 15 16:42:55 2021  Paul E. Black
+# Add Sedgewick and Wayne "Algorithms" IMPL
+# 
 # Mon Apr 22 12:13:43 2019  Paul E. Black
 # Remove LINK to Mukundans animation: no longer available.
 # 
@@ -213,6 +216,10 @@ Algorithms and Data Structures'
 <a
 href="https://www.algolist.net/Algorithms/Graph/Undirected/Depth-first_search">explanation
 and implementation (Java and C++)</a> for undirected graphs.
+Many algorithms using
+<a href="https://algs4.cs.princeton.edu/42digraph/">depth-first search
+(Java)</a> using
+Sedgewick and Wayne "Algorithms" 4th edition.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/depthfirst.trm,v $

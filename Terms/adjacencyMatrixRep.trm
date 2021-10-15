@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Jun 21 09:10:34 2021" *by "Paul E. Black"
+# *modified "Fri Oct 15 10:14:22 2021" *by "Paul E. Black"
 
 # $Log: adjacencyMatrixRep.trm,v $
+# Fri Oct 15 16:42:05 2021  Paul E. Black
+# Add Sedgewick and Wayne "Algorithms" IMPL
+# 
 # Revision 1.7  2009/08/03 13:57:44  black
 # update URL for IMPL at Simple Programming Tutorials, now Algorithms
 # and Data Structures.
@@ -87,6 +90,10 @@ The adjacency-list representation is more compact for a {sparse matrix}.
 Algorithms and Data Structures'
 <a
 href="https://www.algolist.net/Data_structures/Graph/Internal_representation">implementation (Java and C++)</a>.
+Sedgewick and Wayne "Algorithms" 4th edition's
+<a href="https://algs4.cs.princeton.edu/42digraph/">implementation
+(Java)</a>.
+
 # author's initials
 @AUTHOR=SKS
 # end $Source: /home/black/Workspace/dads/Terms/RCS/adjacencyMatrixRep.trm,v $

@@ -1,7 +1,10 @@
 # *created  "Tue Nov  3 16:31:06 1998" *by "Paul E. Black"
-# *modified "Thu Aug 24 08:44:57 2017" *by "Paul E. Black"
+# *modified "Fri Oct 15 16:27:12 2021" *by "Paul E. Black"
 
 # $Log: cycle.trm,v $
+# Fri Oct 15 16:42:33 2021  Paul E. Black
+# Sedgewick and Wayne "Algorithms" IMPL
+# 
 # Revision 1.11  2009/11/04 14:05:15  black
 # remove IMPL - Geocities is gone
 #
@@ -93,6 +96,10 @@ cycles is to look for {strongly connected components}.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=
+Cycle
+<a href="https://algs4.cs.princeton.edu/42digraph/">detection
+(Java)</a> from
+Sedgewick and Wayne "Algorithms" 4th edition.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/cycle.trm,v $
