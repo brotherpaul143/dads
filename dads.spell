@@ -102,6 +102,7 @@ bintree
 Bitner
 bitNumber
 bitonic
+bitsPaul
 bitwise
 BJ
 BKP
@@ -269,6 +270,7 @@ diviser
 dk
 DM
 DNAME
+dnl
 Dobb
 Dobosiewicz
 Docid
@@ -632,6 +634,7 @@ Lourakis
 Lov
 Lovrencic
 LRU
+LSM
 Luhn
 Lun
 Luschny
@@ -1045,6 +1048,8 @@ SRC
 srchnum
 Srinivasan
 SSSR
+SSTable
+SSTables
 Stanislaw
 Stas
 Steffas
@@ -1055,6 +1060,7 @@ STOC
 Stockmeyer
 Stockmeyere
 Stolte
+Stopford
 Strassen
 strcmp
 Strmat
