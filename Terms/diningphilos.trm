@@ -1,7 +1,10 @@
 # *created  "Wed Feb 17 12:42:53 1999" *by "Paul E. Black"
-# *modified "Mon Jun 30 09:15:57 2014" *by "Paul E. Black"
+# *modified "Mon Nov  8 09:58:08 2021" *by "Paul E. Black"
 
 # $Log: diningphilos.trm,v $
+# Mon Nov 15 08:57:07 2021  Paul E. Black
+# Remove IMPL of shared memory and semaphores - web site is gone.
+# 
 # Mon Jun 30 09:18:50 2014  Paul E. Black
 # Remove Siefast IMPL: all Siefast simulator pages are gone.
 # 
@@ -50,9 +53,7 @@ prevents deadlock, starvation, etc.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=
-<a
-href="http://www.math-cs.gordon.edu/courses/cs322/projects/p2/dp/">code
-Shared Memory and Semaphores (C and C++)</a>.
+
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/diningphilos.trm,v $
