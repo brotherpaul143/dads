@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Oct 15 16:32:20 2021" *by "Paul E. Black"
+# *modified "Mon Nov 22 06:25:33 2021" *by "Paul E. Black"
 
 # $Log: transitiveClosure.trm,v $
+# Mon Nov 22 06:26:24 2021  Paul E. Black
+# Remove Vreda Pieterses IMPL and explanation - page is gone
+# 
 # Fri Oct 15 16:45:16 2021  Paul E. Black
 # Add Sedgewick and Wayne "Algorithms" IMPL
 # 
@@ -56,9 +59,6 @@ in the extension, $(a,c)$ is also in the extension.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=
-Vreda Pieterse's explanation of binary relations and transitive
-closure with links to
-<a href="https://cs.up.ac.za/cs/vpieterse/AptiAlgo/AptiAlgoritmi.html">implementations (C++)</a>.
 Steven Skiena's Algorist/Stony Brook summary and links to
 <a href="https://algorist.com/problems/Transitive_Closure_and_Reduction.html">implementations
 (C++, Java, and Mathematica)</a>.

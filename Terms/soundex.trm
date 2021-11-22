@@ -1,7 +1,10 @@
 # *created  "Fri Feb 19 11:27:28 1999" *by "Paul E. Black"
-# *modified "Mon Jul 19 09:58:54 2021" *by "Paul E. Black"
+# *modified "Mon Nov 22 06:22:56 2021" *by "Paul E. Black"
 
 # $Log: soundex.trm,v $
+# Mon Nov 22 06:23:43 2021  Paul E. Black
+# Remove Cobol IMPL at raven.utc.edu - page is gone.
+# 
 # Mon Jul 19 10:35:15 2021  Paul E. Black
 # Update Apache IMPL URL.
 # 
@@ -96,7 +99,7 @@ Apache codec implementations of
 <a href="https://commons.apache.org/proper/commons-codec/">soundex, Metaphone,
 and Double Metaphone (Java)</a>. 
 <a href="https://www.source-code.biz/snippets/vbasic/4.htm">(Visual Basic)</a>.
-<a href="http://raven.utc.edu/cgi-bin/WA.EXE?A2=ind0102d&L=hp3000-l&P=33747">(Cobol)</a>.
+
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/soundex.trm,v $
