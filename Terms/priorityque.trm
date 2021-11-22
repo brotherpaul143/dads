@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 12:52:42 1998" *by "Paul E. Black"
-# *modified "Mon Dec 20 11:08:15 2004" *by "Paul E. Black"
+# *modified "Mon Nov 22 06:30:14 2021" *by "Paul E. Black"
 
 # $Log: priorityque.trm,v $
+# Mon Nov 22 06:30:59 2021  Paul E. Black
+# Access Lee Killough IMPL with https.
+# 
 # Revision 1.9  2004/12/20 16:09:11  black
 # Add another VARIANT: van Emde-Boas p.q.
 #
@@ -79,7 +82,7 @@ After LK.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=
-Links to <a href="http://www.leekillough.com/heaps/">implementations,
+Links to <a href="https://www.leekillough.com/heaps/">implementations,
 dozens of papers, introductory material, etc.</a>.
 # author's initials
 @AUTHOR=PEB
