@@ -1,7 +1,10 @@
 # *created  "Mon Jun 14 09:53:49 2004" *by "Paul E. Black"
-# *modified "Mon Jul 26 11:45:09 2021" *by "Paul E. Black"
+# *modified "Mon Nov 22 06:14:06 2021" *by "Paul E. Black"
 
 # $Log: repeatedSquaring.trm,v $
+# Mon Nov 22 06:16:00 2021  Paul E. Black
+# Remove UCSD IMPL - not responding.
+# 
 # Mon Jul 26 11:47:45 2021  Paul E. Black
 # Remove Rounds LINK about using a calculator.
 # 
@@ -185,7 +188,7 @@ could multiply by repeatedly doubling and summing.
 
 # implementation(s) (pure HTML)
 @IMPL=
-<a href="http://cseweb.ucsd.edu/classes/fa96/cse30/lec4/exp.html">(C)</a>
+
 # further explanation (pure HTML)
 @LINKS=
 To work out 
