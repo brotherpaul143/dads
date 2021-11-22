@@ -1,10 +1,13 @@
 dnl *created  "Wed Feb  2 16:01:34 2000" *by "Paul E. Black"
-dnl *modified "Mon Nov  8 09:35:07 2021" *by "Paul E. Black"
+dnl *modified "Mon Nov 22 15:20:31 2021" *by "Paul E. Black"
 dnl
 dnl This is run through m4 then joined with an introduction and 
 dnl the entries to make a complete terms page.
 dnl
 dnl $Log$
+dnl Mon Nov 22 15:22:31 2021  Paul E. Black
+dnl Link to Creative Mathematical Sciences Communication (CMSC 2022).
+dnl 
 dnl Mon Nov  8 09:36:18 2021  Paul E. Black
 dnl Update FUN to 10th conference in 2020. These occur only in even years.
 dnl 
@@ -143,6 +146,7 @@ href="https://arxiv.org/corr/">Computing Research Repository</a> (CoRR).
 </p>
 
 <p>
+<!-- FUN only occurs in even years -->
 Tenth International Conference on 
 <a href="https://sites.google.com/view/fun2020/">Fun
 With Algorithms</a> (FUN 2020).  The conference "is
@@ -150,6 +154,14 @@ dedicated to the use, design, and analysis of algorithms and data
 structures, focusing on results that provide amusing, witty but
 nonetheless original and scientifically profound contributions to the
 area."
+Sixth International Conference on
+<a href="https://cmsc-uib.org/">Creative Mathematical Sciences
+Communication</a> (CMSC 2022). The conference "is to explore new ways
+of communicating mathematical sciences" and "will host a unique
+interaction between artists (theatre, dance, graphic arts, story) and
+scientists /teachers/communicators." The notion is to build on
+"Computer Science Unplugged, Algorithms Unplugged, the IMAGINATION
+project, Bebras and other similar efforts."
 </p>
 
 <h2>Bibliography</h2>
@@ -180,7 +192,7 @@ Fri Sep  4 16:39:23 1998
 include(`Pages/bitsPaul.m4')
 <em>This Trailer</em>
 <em>Updated
-Mon Nov  8 09:35:07 2021
+Mon Nov 22 15:20:31 2021
 </em><address>
 by <a href="https://hissa.nist.gov/~black/">Paul E. Black
 </a>
