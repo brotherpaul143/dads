@@ -1,7 +1,10 @@
 # *created  "Tue Dec 15 11:00:58 1998" *by "Paul E. Black"
-# *modified "Mon Nov  2 12:27:49 2020" *by "Paul E. Black"
+# *modified "Mon Nov 29 08:57:53 2021" *by "Paul E. Black"
 
 # $Log: suffixtree.trm,v $
+# Mon Nov 29 08:59:18 2021  Paul E. Black
+# Update URL of Mark Nelsons article with IMPL
+# 
 # Mon Nov  2 12:27:53 2020  Paul E. Black
 # Update IMPL URL for Algorist.com to use https
 # 
@@ -121,8 +124,8 @@ Christian Kreibich's
 including depth- and breadth-first traversal, string update, and
 examples like LCS.
 Mark Nelson's great 
-<a href="http://marknelson.us/1996/08/01/suffix-trees/">Fast
-String Searching With Suffix Trees (C++)</a> explains Ukkonen's
+<a href="https://marknelson.us/posts/1996/08/01/suffix-trees.html"><em>Fast
+String Searching With Suffix Trees</em> (C++)</a> explains Ukkonen's
 linear-time algorithm.  Dr. Dobb's Journal, August, 1996.
 Steven Skiena's
 <a
