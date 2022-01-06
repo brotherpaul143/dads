@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Aug 14 12:14:49 2008" *by "Paul E. Black"
+# *modified "Thu Jan  6 16:39:56 2022" *by "Paul E. Black"
 
 # $Log: memoize.trm,v $
+# Thu Jan  6 16:46:24 2022  Paul E. Black
+# Update URL to use https for Mark Nelson NOTE
+# 
 # Revision 1.7  2008/08/14 16:14:50  black
 # Update HTML line break (br) tags to be XML/XHMTL compatible
 #
@@ -85,7 +88,7 @@ time (see {Fibonacci numbers}), but this illustrates memoization.
 # implementation(s) (pure HTML)
 @IMPL=
 Mark Nelson's tutorial to using
-<a href="http://marknelson.us/2007/08/01/memoization/">C++ Hash Table
+<a href="https://marknelson.us/2007/08/01/memoization/">C++ Hash Table
 Memoization: [for] Simplifying Dynamic Programming (C++)</a>.
 # author's initials
 @AUTHOR=PEB

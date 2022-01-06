@@ -1,7 +1,10 @@
 # *created  "Mon Sep 27 08:55:03 1999" *by "Paul E. Black"
-# *modified "Fri Nov  9 11:30:49 2012" *by "Paul E. Black"
+# *modified "Thu Jan  6 16:40:20 2022" *by "Paul E. Black"
 
 # $Log: lempelZivWelch.trm,v $
+# Thu Jan  6 16:46:05 2022  Paul E. Black
+# Update URL to use https for Mark Nelson NOTE
+# 
 # Revision 1.5  2012/11/09 16:43:41  black
 # Use Nelson's updated explanation in NOTE.
 #
@@ -62,7 +65,7 @@ of data compression</a>
 # implementation(s) (pure HTML)
 @IMPL=
 Mark Nelson's article with an <a
-href="http://marknelson.us/2011/11/08/lzw-revisited/">explanation (C++)</a>
+href="https://marknelson.us/2011/11/08/lzw-revisited/">explanation (C++)</a>
 # author's initials (see authors.data)
 @AUTHOR=GS
 # end $Source: /home/black/Workspace/dads/Terms/RCS/lempelZivWelch.trm,v $

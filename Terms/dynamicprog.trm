@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon Oct  4 14:17:39 2021" *by "Paul E. Black"
+# *modified "Thu Jan  6 16:41:10 2022" *by "Paul E. Black"
 
 # $Log: dynamicprog.trm,v $
+# Thu Jan  6 16:45:21 2022  Paul E. Black
+# Update URL to use https for Mark Nelson NOTE
+# 
 # Mon Oct  4 14:10:44 2021  Paul E. Black
 # Use https to access okmij.org IMPL
 # 
@@ -68,7 +71,7 @@ Technology, Copyright &copy; 2000 CRC Press LLC.
 # implementation(s) (pure HTML)
 @IMPL=
 Mark Nelson's tutorial to using
-<a href="http://marknelson.us/2007/08/01/memoization/">C++ Hash Table
+<a href="https://marknelson.us/2007/08/01/memoization/">C++ Hash Table
 Memoization: [for] Simplifying Dynamic Programming (C++)</a>.
 Oleg Kiselyov's program to
 <a href="https://okmij.org/ftp/packages/word_layout.cc">optimally
