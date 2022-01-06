@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Oct 22 08:51:24 2007" *by "Paul E. Black"
+# *modified "Thu Jan  6 17:01:45 2022" *by "Paul E. Black"
 
 # $Log: determTreeAutom.trm,v $
+# Thu Jan  6 17:04:34 2022  Paul E. Black
+# Update URL for Tree Automata document
+# 
 # Revision 1.4  2007/10/22 12:51:26  black
 # CORRECTLY Update URL for tata (Tree Automata)
 #
@@ -42,7 +45,7 @@ acceptance conditions of the trees.
 @NOTES=These are used in various studies in branching-time temporal
 logic, second order logic with multiple successors, etc.
 # further explanation (pure HTML)
-@LINKS=<a href="http://tata.gforge.inria.fr/">Tree Automata
+@LINKS=<a href="https://hal.inria.fr/hal-03367725/document">Tree Automata
 Techniques and Applications</a> page.
 # implementation(s) (pure HTML)
 @IMPL=

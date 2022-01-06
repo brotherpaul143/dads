@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Oct 22 08:49:24 2007" *by "Paul E. Black"
+# *modified "Thu Jan  6 17:01:45 2022" *by "Paul E. Black"
 
 # $Log: nondetermTreeAutom.trm,v $
+# Thu Jan  6 17:05:00 2022  Paul E. Black
+# Update URL for Tree Automata document
+# 
 # Revision 1.4  2007/10/22 12:49:25  black
 # CORRECTLY Update URL for tata (Tree Automata)
 #
@@ -41,7 +44,7 @@ acceptance conditions of the trees.
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 # further explanation (pure HTML)
-@LINKS=<a href="http://tata.gforge.inria.fr/">Tree Automata
+@LINKS=<a href="https://hal.inria.fr/hal-03367725/document">Tree Automata
 Techniques and Applications</a> page.
 # implementation(s) (pure HTML)
 @IMPL=
