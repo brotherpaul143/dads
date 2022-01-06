@@ -1,7 +1,10 @@
 # *created  "Thu Feb  4 14:05:52 1999" *by "Paul E. Black"
-# *modified "Thu Jan  6 17:01:45 2022" *by "Paul E. Black"
+# *modified "Thu Jan  6 17:09:05 2022" *by "Paul E. Black"
 
 # $Log: treeAutomaton.trm,v $
+# Thu Jan  6 17:13:33 2022  Paul E. Black
+# Remove bottom-up tree automaton - it had no definition
+# 
 # Thu Jan  6 17:05:21 2022  Paul E. Black
 # Update URL for Tree Automata document
 # 
@@ -45,10 +48,9 @@ top-down (starting from the {root}) or bottom-up (starting from the
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={deterministic finite tree automaton}, {nondeterministic finite
-
-tree automaton}, {deterministic tree automaton}, {nondeterministic
-tree automaton}, {bottom-up tree automaton}, {top-down tree automaton}
+@XREFS={deterministic finite tree automaton},
+{nondeterministic finite tree automaton}, {deterministic tree automaton},
+{nondeterministic tree automaton}, {top-down tree automaton}
 # any notes.  these will not be printed in the final dictionary
 @NOTES=Words for finite state automata can be seen as composed of
 unary constructors, the {alphabet}, and a 0-ary constructor, the
