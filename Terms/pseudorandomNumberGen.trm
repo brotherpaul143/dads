@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Nov  2 12:26:14 2020" *by "Paul E. Black"
+# *modified "Mon Jan 24 16:37:54 2022" *by "Paul E. Black"
 
 # $Log: pseudorandomNumberGen.trm,v $
+# Mon Jan 24 16:38:53 2022  Paul E. Black
+# Access fourmilab ent program by https, not http.
+# 
 # Mon Nov  2 12:26:17 2020  Paul E. Black
 # Update IMPL URL for Algorist.com to use https
 # 
@@ -196,7 +199,7 @@ Attribution-NonCommercial 2.5 License</a>.
 <a href="https://csrc.nist.gov/Projects/Random-Bit-Generation">Random 
 Bit Generation</a> with links to reports, standard tests, and on-going
 research.
-<a href="http://www.fourmilab.ch/random/">ent</a>: a program to
+<a href="https://www.fourmilab.ch/random/">ent</a>: a program to
 test the randomness of bytes in a file.
 </p>
 
