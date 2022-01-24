@@ -1,7 +1,10 @@
 # *created  "Wed Feb 24 09:02:09 1999" *by "Paul E. Black"
-# *modified "Mon Jul 19 09:58:38 2021" *by "Paul E. Black"
+# *modified "Mon Jan 24 16:35:07 2022" *by "Paul E. Black"
 
 # $Log: metaphone.trm,v $
+# Mon Jan 24 16:36:01 2022  Paul E. Black
+# Delete wbrogden IMPL -- gone.
+# 
 # Mon Jul 19 10:34:33 2021  Paul E. Black
 # Update URL for Apache IMPL.
 # 
@@ -82,8 +85,6 @@ Metaphone</em>. Computer Language, Vol. 7, No. 12 (December), 1990.
 @IMPL=
 Many <a href="http://aspell.net/metaphone/">metaphone and
 double metaphone (Basic, C, Perl, and C++)</a> implementations.
-<a href="http://www.wbrogden.com/phonetic/index.html">applet
-for name lookup (Java)</a>,
 Apache codec implementations of 
 <a href="https://commons.apache.org/proper/commons-codec/">soundex, Metaphone,
 and Double Metaphone (Java)</a>. 
