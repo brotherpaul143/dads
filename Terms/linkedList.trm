@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 10:03:43 1998" *by "Paul E. Black"
-# *modified "Mon Jun 21 09:10:34 2021" *by "Paul E. Black"
+# *modified "Mon Jan 24 16:20:23 2022" *by "Paul E. Black"
 
 # $Log: linkedList.trm,v $
+# Mon Jan 24 16:23:24 2022  Paul E. Black
+# Remove link to Tim Rolfes explanation; he is apparently gone from ewu.edu.
+# 
 # Tue Mar  3 11:28:27 2020  Paul E. Black
 # Update Georgiev IMPL URL
 # 
@@ -124,8 +127,6 @@ items quickly.
 {ordered linked list}.
 It makes O(n) traversals, as does linear search, but it
 only performs O(log n) comparisons.
-For more explanation, see Tim Rolfe's
-<a href="http://penguin.ewu.edu/~trolfe/Nifty2010/LinkedListBinarySearch/Asg2.html">Searching in a Sorted Linked List</a>.
 </p>
 
 <p>
