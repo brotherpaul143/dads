@@ -13,6 +13,8 @@ UNDERSCORE
 UNDERSCORE
  <strong>Ralph C. Merkle</strong>, <em>A Digital Signature Based on a Conventional Encryption Function</em>, in C. Pomerance (ed) Advances in Cryptology &mdash; CRYPTO &rsquo;87. Lecture Notes in Computer Science 293:369-378, 1988. <a href="https://doi.org/10.1007/3-540-48184-2_32" target="_blank">doi:10.1007/3-540-48184-2_32</a> in MerkleTree.html
 UNDERSCORE
+<a href="https://en.wikipedia.org/wiki/Log-structured_merge-tree" target="_blank"><em>Log-structured_merge-tree [Wikipedia]</em></a>. in SSTable.html
+UNDERSCORE
 Contributed by Arvind &lt;uk_arvind@mail.utexas.edu&gt; May 2002.</em> in baumWelch.html
 UNDERSCORE
 <p> <a href="../terms.html#Knuth97">[Knuth97, 1:107]</a>,  <a href="../terms.html#HS83">[HS83, page 31]</a>, and <a href="../terms.html#Stand98">[Stand98, page 466]</a> use |f(n)| &le; c|g(n)|.   In <a href="https://en.wikipedia.org/wiki/Computational_complexity_theory" target="_blank"><em>Computational_complexity_theory [Wikipedia]</em></a> "only positive functions are considered, so the absolute value bars may be left out." (Wikipedia, "Big O notation"). This definition after <a href="../terms.html#CLR90">[CLR90, page 26]</a>. </p>  in bigOnotation.html
