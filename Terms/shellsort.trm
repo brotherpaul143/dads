@@ -1,7 +1,10 @@
 # *created  "Tue Dec  1 12:54:51 1998" *by "Paul E. Black"
-# *modified "Fri Jun  4 13:26:07 2021" *by "Paul E. Black"
+# *modified "Mon Feb 14 15:26:02 2022" *by "Paul E. Black"
 
 # $Log: shellsort.trm,v $
+# Mon Feb 14 15:40:25 2022  Paul E. Black
+# Remove Sedgewicks IMPL paper.
+# 
 # Fri Jun  4 13:28:57 2021  Paul E. Black
 # LINK to sort illustrated through dance.
 # 
@@ -308,8 +311,6 @@ Created at Sapientia University.
 <iframe src="https://www.youtube.com/embed/CmPA7zE8mx0" frameborder="0" allowfullscreen></iframe>
 # implementation(s) (pure HTML)
 @IMPL=
-Sedgewick's <a href="https://www.cs.princeton.edu/~rs/shell/">Analysis
-of Shellsort and Related Algorithms (C)</a>;
 Worst-case behavior <a
 href="https://www.auto.tuwien.ac.at/~blieb/woop/shell.html">annotated
 for real time (WOOP/ADA)</a>, including bibliography.
