@@ -1,7 +1,10 @@
 # *created  "Wed Jun  4 12:59:25 2003" *by "Paul E. Black"
-# *modified "Tue Feb 16 08:59:37 2021" *by "Paul E. Black"
+# *modified "Mon Feb 28 15:30:06 2022" *by "Paul E. Black"
 
 # $Log: bitonicSort.trm,v $
+# Mon Feb 28 15:32:47 2022  Paul E. Black
+# Prof. Dr. Langs explanation and IMPL now uses https, not http.
+# 
 # Tue Feb 16 09:00:28 2021  Paul E. Black
 # Remove csail.mit.edu IMPLs: those pages seem to be completely gone.
 # 
@@ -114,7 +117,7 @@ Knuth calls this <a href="../terms.html#Knuth98">Algorithm 5.2.2M
 # implementation(s) (pure HTML)
 @IMPL=
 Prof. Dr. Hans Wener Lang's
-<a href="http://www.inf.hs-flensburg.de/lang/algorithmen/sortieren/bitonic/bitonicen.htm">explanation,
+<a href="https://www.inf.hs-flensburg.de/lang/algorithmen/sortieren/bitonic/bitonicen.htm">explanation,
 proof of correctness, analysis, bibliography, etc. (Java)</a>.
 
 # further explanation (pure HTML)
