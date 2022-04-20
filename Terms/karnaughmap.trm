@@ -1,7 +1,10 @@
 # *created  "Thu Feb 11 16:27:49 1999" *by "Paul E. Black"
-# *modified "Mon Dec 14 09:11:56 2020" *by "Paul E. Black"
+# *modified "Wed Apr 20 09:13:03 2022" *by "Paul E. Black"
 
 # $Log: karnaughmap.trm,v $
+# Wed Apr 20 09:14:22 2022  Paul E. Black
+# Update Johnson URL.  Make the comment about pronunciation visible.
+# 
 # Mon Dec 14 09:13:35 2020  Paul E. Black
 # Update NOTE links and remove defunct IMPL link.
 # 
@@ -84,15 +87,15 @@ Combinational Logic Circuits</em>, Trans. AIEE. pt I, 72(9):593-599,
 November 1953.
 # any notes.  these will not be printed in the final dictionary
 @NOTES="Karnaugh" is pronounced "car-no". 
-<!-- pronunciation confirmed by a phone call to Polytechnic
+(Pronunciation confirmed by a phone call to Polytechnic
 University, NJ, the school where he taught until recently.
-Paul E. Black 18 Dec 2000 -->
+Paul E. Black 18 Dec 2000)
 </p>
 
 <p>
 In the example, "*" means "don't care", that is, it doesn't
 matter what the function value is for those inputs.  This expression
-may be realized as AB' + AD + BC'D + B'CD'.  Some expressions may be
+may be implemented as AB' + AD + BC'D + B'CD'.  Some expressions may be
 implemented more compactly by grouping 
 the zeros, possibly including "don't care" cells, and negating the
 final output.  The positive implementation is smaller for this
@@ -102,7 +105,7 @@ expression.
 <a href="https://www.embedded.com/a-primer-on-Karnaugh-maps/">A
 primer on Karnaugh maps</a> motivated by minimizing logic.
 Dean Johnson's 
-<a href="http://homepages.wmich.edu/~johnson/ece2500/Quiz5/quiz.html">interactive
+<a href="https://homepages.wmich.edu/~johnson/ece2500/Quiz5/quiz.html">interactive
 quiz</a>.
 # implementation(s) (pure HTML)
 @IMPL=
