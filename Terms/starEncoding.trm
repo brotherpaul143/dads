@@ -1,7 +1,10 @@
 # *created  "Fri Apr  6 11:56:18 2007" *by "Paul E. Black"
-# *modified "Thu Jan  6 16:39:38 2022" *by "Paul E. Black"
+# *modified "Wed Apr 20 09:26:53 2022" *by "Paul E. Black"
 
 # $Log: starEncoding.trm,v $
+# Wed Apr 20 09:30:02 2022  Paul E. Black
+# Update Nelson URL
+# 
 # Thu Jan  6 16:46:38 2022  Paul E. Black
 # Update URL to use https for Mark Nelson NOTE
 # 
@@ -71,7 +74,7 @@ codes based on the word.
 # implementation(s) (pure HTML)
 @IMPL=
 Mark Nelson's 2002 <a
-href="https://marknelson.us/2002/08/01/star-encoding-in-cpp/">Star-Encoding
+href="https://marknelson.us/posts/2002/08/01/star-encoding-in-cpp.html">Star-Encoding
 (C++)</a>, includes a similar algorithm that assigns shorter codes to
 more frequent words.
 # further explanation (pure HTML)

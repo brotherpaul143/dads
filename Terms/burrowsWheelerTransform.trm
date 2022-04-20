@@ -1,7 +1,10 @@
 # *created  "Tue Jan 20 16:45:15 2004" *by "Paul E. Black"
-# *modified "Thu Jan  6 16:41:26 2022" *by "Paul E. Black"
+# *modified "Wed Apr 20 09:21:38 2022" *by "Paul E. Black"
 
 # $Log: burrowsWheelerTransform.trm,v $
+# Wed Apr 20 09:29:16 2022  Paul E. Black
+# Update Nelson URL
+# 
 # Thu Jan  6 16:44:53 2022  Paul E. Black
 # Update URL to use https for Mark Nelson NOTE
 # 
@@ -84,7 +87,7 @@ $$ is the special character indicating the end of string.
 # implementation(s) (pure HTML)
 @IMPL=
 Mark Nelson's great 
-<a href="https://marknelson.us/1996/09/01/bwt/">Data Compression with
+<a href="https://marknelson.us/posts/1996/09/01/bwt.html">Data Compression with
 the Burrows-Wheeler Transform (C++)</a> explains the algorithm.
 Dr. Dobb's Journal, September, 1996.
 # further explanation (pure HTML)
