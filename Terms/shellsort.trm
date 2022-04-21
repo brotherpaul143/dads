@@ -1,7 +1,10 @@
 # *created  "Tue Dec  1 12:54:51 1998" *by "Paul E. Black"
-# *modified "Mon Feb 14 15:26:02 2022" *by "Paul E. Black"
+# *modified "Thu Apr 21 14:49:36 2022" *by "Paul E. Black"
 
 # $Log: shellsort.trm,v $
+# Thu Apr 21 14:22:26 2022  Paul E. Black
+# Add Python IMPL
+# 
 # Mon Feb 14 15:40:25 2022  Paul E. Black
 # Remove Sedgewicks IMPL paper.
 # 
@@ -316,6 +319,7 @@ href="https://www.auto.tuwien.ac.at/~blieb/woop/shell.html">annotated
 for real time (WOOP/ADA)</a>, including bibliography.
 Pat Morin's
 <a href="https://cglab.ca/~morin/misc/sortalg/">implementation (Java)</a>.
+<a href="https://www.geeksforgeeks.org/python-program-for-shellsort/">(Python)</a>.
 <a href="http://lib.stat.cmu.edu/apstat/304">scroll down to ALGORITHM
 AS 304.8 (Fortran)</a>,
 <a href="http://www.complang.tuwien.ac.at/forth/ftp.dei.isep.ipp.pt/pub/forth/docs/4thsort.txt">(Forth)</a>,

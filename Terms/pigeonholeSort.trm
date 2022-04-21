@@ -1,7 +1,10 @@
 # *created  "Fri Jun  2 13:45:08 2006" *by "Paul E. Black"
-# *modified "Mon Feb 11 17:11:05 2019" *by "Paul E. Black"
+# *modified "Thu Apr 21 14:49:16 2022" *by "Paul E. Black"
 
 # $Log: pigeonholeSort.trm,v $
+# Thu Apr 21 14:32:17 2022  Paul E. Black
+# Add Python IMPL
+# 
 # Mon Feb 11 17:11:12 2019  Paul E. Black
 # use https to access Wikipedia
 # 
@@ -70,6 +73,8 @@ each item to the destination" is writing the proper number of keys.
 
 # implementation(s) (pure HTML)
 @IMPL=
+<a href="https://www.geeksforgeeks.org/python-program-for-pigeonhole-sort/">(Python)</a>.
+
 # further explanation (pure HTML)
 @LINKS=
 See the Wikipedia

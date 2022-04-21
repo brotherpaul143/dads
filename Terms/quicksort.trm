@@ -1,7 +1,10 @@
 # *created  "Wed Sep 16 08:54:42 1998" *by "Paul E. Black"
-# *modified "Mon Feb 14 15:25:27 2022" *by "Paul E. Black"
+# *modified "Thu Apr 21 14:49:22 2022" *by "Paul E. Black"
 
 # $Log: quicksort.trm,v $
+# Thu Apr 21 14:17:20 2022  Paul E. Black
+# Add Python IMPL
+# 
 # Mon Feb 14 15:40:09 2022  Paul E. Black
 # Remove Sedgewicks IMPL papers.
 # 
@@ -151,6 +154,7 @@ they access less memory.
 
 # implementation(s) (pure HTML)
 @IMPL=
+<a href="https://www.geeksforgeeks.org/python-program-for-quicksort/">(Python)</a>.
 <a href="https://en.wikipedia.org/wiki/Quicksort">Wikipedia entry with
 extended discussion and alternatives (C, Python, Haskell, pseudocode)</a>.
 <a

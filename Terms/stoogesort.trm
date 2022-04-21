@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 10:13:39 1998" *by "Paul E. Black"
-# *modified "Tue Jan 19 08:40:19 2021" *by "Paul E. Black"
+# *modified "Thu Apr 21 14:48:10 2022" *by "Paul E. Black"
 
 # $Log: stoogesort.trm,v $
+# Thu Apr 21 14:33:57 2022  Paul E. Black
+# Add Python IMPL
+# 
 # Tue Jan 19 08:40:35 2021  Paul E. Black
 # Update URL for IMPL by Pat Morin
 # 
@@ -41,6 +44,8 @@ two-thirds, then the top two-thirds, then the bottom two-thirds again.
 @IMPL=
 Pat Morin's
 <a href="https://cglab.ca/~morin/misc/sortalg/">implementation (Java)</a>.
+<a href="https://www.geeksforgeeks.org/python-program-for-stooge-sort/">(Python)</a>.
+
 # further explanation (pure HTML)
 @LINKS=
 # author's initials

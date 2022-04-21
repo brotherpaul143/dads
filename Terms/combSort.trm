@@ -1,7 +1,10 @@
 # *created  "Thu Jan  6 12:27:59 2005" *by "Paul E. Black"
-# *modified "Mon Mar 18 10:40:10 2019" *by "Paul E. Black"
+# *modified "Thu Apr 21 14:48:45 2022" *by "Paul E. Black"
 
 # $Log: combSort.trm,v $
+# Thu Apr 21 14:31:45 2022  Paul E. Black
+# Add Python IMPL
+# 
 # Mon Mar 25 11:58:03 2019  Paul E. Black
 # Remove link to Harrisons demo and code - gone.
 # 
@@ -87,6 +90,7 @@ the typical comb sort.
 
 # implementation(s) (pure HTML)
 @IMPL=
+<a href="https://www.geeksforgeeks.org/python-program-for-comb-sort/">(Python)</a>.
 
 # further explanation (pure HTML)
 @LINKS=

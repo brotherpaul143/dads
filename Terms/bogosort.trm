@@ -1,7 +1,10 @@
 # *created  "Wed Apr 16 13:06:51 2003" *by "Paul E. Black"
-# *modified "Mon Apr 26 08:50:20 2021" *by "Paul E. Black"
+# *modified "Thu Apr 21 14:48:34 2022" *by "Paul E. Black"
 #
 # $Log: bogosort.trm,v $
+# Thu Apr 21 14:33:24 2022  Paul E. Black
+# Add Python IMPL
+# 
 # Mon Apr 26 08:56:42 2021  Paul E. Black
 # Remove link to paper; Gruber no longer has an account.  Hardcode link to DADS
 # entry to Fisher-Yates shuffle, since curly brackets are not interpreted in NOTES.
@@ -109,6 +112,8 @@ Also called "stupid sort".
 
 # implementation(s) (pure HTML)
 @IMPL=
+<a href="https://www.geeksforgeeks.org/python-program-for-bogosort-or-permutation-sort/">(Python)</a>.
+
 # further explanation (pure HTML)
 @LINKS=
 # author's initials (see authors.data)

@@ -1,7 +1,10 @@
 # *created  "Tue Dec  1 13:00:26 1998" *by "Paul E. Black"
-# *modified "Tue Feb 12 09:43:31 2019" *by "Paul E. Black"
+# *modified "Thu Apr 21 14:49:27 2022" *by "Paul E. Black"
 
 # $Log: radixsort.trm,v $
+# Thu Apr 21 14:23:53 2022  Paul E. Black
+# Add Python IMPL
+# 
 # Tue Feb 12 09:43:34 2019  Paul E. Black
 # update access to rbaeza handbook
 # 
@@ -125,13 +128,16 @@ Dr. Dobb's Journal, May 2002, pages 89-94.)
 <a
 href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/4/424.sort.c">(C
 and Pascal)</a>.
-# John Morris morris@ee.uwa.edu.au
+John Morris'
+# morris@ee.uwa.edu.au
 <a
 href="http://www.cs.auckland.ac.nz/software/AlgAnim/radixsort.html">analysis,
 explanation, and code (C)</a>.
 <a
 href="http://cubic.org/docs/radix.htm">tutorial
 with examples and code (C++)</a>.
+<a href="https://www.geeksforgeeks.org/python-program-for-radix-sort/">(Python)</a>.
+
 # further explanation (pure HTML)
 @LINKS=
 # author's initials

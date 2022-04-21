@@ -1,7 +1,10 @@
 # *created  "Tue Sep 15 16:55:53 1998" *by "Paul E. Black"
-# *modified "Mon Jun 21 09:10:34 2021" *by "Paul E. Black"
+# *modified "Thu Apr 21 14:07:48 2022" *by "Paul E. Black"
 
 # $Log: binarySearch.trm,v $
+# Thu Apr 21 14:08:20 2022  Paul E. Black
+# Add Python IMPL
+# 
 # Mon Dec 21 08:55:27 2020  Paul E. Black
 # Remove Tim Rolfes NOTE -- gone from web.
 # 
@@ -164,6 +167,8 @@ only performs O(log n) comparisons.
 href="http://www.cs.auckland.ac.nz/software/AlgAnim/searching.html#binary-search">explanation</a>
 # implementation(s) (pure HTML)
 @IMPL=
+<a href="https://www.geeksforgeeks.org/python-program-for-binary-search/">recursive and iterative
+implementation (Python)</a>.
 <a
 href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/3/321.srch.c">search
 (C)</a>, which uses

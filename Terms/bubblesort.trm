@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 10:13:39 1998" *by "Paul E. Black"
-# *modified "Mon Jun 21 09:10:34 2021" *by "Paul E. Black"
+# *modified "Thu Apr 21 14:48:39 2022" *by "Paul E. Black"
 
 # $Log: bubblesort.trm,v $
+# Thu Apr 21 14:19:07 2022  Paul E. Black
+# Add Python IMPL
+# 
 # Mon Apr 22 12:13:34 2019  Paul E. Black
 # Remove LINK to Mukundans animation: no longer available.
 # 
@@ -120,6 +123,7 @@ href="https://www.algolist.net/Algorithms/Sorting/Bubble_sort">explanation
 (Java and C++)</a>.
 Flower Brackets
 <a href="https://www.flowerbrackets.com/bubble-sort-java/">(Java)</a>. 
+<a href="https://www.geeksforgeeks.org/python-program-for-bubble-sort/">(Python)</a>.
 
 # further explanation (pure HTML)
 @LINKS=

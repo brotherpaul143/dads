@@ -1,7 +1,10 @@
 # *created  "Tue Sep 15 12:08:46 1998" *by "Paul E. Black"
-# *modified "Mon Dec 21 09:05:06 2020" *by "Paul E. Black"
+# *modified "Thu Apr 21 14:50:41 2022" *by "Paul E. Black"
 
 # $Log: sieve.trm,v $
+# Thu Apr 21 14:50:57 2022  Paul E. Black
+# Add Python IMPL
+# 
 # Mon Dec 21 09:34:44 2020  Paul E. Black
 # update St. Andrews mathematicians biography NOTE URL
 # 
@@ -178,6 +181,7 @@ Larry Deering explains his
 uses a sparse bit array of possible multiples.
 # implementation(s) (pure HTML)
 @IMPL=
+<a href="https://www.geeksforgeeks.org/python-program-for-sieve-of-eratosthenes/">(Python)</a>.
 Peter Luschny's
 <a
 href="http://www.luschny.de/math/primes/PrimeSieveForJavaAndCsharp.html">(Java

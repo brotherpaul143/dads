@@ -1,7 +1,10 @@
 # *created  "Fri Mar  3 13:54:01 2000" *by "Paul E. Black"
-# *modified "Mon Jan 25 09:14:23 2021" *by "Paul E. Black"
+# *modified "Thu Apr 21 14:48:22 2022" *by "Paul E. Black"
 
 # $Log: bidirectionalBubbleSort.trm,v $
+# Thu Apr 21 14:35:00 2022  Paul E. Black
+# Add Python IMPL
+# 
 # Mon Jan 25 09:15:20 2021  Paul E. Black
 # Add / to the end of URL of Morin IMPL.
 # 
@@ -69,6 +72,8 @@ into place, but can only move items backward one location each pass.
 @IMPL=
 Pat Morin's
 <a href="https://cglab.ca/~morin/misc/sortalg/">implementation, see cocktail sort (Java)</a>.
+<a href="https://www.geeksforgeeks.org/python-program-for-cocktail-sort/">(Python)</a>.
+
 # author's initials (see authors.data)
 @AUTHOR=PEB,BB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/bidirectionalBubbleSort.trm,v $

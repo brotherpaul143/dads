@@ -1,7 +1,10 @@
 # *created  "Tue May 25 08:56:47 1999" *by "Paul E. Black"
-# *modified "Thu Aug  5 16:21:01 2021" *by "Paul E. Black"
+# *modified "Thu Apr 21 14:37:33 2022" *by "Paul E. Black"
 
 # $Log: towersOfHanoi.trm,v $
+# Thu Apr 21 14:37:55 2022  Paul E. Black
+# Add Python IMPL
+# 
 # Thu Aug  5 16:21:54 2021  Paul E. Black
 # Update JavaScript Source IMPL URL
 # 
@@ -87,6 +90,7 @@ puzzle, algorithms, and proofs.
 
 # implementation(s) (pure HTML)
 @IMPL=
+<a href="https://www.geeksforgeeks.org/python-program-for-tower-of-hanoi/">(Python)</a>.
 <a href="https://javascriptsource.com/towers-of-hanoi-2/">(JavaScript)</a>
 # author's initials (see authors.data)
 @AUTHOR=PEB

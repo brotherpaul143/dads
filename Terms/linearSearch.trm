@@ -1,7 +1,10 @@
 # *created  "Wed Sep 16 11:32:20 1998" *by "Paul E. Black"
-# *modified "Mon Apr 22 12:06:36 2019" *by "Paul E. Black"
+# *modified "Thu Apr 21 14:09:42 2022" *by "Paul E. Black"
 
 # $Log: linearSearch.trm,v $
+# Thu Apr 21 14:09:59 2022  Paul E. Black
+# Add Python IMPL
+# 
 # Mon Apr 22 12:14:18 2019  Paul E. Black
 # Remove LINK to Mukundans animation: no longer available.
 # 
@@ -79,7 +82,9 @@ found.
 href="http://www.cs.auckland.ac.nz/software/AlgAnim/searching.html">expected time</a>.
 
 # implementation(s) (pure HTML)
-@IMPL=<a href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/3/311c.srch.c">(C)</a>.
+@IMPL=
+<a href="https://www.geeksforgeeks.org/python-program-for-linear-search/">(Python)</a>.
+<a href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/3/311c.srch.c">(C)</a>.
 Flower Brackets' implementation in
 <a href="https://www.flowerbrackets.com/linear-search-java/">(Java)</a>.
 

@@ -1,7 +1,10 @@
 # *created  "Mon Mar 15 13:23:12 2004" *by "Paul E. Black"
-# *modified "Mon Mar 25 12:08:35 2019" *by "Paul E. Black"
+# *modified "Thu Apr 21 14:49:00 2022" *by "Paul E. Black"
 
 # $Log: gnomeSort.trm,v $
+# Thu Apr 21 14:32:50 2022  Paul E. Black
+# Add Python IMPL
+# 
 # Mon Mar 25 12:10:35 2019  Paul E. Black
 # Update Dick Grunes IMPL URL
 # 
@@ -130,6 +133,7 @@ idea much earlier."
 
 # implementation(s) (pure HTML)
 @IMPL=
+<a href="https://www.geeksforgeeks.org/python-program-for-gnome-sort/">(Python)</a>.
 <a href="https://www.cs.vu.nl/~dick/gnomesort.html">(C)</a>
 # further explanation (pure HTML)
 @LINKS=

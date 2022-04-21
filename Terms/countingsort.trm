@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Wed Nov 27 08:38:10 2019" *by "Paul E. Black"
+# *modified "Thu Apr 21 14:48:54 2022" *by "Paul E. Black"
 
 # $Log: countingsort.trm,v $
+# Thu Apr 21 14:21:41 2022  Paul E. Black
+# Add Python IMPL
+# 
 # Wed Nov 27 08:39:55 2019  Paul E. Black
 # Remove Preiss IMPL. The page is gone.
 # 
@@ -65,6 +68,7 @@ auxiliary array instead of counting them.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=
+<a href="https://www.geeksforgeeks.org/python-program-for-counting-sort/">(Python)</a>.
 
 # author's initials
 @AUTHOR=ASK

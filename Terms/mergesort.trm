@@ -1,7 +1,10 @@
 # *created  "Wed Sep 16 08:54:15 1998" *by "Paul E. Black"
-# *modified "Mon Nov  2 12:25:44 2020" *by "Paul E. Black"
+# *modified "Thu Apr 21 14:49:11 2022" *by "Paul E. Black"
 
 # $Log: mergesort.trm,v $
+# Thu Apr 21 14:19:53 2022  Paul E. Black
+# Add Python IMPL
+# 
 # Mon Nov  2 12:25:48 2020  Paul E. Black
 # Update IMPL URL for Algorist.com to use https
 # 
@@ -120,6 +123,7 @@ Katajainen &amp; Pasanen.
 
 # implementation(s) (pure HTML)
 @IMPL=
+<a href="https://www.geeksforgeeks.org/python-program-for-merge-sort/">(Python)</a>.
 <a
 href="https://www3.cs.stonybrook.edu/~algorith/implement/handbook/distrib/handbook/algs/4/421.sort.c">(C)</a>
 that needs <a

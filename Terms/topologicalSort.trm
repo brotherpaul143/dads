@@ -1,7 +1,10 @@
 # *created  "Tue Dec  1 11:46:37 1998" *by "Paul E. Black"
-# *modified "Fri Oct 15 16:46:06 2021" *by "Paul E. Black"
+# *modified "Thu Apr 21 14:47:55 2022" *by "Paul E. Black"
 
 # $Log: topologicalSort.trm,v $
+# Thu Apr 21 14:23:01 2022  Paul E. Black
+# Add Python IMPL
+# 
 # Fri Oct 15 16:46:39 2021  Paul E. Black
 # Add Sedgewick and Wayne "Algorithms" IMPL
 # 
@@ -77,6 +80,7 @@ href="https://docs.microsoft.com/en-us/archive/blogs/ericlippert/im-putting-on-m
 <a
 href="https://algorist.com/problems/Topological_Sorting.html">(C++,
 Mathematica, C, and Pascal)</a>
+<a href="https://www.geeksforgeeks.org/python-program-for-topological-sorting/">(Python)</a>.
 <a href="https://algs4.cs.princeton.edu/42digraph/">topological sort
 for directed graphs (Java)</a> from
 Sedgewick and Wayne "Algorithms" 4th edition.
