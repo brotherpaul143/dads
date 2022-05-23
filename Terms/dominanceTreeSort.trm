@@ -1,7 +1,12 @@
 # *created  "Thu Mar 30 14:26:29 2006" *by "Paul E. Black"
-# *modified "Mon Apr 19 10:20:07 2021" *by "Paul E. Black"
+# *modified "Mon May 23 13:05:47 2022" *by "Paul E. Black"
 
 # $Log: dominanceTreeSort.trm,v $
+# Mon May 23 13:07:51 2022  Paul E. Black
+# Update Harters description URL: richardhartersworld.com is back.
+# 
+# compgroups.net is a gambling site.
+# 
 # Mon Apr 19 10:23:58 2021  Paul E. Black
 # Update Harters URL to https and move it to NOTE.
 # 
@@ -53,7 +58,7 @@
 
 <p>
 Richard Harter's
-<a href="https://compgroups.net/comp.programming/dominance-tree-sorts/547692">description</a>.
+<a href="https://richardhartersworld.com/domsort/">description</a>.
 
 # any historical notes
 @HISTORY=
