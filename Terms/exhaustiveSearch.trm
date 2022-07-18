@@ -1,7 +1,10 @@
 # *created  "Wed Feb 17 12:35:33 1999" *by "Paul E. Black"
-# *modified "Tue Apr 14 12:32:34 2009" *by "Paul E. Black"
+# *modified "Mon Jul 18 11:51:07 2022" *by "Paul E. Black"
 
 # $Log: exhaustiveSearch.trm,v $
+# Mon Jul 18 11:56:07 2022  Paul E. Black
+# Add port to Citeseer URL
+# 
 # Revision 1.4  2009/04/14 16:33:26  black
 # update LINK to paper in citeseer, now citeseerx.
 #
@@ -38,7 +41,7 @@ possibility.
 @NOTES=
 # further explanation (pure HTML)
 @LINKS=All the Needles in a Haystack: <a
-href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.56.9661">Can
+href="http://citeseerx.ist.psu.edu:443/viewdoc/summary?doi=10.1.1.56.9661">Can
 Exhaustive Search Overcome Combinatorial Chaos?</a>
 # implementation(s) (pure HTML)
 @IMPL=

@@ -1,7 +1,10 @@
 # *created  "Wed Apr 24 09:00:22 2002" *by "Paul E. Black"
-# *modified "Fri Sep 27 15:48:42 2013" *by "Paul E. Black"
+# *modified "Mon Jul 18 11:49:57 2022" *by "Paul E. Black"
 
 # $Log: unboundedKnapsack.trm,v $
+# Mon Jul 18 11:56:45 2022  Paul E. Black
+# Add port to Citeseer URL.
+# 
 # Revision 1.8  2013/08/22 20:10:43  black
 # update Sniedovich's LINK
 #
@@ -78,7 +81,7 @@ solutions</a> using
 href="http://www.irisa.fr/cosi/HOMEPAGE/Rajopadhye/knapsack.html">formal
 definition and links to papers</a>.
 <a
-href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.41.2135">Links
+href="http://citeseerx.ist.psu.edu:443/viewdoc/summary?doi=10.1.1.41.2135">Links
 to many papers</a>.
 # author's initials (see authors.data)
 @AUTHOR=PEB

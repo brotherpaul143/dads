@@ -1,7 +1,10 @@
 # *created  "Mon Dec 27 15:56:58 1999" *by "Paul E. Black"
-# *modified "Tue Apr 14 15:02:14 2009" *by "Paul E. Black"
+# *modified "Mon Jul 18 11:50:42 2022" *by "Paul E. Black"
 
 # $Log: orderPreservMinPerfectHash.trm,v $
+# Mon Jul 18 11:56:31 2022  Paul E. Black
+# Add port to Citeseer URL. Only show DOI, not the whole link.
+# 
 # Revision 1.8  2009/04/14 19:10:51  black
 # IMA Las Vegas algorithm
 #
@@ -56,8 +59,8 @@ keys.
 <strong>Zbigniew J. Czech, George Havas</strong>, and <strong>Bohdan
 S. Majewski</strong>, <em>An Optimal Algorithm for Generating Minimal
 Perfect Hash Functions</em>, Information Processing Letters,
-43(5):257-264, October 1992.  Available at <a
-href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.51.5566">http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.51.5566</a>.  
+43(5):257-264, October 1992.  Available at DOI <a
+href="http://citeseerx.ist.psu.edu:443/viewdoc/summary?doi=10.1.1.51.5566">10.1.1.51.5566</a>.  
 "It uses expected linear time and ... runs very fast in practice."
 # implementation(s) (pure HTML)
 @IMPL=
