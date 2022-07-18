@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 13:26:31 1998" *by "Paul E. Black"
-# *modified "Mon Jun 21 09:10:34 2021" *by "Paul E. Black"
+# *modified "Mon Jul 18 12:01:46 2022" *by "Paul E. Black"
 
 # $Log: graph.trm,v $
+# Mon Jul 18 12:03:20 2022  Paul E. Black
+# Update IMPL since Graph Template Library (GTL) changed name and moved: now LSGTL.
+# 
 # Mon Jan 25 09:12:39 2021  Paul E. Black
 # Remove GEF IMPL - it is old (1996) and the server is not available.
 # 
@@ -237,8 +240,9 @@ generating (C, Mathematica, Pascal, C++, and Fortran)</a>,
 <a href="https://www.boost.org/doc/libs/1_43_0/libs/graph/doc/">BGL - 
 the Boost Graph
 Library (C++)</a>.
-<a href="http://freecode.com/projects/thegraphtemplatelibrary">GTL - the Graph
-Template Library (C)</a>.
+LLX's
+<a href="https://sourceforge.net/projects/lsgtl/">Static Graph
+Template Library (LSGTL) (C)</a>.
 <a href="https://github.com/gt4j/annas/">Annas (Java)</a>, for graph
 theory, AI, path finding, distributed systems, etc.  The main
 libraries are Annas.Graph, graph manipulation and visualization and
