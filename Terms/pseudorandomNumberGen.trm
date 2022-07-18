@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Jan 24 16:37:54 2022" *by "Paul E. Black"
+# *modified "Tue Jul  5 09:08:59 2022" *by "Paul E. Black"
 
 # $Log: pseudorandomNumberGen.trm,v $
+# Mon Jul 18 12:01:26 2022  Paul E. Black
+# Use https for C FAQ IMPL
+# 
 # Mon Jan 24 16:38:53 2022  Paul E. Black
 # Access fourmilab ent program by https, not http.
 # 
@@ -220,7 +223,7 @@ C, and Java)</a>.
 GAMS <a href="http://gams.nist.gov/serve.cgi/Module/C/SERV/11669">(C)</a>.
 # Summit's C FAQ http://c-faq.com/lib/randrange.html
 Using C libraries to get 
-<a href="http://c-faq.com/lib/randrange.html">random
+<a href="https://c-faq.com/lib/randrange.html">random
 numbers in a certain range (C)</a> is C FAQ question 13.16,
 <a href="http://www.lysator.liu.se/c/c-faq/c-12.html">C FAQ question
 12.9 as of 1995 (C)</a>, or
