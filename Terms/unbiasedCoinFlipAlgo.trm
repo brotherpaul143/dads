@@ -1,0 +1,56 @@
+# *created  "Thu Jul  7 16:55:34 2022" *by "Paul E. Black"
+# *modified "Thu Jul 28 11:59:35 2022" *by "Paul E. Black"
+
+# $Log: unbiasedCoinFlipAlgo $
+# Thu Jul 28 12:10:34 2022  Paul E. Black
+# Add von Neumanns unbiased coin flipping algorithm
+# 
+#
+
+# entry name
+@NAME=unbiased coin flipping algorithm
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=crypt
+# the definition
+@DEFN=To get unbiased random bits, flip a coin twice.  If it comes up heads then
+tails, the result bit is 1.  It it comes up tails then heads, the result is 0.
+Repeat the double flips until one of these occurs.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=von Neumann's coin flip algorithm
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={Las Vegas algorithm}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={pseudo-random number generator}
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+<strong>John von Neumann</strong>, <em>Various Techniques Used in Connection
+With Random Digits</em>,
+von Neumann's Collected Works, volume 5, pages 768-770, 1963.
+
+# any notes.  these are not printed in the final dictionary
+@NOTES=
+# any historical notes
+@HISTORY=
+
+# implementation(s) (pure HTML)
+@IMPL=
+# further explanation (pure HTML)
+@LINKS=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end

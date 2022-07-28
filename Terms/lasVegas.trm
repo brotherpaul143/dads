@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Thu Feb 28 10:10:55 2019" *by "Paul E. Black"
+# *modified "Thu Jul  7 17:04:22 2022" *by "Paul E. Black"
 
 # $Log: lasVegas.trm,v $
+# Thu Jul 28 12:09:35 2022  Paul E. Black
+# Add von Neumanns unbiased coin flipping algorithm as a variant.
+# 
 # Mon Mar  4 09:23:12 2019  Paul E. Black
 # Add IMA randomized algorithm with VARIANTS skip list insert and
 # Quicksort with random pivot
@@ -41,7 +44,8 @@ time.
 @VARIANT={skip list} insert,
 {Quicksort} variants that pick the pivot randomly, 
 {random search}, {Grover's algorithm}, 
-Czech, Havas, and Majewski's {order-preserving minimal perfect hashing}
+Czech, Havas, and Majewski's {order-preserving minimal perfect hashing},
+von Neumann's {unbiased coin flipping algorithm}
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN=
 # Aggregate child: "... is a part of or used in me."
