@@ -1,7 +1,10 @@
 # *created  "Fri May  3 14:21:44 2002" *by "Paul E. Black"
-# *modified "Mon Jul 12 13:03:24 2021" *by "Paul E. Black"
+# *modified "Tue Aug  2 15:47:12 2022" *by "Paul E. Black"
 
 # $Log: jaroWinkler.trm,v $
+# Tue Aug  2 15:50:16 2022  Paul E. Black
+# Update URL of abstract and pdf of Winkler and Thibaudeau paper.
+# 
 # Mon Jul 12 13:04:23 2021  Paul E. Black
 # Remove LINK to Dr. Math: site is gone.
 # 
@@ -85,9 +88,9 @@ Record Linkage to the 1990 U.S. Decennial Census</em>, Statistical
 Research Report Series RR91/09, U.S. Bureau of the Census, Washington,
 D.C., 1991.
 The
-<a href="https://www.census.gov/srd/www/abstract/rr91-9.html">abstract</a>
+<a href="https://www.census.gov/library/working-papers/1991/adrm/rr91-09.html">abstract</a>
 and
-<a href="https://www.census.gov/srd/papers/pdf/rr91-9.pdf">full paper</a>
+<a href="https://www.census.gov/content/dam/Census/library/working-papers/1991/adrm/rr91-9.pdf">full paper</a>
 (PDF).
 <br />
 <strong>Matthew A. Jaro</strong>, <em>Advances in Record-Linkage
