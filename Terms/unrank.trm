@@ -1,7 +1,10 @@
 # *created  "Thu Oct 27 16:13:25 2022" *by "Paul E. Black"
-# *modified "Thu Oct 27 16:22:30 2022" *by "Paul E. Black"
+# *modified "Thu Oct 27 16:37:26 2022" *by "Paul E. Black"
 
 # $Log$
+# Thu Oct 27 16:39:34 2022  Paul E. Black
+# Add Myrvold and Ruskey IMPL.
+# 
 
 # entry name
 @NAME=unranking
@@ -37,13 +40,19 @@
 
 # any notes.  these are not printed in the final dictionary
 @NOTES=This can be done in O(n) time.
+
 # any historical notes
 @HISTORY=
 
 # implementation(s) (pure HTML)
 @IMPL=
-<a href="http://antoinecomeau.blogspot.com/2014/07/mapping-between-permutations-and.html">(C)</a>
-<a href="http://www.davdata.nl/math/ranks.html">(Delphi?)</a>
+<a href="http://antoinecomeau.blogspot.com/2014/07/mapping-between-permutations-and.html">(C)</a>.
+<a href="http://www.davdata.nl/math/ranks.html">(Delphi?)</a>.
+<strong>Wendy Myrvold and Frank Ruskey</strong>,
+<em>Ranking and Unranking Permutations in Linear Time</em>,
+13 April 2000, give
+<a href="http://webhome.cs.uvic.ca/~ruskey/Publications/RankPerm/RankPerm.html">linear time ranking and unranking algorithms</a>.
+
 # further explanation (pure HTML)
 @LINKS=
 # author's initials (see authors.data)
