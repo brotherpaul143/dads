@@ -1,7 +1,10 @@
 # *created  "Fri Apr 28 09:42:41 2000" *by "Paul E. Black"
-# *modified "Mon Dec 14 09:16:09 2020" *by "Paul E. Black"
+# *modified "Thu Oct 27 16:12:27 2022" *by "Paul E. Black"
 
 # $Log: johnsonTrotter.trm,v $
+# Thu Oct 27 16:25:33 2022  Paul E. Black
+# Add IMPL and AKA.  Improve definition a little.  XREF the new "unrank".
+# 
 # Mon Dec 14 09:24:58 2020  Paul E. Black
 # Update jstor.org NOTE URL.
 # 
@@ -34,12 +37,12 @@
 # autom basic theory search sort tree graph combin numeric etc. see areas.data
 @AREA=combin
 # the definition
-@DEFN=Generate {permutations} by transposing one pair of
+@DEFN=Generate {permutations} by swapping one adjacent pair of
 elements at a time.
 # formal definition or {cross reference} to an entry
 @FORML=
 # comma-sep list of pure names that this is Also Known As.
-@AKA=Steinhaus-Johnson-Trotter
+@AKA=Steinhaus-Johnson-Trotter, Trotter-Johnson
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=
 
@@ -53,7 +56,7 @@ elements at a time.
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={Fisher-Yates shuffle}, {Gray code}
+@XREFS={Fisher-Yates shuffle}, {Gray code}, {unranking}
 
 # bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
@@ -73,6 +76,7 @@ Adjacent Transposition</a>, Mathematics of Computation,
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=
+<a href="https://www.geeksforgeeks.org/johnson-trotter-algorithm/">(C++, Java, C#)</a>
 # author's initials (see authors.data)
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/johnsonTrotter.trm,v $
