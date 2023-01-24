@@ -1,5 +1,5 @@
 # *created  "Tue May 13 13:59:28 2003" *by "Paul E. Black"
-# *modified "Mon Jul 25 09:51:43 2022" *by "Paul E. Black"
+# *modified "Tue Jan 24 09:34:26 2023" *by "Paul E. Black"
 
 # $Log: americanFlagSort.trm,v $
 # Mon Jul 18 11:55:48 2022  Paul E. Black
@@ -77,8 +77,8 @@ Computing Systems, 6(1):5-27, 1993.
 using 256 buckets.
 # implementation(s) (pure HTML)
 @IMPL=
-It is <a
-href="https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.22.6990">program C (C)</a>
+It is
+<a href="https://www.semanticscholar.org/paper/Engineering-Radix-Sort-McIlroy-Bostic/3bcf2b6e1f2515d94a2de45cd096b063900fb0f6">program C (C)</a>
 in the McIlroy, Bostic, and McIlroy paper.
 # further explanation (pure HTML)
 @LINKS=The flag of the 
