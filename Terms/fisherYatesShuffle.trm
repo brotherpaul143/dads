@@ -1,5 +1,5 @@
 # *created  "Fri Jul 30 12:27:00 2004" *by "Paul E. Black"
-# *modified "Mon May  6 09:50:47 2019" *by "Paul E. Black"
+# *modified "Wed Apr  5 13:10:42 2023" *by "Paul E. Black"
 
 # $Log: fisherYatesShuffle.trm,v $
 # Mon May  6 09:51:19 2019  Paul E. Black
@@ -128,6 +128,11 @@ An
 (Java)</a> due to Sedgewick and Wayne (search for Shuffling).
 # further explanation (pure HTML)
 @LINKS=
+Fisher-Yates shuffle
+<a href="https://www.youtube.com/watch?v=bfzYj-qGw7U&t=2345">illustrated</a>
+with argument for correctness and error of naive shuffle.
+<br />
+<iframe src="https://www.youtube.com/embed/bfzYj-qGw7U?start=2345" frameborder="0" allowfullscreen></iframe>
 # author's initials (see authors.data)
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/fisherYatesShuffle.trm,v $

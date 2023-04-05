@@ -7,7 +7,6 @@ Ackermann
 ACM
 Acta
 acyclic
-Adamovsky
 Adelson
 ADT
 AFIPS
@@ -97,19 +96,18 @@ Bertolazzi
 BGL
 bibtex
 biconnected
-bimodal
 Binstock
 bintree
 Bitner
 bitNumber
 bitonic
-bitsPaul
 bitwise
 BJ
 BKP
 Blieberger
 Bloss
 Bockholt
+Bogo
 bogosort
 Bohdan
 booleans
@@ -172,7 +170,6 @@ Christophe
 Christos
 Chuang
 Chun
-citeseerx
 Cleary
 cleek
 CLK
@@ -241,7 +238,6 @@ ddd
 de
 deallocate
 deallocating
-decoherence
 decomposable
 decremental
 Dedu
@@ -271,7 +267,6 @@ diviser
 dk
 DM
 DNAME
-dnl
 Dobb
 Dobosiewicz
 Docid
@@ -415,7 +410,6 @@ Grubb
 Gruber
 Grune
 Gruyter
-GTL
 Guenther
 Guibas
 Guo
@@ -472,7 +466,6 @@ https
 Hua
 Hudak
 Huet
-hypercube
 hyperedge
 hyperedges
 hypergraph
@@ -514,8 +507,6 @@ isEmpty
 isFull
 isIn
 isLeaf
-isomorphism
-ist
 Itai
 ith
 Iverson
@@ -542,7 +533,6 @@ JLG
 JM
 joeganley
 Joerg
-JohnPaul
 Jozsa
 JScript
 JSort
@@ -625,6 +615,7 @@ Litwin
 LJW
 LK
 LLC
+LLX
 ln
 LNCS
 logN
@@ -635,6 +626,7 @@ Lourakis
 Lov
 Lovrencic
 LRU
+LSGTL
 LSM
 Luhn
 Lun
@@ -665,7 +657,6 @@ Mathematica
 Mathematik
 Mathematische
 MathWorld
-MATLAB
 Maurer
 Maxime
 maxlength
@@ -733,6 +724,7 @@ Munroe
 MurmurHash
 Musser
 Mustafa
+Myrvold
 Myshrall
 nand
 NANDs
@@ -742,6 +734,7 @@ nd
 nded
 needHelp
 netahtml
+Neumann
 Newcomb
 Newell
 Newland
@@ -762,7 +755,6 @@ nonbinary
 nonbranching
 NonCommercial
 nondecreasing
-nondeterministic
 nonincident
 nonintersecting
 nonnegative
@@ -838,7 +830,6 @@ persistance
 Petersson
 Pfaff
 Ph
-PHP
 PHS
 piecewise
 Pierluigi
@@ -894,7 +885,6 @@ pseudocode
 pseudograph
 pseudoprime
 Pseudorandom
-psu
 PTAS
 pth
 Ptracu
@@ -1142,7 +1132,6 @@ tmp
 TNAME
 Torsten
 tradeoffs
-transversal
 Traub
 travelling
 treap
@@ -1177,6 +1166,7 @@ und
 undirected
 UNIMATCH
 unmarking
+unranking
 UnShuffle
 unvisited
 upc
@@ -1196,8 +1186,6 @@ Verin
 Verlag
 vg
 Viennot
-Viewable
-viewdoc
 Viggo
 Vinokur
 Vishwanathan
@@ -1210,6 +1198,7 @@ VO
 Voecking
 Volder
 Volker
+von
 Voronoi
 Vreda
 VRP

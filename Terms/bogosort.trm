@@ -1,5 +1,5 @@
 # *created  "Wed Apr 16 13:06:51 2003" *by "Paul E. Black"
-# *modified "Thu Apr 21 14:48:34 2022" *by "Paul E. Black"
+# *modified "Wed Apr  5 12:12:36 2023" *by "Paul E. Black"
 #
 # $Log: bogosort.trm,v $
 # Thu Apr 21 14:33:24 2022  Paul E. Black
@@ -116,6 +116,17 @@ Also called "stupid sort".
 
 # further explanation (pure HTML)
 @LINKS=
+Bogo sort
+<a href="https://www.youtube.com/watch?v=bfzYj-qGw7U&t=314">illustrated</a>
+followed by a race between bogo sort and stooge sort.
+<br />
+<iframe src="https://www.youtube.com/embed/bfzYj-qGw7U?start=314" frameborder="0" allowfullscreen></iframe>
+<br />
+The
+<a href="https://www.youtube.com/watch?v=bfzYj-qGw7U&t=355">race between bogo sort and
+stooge sort</a> starts here:
+<br />
+<iframe src="https://www.youtube.com/embed/bfzYj-qGw7U?start=355" frameborder="0" allowfullscreen></iframe>
 # author's initials (see authors.data)
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/bogosort.trm,v $

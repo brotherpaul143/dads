@@ -1,5 +1,5 @@
 # *created  "Fri Sep 18 10:13:39 1998" *by "Paul E. Black"
-# *modified "Thu Apr 21 14:48:39 2022" *by "Paul E. Black"
+# *modified "Wed Apr  5 13:08:40 2023" *by "Paul E. Black"
 
 # $Log: bubblesort.trm,v $
 # Thu Apr 21 14:19:07 2022  Paul E. Black
@@ -133,6 +133,12 @@ dance: Cs&aacute;ng&oacute;</a>.
 Created at Sapientia University.
 <br />
 <iframe src="https://www.youtube.com/embed/lyZQPjUT5B4" frameborder="0" allowfullscreen></iframe>
+<br />
+
+Stooge sort vs bubble sort
+<a href="https://www.youtube.com/watch?v=bfzYj-qGw7U&t=134">race</a>.
+<br />
+<iframe src="https://www.youtube.com/embed/bfzYj-qGw7U?start=134" frameborder="0" allowfullscreen></iframe>
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/bubblesort.trm,v $

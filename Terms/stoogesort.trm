@@ -1,5 +1,5 @@
 # *created  "Fri Sep 18 10:13:39 1998" *by "Paul E. Black"
-# *modified "Thu Apr 21 14:48:10 2022" *by "Paul E. Black"
+# *modified "Wed Apr  5 12:39:13 2023" *by "Paul E. Black"
 
 # $Log: stoogesort.trm,v $
 # Thu Apr 21 14:33:57 2022  Paul E. Black
@@ -48,6 +48,16 @@ Pat Morin's
 
 # further explanation (pure HTML)
 @LINKS=
+Stooge sort
+<a href="https://www.youtube.com/watch?v=bfzYj-qGw7U">illustrated</a>
+and stooge sort vs bubble sort.
+<br />
+<iframe src="https://www.youtube.com/embed/bfzYj-qGw7U" frameborder="0" allowfullscreen></iframe>
+
+Bogo sort vs. stooge sort
+<a href="https://www.youtube.com/watch?v=bfzYj-qGw7U&t=355">race</a>.
+<br />
+<iframe src="https://www.youtube.com/embed/bfzYj-qGw7U?start=355" frameborder="0" allowfullscreen></iframe>
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/stoogesort.trm,v $
