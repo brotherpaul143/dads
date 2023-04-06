@@ -1,5 +1,5 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:07:39 2004" *by "Paul E. Black"
+# *modified "Thu Apr  6 15:01:16 2023" *by "Paul E. Black"
 
 # $Log: siftup.trm,v $
 # Revision 1.2  2004/12/17 17:07:39  black
@@ -36,6 +36,12 @@ that node.
 After LK.
 # further explanation (pure HTML)
 @LINKS=
+An
+<a href="https://www.youtube.com/watch?v=H5kAcmGOn4Q&t=218">illustration</a>
+of sift up.
+<br />
+<iframe src="https://www.youtube.com/embed/H5kAcmGOn4Q?start=218" frameborder="0" allowfullscreen></iframe>
+
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials

@@ -1,5 +1,5 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:04:37 2004" *by "Paul E. Black"
+# *modified "Thu Apr  6 14:59:28 2023" *by "Paul E. Black"
 
 # $Log: heapify.trm,v $
 # Revision 1.2  2004/12/17 17:04:37  black
@@ -26,11 +26,11 @@ subtrees must be heaps to start.
 # Specialization: "... is a kind of me."
 @VARIANT=
 # Aggregate parent: "I am a part of or used in ..."
-@IMIN=
+@IMIN={heapsort}
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={binary heap}, {build-heap}, {heapsort}
+@XREFS={binary heap}, {build-heap}
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=For an array implementation, heapify takes
@@ -39,6 +39,11 @@ comparison model,
 where $n$ is the number of nodes and $h$ is the {height}.
 # further explanation (pure HTML)
 @LINKS=
+An
+<a href="https://www.youtube.com/watch?v=H5kAcmGOn4Q&t=163">illustration</a>
+of heapify.
+<br />
+<iframe src="https://www.youtube.com/embed/H5kAcmGOn4Q?start=163" frameborder="0" allowfullscreen></iframe>
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials

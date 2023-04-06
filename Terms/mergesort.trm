@@ -1,5 +1,5 @@
 # *created  "Wed Sep 16 08:54:15 1998" *by "Paul E. Black"
-# *modified "Thu Apr 21 14:49:11 2022" *by "Paul E. Black"
+# *modified "Thu Apr  6 11:43:48 2023" *by "Paul E. Black"
 
 # $Log: mergesort.trm,v $
 # Thu Apr 21 14:19:53 2022  Paul E. Black
@@ -161,6 +161,28 @@ Flower Brackets
 quicksort, heapsort, and merge sort</a> on modern processors.
 
 <br />
+
+<br />
+
+Merge sort
+<a href="https://www.youtube.com/watch?v=es2T6KY45cA&t=6">illustrated</a>.
+<br />
+<iframe src="https://www.youtube.com/embed/es2T6KY45cA?start=6" frameborder="0" allowfullscreen></iframe>
+
+<br />
+
+Merge sort vs. quick sort
+<a href="https://www.youtube.com/watch?v=es2T6KY45cA&t=140">race</a>.
+First a random permutation, then a near-worst case for merge sort.
+<br />
+<iframe src="https://www.youtube.com/embed/es2T6KY45cA?start=140" frameborder="0" allowfullscreen></iframe>
+
+<br />
+
+Heap sort vs. merge sort
+<a href="https://www.youtube.com/watch?v=H5kAcmGOn4Q&t=248">race</a>.
+<br />
+<iframe src="https://www.youtube.com/embed/H5kAcmGOn4Q?start=248" frameborder="0" allowfullscreen></iframe>
 
 <br />
 Merge sort illustrated through a

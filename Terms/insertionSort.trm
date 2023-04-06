@@ -1,5 +1,5 @@
 # *created  "Wed Sep 16 08:53:23 1998" *by "Paul E. Black"
-# *modified "Thu Apr 21 14:27:31 2022" *by "Paul E. Black"
+# *modified "Thu Apr  6 14:40:13 2023" *by "Paul E. Black"
 
 # $Log: insertionSort.trm,v $
 # Thu Apr 21 14:28:01 2022  Paul E. Black
@@ -154,6 +154,26 @@ objects, and recursion (Java)</a>.
 binary search to find where to insert (Python)</a>.
 
 @LINKS=
+Insertion sort
+<a href="https://www.youtube.com/watch?v=TZRWRjq2CAg&t=7">illustrated</a>
+followed by a race between insertion sort and bubble sort and
+then
+<a href="https://www.youtube.com/watch?v=TZRWRjq2CAg&t=171">analysis</a>
+of bubble sort, insertion sort, and quick sort.
+<br />
+<iframe src="https://www.youtube.com/embed/TZRWRjq2CAg?start=7" frameborder="0" allowfullscreen></iframe>
+
+<br />
+
+A
+<a href="https://www.youtube.com/watch?v=g06hNBhoS1k&t=157">race</a>
+between Shell sort and insertion sort followed by a race between them where Shell sort
+has a gap sequence optimized for 10 items.
+<br />
+<iframe src="https://www.youtube.com/embed/g06hNBhoS1k?start=157" frameborder="0" allowfullscreen></iframe>
+
+<br />
+
 Insertion sort illustrated through a
 <a href="https://www.youtube.com/watch?v=ROalU379l3U">Romanian folk
 dance</a>. Created at Sapientia University.

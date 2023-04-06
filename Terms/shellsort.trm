@@ -1,5 +1,5 @@
 # *created  "Tue Dec  1 12:54:51 1998" *by "Paul E. Black"
-# *modified "Thu Apr 21 14:49:36 2022" *by "Paul E. Black"
+# *modified "Thu Apr  6 14:16:23 2023" *by "Paul E. Black"
 
 # $Log: shellsort.trm,v $
 # Thu Apr 21 14:22:26 2022  Paul E. Black
@@ -306,6 +306,15 @@ suit.
 
 # further explanation (pure HTML)
 @LINKS=
+Shell sort
+<a href="https://www.youtube.com/watch?v=g06hNBhoS1k&t=7">illustrated</a>
+followed by a race between Shell sort and insertion sort (and Shell sort with a gap
+sequence optimized for 10 items).
+<br />
+<iframe src="https://www.youtube.com/embed/g06hNBhoS1k?start=7" frameborder="0" allowfullscreen></iframe>
+
+<br />
+
 Shellsort illustrated through a
 <a href="https://www.youtube.com/watch?v=CmPA7zE8mx0">Hungarian folk
 dance: Cs&aacute;ng&oacute;</a>.

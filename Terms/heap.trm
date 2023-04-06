@@ -1,5 +1,5 @@
 # *created  "Fri Sep 18 12:10:28 1998" *by "Paul E. Black"
-# *modified "Mon Feb 11 17:09:27 2019" *by "Paul E. Black"
+# *modified "Thu Apr  6 14:58:43 2023" *by "Paul E. Black"
 
 # $Log: heap.trm,v $
 # Mon Feb 11 17:10:00 2019  Paul E. Black
@@ -74,6 +74,15 @@ memory from which chunks can be allocated.
 <a href="https://en.wikipedia.org/wiki/B-heap">B-heaps</a> allocate
 subtrees to a single page for better virtual memory performance.
 
+<br />
+
+<br />
+
+An
+<a href="https://www.youtube.com/watch?v=H5kAcmGOn4Q&t=16">illustration</a>
+of a heap followed by how it is used in heap sort.
+<br />
+<iframe src="https://www.youtube.com/embed/H5kAcmGOn4Q?start=16" frameborder="0" allowfullscreen></iframe>
 # implementation(s) (pure HTML)
 @IMPL=
 Bro. David Carlson's
