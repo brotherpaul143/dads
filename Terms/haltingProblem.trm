@@ -1,5 +1,5 @@
 # *created  "Tue Sep 22 17:06:56 1998" *by "Paul E. Black"
-# *modified "Thu Aug 24 09:10:51 2017" *by "Paul E. Black"
+# *modified "Fri Apr  7 09:24:47 2023" *by "Paul E. Black"
 
 # $Log: haltingProblem.trm,v $
 # Revision 1.5  2004/12/17 17:28:10  black
@@ -17,7 +17,6 @@
 # Revision 1.2  2004/08/09 17:30:48  black
 # Add BIB entry, a few notes, and a LINK to Wikipedia's much longer
 # entry.  Add RCS keywords.
-#
 
 # entry name
 @NAME=halting problem
@@ -72,6 +71,13 @@ Eric W. Weisstein's entry for
 Problem</a>.
 # implementation(s) (pure HTML)
 @IMPL=
+# further explanation (pure HTML)
+@LINKS=
+An
+<a href="https://www.youtube.com/watch?v=92WHN-pAFCs&t=12">animated argument</a>
+of the halting problem.
+<br />
+<iframe src="https://www.youtube.com/embed/92WHN-pAFCs?start=12" frameborder="0" allowfullscreen></iframe>
 # author's initials (see authors.data)
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/haltingProblem.trm,v $
