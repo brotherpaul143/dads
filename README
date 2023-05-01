@@ -1,7 +1,7 @@
 Descriptions of files and directories in DADS.  This may not be complete.
 
  *created  "Wed Feb  8 09:46:31 2012" *by "Paul E. Black"
- *modified "Wed Dec 12 12:48:03 2018" *by "Paul E. Black"
+ *modified "Mon May  1 12:27:26 2023" *by "Paul E. Black"
 
 FILES
 
@@ -50,8 +50,7 @@ DIRECTORIES
     gifs and pictures
 
 ELSEWHERE
-  Documents/OtherPapers/dictAlgoDataStruc2013.*
-    Description of DADS and thoughts on future improvements.
-../termsFormat
-  Explanation of how to write a DADS entry.  This was incorporated
-  into the above document.
+  "DADS: The On-Line Dictionary of Algorithms and Data Structures", September 2020,
+      NIST-IR 8318, https://doi.org/10.6028/NIST.IR.8318
+    Description of DADS and thoughts on future improvements.  Source in
+      Documents/OtherPapers/dictAlgoDataStruc2013.*
