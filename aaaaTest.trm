@@ -1,7 +1,10 @@
 # *created  "Tue Nov 17 17:00:47 1998" *by "Paul E. Black"
-# *modified "Mon Mar  5 09:46:28 2018" *by "Paul E. Black"
+# *modified "Wed May 17 14:22:40 2023" *by "Paul E. Black"
 
 # $Log$
+# Thu May 18 08:49:57 2023  Paul E. Black
+# Update URL for The Church of Jesus Christ of Latter-day Saints
+# 
 # Mon Dec  5 11:42:30 2016  Paul E. Black
 # Add Log line.  Change close paragraph marks to use lower case.  Note
 # how to enter lone dollar signs.
@@ -109,7 +112,7 @@ every case.  When I need to test, I put a copy in Terms.  Afterward I
 need to remember to remove it.
 
 # further explanation (pure HTML)
-@LINKS=<A href="http://www.lds.org/">The Church of Jesus Christ of
+@LINKS=<A href="https://churchofjesuschrist.org/">The Church of Jesus Christ of
 Latter Day Saints</A>
 <A href="http://nowhere.org/ %&+;=~blackfish">bad link</A>
 Rewrite <a href="gopher://sdf-eu.org/">gopher protocol links</a>.
