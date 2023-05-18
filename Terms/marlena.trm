@@ -1,7 +1,10 @@
 # *created  "Thu Dec 30 13:29:00 1999" *by "Paul E. Black"
-# *modified "Tue Jun 30 09:45:35 2015" *by "Paul E. Black"
+# *modified "Thu May 18 08:42:36 2023" *by "Paul E. Black"
 
-# $Log: marlena.trm,v $
+# $Log: marlena.trm $
+# Thu May 18 08:48:29 2023  Paul E. Black
+# Update for Marlenas passing.
+# 
 # Tue Jun 30 09:46:51 2015  Paul E. Black
 # Trivial change to test that updates are sent to Nguyen Nguyen <npnguy@gmail.com>
 # 
@@ -19,8 +22,8 @@
 @AREA=basic
 # the definition
 @DEFN=A wonderful wife.  Every man should have such an
-incredible wife.  We were married in 1976, too, and life's only gotten
-much better.
+incredible wife.  We were married in 1976, too, and life had only gotten
+much better until she passed away.
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
