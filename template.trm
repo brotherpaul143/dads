@@ -1,5 +1,5 @@
 # *created  
-# *modified "Fri Dec 10 16:34:11 2004" *by "Paul E. Black"
+# *modified "Thu Jun  8 10:46:10 2023" *by "Paul E. Black"
 
 # $Log: template.trm,v $
 # Revision 1.7  2004/12/10 21:34:46  black
@@ -41,7 +41,7 @@
 #<strong>Paul E. Black</strong>, <em>Hypothetical Intelligence</em>,
 #Proc. Everything XV, Provo, Utah, USA, 2(7):30-32, February 1997.
 
-# any notes.  these are not printed in the final dictionary
+# any supplemental notes.
 @NOTES=
 # any historical notes
 @HISTORY=
@@ -52,4 +52,4 @@
 @LINKS=
 # author's initials (see authors.data)
 @AUTHOR=
-# end $Source: /home/black/DADS/dads/RCS/template.trm,v $
+# end template.trm
