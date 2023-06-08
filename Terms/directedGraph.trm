@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 13:28:22 1998" *by "Paul E. Black"
-# *modified "Fri Oct 15 10:13:01 2021" *by "Paul E. Black"
+# *modified "Thu Jun  8 11:17:07 2023" *by "Paul E. Black"
 
 # $Log: directedGraph.trm,v $
+# Thu Jun  8 11:32:58 2023  Paul E. Black
+# Reference new k^2-tree
+# 
 # Fri Oct 15 16:43:41 2021  Paul E. Black
 # Add Sedgewick and Wayne "Algorithms" IMPL and XREF adjacency list and matrix
 # 
@@ -74,9 +77,9 @@ $E \subseteq \{(u,v) | u, v \in V \wedge u \neq v}$.
 # Aggregate child: "... is a part of or used in me."
 @INME={source}, {sink}, {in-degree}, {out-degree}
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS=Implemented by {adjacency list#adjacency-list representation} or
-{adjacency matrix#adjacency-matrix representation}.
-{undirected graph}, {hypergraph}, {multigraph},
+@XREFS=Implemented by {adjacency list#adjacency-list representation},
+{adjacency matrix#adjacency-matrix representation}, or {k$<sup>2</sup>$-tree}.
+Also {undirected graph}, {hypergraph}, {multigraph},
 {Schorr-Waite graph marking algorithm}
 
 # any notes.  these will not be printed in the final dictionary
@@ -122,7 +125,7 @@ Morgan that I have been able to find occurs in the 1919 book by
 Bertrand Russell titled  "Introduction to Mathematical Philosophy".
 </p>
 <p>
-If you find an earlier digraph, please contact me, 
+If you find an earlier digraph, please contact
 <a href="mailto:Jnwarfield@aol.com">John N. Warfield</a>.
 
 # implementation(s) (pure HTML)

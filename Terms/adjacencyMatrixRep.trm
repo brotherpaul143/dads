@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Oct 15 10:14:22 2021" *by "Paul E. Black"
+# *modified "Thu Jun  8 10:53:50 2023" *by "Paul E. Black"
 
 # $Log: adjacencyMatrixRep.trm,v $
+# Thu Jun  8 11:31:30 2023  Paul E. Black
+# Reference k^2-tree.
+# 
 # Fri Oct 15 16:42:05 2021  Paul E. Black
 # Add Sedgewick and Wayne "Algorithms" IMPL
 # 
@@ -52,7 +55,7 @@ using an {upper triangular matrix}.
 # Specialization: "... is a kind of me."
 @VARIANT=
 # Aggregate parent: "I am a part of or used in ..."
-@IMIN={graph}
+@IMIN={graph}, {k$<sup>2</sup>$-tree}
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
@@ -82,7 +85,8 @@ means a link in a list.
 </p>
 
 <p>
-The adjacency-list representation is more compact for a {sparse matrix}.
+The adjacency-list representation is more compact for a {sparse matrix}, although a
+{k$<sup>2</sup>$-tree} can represent a sparse matrix very efficiently.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)

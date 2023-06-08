@@ -1,0 +1,62 @@
+# *created  "Wed May 17 13:44:32 2023" *by "Paul E. Black"
+# *modified "Thu Jun  8 11:14:22 2023" *by "Paul E. Black"
+
+# $Log: k2tree.trm $
+
+# entry name
+@NAME=k$<sup>2</sup>$-tree
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=tree
+# the definition
+@DEFN=A {compact#compact data structure} representation of a sparse
+{directed graph}.  It requires 1 to 3 <em>bits</em> per edge.  Many access
+functions, like successor(s), predecessor(s), and range (all links from a range
+of {vertices#vertex} to another range of vertices), have very efficient
+implementations.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={compact data structure}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME={adjacency-matrix representation}, {quadtree}
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS=
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+<strong>Nieves R. Brisaboa</strong>, <strong>Susana Ladra</strong>, and
+<strong>Gonzalo Navarro</strong>,
+<em>Compact representation of Web graphs with extended functionality</em>,
+Information Systems vol 39, pages 152-174, 2014.
+doi <A href="https://doi.org/10.1016/j.is.2013.08.003">10.1016/j.is.2013.08.003</A>
+
+# any supplemental notes.
+@NOTES=A k$<sup>2</sup>$-tree is particularly useful for Web graphs, which are
+very sparse.
+
+This needs (N + {o#little-o notation}(N))/N bits per edge, where N is the number
+of edges.  Checking if there is an edge from any vertex to another takes
+{O#big-O notation}($log<sub>k</sub> N$), where $k$ is the branching factor.
+
+# any historical notes
+@HISTORY=
+
+# implementation(s) (pure HTML)
+@IMPL=
+# further explanation (pure HTML)
+@LINKS=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/dads/RCS/template.trm,v $

@@ -1,7 +1,10 @@
 # *created  "Sat Aug 28 11:04:13 1999" *by "Paul E. Black"
-# *modified "Mon Jan 24 16:41:01 2022" *by "Paul E. Black"
+# *modified "Thu Jun  8 10:56:48 2023" *by "Paul E. Black"
 
 # $Log: sparsematrix.trm,v $
+# Thu Jun  8 11:33:48 2023  Paul E. Black
+# Reference new k^2-tree
+# 
 # Mon Jan 24 16:42:07 2022  Paul E. Black
 # Update URL in umn.edu from cs to cse.
 # 
@@ -70,7 +73,8 @@ represented in much less than $n \times m$ space.
 # Aggregate child: "... is a part of or used in me."
 @INME={list}, {orthogonal lists}, {array}, or {point access method}
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={ragged matrix}, {huge sparse array}
+@XREFS={ragged matrix}, {huge sparse array}, {adjacency-matrix representation},
+{k$<sup>2</sup>$-tree}
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=A $n \times m$ matrix with $k$ non-zero
@@ -79,7 +83,7 @@ faster to represent the matrix compactly as a {list} of the non-zero
 entries in coordinate format (the value and its row/column position), 
 as a list or {array} of lists of entries (one list for each
 row), two {orthogonal lists} (one list for each column and one list
-for each row), or by a {point access method}.
+for each row), by a {point access method}, or a {k$<sup>2</sup>$-tree}.
 # further explanation (pure HTML)
 @LINKS=
 Yousef Saad's 

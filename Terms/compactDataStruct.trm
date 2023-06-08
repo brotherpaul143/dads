@@ -1,0 +1,56 @@
+# *created  "Thu Jun  8 10:47:54 2023" *by "Paul E. Black"
+# *modified "Thu Jun  8 11:34:50 2023" *by "Paul E. Black"
+
+# $Log: compactDataStruct $
+
+# entry name
+@NAME=compact data structure
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=basic
+# the definition
+@DEFN=A {data structure} that needs far less space with efficient access without
+decompression.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={data structure}
+# Specialization: "... is a kind of me."
+@VARIANT={k$<sup>2</sup>$-tree}
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS=
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+<strong>Gonzalo Navarro</strong>,
+<em>Compact Data Structures: A practical approach</em>,
+Cambridge University Press, 2016.
+DOI: <a href="https://doi.org/10.1017/CBO9781316588284">10.1017/CBO9781316588284</a>
+
+# any supplemental notes.
+@NOTES=
+A compact data structure may allow the entire structure to fit in main memory,
+efficient secondary-memory algorithms, streaming algorithms, or efficient
+distributed algorithms.
+
+# any historical notes
+@HISTORY=
+
+# implementation(s) (pure HTML)
+@IMPL=
+# further explanation (pure HTML)
+@LINKS=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end compactDataStruct.trm
