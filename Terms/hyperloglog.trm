@@ -1,0 +1,79 @@
+# *created  "Tue Aug  8 16:02:28 2023" *by "Paul E. Black"
+# *modified "Wed Aug  9 16:39:34 2023" *by "Paul E. Black"
+
+# $Log$
+# Wed Aug  9 16:43:56 2023  Paul E. Black
+# 
+
+# entry name
+@NAME=HyperLogLog
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=basic
+# the definition
+@DEFN=Estimate the number of unique items by setting $m = 2<sup>b</sup>$
+counters to maximum (all 1 bits). {Hash#hash function} each item to get an $l$
+bit result. The first $b$ bits of the result indicate a counter.  Set that
+counter to the minimum of the remaining $l-b$ bits and the counter value.
+When finished with all items, compute $Z$, the harmonic mean of the number of
+leading zeros in each counter's value.  The estimate of the number of distinct
+items is $\alpha m<sup>2</sup> Z$. 
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME={hash function}
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={Wikipedia:count-distinct problem}
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+<strong>Philippe Flajolet</strong>, <strong>&Eacute;ric Fusy</strong>,
+<strong>Olivier Gandouet</strong>, and <strong>Fr&eacute;d&eacute;ric Meunier</strong>,
+<em>HyperLogLog: the analysis of a near-optimal cardinality estimation
+algorithm</em>,
+Proc. 2007 International Conf. on Analysis of Algorithms (AOFA '07), 2007.
+
+# any supplemental notes.
+@NOTES=
+This can estimate cardinalities beyond a billion items with a 2% standard error
+using only 1 500 bytes of memory.
+</p>
+
+<p>
+The number of counters, $m$, is small, usually less than $2<sup>8</sup> = 256$.
+The approximation factor, $\alpha$, is about 0.7. It is tedious to compute exactly.
+</p>
+
+<p>
+Counting the number of unique items in a (large) collection is the
+Count-distinct problem in Computer Science or Cardinality estimation problem in
+Applied Mathematics.
+
+# any historical notes
+@HISTORY=
+
+# implementation(s) (pure HTML)
+@IMPL=
+# further explanation (pure HTML)
+@LINKS=
+<strong>Cheng-Wei Hu</strong>,
+<a href="https://chengweihu.com/hyperloglog/"><em>HyperLogLog: A Simple but
+Powerful Algorithm for Data Scientists</em></a>,
+January 2021.
+
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end template.trm
