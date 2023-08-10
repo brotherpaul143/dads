@@ -1,0 +1,115 @@
+#! /bin/sh
+versionRCS='$Header: /home/black/DADS/RCS/publishDads,v 1.4 2011/03/28 15:12:57 black Exp black $'
+#            *created  "Mon Nov 13 09:54:42 2006" *by "Paul E. Black"
+versionMod=' *modified "Thu Aug 10 10:01:44 2023" *by "Paul E. Black"'
+
+#------------------------------------------------------------------------
+#	Publish DADS: move updated terms, indexes, etc. to machine from 
+#	which they will be moved to the outside web site.
+#
+#	SKIMP: doesn't remove deleted files
+#	BUG: does not transfer file if its name has a space, for 
+#	    example, the cartoons in the Images subdirectory. 
+#
+#	CAUTION: giving password on the command line saves it in shell history
+#
+programName="publishDads"
+usageMsg="Usage: $programName"
+# starting colon means no stderr reports from getopts
+options=":hv"
+minOperands=0
+maxOperands=0
+errorStatus=1
+#	where
+#	    h is extended help
+#	    v reports the RCS version
+#
+# This software was developed at the National Institute of Standards 
+# and Technology by employees of the Federal Government in the course 
+# of their official duties.  Pursuant to title 17 Section 105 of the 
+# United States Code this software is not subject to copyright 
+# protection and is in the public domain. 
+# 
+# We would appreciate acknowledgment if the software is used.
+#
+# Paul E. Black  paul.black@nist.gov
+#
+#------------------------------------------------------------------------
+
+# $Log: publishDads$
+# Thu Aug 10 10:01:56 2023  Paul E. Black
+# Add to git
+# 
+
+# set defaults
+SERVER="samate-internal"
+DADS="/home/black/DADS"
+
+while getopts $options option
+do
+	case $option in
+	  h)
+    echo $usageMsg
+    echo "	--help prints this help message"
+    echo "	--version print Version information"
+    echo "	--	End of options (e.g., currentName begins with -)"
+	    exit 0
+	    ;;
+
+	  v)
+	    echo $versionRCS
+	    echo $versionMod
+	    exit 0
+	    ;;
+
+	  \?)
+	    echo Unknown option
+	    echo $usageMsg
+	    exit $errorStatus
+	esac # on option
+done # while options to process
+shift `expr $OPTIND - 1`
+
+numberOfOperands=$#
+if [ $numberOfOperands -lt $minOperands -o $numberOfOperands -gt $maxOperands ]
+then
+	echo $programName\: Wrong number of operands
+	echo $usageMsg
+	exit $errorStatus
+fi
+
+#---------------------------------------------------------------------
+#	choose name for log file
+#---------------------------------------------------------------------
+
+# date is yyyymmddHHMM, e.g., 200706181054
+date=`date +%Y%m%d%H%M`
+
+logfile=$DADS/.publishDads.$date
+
+cd Target || exit
+
+# remove backup files - no need to copy them
+find . -name "*~" -print -exec rm {} \;
+
+#---------------------------------------------------------------------
+#	scp the files
+#---------------------------------------------------------------------
+
+# bugs: doesn't remove deleted files.
+#	doesn't overwrite non-writable (r--r--r--) files
+#	copies dest. of symbolic links
+# solution: wipe target directory?
+#	cannot log result with pipes or redirection
+
+# make sure everything is readable
+chmod --recursive a+r *
+
+# -r recursively copies the entire directory
+# -p preserves modification times, access times, and modes from original file
+scp -r -p * $SERVER:dads || (echo scp failed; exit)
+
+echo " " # blank line so next line stands out
+echo REMEMBER to ssh $SERVER and copy dads directory to the externally-visible tree.
+
+# end of $Source: /home/black/DADS/RCS/publishDads,v $
