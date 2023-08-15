@@ -1,7 +1,7 @@
 #! /bin/sh
 versionRCS='$Header: /home/black/DADS/RCS/publishDads,v 1.4 2011/03/28 15:12:57 black Exp black $'
 #            *created  "Mon Nov 13 09:54:42 2006" *by "Paul E. Black"
-versionMod=' *modified "Thu Aug 10 10:01:44 2023" *by "Paul E. Black"'
+versionMod=' *modified "Tue Aug 15 10:39:19 2023" *by "Paul E. Black"'
 
 #------------------------------------------------------------------------
 #	Publish DADS: move updated terms, indexes, etc. to machine from 
@@ -42,7 +42,7 @@ errorStatus=1
 # 
 
 # set defaults
-SERVER="samate-internal"
+SERVER="samate-internal.nist.gov"
 DADS="/home/black/DADS"
 
 while getopts $options option
