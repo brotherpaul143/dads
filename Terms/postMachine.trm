@@ -1,7 +1,10 @@
 # *created  "Mon May  8 12:57:30 2000" *by "Paul E. Black"
-# *modified "Mon Dec 21 09:05:06 2020" *by "Paul E. Black"
+# *modified "Tue Aug 15 13:26:47 2023" *by "Paul E. Black"
 
 # $Log: postMachine.trm,v $
+# Tue Aug 15 13:41:40 2023  Paul E. Black
+# Add note that Posts paper does not mention queues.
+# 
 # Mon Dec 21 09:34:25 2020  Paul E. Black
 # update St. Andrews mathematicians biography NOTE URL
 # 
@@ -25,7 +28,6 @@
 #
 # Revision 1.2  2004/06/08 16:57:35  black
 # Refine XREFS into IMA, etc.  Link simulator implementation at WPI.
-#
 
 # entry name
 @NAME=Post machine
@@ -51,6 +53,14 @@
 # bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=<strong>Post, E. L.</strong>, <em>Finite Combinatory Processes -
 Formulation 1</em>, Journal of Symbolic Logic, 1, 103-105, 1936.
+DOI: <a href="https://doi.org/10.2307/2269031">10.2307/2269031</a>
+</br>
+Note: this gives a model similar to Turing's, with infinite boxes in either
+direction.  It says nothing like queues.
+# The presenter here says Post machine is based on queues.  No refs
+# "Definition and transition functions of Post Machine: Post Machine"
+# https://www.youtube.com/watch?v=Wc8iGBB8UyA dated 30 Dec 2021
+
 # any notes.  these are not printed in the final dictionary
 @NOTES=Similar to a {Turing machine}, but uses a {queue} instead of an
 infinite tape.
