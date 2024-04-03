@@ -1,7 +1,10 @@
 # *created  "Mon May  8 12:57:30 2000" *by "Paul E. Black"
-# *modified "Tue Aug 15 13:26:47 2023" *by "Paul E. Black"
+# *modified "Thu Aug 31 13:21:13 2023" *by "Paul E. Black"
 
 # $Log: postMachine.trm,v $
+# Wed Apr  3 17:04:19 2024  Paul E. Black
+# Exapnd Posts name.  Add commented-out notes.
+# 
 # Tue Aug 15 13:41:40 2023  Paul E. Black
 # Add note that Posts paper does not mention queues.
 # 
@@ -51,15 +54,36 @@
 @XREFS=
 
 # bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
-@BIB=<strong>Post, E. L.</strong>, <em>Finite Combinatory Processes -
+@BIB=<strong>Emil Leon Post</strong>, <em>Finite Combinatory Processes -
 Formulation 1</em>, Journal of Symbolic Logic, 1, 103-105, 1936.
 DOI: <a href="https://doi.org/10.2307/2269031">10.2307/2269031</a>
 </br>
 Note: this gives a model similar to Turing's, with infinite boxes in either
 direction.  It says nothing like queues.
-# The presenter here says Post machine is based on queues.  No refs
+# The presenter below says Post machine is based on queues.  No references
 # "Definition and transition functions of Post Machine: Post Machine"
 # https://www.youtube.com/watch?v=Wc8iGBB8UyA dated 30 Dec 2021
+
+# "Computability, Complexity, and Languages: Fundamentals of Theoretical
+# Computer Science", Martin D. Davis and Elaine J. Weyuker, 1983
+# NIST QA267.D38
+# defines "Post-Turing Programs" as a certain language. (Chapter 4, pages 82
+# et. seq.) "Although the formulation of \mathscr{T} we have presented is closer
+# in spirit to that originally given by  Emil Post, it was Turing's analysis ..."
+#   CONCLUSION: This uses Post's original definition.
+
+# "Automata Theory, Languages, and Computation", John E. Hopcroft, Rajeev
+# Motwani, and Jeffrey D. Ullman, 3rd Edition, 2007.
+# NIST QA267.H56
+# The only Extensions to the Basic Turing Machine, Chap. 8.4, page 343,
+# discussed are multitape Turing machines and nondeterministic Turing
+# machines. The only Restricted Turning Machine has a tape with only one
+# infinite side. They discuss multistack finite state machine, Chap. 8.5.2 page
+# 356, and counter machines, Chap. 8.5.3 page 358.  In the References for
+# Chapter 8, "At about the same time [as Turing's work] there were several less
+# machine-like proposals for characterizing what can be computed, including the
+# work of ... Post". Chap. 8.9, page 374
+#   CONCLUSION: This uses Post's original definition.
 
 # any notes.  these are not printed in the final dictionary
 @NOTES=Similar to a {Turing machine}, but uses a {queue} instead of an
