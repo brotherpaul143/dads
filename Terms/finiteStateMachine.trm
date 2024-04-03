@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon Oct  4 14:15:16 2021" *by "Paul E. Black"
+# *modified "Wed Apr  3 17:00:56 2024" *by "Paul E. Black"
 
 # $Log: finiteStateMachine.trm,v $
+# Wed Apr  3 17:02:31 2024  Paul E. Black
+# Remove FASTAR link - the site is empty.
+# 
 # Mon Oct  4 14:18:32 2021  Paul E. Black
 # Access okmij.org IML with https
 # 
@@ -99,9 +102,6 @@ Appearing in the Dictionary of Computer Science, Engineering and
 Technology, Copyright &copy; 2000 CRC Press LLC.
 # further explanation (pure HTML)
 @LINKS=
-The <a href="http://fastar.org/">FASTAR</a> (Finite Automata
-Systems - Theoretical and Applied Research) group site links to
-some papers, conferences, and projects.
 # implementation(s) (pure HTML)
 @IMPL=
 Jan Daciuk's
