@@ -47,6 +47,7 @@ Annas
 antichain
 antisymmetric
 Aoe
+AOFA
 APL
 Apostolico
 Appel
@@ -142,6 +143,8 @@ Calcomp
 Calendrical
 CALGO
 capacitated
+cardinalities
+cardinality
 Carleton
 Carrano
 Cartaya
@@ -164,6 +167,7 @@ Charras
 Chau
 Chaudhry
 checkable
+Cheng
 Chien
 Chr
 Christiane
@@ -340,7 +344,6 @@ extremal
 Faloutsos
 Fano
 Fasel
-FASTAR
 feasibled
 Fellegi
 Ferragina
@@ -351,6 +354,7 @@ Fibonaccian
 fibsrch
 Fienberg
 finitary
+Flajolet
 Flemming
 FNC
 FNV
@@ -369,10 +373,12 @@ Friche
 Friedhelm
 Fritze
 Fulkerson
+Fusy
 Gaede
 Galil
 Galperin
 GAMS
+Gandouet
 Ganley
 Garey
 Gaston
@@ -465,12 +471,14 @@ Hsieh
 htm
 http
 https
+Hu
 Hua
 Hudak
 Huet
 hyperedge
 hyperedges
 hypergraph
+HyperLogLog
 hyperplanes
 i'i
 iaeng
@@ -499,6 +507,7 @@ Informatica
 Ingo
 INME
 inorder
+Intern'l
 interweaved
 introsort
 InversionList
@@ -681,6 +690,7 @@ metaphone
 METIS
 Metzener
 Metzner
+Meunier
 Micha
 Michiel
 Microsystems

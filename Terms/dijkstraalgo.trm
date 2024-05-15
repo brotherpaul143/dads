@@ -1,7 +1,10 @@
 # *created  "Mon Oct 19 15:06:57 1998" *by "Paul E. Black"
-# *modified "Wed Sep 20 16:29:57 2006" *by "Paul E. Black"
+# *modified "Wed May 15 16:26:06 2024" *by "Paul E. Black"
 
 # $Log: dijkstraalgo.trm,v $
+# Wed May 15 16:30:19 2024  Paul E. Black
+# New LINK to animation illustrating the algorithm.
+# 
 # Revision 1.10  2006/09/20 20:32:34  black
 # Move the complexity statement from DEFN to NOTE and elaborate, since
 # run time is very sensitive to the implementation of the priority
@@ -69,8 +72,12 @@ number of {edges}.
 
 <p>
 After <a href="../terms.html#CLR90">[CLR90, page 527]</a>.
+
 # further explanation (pure HTML)
 @LINKS=
+An animation illustrating
+<a href="https://youtu.be/EFg3u_E6eHU">Dijkstra's algorithm</a>.
+
 # implementation(s) (pure HTML)
 @IMPL=
 # John Morris morris@ee.uwa.edu.au

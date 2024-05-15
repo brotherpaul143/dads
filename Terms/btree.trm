@@ -1,7 +1,10 @@
 # *created  "Tue Sep 15 16:55:14 1998" *by "Paul E. Black"
-# *modified "Mon Dec 14 10:37:54 2020" *by "Paul E. Black"
+# *modified "Wed May 15 16:06:55 2024" *by "Paul E. Black"
 
 # $Log: btree.trm,v $
+# Wed May 15 16:28:55 2024  Paul E. Black
+# New LINK to animation showing B-tree, including insertion and deletion.
+# 
 # Mon Dec 14 10:40:52 2020  Paul E. Black
 # Update Master Address File IMPL and LINK URLs
 # 
@@ -114,12 +117,16 @@ Computing Surveys, 11(2):123, June 1979.
 <p>
 After <a href="../terms.html#HS83">[HS83, page 499]</a>.
 # CLR page 385 says from t to 2t children, which doesn't permit 2-3 trees.
+
 # further explanation (pure HTML)
 @LINKS= A
 <a href="https://sites.google.com/site/masteraddressfile/btp/algo">tutorial
 on the basics</a>, and
 <a href="https://sites.google.com/site/masteraddressfile/btp/var">variants</a>.
 # implementation(s) (pure HTML)
+An animation illustrating <a href="https://youtu.be/K1a2Bk8NrYQ">B-trees, including
+insertion and deletion</a> operations.
+
 @IMPL=
 <a href="http://perl.plover.com/BTree/">tutorial of how
 B-trees work and code (Perl)</a>,
