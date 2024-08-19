@@ -1,5 +1,5 @@
 dnl *created  "Wed Feb  2 16:01:34 2000" *by "Paul E. Black"
-dnl *modified "Mon Nov 22 15:20:31 2021" *by "Paul E. Black"
+dnl *modified "Mon Aug 19 12:07:36 2024" *by "Paul E. Black"
 dnl
 dnl This is run through m4 then joined with an introduction and 
 dnl the entries to make a complete terms page.
@@ -141,22 +141,30 @@ online judge</a> (SPOJ) has about 6600 small programming tasks or puzzles and
 </p>
 
 <p>
-The <a
-href="https://arxiv.org/corr/">Computing Research Repository</a> (CoRR).
+The <a href="https://errorcorrectionzoo.org/">Error Correction Zoo</a>, which
+was created "to categorize and to organize known classical and quantum
+error-correction schemes", and the
+<a href="https://quantumalgorithmzoo.org/">Quantum Algorithm Zoo</a>, which
+"is a comprehensive catalog of quantum algorithms."
+</p>
+
+<p>
+The <a href="https://arxiv.org/archive/cs">Computer Science</a> part of Arxiv
+has sections like Data Structures and Algorithms.
 </p>
 
 <p>
 <!-- FUN only occurs in even years -->
-Tenth International Conference on 
-<a href="https://sites.google.com/view/fun2020/">Fun
-With Algorithms</a> (FUN 2020).  The conference "is
+The International Conference on 
+<a href="https://sites.google.com/unipi.it/fun2024">Fun
+With Algorithms</a> (FUN 2024).  The conference "is
 dedicated to the use, design, and analysis of algorithms and data
 structures, focusing on results that provide amusing, witty but
 nonetheless original and scientifically profound contributions to the
 area."
-Sixth International Conference on
-<a href="https://cmsc-uib.org/">Creative Mathematical Sciences
-Communication</a> (CMSC 2022). The conference "is to explore new ways
+Conference on
+<a href="https://www.uni-trier.de/en/universitaet/fachbereiche-faecher/fachbereich-iv/faecher/informatikwissenschaften/professuren/theoretische-informatik/research/conferences-and-workshops/cmsc">Creative
+Mathematical Sciences Communication</a>. The conference "is to explore new ways
 of communicating mathematical sciences" and "will host a unique
 interaction between artists (theatre, dance, graphic arts, story) and
 scientists /teachers/communicators." The notion is to build on
@@ -192,7 +200,7 @@ Fri Sep  4 16:39:23 1998
 include(`Pages/bitsPaul.m4')
 <em>This Trailer</em>
 <em>Updated
-Mon Nov 22 15:20:31 2021
+Mon Aug 19 12:07:36 2024
 </em><address>
 by <a href="https://hissa.nist.gov/~black/">Paul E. Black
 </a>
