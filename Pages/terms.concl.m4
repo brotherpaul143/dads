@@ -1,10 +1,14 @@
 dnl *created  "Wed Feb  2 16:01:34 2000" *by "Paul E. Black"
-dnl *modified "Mon Aug 19 12:07:36 2024" *by "Paul E. Black"
+dnl *modified "Mon Aug 19 13:06:23 2024" *by "Paul E. Black"
 dnl
 dnl This is run through m4 then joined with an introduction and 
 dnl the entries to make a complete terms page.
 dnl
 dnl $Log$
+dnl Mon Aug 19 13:09:00 2024  Paul E. Black
+dnl Link to Error Correction and Quantum Algorithms "Zoos".  Update links to Arxiv (no
+dnl more separate CoRR), FUN, and CMSC.
+dnl 
 dnl Mon Nov 22 15:22:31 2021  Paul E. Black
 dnl Link to Creative Mathematical Sciences Communication (CMSC 2022).
 dnl 
@@ -200,7 +204,7 @@ Fri Sep  4 16:39:23 1998
 include(`Pages/bitsPaul.m4')
 <em>This Trailer</em>
 <em>Updated
-Mon Aug 19 12:07:36 2024
+Mon Aug 19 13:06:23 2024
 </em><address>
 by <a href="https://hissa.nist.gov/~black/">Paul E. Black
 </a>
