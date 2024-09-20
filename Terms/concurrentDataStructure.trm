@@ -1,0 +1,77 @@
+# *created  "Fri Sep 20 09:16:13 2024" *by "Paul E. Black"
+# *modified "Fri Sep 20 10:24:41 2024" *by "Paul E. Black"
+
+# $Log: concurrentDataStructure.trm,v $
+
+# entry name
+@NAME=concurrent data structure
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=basic
+# the definition
+@DEFN=A {data structure} designed to work correctly while being accessed by many
+asynchronous threads.
+The two main types are blocking and nonblocking.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={data structure}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS=
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=<strong>Mark Moir</strong> and <strong>Nir Shavit</strong>,
+<em>Concurrent Data Structures</em>. In Dinesh Metha and Sartaj Sahni
+(eds.), "Handbook of Data Structures and Applications", Chapman and Hall/CRC
+Press, Chapter 47, 2005.
+</p>
+
+<p>
+<strong>Maurice Herlihy, Nir Shavit, Victor Luchangco</strong>, and
+<strong>Michael Spear</strong>,
+<em>The Art of Multiprocessor Programming</em>, 2nd Edition, 2021.
+</p>
+
+<p>
+Wikipedia
+<a href="https://en.wikipedia.org/wiki/Concurrent_data_structure">Concurrent
+data structure</a>.
+</p>
+
+<p>
+<strong>Armando Casta&ntilde;eda</strong> and <strong>Sergio Rajsbaum</strong>,
+<em>Recent Advances on Principles of Concurrent Data Structures</en>,
+Communications of the ACM, 67(8):45-46,
+doi: <a href="https://doi.org/10.1145/3653290">10.1145/3653290</a>
+
+# any supplemental notes.
+@NOTES=Implementations must have correctness and liveness.  Correctness means
+that it always behaves properly.  Liveness means it eventually makes progress.
+This is in contrast to regular, sequential data structures that must have
+correctness but liveness is assumed.
+
+# any historical notes
+@HISTORY=
+
+# implementation(s) (pure HTML)
+@IMPL=
+
+# further explanation (pure HTML)
+@LINKS=
+
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end concurrentDataStructure.trm

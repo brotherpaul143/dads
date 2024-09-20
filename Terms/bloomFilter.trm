@@ -1,7 +1,10 @@
 # *created  "Thu Oct 15 08:36:29 1998" *by "Paul E. Black"
-# *modified "Mon Nov  9 16:31:30 2020" *by "Paul E. Black"
+# *modified "Fri Sep 20 09:35:26 2024" *by "Paul E. Black"
 
 # $Log: bloomFilter.trm,v $
+# Fri Sep 20 10:41:37 2024  Paul E. Black
+# Remove URL to get report: page is gone.
+# 
 # Mon Nov  9 16:32:50 2020  Paul E. Black
 # Add trailing slash to Using Bloom Filters URL to avoid redirect.
 # 
@@ -107,8 +110,7 @@ coding with allowable errors</em>, CACM, 13(7):422-426, July 1970.
 Morin, Jason Morrison, Michiel Smid, and Yihui Tang</strong>, <em>On
 the False-Positive Rate of Bloom Filters</em>, Technical Report
 TR-07-07, Carleton University - School of Computer Science, 1 March
-2007.  Available at
-http://www.scs.carleton.ca/research/tech_reports/index.php?Abstract=tr-07-07_0007
+2007.
 <br />
 They also conclude that "Our upper-bounds show that, for large enough
 values of m with small values of k, the difference between

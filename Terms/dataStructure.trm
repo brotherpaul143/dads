@@ -1,7 +1,10 @@
 # *created  "Wed Dec 22 09:23:03 1999" *by "Paul E. Black"
-# *modified "Thu Jun  8 10:50:13 2023" *by "Paul E. Black"
+# *modified "Fri Sep 20 09:31:26 2024" *by "Paul E. Black"
 
-# $Log: datastructur.trm,v $
+# $Log: dataStructure.trm $
+# Fri Sep 20 10:43:35 2024  Paul E. Black
+# Add new entry: concurrrent data structure.  (Fix RCS keyword text.)
+# 
 # Thu Jun  8 11:32:37 2023  Paul E. Black
 # Reference new compact data structure
 # 
@@ -28,6 +31,7 @@ information, such as length of the {list} or number of {nodes} in a
 @IMA=
 # Specialization: "... is a kind of me."
 @VARIANT={external memory data structure},
+{concurrent data structure},
 {passive data structure}, {active data structure}, {persistent data
 structure}, {recursive data structure}, {compact data structure}
 # Aggregate parent: "I am a part of or used in ..."
@@ -47,4 +51,4 @@ properties of the data structure.
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=PEB
-# end $Source: /home/black/Workspace/dads/Terms/RCS/datastructur.trm,v $
+# end $Source: dataStructure.trm $

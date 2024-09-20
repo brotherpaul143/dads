@@ -1,7 +1,10 @@
 # *created  "Thu Jun  8 10:47:54 2023" *by "Paul E. Black"
-# *modified "Thu Jun  8 11:34:50 2023" *by "Paul E. Black"
+# *modified "Fri Sep 20 09:21:36 2024" *by "Paul E. Black"
 
 # $Log: compactDataStruct $
+# Fri Sep 20 10:42:24 2024  Paul E. Black
+# Improve wording.
+# 
 
 # entry name
 @NAME=compact data structure
@@ -10,7 +13,7 @@
 # autom basic theory search sort tree graph combin numeric etc. see areas.data
 @AREA=basic
 # the definition
-@DEFN=A {data structure} that needs far less space with efficient access without
+@DEFN=A {data structure} that needs far less space and allows efficient access without
 decompression.
 # formal definition or {cross reference} to an entry
 @FORML=
