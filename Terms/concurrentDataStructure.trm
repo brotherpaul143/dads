@@ -1,7 +1,10 @@
 # *created  "Fri Sep 20 09:16:13 2024" *by "Paul E. Black"
-# *modified "Fri Sep 20 10:24:41 2024" *by "Paul E. Black"
+# *modified "Mon Sep 23 11:47:32 2024" *by "Paul E. Black"
 
 # $Log: concurrentDataStructure.trm,v $
+# Mon Sep 23 11:48:36 2024  Paul E. Black
+# Add year to Recent Advances article.
+# 
 
 # entry name
 @NAME=concurrent data structure
@@ -54,7 +57,7 @@ data structure</a>.
 <p>
 <strong>Armando Casta&ntilde;eda</strong> and <strong>Sergio Rajsbaum</strong>,
 <em>Recent Advances on Principles of Concurrent Data Structures</en>,
-Communications of the ACM, 67(8):45-46,
+Communications of the ACM, 67(8):45-46, 2024,
 doi: <a href="https://doi.org/10.1145/3653290">10.1145/3653290</a>
 
 # any supplemental notes.
