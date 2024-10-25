@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 10:13:39 1998" *by "Paul E. Black"
-# *modified "Tue Sep  8 10:37:43 2015" *by "Paul E. Black"
+# *modified "Fri Oct 25 17:07:29 2024" *by "Paul E. Black"
 
-# $Log: jsort.trm,v $
+# $Log: j_sort.trm,v $
+# Fri Oct 25 17:08:54 2024  Paul E. Black
+# Change term file name from jsort.trm to j_sort.trm to prevent collision with JSort.trm.
+# 
 # Tue Sep  8 10:39:39 2015  Paul E. Black
 # Update the LINK to the Google Groups message. Add the entire body of
 # the message, less the introduction in Russian, as a comment, in case
@@ -19,7 +22,6 @@
 #
 # Revision 1.2  2004/12/17 16:52:37  black
 # Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
-#
 
 # entry name
 @NAME=J sort
