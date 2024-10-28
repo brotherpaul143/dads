@@ -1,6 +1,6 @@
 # $Id: Makefile,v 1.56 2012/01/06 17:06:55 black Exp $
 # *created  "Tue Nov 17 11:55:10 1998" *by "Paul E. Black"
-# *modified "Mon Mar  8 10:08:05 2021" *by "Paul E. Black"
+# *modified "Mon Oct 28 11:42:07 2024" *by "Paul E. Black"
 
 # $Log$
 # Wed Feb 22 15:17:48 2017  Paul E. Black,,,
@@ -67,8 +67,10 @@ site: ${PAGES}/entry.intro ${PAGES}/entry.concl \
 	${HTMLDIR}/index.html
 	@echo Remember to copy any new Images
 
+terms: ${OUTDIR}/terms.html
+
 # convert .trm files into .html
-terms: 
+${OUTDIR}/terms.html:
 	./mkterms
 
 # This rule is here because bitsFixDefn.m4 includes bitsEmail.m4 and 
@@ -194,7 +196,7 @@ ${OTHERDIR}/contrib.html: ${PAGES}/contrib.intro ${PAGES}/contrib.concl authors.
 
 # make sure index.html is a link to terms.html
 ${OUTDIR}/index.html: ${OUTDIR}/terms.html
-	rm $@
+	rm -f $@
 	ln -s terms.html $@
 
 # make sure favicon.ico is present and up-to-date
@@ -210,6 +212,10 @@ ${OUTDIR}/twolevelExplain.html: ${PAGES}/twolevelExplain.html
 
 ${HTMLDIR}/index.html: ${PAGES}/HTMLindex.html
 	./macroReplace.pl $^ > $@
+
+# (re)create image index from image files
+Images/index.html:
+	(cd Images; mkgifpage) > $@
 
 # copy Images index files
 ${IMAGESDIR}/index.html: Images/index.html
