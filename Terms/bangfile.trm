@@ -1,10 +1,12 @@
 # *created  "Tue Nov 17 16:49:01 1998" *by "Paul E. Black"
-# *modified "Fri Dec 17 11:48:10 2004" *by "Paul E. Black"
+# *modified "Mon Oct 28 11:57:24 2024" *by "Paul E. Black"
 
 # $Log: bangfile.trm,v $
+# Mon Oct 28 12:00:43 2024  Black
+# Minor grammar fix.
+# 
 # Revision 1.2  2004/12/17 16:48:12  black
 # Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
-#
 
 # entry name
 @NAME=BANG file
@@ -14,7 +16,7 @@
 @AREA=search
 # the definition
 @DEFN=A balanced and nested grid (BANG) file is a {point access
-method} which divides space into a
+method} that divides space into a
 nonperiodic grid.  Each spatial dimension is divided by a 
 {linear hash}.  Cells may intersect, and points may be distributed
 between them.
